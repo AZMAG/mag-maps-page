@@ -1,0 +1,51 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Maricopa Association of Governments
+        Name:  Vern Wolfley
+        Role: GIS Analyst/Developer
+        Contact:
+        Twitter: @vernwolfley
+        From: Litchfield Park, AZ
+
+        Name:  Scott Bridwell
+        Role: GIS Modeler/Developer
+        Contact:
+        Twitter:
+        From: Chandler, AZ
+
+        Name:  Jason Howard
+        Role: GIS Program Manager
+        Contact:
+        Twitter:
+        From: Chandler, AZ
+
+        Name:  Anubhav Bagley
+        Role: Information Services Manager
+        Contact:
+        Twitter:
+        From: Phoenix, AZ
+
+        Name:  Matt Nielsen
+        Role: Graphics Specialist
+        Contact:
+        Twitter:
+        From: Phoenix, AZ
+
+
+# THANKS
+
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3, ESRI Javascript API,
+    HTML5BoilerPlate, Normalize.css, jQuery, Modernizr,  Bootstrap 3.0.0
+
+# SITE
+    Version: 4.0.1
+    Last updated: 2014/02/13
+    Language: English
+    Doctype: HTML5
+    IDE: Sublime Text, Notepad++

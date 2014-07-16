@@ -1,8 +1,5 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!doctype html>
+<html class="no-js">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,8 +12,8 @@
     <meta name="contact" content="www.azmag.gov">
     <meta name="url" content="http://ims.azmag.gov/">
     <meta name="creation-date" content="01/29/2014">
-    <meta name="revision-date" content="02/20/2014">
-    <meta name="version" content="4.0.1">
+    <meta name="revision-date" content="05/13/2014">
+    <meta name="version" content="4.0.3">
 
     <!-- Apple-Specific Meta Tags -->
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -31,9 +28,9 @@
     <meta property="og:type" contant="website">
     <meta property="og:description" content="MAG Mapping Center is a collection of interactive maps developed by MAG for public use.  #MAGmaps">
     <meta property="fb:app_id" content="">
-    <meta property='place:location:latitude' content='33.451741'>
-    <meta property='place:location:longitude' content='-112.075375'>
-    <meta property='place:location:region' content='AZ'>
+    <meta property="place:location:latitude" content="33.451741">
+    <meta property="place:location:longitude" content="-112.075375">
+    <meta property="place:location:region" content="AZ">
     <!-- Twitter Cards -->
     <meta name="twitter:card" contant="summary">
     <meta name="twitter:url" content="http://ims.azmag.gov/">
@@ -53,22 +50,25 @@
     <link rel="apple-touch-icon" type="image/png" sizes="57x57" href="img/magicon_57.png">
     <link rel="shortcut icon" type="image-favorites-icon" href="img/magfavicon.png">
 
+    <!-- Load CSS -->
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" >
-    <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/carousel.css" >
-    <link rel="stylesheet" href="css/main.css">
 
-    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <!-- Custom styles for this template -->
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+    <!-- <link rel="stylesheet" href="css/carousel.css" > -->
+    <!-- <link rel="stylesheet" href="css/main.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/concat.min.css">
+
+    <script src="js/vendor/modernizr-2.8.0.min.js"></script>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv-printshiv.min.js"></script>
 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
   </head>
     <body>
-        <!--[if lt IE 7]>
+        <!--[if lt IE 8]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 <!-- ======================================================= -->
@@ -95,10 +95,9 @@
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Maps<b class="caret"></b></a>
                   <ul class="dropdown-menu">
-                    <li><a href="http://geo.azmag.gov/maps/demographic/">Demographic Map Viewer <strong style="color:red">*New</strong></a></li>
-                    <li><a href="http://geo.azmag.gov/maps/demographic_sl/">Demographic Map Viewer *Old</a></li>
+                    <li><a href="http://geo.azmag.gov/maps/demographic/">Demographic Map Viewer</a></li>
                     <li><a href="http://geo.azmag.gov/maps/employment/">Employment Map Viewer</a></li>
-                    <li><a href="http://geo.azmag.gov/maps/landuse/">Landuse Map Viewer</a></li>
+                    <li><a href="http://geo.azmag.gov/maps/landuse/">Land Use Map Viewer</a></li>
                     <li><a href="http://geo.azmag.gov/maps/landmarks/">Building Landmarks Viewer</a></li>
                     <li><a href="http://geo.azmag.gov/maps/projections2013/">Projections Map Viewer</a></li>
                     <li><a href="http://geo.azmag.gov/maps/bikemap/">Bikeways Map Viewer</a></li>
@@ -222,7 +221,7 @@
            <p>The Demographic Map Viewer is one of the Maricopa Association of Governments interactive mapping and analysis sites, showing selected population and housing data.&nbsp; Explore data from Census 2010 and American Community Survey (ACS) 2008-2012.</p>
           <p>
             <a class="btn btn-primary" href="http://geo.azmag.gov/maps/demographic/" role="button">View Map &raquo;</a>
-            <a class="btn btn-info" href="http://geo.azmag.gov/maps/demographic_sl/" role="button">Old Map &raquo;</a>
+            <!-- <a class="btn btn-info" href="http://geo.azmag.gov/maps/demographic_sl/" role="button">Old Map &raquo;</a> -->
           </p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
@@ -274,7 +273,7 @@
         <footer id="footer">
           <div class="row">
             <div class="col-md-3">
-              <span id="social"><strong>Follow Us</strong></span>
+              <span id="socialMAG"><strong>Follow Us</strong></span>
               <ul class="footerList">
                 <li><a href="http://www.facebook.com/pages/MAG-Maricopa-Association-of-Governments/151342484887613"><img src="img/fb_icon.png" alt="Facebook"></a></li>
                 <li><a href="http://twitter.com/magregion"><img src="img/twitter_icon.png" alt="Twitter"></a></li>
@@ -311,7 +310,7 @@
                 <div class="modal-content">
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h2 class="modal-title" id="myModalLabel"><strong>Privacy</strong></h2>
+                    <h2 class="modal-title" id=""><strong>Privacy</strong></h2>
                   </div>
                   <div id="privacy" class="modal-body"></div>
                 </div><!-- /.modal-content -->
@@ -324,7 +323,7 @@
                 <div class="modal-content">
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h2 class="modal-title" id="myModalLabel"><strong>Terms</strong></h2>
+                    <h2 class="modal-title" id=""><strong>Terms</strong></h2>
                   </div>
                   <div id="terms" class="modal-body"></div>
                 </div><!-- /.modal-content -->
@@ -336,14 +335,14 @@
 
 <!-- JavaScript / Placed at the end of the document so the pages load faster
 ============================================================================================================ -->
-  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+  <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script>window.jQuery || document.write("<script src="js/vendor/jquery-1.11.0.min.js"><\/script>")</script>
 <!-- Bootstrap core JavaScript
 ================================================== -->
   <script src="js/vendor/bootstrap.min.js"></script>
 <!-- Custom JavaScript
 ================================================== -->
   <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/main.min.js"></script>
     </body>
 </html>

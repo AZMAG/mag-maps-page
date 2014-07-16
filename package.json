@@ -1,0 +1,20 @@
+{
+  "name": "Splash-Project",
+  "version": "4.0.3",
+  "author": "Vern Wolfley",
+  "email": "vwolfley@azmag.gov",
+  "url": "http://ims.azmag.gov/",
+  "private": true,
+  "devDependencies": {
+    "grunt":                "~0.4.4",
+    "grunt-contrib-cssmin":     "*",
+    "grunt-contrib-csslint":    "*",
+    "grunt-contrib-jshint":     "*",
+    "grunt-contrib-uglify":     "*",
+    "grunt-contrib-watch":      "*",
+    "grunt-htmlhint":           "*",
+    "matchdep":                 "*",
+    "jshint-stylish":           "*",
+    "grunt-contrib-concat":     "*"
+  }
+}

@@ -1,4 +1,4 @@
-/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+/*! main.css | using - HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 
 /*
  * What follows is the result of much research on cross-browser styling.
@@ -120,6 +120,11 @@ ul.footerList {
     position: relative;
     vertical-align: top;
     float: right;
+}
+#socialMAG {
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
 }
 #social {
     vertical-align: top;

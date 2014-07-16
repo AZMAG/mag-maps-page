@@ -1,22 +1,24 @@
+ /*! main.js | MAG Splash Page */
+
  // *** social pluggins
  // twitter
  ! function(d, s, id) {
      var js, fjs = d.getElementsByTagName(s)[0],
-         p = /^http:/.test(d.location) ? 'http' : 'https';
+         p = /^http:/.test(d.location) ? "http" : "https";
      if (!d.getElementById(id)) {
          js = d.createElement(s);
          js.id = id;
-         js.src = p + '://platform.twitter.com/widgets.js';
+         js.src = p + "://platform.twitter.com/widgets.js";
          fjs.parentNode.insertBefore(js, fjs);
      }
- }(document, 'script', 'twitter-wjs');
+ }(document, "script", "twitter-wjs");
  // google +1
  (function() {
-     var po = document.createElement('script');
-     po.type = 'text/javascript';
+     var po = document.createElement("script");
+     po.type = "text/javascript";
      po.async = true;
-     po.src = 'https://apis.google.com/js/platform.js';
-     var s = document.getElementsByTagName('script')[0];
+     po.src = "https://apis.google.com/js/platform.js";
+     var s = document.getElementsByTagName("script")[0];
      s.parentNode.insertBefore(po, s);
  })();
  // facebook
@@ -27,17 +29,17 @@
      js.id = id;
      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=218558148336038";
      fjs.parentNode.insertBefore(js, fjs);
- }(document, 'script', 'facebook-jssdk'));
+ }(document, "script", "facebook-jssdk"));
 
  //*** terms binding
  $(document).ready(function() {
-     $('#terms').load('views/terms.html');
+     $("#terms").load("views/terms.html");
  });
  //*** privacy binding
  $(document).ready(function() {
-     $('#privacy').load('views/privacy.html');
+     $("#privacy").load("views/privacy.html");
  });
  //*** footer binding
  // $(document).ready(function() {
- //     $('#footer').load('views/footer.html');
+ //     $("#footer").load("views/footer.html");
  // });

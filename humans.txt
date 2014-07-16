@@ -40,12 +40,14 @@
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3, ESRI Javascript API,
-    HTML5BoilerPlate, Normalize.css, jQuery, Modernizr,  Bootstrap 3.0.0
+    Standards: HTML5, CSS3
+    Components: ESRI Javascript API, HTML5BoilerPlate, Normalize.css, jQuery, Modernizr,  Bootstrap 3.0.0
 
 # SITE
-    Version: 4.0.1
-    Last updated: 2014/02/13
+    Site name: MAG Mapping Home Page
+    Site URL:  http://ims.azmag.gov/
+    Version: 4.0.3
+    Last updated: 05/13/2014
     Language: English
     Doctype: HTML5
-    IDE: Sublime Text, Notepad++
+    IDE: Sublime Text

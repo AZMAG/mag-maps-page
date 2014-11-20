@@ -29,7 +29,13 @@
         From: Phoenix, AZ
 
         Name:  Matt Nielsen
-        Role: Graphics Specialist
+        Role: Graphics Specialist II
+        Contact:
+        Twitter:
+        From: Phoenix, AZ
+
+        Name:  Gordon Tyus
+        Role: Senior Graphics/Specifications Specialist
         Contact:
         Twitter:
         From: Phoenix, AZ
@@ -46,8 +52,9 @@
 # SITE
     Site name: MAG Mapping Home Page
     Site URL:  http://ims.azmag.gov/
-    Version: 4.0.3
-    Last updated: 05/13/2014
+    Version: 4.1.0
+    Last updated: 11/20/2014
+    Creation Date: 01/29/2014
     Language: English
     Doctype: HTML5
     IDE: Sublime Text

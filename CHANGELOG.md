@@ -5,6 +5,9 @@ CHANGELOG for Splash Page Website
 
 `Major/Minor/Patch 0.0.0`
 
+### Version 4.1.0 (11/20/2014)
+
+* add state demographic viewer link
 
 ### Version 4.0.3 (05/13/2014)
 

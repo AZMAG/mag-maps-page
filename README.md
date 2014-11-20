@@ -1,4 +1,5 @@
-# MAG Maps Home Page
+MAG Maps Home Page
+===================
 
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 [![Semver](http://img.shields.io/SemVer/2.0.0.png)](http://semver.org/spec/v2.0.0.html)
@@ -9,11 +10,11 @@ This JavaScript web-page was developed by MAG staff for MAG member agencies and 
 
 ### Version
 
-#### `4.0.3 - 05/13/2014`
+#### `4.1.0 - 11/20/2014`
 
 ### Keywords
 
-`Maricopa County` `Maps` `MAG` `ESRI` `#MAGmaps`
+`Maricopa County` `State` `Maps` `MAG` `ESRI` `#MAGmaps`
 
 ### Site URL's
 

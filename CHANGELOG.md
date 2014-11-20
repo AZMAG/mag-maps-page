@@ -1,4 +1,5 @@
-# CHANGELOG for Splash Page Website
+CHANGELOG for Splash Page Website
+=================================
 
 [![Semver](http://img.shields.io/SemVer/2.0.0.png)](http://semver.org/spec/v2.0.0.html)
 
@@ -81,4 +82,15 @@
 
 *Orignial site from Matt Nielsen
 
+============================
 ## Resources / Examples
+
+* images/Icons from [VectorStock.com] (http://www.vectorstock.com/)
+* [Demographic Map Viewer] ()
+* [Employment Map Viewer] (http://www.vectorstock.com/royalty-free-vector/business-icons-set-2--blue-series-vector-1510957)
+* [Land Use Map Viewer] (http://www.vectorstock.com/royalty-free-vector/school-and-education-icons-set-1--blue-series-vector-1228759)
+* [Building Landmark Inventory Viewer] (http://www.vectorstock.com/royalty-free-vector/business-icons-set-2--blue-series-vector-1510957)
+* [Projections Map Viewer] (http://www.vectorstock.com/royalty-free-vector/business-icons-set-3--blue-series-vector-1510958)
+* [Bikeways Map Viewer] (http://www.vectorstock.com/royalty-free-vector/transportation-icons--blue-series-vector-1287781)
+* [Victim Services] (http://www.vectorstock.com/royalty-free-vector/purple-awareness-ribbons-kit-vector-1854058)
+* [] ()

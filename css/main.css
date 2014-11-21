@@ -100,6 +100,7 @@ textarea {
 **** navbar custom styles ****
 ============================================= */
 .logoMAG {
+    display: inline-block !important;
     width: 135px;
     height: auto;
     padding: 0 12px 0 0;

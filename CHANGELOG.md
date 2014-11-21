@@ -7,6 +7,7 @@ CHANGELOG for Splash Page Website
 
 ### Version 4.1.0 (11/20/2014)
 
+* added new picture to carousel
 * updated to Bootstrap `v3.3.1`
 * added version control info to bottom of page
 * add state demographic viewer link

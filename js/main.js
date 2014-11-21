@@ -31,15 +31,12 @@
      fjs.parentNode.insertBefore(js, fjs);
  }(document, "script", "facebook-jssdk"));
 
- //*** terms binding
+
  $(document).ready(function() {
+     //*** terms binding
      $("#terms").load("views/terms.html");
- });
- //*** privacy binding
- $(document).ready(function() {
+     //*** privacy binding
      $("#privacy").load("views/privacy.html");
+
+     $(".version").html("v4.1.0 | 11/20/2014");
  });
- //*** footer binding
- // $(document).ready(function() {
- //     $("#footer").load("views/footer.html");
- // });

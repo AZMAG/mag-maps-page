@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"in",
+				"inline-block"
+			],
+			[
+				"con",
+				"console.log(message);"
+			],
+			[
 				"t",
 				"table-cell"
 			],
@@ -14,10 +22,6 @@
 			[
 				"mar",
 				"margin-bottom"
-			],
-			[
-				"in",
-				"inline"
 			],
 			[
 				"max",
@@ -121,10 +125,6 @@
 			],
 			[
 				"console",
-				"console.	console.log()"
-			],
-			[
-				"con",
 				"console.	console.log()"
 			],
 			[
@@ -519,14 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "CHANGELOG.md",
-			"settings":
-			{
-				"buffer_size": 3315,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "Packages/JSHint/JSHint.sublime-build",
 	"command_palette":
@@ -584,17 +576,19 @@
 	},
 	"file_history":
 	[
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/README.md",
 		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/CHANGELOG.md",
 		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/index.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/Gruntfile.js",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/package.json",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/js/main.js",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/humans.txt",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/contact.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/about.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/robots.txt",
 		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/css/main.css",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/js/vendor/bootstrap.min.js",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/README.md",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/js/main.js",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/about.html",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/contact.html",
+		"//MAG1113/ArcGISVirtualRoot/maps/splashPage/package.json",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/humans.txt",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/package.json",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/Gruntfile.js",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/robots.txt",
 		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/views/footer.html",
 		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/views/terms.html",
 		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/views/privacy.html",
@@ -709,9 +703,7 @@
 		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/views/interactiveTools-view.html",
 		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/views/demographicSummaryHelp-view.html",
 		"/I/Projects/GISi/code_tests/demographic5/app/vm/demographic-vm.js",
-		"/I/Projects/GISi/code_tests/demographic5/app/config/demographicConfig.js",
-		"/I/Projects/GISi/code_tests/demo1/app/models/map-model.js",
-		"/I/Projects/GISi/code_tests/demographic5/app/vm/panel-vm.js"
+		"/I/Projects/GISi/code_tests/demographic5/app/config/demographicConfig.js"
 	],
 	"find":
 	{
@@ -729,6 +721,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"navbar",
+			"legal",
 			"'",
 			"social",
 			"myModalLabel",
@@ -854,9 +848,7 @@
 			"Selected Features",
 			"selected Features",
 			"tab",
-			"body",
-			"clear",
-			"redrawChart"
+			"body"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -956,139 +948,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "CHANGELOG.md",
-					"settings":
-					{
-						"buffer_size": 3315,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2166,
-								2166
-							]
-						],
-						"settings":
-						{
-							"codeintel": true,
-							"codeintel_config":
-							{
-								"JavaScript":
-								{
-									"codeintel_max_recursive_dir_depth": 2,
-									"codeintel_scan_files_in_project": false,
-									"javascriptExtraPaths":
-									[
-									]
-								},
-								"PHP":
-								{
-									"codeintel_max_recursive_dir_depth": 5,
-									"codeintel_scan_files_in_project": false,
-									"phpExtraPaths":
-									[
-									]
-								},
-								"Python":
-								{
-									"env":
-									{
-									}
-								}
-							},
-							"codeintel_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_live": true,
-							"codeintel_live_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_max_recursive_dir_depth": 10,
-							"codeintel_scan_exclude_dir":
-							{
-								"JavaScript":
-								[
-									"/build/",
-									"/min/"
-								]
-							},
-							"codeintel_scan_files_in_project": true,
-							"codeintel_selected_catalogs":
-							[
-								"PyWin32",
-								"jQuery",
-								"Rails"
-							],
-							"codeintel_snippets": true,
-							"codeintel_syntax_map":
-							{
-								"Python Django": "Python"
-							},
-							"codeintel_tooltips": "popup",
-							"sublime_auto_complete": true,
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1199.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],

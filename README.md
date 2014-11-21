@@ -20,7 +20,7 @@ This JavaScript web-page was developed by MAG staff for MAG member agencies and 
 
 [Site] (http://ims.azmag.gov/)
 
-[Test Site] (http://geo.azmag.gov/maps/test/splash/)
+[Test Site] (http://geo.azmag.gov/maps/splashpage/)
 
 ### Documentation
 

@@ -7,6 +7,8 @@ CHANGELOG for Splash Page Website
 
 ### Version 4.1.0 (11/20/2014)
 
+* updated to Bootstrap `v3.3.1`
+* added version control info to bottom of page
 * add state demographic viewer link
 
 ### Version 4.0.3 (05/13/2014)
@@ -96,4 +98,17 @@ CHANGELOG for Splash Page Website
 * [Projections Map Viewer] (http://www.vectorstock.com/royalty-free-vector/business-icons-set-3--blue-series-vector-1510958)
 * [Bikeways Map Viewer] (http://www.vectorstock.com/royalty-free-vector/transportation-icons--blue-series-vector-1287781)
 * [Victim Services] (http://www.vectorstock.com/royalty-free-vector/purple-awareness-ribbons-kit-vector-1854058)
-* [] ()
+
+
+* images on carousel
+* [iStock] (http://www.istockphoto.com/)
+* [main_demographic.jpg] - (iStock_000021117525_Medium.jpg)
+* [main_employment.jpg] - (iStock_000021960337Medium.jpg)
+* [main_landuse.jpg] - (iStock_000010422808Medium.jpg)
+* [main_landmarks.jpg] - (iStock_000014709135Medium.jpg)
+* [main_projections.jpg] - (iStock_000005034683_Medium.jpg)
+* [main_bicycle.jpg] - ()
+* [main_victimsvc.jpg] - (iStock_000009765670Medium.jpg)
+* [main_stateDemo.jpg] - (iStock_000002918761XLarge.jpg & iStock_000012946900XLarge.jpg)
+
+

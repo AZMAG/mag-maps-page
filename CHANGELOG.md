@@ -5,6 +5,13 @@ CHANGELOG for Splash Page Website
 
 `Major/Minor/Patch 0.0.0`
 
+### Version 4.2.0 (02/23/2015)
+
+* updated text on MAG Region Demographic Map Viewer
+* updated text on MAG State Demographic Map Viewer
+* updated text on MAG Employment Map Viewer
+* updated text on MAG Land Use Map Viewer
+
 ### Version 4.1.0 (11/20/2014)
 
 * added new picture to carousel

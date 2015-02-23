@@ -519,6 +519,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 23309,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "Packages/JSHint/JSHint.sublime-build",
 	"command_palette":
@@ -576,6 +584,7 @@
 	},
 	"file_history":
 	[
+		"/C/Users/vwolfley/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/CHANGELOG.md",
 		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/index.html",
 		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/css/main.css",
@@ -661,7 +670,6 @@
 		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/views/legend-view.html",
 		"/C/Users/vwolfley/AppData/Roaming/Sublime Text 2/Packages/sublime-jslint/sublime-jslint.sublime-settings",
 		"/C/Users/vwolfley/AppData/Roaming/Sublime Text 2/Packages/User/sublime-jslint.sublime-settings",
-		"/C/Users/vwolfley/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/config/cbrConfig.js",
 		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/config/colorRampConfig.js",
 		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/config/queryBuilderConfig.js",
@@ -721,6 +729,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"terms",
 			"navbar",
 			"legal",
 			"'",
@@ -847,8 +856,7 @@
 			"get",
 			"Selected Features",
 			"selected Features",
-			"tab",
-			"body"
+			"tab"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -948,8 +956,37 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 23309,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								17383,
+								17383
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5676.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],

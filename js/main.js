@@ -38,5 +38,5 @@
      //*** privacy binding
      $("#privacy").load("views/privacy.html");
 
-     $(".version").html("v4.1.0 | 11/20/2014");
+     $(".version").html("v4.2.1 | 02/23/2015");
  });

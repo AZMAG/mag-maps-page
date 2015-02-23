@@ -584,9 +584,17 @@
 	},
 	"file_history":
 	[
+<<<<<<< HEAD
 		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/index.html",
 		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/README.md",
 		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/package.json",
+=======
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/node_modules/grunt-contrib-concat/package.json",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/js/main.js",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/README.md",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/package.json",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/index.html",
+>>>>>>> hotfix/v4.2.1
 		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/humans.txt",
 		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/contact.html",
 		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/about.html",
@@ -594,7 +602,10 @@
 		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/CHANGELOG.md",
 		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/css/main.css",
 		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/js/vendor/bootstrap.min.js",
+<<<<<<< HEAD
 		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/js/main.js",
+=======
+>>>>>>> hotfix/v4.2.1
 		"//MAG1113/ArcGISVirtualRoot/maps/splashPage/package.json",
 		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/Gruntfile.js",
 		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/robots.txt",
@@ -710,8 +721,7 @@
 		"/C/Users/vwolfley/AppData/Roaming/Sublime Text 2/Packages/ResponsiveBoilerplate/ResponsiveBolilerplateSnippets/nav.sublime-snippet",
 		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/views/interactiveTools-view.html",
 		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/views/demographicSummaryHelp-view.html",
-		"/I/Projects/GISi/code_tests/demographic5/app/vm/demographic-vm.js",
-		"/I/Projects/GISi/code_tests/demographic5/app/config/demographicConfig.js"
+		"/I/Projects/GISi/code_tests/demographic5/app/vm/demographic-vm.js"
 	],
 	"find":
 	{

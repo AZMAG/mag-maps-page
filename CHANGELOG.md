@@ -5,6 +5,19 @@ CHANGELOG for Splash Page Website
 
 `Major/Minor/Patch 0.0.0`
 
+### Version 4.3.0 (08/25/2015)
+
+* added Read On Arizona MapLIT link to drop-down menu
+* added Read On Arizona MapLIT link and image to carousel
+* added Read On Arizona MapLIT link and image to features
+
+### Version 4.2.1 (02/23/2015)
+
+* update to CSS
+* minified and concatenated CSS files
+* minified JS files
+* updated node modules
+
 ### Version 4.2.0 (02/23/2015)
 
 * updated text on MAG Region Demographic Map Viewer

@@ -8,20 +8,20 @@ module.exports = function(grunt){
 
         pkg: grunt.file.readJSON("package.json"),
 
-        bannercss: '/*!\n' +
-                    '*@concat.min.css\n' +
-                    '*@CSS document for Splash Page Project @ MAG\n' +
-                    '*@For Production\n' +
-                    '*@<%= pkg.name %> - v<%= pkg.version %> | <%= grunt.template.today("mm-dd-yyyy") %>\n' +
-                    '*@author <%= pkg.author %>\n' +
+        bannercss: '/**!\n' +
+                    ' * @concat.min.css\n' +
+                    ' * @CSS document for Splash Page Project @ MAG\n' +
+                    ' * @For Production\n' +
+                    ' * @<%= pkg.name %> - v<%= pkg.version %> | <%= grunt.template.today("mm-dd-yyyy") %>\n' +
+                    ' * @author <%= pkg.author %>\n' +
                     '*/\n',
 
         bannerjs: '/*!\n' +
-                    '*@main.min.js\n' +
-                    '*@js document for Splash Page Project @ MAG\n' +
-                    '*@For Production\n' +
-                    '*@<%= pkg.name %> - v<%= pkg.version %> | <%= grunt.template.today("mm-dd-yyyy") %>\n' +
-                    '*@author <%= pkg.author %>\n' +
+                    ' * @main.min.js\n' +
+                    ' * @js document for Splash Page Project @ MAG\n' +
+                    ' * @For Production\n' +
+                    ' * @<%= pkg.name %> - v<%= pkg.version %> | <%= grunt.template.today("mm-dd-yyyy") %>\n' +
+                    ' * @author <%= pkg.author %>\n' +
                     '*/\n',
 
         htmlhint: {

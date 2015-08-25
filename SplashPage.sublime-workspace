@@ -4,536 +4,532 @@
 		"selected_items":
 		[
 			[
-				"in",
-				"inline-block"
-			],
-			[
-				"con",
-				"console.log(message);"
-			],
-			[
-				"t",
-				"table-cell"
-			],
-			[
-				"min",
-				"min-height"
-			],
-			[
-				"mar",
-				"margin-bottom"
-			],
-			[
-				"max",
-				"max-width"
-			],
-			[
-				"op",
-				"opacity"
-			],
-			[
-				"back",
-				"background-color"
-			],
-			[
-				"list-style-",
-				"list-style-type"
-			],
-			[
-				"fo",
-				"font-size"
-			],
-			[
-				"margin",
-				"margin-bottom"
-			],
-			[
-				"list",
-				"list-style"
-			],
-			[
-				"pos",
-				"position"
-			],
-			[
-				"ar",
-				"article  (element)"
-			],
-			[
-				"pa",
-				"padding-top"
-			],
-			[
-				"le",
-				"left"
-			],
-			[
-				"newWindo",
-				"newWindowHeight"
-			],
-			[
-				"mx",
-				"max-height"
-			],
-			[
-				"if",
-				"iframe"
-			],
-			[
-				"fldObj",
-				"fldObj2"
+				"by",
+				"byId"
 			],
 			[
 				"map",
-				"mapNotes"
+				"mapLoaded"
 			],
 			[
-				"al",
-				"text-align"
+				"ben",
+				"benchmarkData"
 			],
 			[
-				"pad",
-				"padding"
+				"tes",
+				"testData"
 			],
 			[
-				"lis",
-				"list-style"
-			],
-			[
-				"fon",
-				"font-size"
-			],
-			[
-				"bac",
-				"background-color"
-			],
-			[
-				"k-i",
-				"k-item"
-			],
-			[
-				"i",
-				"!important  (value)"
-			],
-			[
-				"st",
-				"strong	Tag"
-			],
-			[
-				"bor",
-				"border-color"
-			],
-			[
-				"console",
-				"console.	console.log()"
-			],
-			[
-				"execute",
-				"executeForCount"
-			],
-			[
-				"wit",
+				"wi",
 				"width"
 			],
 			[
-				"clos",
-				"closeWindow"
+				"col",
+				"column"
 			],
 			[
-				"kendo",
-				".kendoWindow"
+				"padding",
+				"padding-left"
 			],
 			[
-				"text",
-				"text-align"
+				"ma",
+				"margin-right"
 			],
 			[
-				"feature",
-				"featureCount"
+				"data",
+				"dataDrop"
 			],
 			[
-				"b",
-				"button	Tag"
+				"ken",
+				"kendoUI"
 			],
 			[
-				"selected",
-				"selectedFeatures"
+				"do",
+				"document"
 			],
 			[
-				"bo",
-				"bold"
+				"ap",
+				"appConfig"
 			],
 			[
-				"get",
-				"getElementsByName  (function)"
-			],
-			[
-				"margin-",
-				"margin-top"
-			],
-			[
-				"fl",
-				"float"
-			],
-			[
-				"document",
-				"documentElement"
-			],
-			[
-				"legendWindow",
-				"legendWindowDiv"
-			],
-			[
-				"doc",
-				"documentElement  (variable)"
-			],
-			[
-				"ti",
-				"title2"
-			],
-			[
-				"layersT",
-				"layersTOC"
-			],
-			[
-				"layers",
-				"layersTOC"
-			],
-			[
-				"h",
-				"height"
-			],
-			[
-				"margin-to",
-				"margin-top:   (property)"
-			],
-			[
-				"margin-l",
-				"margin-left:   (property)"
-			],
-			[
-				"tex",
-				"text-align"
-			],
-			[
-				"k-",
-				"k-item"
-			],
-			[
-				"co",
-				"color"
+				"css",
+				"cssClass"
 			],
 			[
 				"ba",
 				"background-color"
 			],
 			[
-				"border-bo",
-				"border-bottom-color"
+				"type",
+				"typeName"
 			],
 			[
-				"border-top",
-				"border-top-color"
-			],
-			[
-				"border-",
-				"border-color:   (property)"
-			],
-			[
-				"ov",
-				"overflow"
-			],
-			[
-				"im",
-				"important"
-			],
-			[
-				"newLayer",
-				"newLayerURL"
-			],
-			[
-				"z",
-				"z-index"
-			],
-			[
-				"top",
-				"margin-top"
-			],
-			[
-				"jqu",
-				"jquery"
-			],
-			[
-				"r",
-				"rgba()"
-			],
-			[
-				"dojo",
-				"dojoColor"
-			],
-			[
-				"currColR",
-				"currColRampName"
-			],
-			[
-				"colRamp",
-				"colRampName"
-			],
-			[
-				"wi",
-				"width:   (property)"
-			],
-			[
-				"l",
-				"left"
-			],
-			[
-				"currColRa",
-				"currColRampName  (variable)"
-			],
-			[
-				"te",
-				"text-align"
-			],
-			[
-				"padding-",
-				"padding-top:   (property)"
-			],
-			[
-				"help",
-				"helplaunchbar"
-			],
-			[
-				"u",
-				"ul	Tag"
-			],
-			[
-				"s",
-				"strong	Tag"
-			],
-			[
-				"font-f",
-				"font-family:   (property)"
-			],
-			[
-				"font",
-				"font-family"
-			],
-			[
-				"ser",
-				"appConfig.seriesColors"
-			],
-			[
-				"series",
-				"seriesColors"
-			],
-			[
-				"fn",
+				"fon",
 				"font-size"
 			],
 			[
-				"padd",
-				"padding-left"
+				"bol",
+				"bolder"
 			],
 			[
-				"fff",
-				"ffffff"
-			],
-			[
-				"k-wi",
-				"k-widget"
-			],
-			[
-				"ri",
-				"right"
-			],
-			[
-				"p",
-				"padding-right"
-			],
-			[
-				"esri",
-				"esriGeocoderResult"
-			],
-			[
-				"ma",
-				"margin"
-			],
-			[
-				"getElemen",
-				"getElementById"
-			],
-			[
-				"toggleL",
-				"toggleLayer"
-			],
-			[
-				"table",
-				"table-cell"
-			],
-			[
-				"toggle",
-				"toggleLeg"
-			],
-			[
-				"latLng",
-				"latLng"
-			],
-			[
-				"inf",
-				"InfoBubble"
-			],
-			[
-				"P",
-				"position"
-			],
-			[
-				"di",
-				"display"
-			],
-			[
-				"border-co",
-				"border-color"
-			],
-			[
-				"googl",
-				"googlecode"
-			],
-			[
-				"featureL",
-				"featureLayer2"
-			],
-			[
-				"search",
-				"searchfield"
-			],
-			[
-				"EXLU",
-				"EXLUlayer"
-			],
-			[
-				"geometry",
-				"geometryType"
-			],
-			[
-				"identify",
-				"identifyParams"
-			],
-			[
-				"about",
-				"aboutButton"
-			],
-			[
-				"Simple",
-				"SimpleLineSymbol"
-			],
-			[
-				"wh",
-				"width"
-			],
-			[
-				"v",
-				"vertical-align"
-			],
-			[
-				"out",
-				"outSR"
-			],
-			[
-				"se",
-				"searchfield"
-			],
-			[
-				"fun",
-				"function"
-			],
-			[
-				"fu",
-				"function"
-			],
-			[
-				"layer",
-				"layerInfos"
-			],
-			[
-				"ico",
-				"icons"
-			],
-			[
-				"icons",
-				"iconsid"
-			],
-			[
-				"inp",
-				"input"
-			],
-			[
-				"check",
-				"checked"
-			],
-			[
-				"ac",
-				"actionList"
-			],
-			[
-				"email",
-				"emailLink"
-			],
-			[
-				"emai",
-				"emailLink"
+				"Pop",
+				"Population"
 			],
 			[
 				"info",
 				"infoWindow"
 			],
 			[
-				"f",
-				"feature"
+				"t",
+				"text"
 			],
 			[
-				"C",
-				"Comments"
+				"valu",
+				"valueAxis"
 			],
 			[
-				"ex",
-				"executeIdentifyTask"
+				"buil",
+				"buildNote"
 			],
 			[
-				"T",
-				"TRACT"
+				"build",
+				"buildChart"
 			],
 			[
-				"po",
-				"popup"
+				"max",
+				"max-height"
 			],
 			[
-				"popu",
-				"popupOptions"
+				"dem",
+				"demoDataChange"
 			],
 			[
-				"init",
-				"initExtent"
+				"chartAr",
+				"chartAreaClear"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"change",
+				"changeAIMS"
+			],
+			[
+				"on",
+				"oneCAR"
+			],
+			[
+				"chart",
+				"chartArea"
+			],
+			[
+				"num",
+				"numF1"
+			],
+			[
+				"r",
+				"returnGeometry"
+			],
+			[
+				"race",
+				"raceDemo14_new"
+			],
+			[
+				"val",
+				"valueAxis"
+			],
+			[
+				"for",
+				"format"
+			],
+			[
+				"B",
+				"Benchmark"
+			],
+			[
+				"cha",
+				"chartWindow"
+			],
+			[
+				"reports",
+				"reportsWindow"
+			],
+			[
+				"Or",
+				"OrRd"
+			],
+			[
+				"esriLeg",
+				"esriLegendServiceLabel"
+			],
+			[
+				"esriLe",
+				"esriLegendServiceLabel"
+			],
+			[
+				"where",
+				"whereClause"
+			],
+			[
+				"P",
+				"PCA"
+			],
+			[
+				"bor",
+				"border-left"
+			],
+			[
+				"tra",
+				"transparent"
+			],
+			[
+				"at",
+				"attributes"
+			],
+			[
+				"typ",
+				"typeName"
+			],
+			[
+				"ty",
+				"typeName"
+			],
+			[
+				"ffff",
+				"ffffff"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"getPCA",
+				"getPCACountyData"
+			],
+			[
+				"E",
+				"ENROLL"
+			],
+			[
+				"en",
+				"enroll"
+			],
+			[
+				"En",
+				"Enrollment"
+			],
+			[
+				"Pu",
+				"PUBLIC"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"pre",
+				"preschoolTabs"
+			],
+			[
+				"gradeA",
+				"gradeALT"
+			],
+			[
+				"R",
+				"Report"
+			],
+			[
+				"over",
+				"overflow-x"
+			],
+			[
+				"schoo",
+				"schoolsLegend"
+			],
+			[
+				"Read",
+				"ReadOnData"
+			],
+			[
+				"layer",
+				"layerNum"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"to",
+				"toolTipFormat"
+			],
+			[
+				"too",
+				"tooltip"
+			],
+			[
+				"te",
+				"template"
+			],
+			[
+				"as",
+				"asthma8"
+			],
+			[
+				"dat",
+				"dataItem"
+			],
+			[
+				"serie",
+				"seriesPercent"
+			],
+			[
+				"seri",
+				"seriesPercent"
+			],
+			[
+				"pcaChar",
+				"pcaChartObj"
+			],
+			[
+				"list",
+				"listGroup"
+			],
+			[
+				"M",
+				"Medicaid"
+			],
+			[
+				"pcaD",
+				"pcaDataChart"
+			],
+			[
+				"pca",
+				"pca0708"
+			],
+			[
+				"Y",
+				"YEARS"
+			],
+			[
+				"main",
+				"mainArray"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"ra",
+				"raceDemoObj"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"n",
+				"nowrap"
+			],
+			[
+				"fea",
+				"featureTemplate"
+			],
+			[
+				"Di",
+				"District"
+			],
+			[
+				"Coun",
+				"Council"
+			],
+			[
+				"font",
+				"font"
+			],
+			[
+				"are",
+				"areaName"
+			],
+			[
+				"PCA",
+				"PCAName"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"set",
+				"setContent"
+			],
+			[
+				"distr",
+				"districtInfoTemplate"
+			],
+			[
+				"dis",
+				"district"
+			],
+			[
+				"In",
+				"InfoTemplate"
+			],
+			[
+				"Att",
+				"AttdRate3"
+			],
+			[
+				"bl",
+				"Black"
+			],
+			[
+				"enti",
+				"entityId"
+			],
+			[
+				"op",
+				"options"
+			],
+			[
+				"remo",
+				"removeNulls"
+			],
+			[
+				"schoolAIM",
+				"schoolAIMSChartArea"
+			],
+			[
+				"chan",
+				"changeAIMS"
+			],
+			[
+				"schoolS",
+				"schoolSAT10ChartArea"
+			],
+			[
+				"school",
+				"schoolTestInfo"
+			],
+			[
+				"s",
+				"schoolEnrollmentGrade"
+			],
+			[
+				"schl",
+				"schlNameLink"
+			],
+			[
+				"distNa",
+				"distNameLink"
+			],
+			[
+				"tx",
+				"text-decoration"
+			],
+			[
+				"h",
+				"href"
+			],
+			[
+				"hi",
+				"hispanic"
+			],
+			[
+				"Two",
+				"TwoOrMore"
+			],
+			[
+				"a",
+				"attributes"
+			],
+			[
+				"L",
+				"LANG"
+			],
+			[
+				"chang",
+				"changeSAT10"
+			],
+			[
+				"countyDemoCh",
+				"countyDemoChange"
+			],
+			[
+				"ser",
+				"seriesColors"
+			],
+			[
+				"A",
+				"Asian"
+			],
+			[
+				"ca",
+				"categoryField"
+			],
+			[
+				"na",
+				"nativeA"
+			],
+			[
+				"pa",
+				"pacificI"
+			],
+			[
+				"Pacific",
+				"PacificIslander"
+			],
+			[
+				"series",
+				"seriesDefaults"
+			],
+			[
+				"Nat",
+				"NativeAmerican"
+			],
+			[
+				"da",
+				"dataStore"
+			],
+			[
+				"sub",
+				"subSumRes"
+			],
+			[
+				"Pacif",
+				"PacificIslander"
+			],
+			[
+				"Na",
+				"NativeAmerican"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "CHANGELOG.md",
-			"settings":
-			{
-				"buffer_size": 4236,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "Packages/JSHint/JSHint.sublime-build",
 	"command_palette":
 	{
-		"height": 311.0,
+		"height": 290.0,
 		"selected_items":
 		[
+			[
+				"clean",
+				"CleanCSS: Clean current file"
+			],
 			[
 				"Package Control: ",
 				"Package Control: Install Package"
@@ -567,7 +563,7 @@
 				"Package Control: Discover Packages"
 			]
 		],
-		"width": 536.0
+		"width": 464.0
 	},
 	"console":
 	{
@@ -584,148 +580,138 @@
 	},
 	"file_history":
 	[
-<<<<<<< HEAD
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/index.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/README.md",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/package.json",
-=======
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/node_modules/grunt-contrib-concat/package.json",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/about.html",
 		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/js/main.js",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/js/main.min.js",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/index.html",
 		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/README.md",
 		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/package.json",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/index.html",
->>>>>>> hotfix/v4.2.1
 		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/humans.txt",
 		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/contact.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/about.html",
-		"/C/Users/vwolfley/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/CHANGELOG.md",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/css/main.css",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/js/vendor/bootstrap.min.js",
-<<<<<<< HEAD
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/js/main.js",
-=======
->>>>>>> hotfix/v4.2.1
-		"//MAG1113/ArcGISVirtualRoot/maps/splashPage/package.json",
 		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/Gruntfile.js",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/robots.txt",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/views/footer.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/views/terms.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/views/privacy.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/css/carousel.css",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/build_4.0.1/index.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/build_4.0.1/contact.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/build_4.0.1/views/footer.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/build_4.0.1/js/main.js",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/build_4.0.1/css/main.css",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/build_4.0.1/about.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/build_4.0.1/docs/documentation.txt",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/build_4.0.1/doc/extend.md",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/build_4.0.1/documentation.txt",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/build_4.0.1/views/terms.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/build_4.0.1/views/privacy.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/build_4.0.1/css/carousel.css",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/build_4.0.1/index1.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/build_4.0.1/humans.txt",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/build_4.0.1/SplashPage.sublime-project",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/build_working/index.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/build_working/about.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/build_working/contact.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/build_working/css/carousel.css",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/build_working/css/main.css",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/build_working/js/main.js",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/build_working/css/about.css",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/build_working/css/jumbotron.css",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/build_working/test.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/build_3.0.0/index.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/build_2.1.1/index.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/build_1.0.0/index.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/build_2.0.0/index.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/build_2.1.0/index.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/index.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/index.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/resources/css/main.css",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/views/social-view.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/humans.txt",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/vm/demographic-vm.js",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/vm/queryBuilderTwo-vm.js",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/views/queryBuilderTwo-view.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/vm/panel-vm.js",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/vm/legend-vm.js",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/vm/colorRamp-vm.js",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/vm/social-vm.js",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/vm/cbr-vm.js",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/views/print-view.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/vm/classificationFactory-vm.js",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/vm/help-vm.js",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/views/cbr-view.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/views/classBreaks-view.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/resources/css/normalize.css",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/models/map-model.js",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/config.js",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/config/demographicConfig.js",
-		"/Z/New folder/LifeSizer_files/view-78abf3872f4771e598263fa2d41ae932.js",
-		"/D/CodeAcadamy.js",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/views/queryBuilderHelp-view.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/vm/print-vm.js",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/views/legendHelp-view.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/views/mainHelp-view.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/views/socialHelp-view.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/views/printHelp-view.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/views/panelHelp-view.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/views/classBreaksHelp-view.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/views/colorRampHelp-view.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/views/cbrHelp-view.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working_rd/demographics.sublime-project",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/vm/socialLaunchbar-vm.js",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/views/legend-view.html",
-		"/C/Users/vwolfley/AppData/Roaming/Sublime Text 2/Packages/sublime-jslint/sublime-jslint.sublime-settings",
-		"/C/Users/vwolfley/AppData/Roaming/Sublime Text 2/Packages/User/sublime-jslint.sublime-settings",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/config/cbrConfig.js",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/config/colorRampConfig.js",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/config/queryBuilderConfig.js",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/main.js",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/run.js",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/vm/alert2-vm.js",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/vm/alert1-vm.js",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/vm/cbrlaunchbar-vm.js",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/vm/email-vm.js",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/vm/helpLaunchbar-vm.js",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/vm/interactiveTools-vm.js",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/vm/legendLaunchbar-vm.js",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/vm/panelLaunchbar-vm.js",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/vm/window-vm.js",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/vm/printLaunchbar-vm.js",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/demographic-vm.js",
-		"/C/Users/vwolfley/AppData/Roaming/Sublime Text 2/Packages/User/FileDiffs.sublime-settings",
-		"/C/Users/vwolfley/AppData/Roaming/Sublime Text 2/Packages/FileDiffs/FileDiffs.sublime-settings",
-		"/C/Users/vwolfley/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/views/panel-view.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/helpers/printMap-delegate.js",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/reference.txt",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/views/colorRamp-view.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/views/demographic-view.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/views/demographicChartHelp-view.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/helpers/layer-delegate.js",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/views/demographicSelFeaturesHelp-view.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/views/selectedFeaturesTabPage-view.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/views/alert2-view.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/views/alert1-view.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/vm/alert-vm.js",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/views/warning-view.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/views/alert-view.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/vm/warning-vm.js",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/legend-vm.js",
-		"/C/Users/vwolfley/AppData/Roaming/Sublime Text 2/Packages/ResponsiveBoilerplate/ResponsiveBolilerplateSnippets/2columns.sublime-snippet",
-		"/C/Users/vwolfley/AppData/Roaming/Sublime Text 2/Packages/ResponsiveBoilerplate/ResponsiveBolilerplateSnippets/basicContainer.sublime-snippet",
-		"/C/Users/vwolfley/AppData/Roaming/Sublime Text 2/Packages/ResponsiveBoilerplate/ResponsiveBolilerplateSnippets/nav.sublime-snippet",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/views/interactiveTools-view.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/views/demographicSummaryHelp-view.html",
-		"/I/Projects/GISi/code_tests/demographic5/app/vm/demographic-vm.js"
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/config/cbrConfig.js",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/config.js",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/config/colorRampConfig.js",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/CHANGELOG.md",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/index.html",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/resources/css/main.css",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/humans.txt",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/package.json",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/README.md",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/vm/readOn-vm.js",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/views/readOnSchoolTabs-view.html",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/views/readOnCountyTabs-view.html",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/views/reportsHelp-view.html",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/views/legendHelp-view.html",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/vm/legend-vm.js",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/config/readOnConfig.js",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/Gruntfile.js",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/vm/reports-vm.js",
+		"/C/Users/vwolfley/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/run.js",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/deploy/build_min/app/vm/alert-vm.js",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/deploy/build_min/app/vm/cbrLaunchBar-vm.js",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/deploy/build_1.6.10/app/vm/readOn-vm.js",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/deploy/build_1.6.10/app/config/cbrConfig.js",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/models/map-model.js",
+		"/C/Users/vwolfley/Desktop/GetSchoolLocations (1)",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/404.html",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/views/reports-view.html",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/views/mainHelp-view.html",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/vm/cbr-vm.js",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/views/cbr-view.html",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/vm/interactiveTools-vm.js",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/vm/colorRamp-vm.js",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/vm/classificationFactory-vm.js",
+		"/C/Users/vwolfley/AppData/Roaming/Sublime Text 2/Packages/CleanCSS/CleanCSS.sublime-settings",
+		"/C/Users/vwolfley/AppData/Roaming/Sublime Text 2/Packages/User/CleanCSS.sublime-settings",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/assets/Kendo Software/Kendo UI Professional Q1 2015 SP2/changelog.html",
+		"/C/Users/vwolfley/AppData/Roaming/Sublime Text 2/Packages/HTMLBeautify/HTMLBeautify.sublime-settings",
+		"/C/Users/vwolfley/AppData/Roaming/Sublime Text 2/Packages/User/HTMLBeautify.sublime-settings",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/vm/help-vm.js",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/views/readOnPreschoolTabs-view.html",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/views/readOnDistrictTabs-view.html",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/views/readOnFTFTabs-view.html",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/views/readOnPCATabs-view.html",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/views/readOnInteractiveTabs-view.html",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/views/legal-view.html",
+		"/C/Users/vwolfley/AppData/Roaming/Sublime Text 2/Packages/DocBlockr/README.md",
+		"/C/Users/vwolfley/AppData/Roaming/Sublime Text 2/Packages/DocBlockr/Base File.sublime-settings",
+		"/C/Users/vwolfley/AppData/Roaming/Sublime Text 2/Packages/User/Base File.sublime-settings",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/views/legend-view.html",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/views/helpLaunchbar-view.html",
+		"/C/Users/vwolfley/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/vwolfley/AppData/Roaming/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
+		"/C/Users/vwolfley/AppData/Roaming/Sublime Text 2/Packages/JsFormat/JsFormat.sublime-settings",
+		"/C/Users/vwolfley/AppData/Roaming/Sublime Text 2/Packages/User/JsFormat.sublime-settings",
+		"/C/Users/vwolfley/AppData/Roaming/Sublime Text 2/Packages/User/bh_core.sublime-settings",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/views/readOnHelp-view.html",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/views/cbrHelp-view.html",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/views/chart-view.html",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/views/readOnMain-view.html",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/main.js",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/helpers/layer-delegate.js",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/vm/legal-vm.js",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/.gitignore",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/views/readOn-view.html",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/config/employmentConfig.js",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/vm/alert-vm.js",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/vm/employment-vm.js",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/views/alert-view.html",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/helpers/value-bindingHandler.js",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/helpers/subject-bindingHandler.js",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/helpers/printMap-delegate.js",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/helpers/operation-bindingHandler.js",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/helpers/magNumberFormatter.js",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/helpers/join-bindingHandler.js",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/vm/printLaunchbar-vm.js",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/vm/legendLaunchBar-vm.js",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/vm/helpLaunchbar-vm.js",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/vm/cbrLaunchBar-vm.js",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/vm/alert2-vm.js",
+		"//MAG1113/ArcGISVirtualRoot/maps/readon/package.json",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/vm/print-vm.js",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/docs/censusDef.txt",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/_templates/Kendo Software/Kendo UI Professional Q3 2014 SP1/examples/index.html",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/node_modules/jshint-stylish-ex/stylish.js",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Employment/employment_project/node_modules/jshint-stylish-ex/stylish.js",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/resources/css/normalize.css",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/ReadOn/ReadOn_project/app/views/social-view.html",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Bikemap/bikemap_project/css/main.css",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Bikemap/bikemap_project/index.html",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Bikemap/bikemap_project/views/legalPage.html",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Bikemap/bikemap_project/views/helpPage.html",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Bikemap/bikemap_project/js/main.js",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Bikemap/bikemap_project/js/config.js",
+		"/C/Users/vwolfley/AppData/Roaming/Sublime Text 2/Packages/Javascript Beautify/JavascriptBeautify.sublime-settings",
+		"/C/Users/vwolfley/AppData/Roaming/Sublime Text 2/Packages/Javascript Beautify/Default (Windows).sublime-keymap",
+		"/C/Users/vwolfley/AppData/Roaming/Sublime Text 2/Packages/JsFormat/Default (Windows).sublime-keymap",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Bikemap/bikemap_project/arcgis.manifest",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Bikemap/bikemap_project/README.md",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Bikemap/bikemap_project/package.json",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Bikemap/bikemap_project/css/normalize.css",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Bikemap/bikemap_project/CHANGELOG.md",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Bikemap/bikemap_project/views/legendPage.html",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Bikemap/deploy/build_working/app/main.js",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Bikemap/bikemap_project/js/map.js",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Bikemap/bikemap_project/views/layersPage.html",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Bikemap/bikemap_project/views/onPathsPage.html",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Bikemap/bikemap_project/views/onStreetPage.html",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Bikemap/bikemap_project/views/safteyPage.html",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Bikemap/bikemap_project/css/layout.css",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Bikemap/bikemap_project/Gruntfile.js",
+		"/C/Users/vwolfley/Desktop/arcgis.manifest",
+		"/D/address/index.html",
+		"/C/Users/vwolfley/Desktop/google14c4dad344d14f91.html",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/demographics_project/Gruntfile.js",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Bikemap/bikemap_project/views/page5.html",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Bikemap/bikemap_project/node_modules/jshint-stylish-ex/stylish.js",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Bikemap/bikemap_project/humans.txt"
 	],
 	"find":
 	{
-		"height": 43.0
+		"height": 63.0
 	},
 	"find_in_files":
 	{
@@ -739,134 +725,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"terms",
-			"navbar",
-			"legal",
-			"'",
-			"social",
-			"myModalLabel",
-			"social",
-			"socialMedia",
-			"social",
-			"'",
-			"img-responsive img-car",
-			"img-circle",
-			"imgFrame",
-			"btn-success",
-			"button",
-			"https",
-			"http",
-			"min-height",
-			"input",
-			"mapTitle",
-			"custom",
-			"custom breaks",
-			"iframe",
-			"LocateButton",
-			"locate",
-			"fCount1",
-			"fldobj",
-			"var win",
-			"win.open();",
-			"Get the window and open it",
-			".k-window-title",
-			"#organizer",
-			"self.windowTitle",
-			"results",
-			"dpi",
-			"window",
-			"drop",
-			"panel",
-			"drop",
-			"window",
-			"cbr",
-			"org",
-			"if",
-			".magLogo",
-			"img",
-			"magLogo",
+			"poverty",
+			"rate",
+			"sortTopValues",
+			"Chronic Absence",
+			"note",
+			"aimsEnote",
+			"dc.create",
+			"benchmark",
+			"sat10AreaClear",
+			"sat10 tab",
+			"sat tab",
+			"atRiskALL",
+			"attRateS",
+			"attRate",
+			"attendance",
+			"build_1.6.10",
+			"build.min",
+			"median Income",
+			"ReadOn_Schools",
 			"logo",
-			"#magLogo",
-			"mag",
-			"panel",
-			"home",
-			"url",
-			"home",
-			"communityName",
-			"place",
-			"cat",
-			"===",
-			"place names",
-			"American Community Survey",
-			"American Community Survey 2007 - 2011",
-			"self.groupedItems",
+			"titlebar",
+			"logo",
+			"Enrollment",
+			"state",
+			"help",
+			"PDF",
+			"breakCount",
+			"classDef.breakCount",
+			"breaks",
+			"breakCount",
+			"breakcount",
+			"proficiency",
+			"chronicRateDataObj",
+			"readRate",
+			"infoListD",
+			"titleI",
+			"title",
+			"chronic",
+			"attRates",
+			"Proficiency",
+			"countyName",
+			"readRate",
+			"readRage",
+			"sat10chart",
+			"ftf",
+			"FTF",
+			"readRate",
+			"chronic",
+			"employment",
+			"console.log",
+			"console.log();",
+			"ftfInfoDiv",
+			"FTFInfo",
+			".k-grid-header",
+			"ftfName",
+			"featCountSpan",
+			"KendoGridCenter",
+			"self.createSummaryReportGrid",
+			"self.getPCAStateData",
+			"self.PCAStateDataQueryHandler",
+			"self.PCAChart",
+			"self.pcaStateDataChart",
+			"self.PCAChart",
+			"self.pcaDataTotal",
+			"self.PCAChart",
+			"sizeGrid",
+			"self.interactiveSelectionQueryFault",
+			"AggValues",
+			"tractArrayString",
+			"65",
+			"80",
+			"createSummaryReportGrid",
+			"myHiddenClass",
+			"featCountSpan",
+			"General",
+			"intCensusSource",
+			".esriPopup",
+			"{0:N0}",
+			"demonote",
+			"aimsNote",
+			"self.chartArea",
+			"note",
+			"ftfNote",
+			"note",
+			"noteDiv",
+			"Rate",
+			"self.calcAttendanceRate",
+			"schlName",
+			"self.pcaInfo",
+			"schoolsObj",
+			"preSchoolsLegend",
+			"preSchoolsLegend_msg",
 			"legend",
-			"chart legend",
-			"fieldCategory",
-			"?",
-			"li",
-			"k-widget",
-			"k-w",
-			"class",
-			"pdf",
-			"excel",
-			"style",
-			"k-splitbar",
-			"tab",
-			"tam",
-			"dem",
-			"chart",
-			"numFeatures",
-			"fcount",
-			"fcount1",
-			"fcount2",
-			"query",
-			"z-index",
-			"magNumberFormatter",
-			"on(",
-			"on",
-			"self.progressText",
-			"interactiveClearSelectionBtn",
-			"Clear",
-			"ClearSelection",
-			"interactiveClearSelection",
-			"interactiveClearSelectionBtn",
-			"ClearSelection",
-			"CBRStateO",
-			"NewColorRamp",
-			"tp.",
-			"publish",
-			"percentValue",
-			"NaN",
-			"percentOfField",
-			"alert",
-			"warning",
-			"value",
-			"query",
-			"button",
-			"fCount",
-			"colorRamp",
-			"var dataItem = self.breaksCountList.dataItem(e.node);",
-			"tp.publish",
-			"colorRamp",
-			"query",
-			"queary",
-			"ramp",
-			"Ramp",
-			"colorramp",
-			"color",
-			"valueUniqueId",
-			"home",
-			"logo",
-			"err",
-			"Failed",
-			"failed",
-			"feature count",
-			"custom",
-			"get",
-			"Selected Features",
-			"selected Features",
-			"tab"
+			"preschool",
+			"selectPreschoolsGrid",
+			"interactive",
+			"countPreschools",
+			"countSchools",
+			"selectPreschoolsGrid",
+			"schoolsGrid1",
+			"titleBar",
+			"infoList",
+			"chronRate",
+			"cronRate",
+			"cron",
+			"schoolEnrollObj",
+			"calcChronicRate",
+			"chronicDataQueryHandler",
+			"pcaAreaName",
+			"PCACountyDataQueryHandler",
+			"getCounty",
+			"PCACountyDataQueryHandler",
+			"pca",
+			"grade",
+			"legend",
+			"preschool",
+			"domStyle",
+			"#1a325f",
+			"#18305c",
+			"Panel",
+			"top:",
+			"top",
+			"self.pcaDataChart",
+			"PCADataQuery",
+			"getCounty",
+			"getPCAData",
+			"FTFChart",
+			"getFTFData"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -874,7 +860,26 @@
 		"regex": false,
 		"replace_history":
 		[
+			"build_min",
+			"build_1.6.10",
+			"60",
+			"65",
+			"Population",
+			"({0:N0})",
+			"",
+			"double",
+			"POPTOTAL",
+			"SQMI",
+			"ReadOnData2014",
+			"ReadOnData2014_1/",
+			"ReadOnData",
+			"ReadOnCensusSummary",
+			"getSchoolsData",
+			"readOnVM",
+			"readOnConfig",
+			"ReadOnSummary",
 			"\"",
+			"img",
 			"img-responsive",
 			"img-rounded",
 			"btn-primary",
@@ -966,83 +971,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "CHANGELOG.md",
-					"settings":
-					{
-						"buffer_size": 4236,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								226,
-								226
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1095,7 +1025,7 @@
 	},
 	"replace":
 	{
-		"height": 62.0
+		"height": 66.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1126,6 +1056,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 286.0,
+	"side_bar_width": 254.0,
 	"status_bar_visible": true
 }

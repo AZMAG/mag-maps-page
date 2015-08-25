@@ -1,5 +1,14 @@
  /*! main.js | MAG Splash Page */
 
+ $(document).ready(function() {
+     //*** terms binding
+     $("#terms").load("views/terms.html");
+     //*** privacy binding
+     $("#privacy").load("views/privacy.html");
+
+     $(".version").html("v4.3.0 | 08/25/2015");
+ });
+
  // *** social pluggins
  // twitter
  ! function(d, s, id) {
@@ -30,13 +39,3 @@
      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=218558148336038";
      fjs.parentNode.insertBefore(js, fjs);
  }(document, "script", "facebook-jssdk"));
-
-
- $(document).ready(function() {
-     //*** terms binding
-     $("#terms").load("views/terms.html");
-     //*** privacy binding
-     $("#privacy").load("views/privacy.html");
-
-     $(".version").html("v4.2.1 | 02/23/2015");
- });

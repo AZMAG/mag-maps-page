@@ -5,6 +5,15 @@ CHANGELOG for Splash Page Website
 
 `Major/Minor/Patch 0.0.0`
 
+### Version 4.3.2 (09/10/2015)
+
+* change to Read On Arizona Link - [Read On Link] (http://readonarizona.org/data-center/)
+
+### Version 4.3.1 (09/10/2015)
+
+* non production version
+* changes to sublime workspace docs
+
 ### Version 4.3.0 (08/25/2015)
 
 * added Read On Arizona MapLIT link to drop-down menu
@@ -119,17 +128,18 @@ CHANGELOG for Splash Page Website
 * [Projections Map Viewer] (http://www.vectorstock.com/royalty-free-vector/business-icons-set-3--blue-series-vector-1510958)
 * [Bikeways Map Viewer] (http://www.vectorstock.com/royalty-free-vector/transportation-icons--blue-series-vector-1287781)
 * [Victim Services] (http://www.vectorstock.com/royalty-free-vector/purple-awareness-ribbons-kit-vector-1854058)
+* [Read On MapLit] (Logo from Read On Arizona)
 
 
 * images on carousel
 * [iStock] (http://www.istockphoto.com/)
-* [main_demographic.jpg] - (iStock_000021117525_Medium.jpg)
-* [main_employment.jpg] - (iStock_000021960337Medium.jpg)
-* [main_landuse.jpg] - (iStock_000010422808Medium.jpg)
-* [main_landmarks.jpg] - (iStock_000014709135Medium.jpg)
-* [main_projections.jpg] - (iStock_000005034683_Medium.jpg)
-* [main_bicycle.jpg] - ()
-* [main_victimsvc.jpg] - (iStock_000009765670Medium.jpg)
-* [main_stateDemo.jpg] - (iStock_000002918761XLarge.jpg & iStock_000012946900XLarge.jpg)
-
+* [main_demographic.jpg] (iStock_000021117525_Medium.jpg)
+* [main_employment.jpg] (iStock_000021960337Medium.jpg)
+* [main_landuse.jpg] (iStock_000010422808Medium.jpg)
+* [main_landmarks.jpg] (iStock_000014709135Medium.jpg)
+* [main_projections.jpg] (iStock_000005034683_Medium.jpg)
+* [main_bicycle.jpg] (stockfresh_1935940_cyclist-on-urban-cyceway_sizeM.jpg)
+* [main_victimsvc.jpg] (iStock_000009765670Medium.jpg)
+* [main_stateDemo.jpg] (iStock_000002918761XLarge.jpg & iStock_000012946900XLarge.jpg)
+* [main_mapLit.jpg] (iStock_000022638300_Bookcase_LRG.jpg)
 

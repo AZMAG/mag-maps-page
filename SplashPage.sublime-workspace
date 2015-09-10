@@ -580,6 +580,8 @@
 	},
 	"file_history":
 	[
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/.gitignore",
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/SplashPage.sublime-project",
 		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/about.html",
 		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/js/main.js",
 		"/I/Projects/ArcGIS Server/10.2/javascript_apps/splash/splash_page_project/js/main.min.js",
@@ -705,9 +707,7 @@
 		"/D/address/index.html",
 		"/C/Users/vwolfley/Desktop/google14c4dad344d14f91.html",
 		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/demographics_project/Gruntfile.js",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Bikemap/bikemap_project/views/page5.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Bikemap/bikemap_project/node_modules/jshint-stylish-ex/stylish.js",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Bikemap/bikemap_project/humans.txt"
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Bikemap/bikemap_project/views/page5.html"
 	],
 	"find":
 	{

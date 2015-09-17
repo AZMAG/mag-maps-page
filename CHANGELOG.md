@@ -5,6 +5,12 @@ CHANGELOG for Splash Page Website
 
 `Major/Minor/Patch 0.0.0`
 
+### Version X.X.X (xx/xx/2015)
+
+### Version 4.3.3 (09/17/2015)
+
+* changed MapLIT description per Read On Arizona
+
 ### Version 4.3.2 (09/10/2015)
 
 * change to Read On Arizona Link - [Read On Link] (http://readonarizona.org/data-center/)

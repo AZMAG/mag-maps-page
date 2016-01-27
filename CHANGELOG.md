@@ -5,7 +5,18 @@ CHANGELOG for Splash Page Website
 
 `Major/Minor/Patch 0.0.0`
 
-### Version X.X.X (xx/xx/2015)
+### Version X.X.X (xx/xx/2016)
+
+### Version 4.4.0 (01/26/2016)
+
+* added a release history box to main page
+* added details page to site
+* added `updated` icon under button for employment map viewer
+* updated text on employment map viewer
+* updated text on bikeways map viewer
+* updated about page
+* updated contact page
+* fixed content containers
 
 ### Version 4.3.3 (09/17/2015)
 

@@ -147,6 +147,34 @@ ul.footerList {
     width: auto;
 }
 /* ==========================================
+**** index.html custom styles ****
+============================================= */
+.update {
+    width: 60px;
+    /*margin-left: 180px;*/
+}
+.marketing .col-sm-4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.sidebar-module-inset {
+    padding: 15px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+.details {
+    text-align: center;
+    margin: 0px;
+}
+.release {
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.archives {
+    padding: 15px;
+}
+/* ==========================================
 **** about.html custom styles ****
 ============================================= */
 
@@ -235,6 +263,53 @@ ul.nav-tabs.affix{
     background-color: #eeeeee;
 }
 
+/* ==========================================
+**** details custom styles ****
+============================================= */
+.Indicator {
+    padding: 0 .75em;
+    margin-right: 11px;
+    line-height: 22px;
+    vertical-align: top;
+    background: #ffd73f;
+    color: #444;
+}
+.Indicator {
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 10px;
+}
+.Indicator--reversed {
+    margin-right: 0;
+    margin-left: 11px;
+}
+.Indicator--sec {
+    background: #a9e15c;
+}
+.Indicator:after {
+    right: -11px;
+    border-width: 11px;
+    border-left-width: 0;
+    border-color: #ffd73f transparent;
+}
+.Indicator:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 0;
+    border-style: solid;
+}
+.Indicator--reversed:after {
+    left: -11px;
+    right: auto;
+    border-left-width: 11px;
+    border-right-width: 0;
+}
+.Indicator--sec:after {
+    border-color: #a9e15c transparent;
+}
 
 /* ==========================================================================
    Helper classes

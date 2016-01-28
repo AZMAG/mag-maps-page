@@ -1,21 +1,22 @@
 {
   "name": "Splash-Project",
-  "version": "4.3.3",
-  "date": "09/17/2015",
+  "version": "4.4.0",
+  "date": "01/28/2016",
   "author": "Vern Wolfley",
   "email": "vwolfley@azmag.gov",
   "url": "http://ims.azmag.gov/",
   "private": true,
   "devDependencies": {
-    "grunt":                    "*",
-    "grunt-contrib-cssmin":     "*",
-    "grunt-contrib-csslint":    "*",
-    "grunt-contrib-jshint":     "*",
-    "grunt-contrib-uglify":     "*",
-    "grunt-contrib-watch":      "*",
-    "grunt-htmlhint":           "*",
-    "matchdep":                 "*",
-    "jshint-stylish":           "*",
-    "grunt-contrib-concat":     "*"
+    "grunt": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-csslint": "*",
+    "grunt-contrib-cssmin": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-htmlhint": "*",
+    "grunt-text-replace": "^0.4.0",
+    "jshint-stylish": "*",
+    "matchdep": "*"
   }
 }

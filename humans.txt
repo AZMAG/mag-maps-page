@@ -54,7 +54,7 @@
     Site URL:  http://ims.azmag.gov/
     Creation Date: 01/29/2014
     Last updated: 01/28/2016
-    Version: 4.4.0
+    Version: 4.4.1
     Language: English
     Doctype: HTML5
     IDE: Sublime Text

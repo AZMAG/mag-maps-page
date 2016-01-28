@@ -167,7 +167,7 @@ module.exports = function(grunt) {
     });
 
     // this would be run by typing "grunt test" on the command line
-    grunt.registerTask("build", ["uglify", "cssmin", "concat", "replace"]);
+    grunt.registerTask("build", ["replace", "uglify", "cssmin", "concat"]);
 
     grunt.registerTask("buildR", ["replace"]);
 

@@ -7,8 +7,12 @@ CHANGELOG for Splash Page Website
 
 ### Version X.X.X (xx/xx/2016)
 
-### Version 4.4.0 (01/26/2016)
+### Version 4.4.0 (01/28/2016)
 
+* added button for subscribing for updates
+* added button for registering for trainings
+* changed the details link to go to the spot indicated in the details page
+* added grunt controls to change release history info
 * added a release history box to main page
 * added details page to site
 * added `updated` icon under button for employment map viewer

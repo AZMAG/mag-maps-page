@@ -6,7 +6,8 @@
      //*** privacy binding
      $("#privacy").load("views/privacy.html");
 
-     $(".version").html("v4.4.0 | 01/26/2016");
+     $(".version").html("v4.4.0 | 01/28/2016");
+     // $(".version").html("v4.4.0 | 01/28/2016");
  });
 
  // *** social pluggins

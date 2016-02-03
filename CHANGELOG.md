@@ -7,6 +7,10 @@ CHANGELOG for Splash Page Website
 
 ### Version X.X.X (xx/xx/2016)
 
+### Version 4.4.3 (02/03/2016)
+
+* updates to Employment viewer release history
+
 ### Version 4.4.2 (02/02/2016)
 
 * updates to release history

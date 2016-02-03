@@ -7,6 +7,10 @@ CHANGELOG for Splash Page Website
 
 ### Version X.X.X (xx/xx/2016)
 
+### Version 4.4.2 (02/02/2016)
+
+* updates to release history
+
 ### Version 4.4.1 (01/28/2016)
 
 * made subscriber button open in a new tab/window

@@ -149,16 +149,16 @@ module.exports = function(grunt) {
                     to: 'v' + '<%= pkg.version %>' + ' | ' + '<%= pkg.date %>',
                 }, {
                     // humans.txt
-                    from: /(Version\: )([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))/g,
-                    to: "Version: " + '<%= pkg.version %>',
+                    from: /(Version\: v)([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))/g,
+                    to: "Version: v" + '<%= pkg.version %>',
                 }, {
                     // humans.txt
                     from: /(Last updated\: )[0-9]{2}\/[0-9]{2}\/[0-9]{4}/g,
                     to: "Last updated: " + '<%= pkg.date %>',
                 }, {
                     // README.md
-                    from: /(#### `)([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))( - )[0-9]{2}\/[0-9]{2}\/[0-9]{4}(`)/g,
-                    to: "#### `" + '<%= pkg.version %>' + ' - ' + '<%= pkg.date %>' + '`',
+                    from: /(#### `v)([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))( - )[0-9]{2}\/[0-9]{2}\/[0-9]{4}(`)/g,
+                    to: "#### `v" + '<%= pkg.version %>' + ' - ' + '<%= pkg.date %>' + '`',
                 }]
             }
         }
@@ -167,7 +167,7 @@ module.exports = function(grunt) {
     });
 
     // this would be run by typing "grunt test" on the command line
-    grunt.registerTask("build", ["uglify", "cssmin", "concat", "replace"]);
+    grunt.registerTask("build", ["replace", "uglify", "cssmin", "concat"]);
 
     grunt.registerTask("buildR", ["replace"]);
 

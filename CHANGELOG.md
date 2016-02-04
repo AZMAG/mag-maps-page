@@ -7,6 +7,12 @@ CHANGELOG for Splash Page Website
 
 ### Version X.X.X (xx/xx/2016)
 
+### Version 4.4.4 (02/04/2016)
+
+* updates to State Demographic viewer release history
+* updates to MAG Region Demographic viewer release history
+* change font size of release history 14 to 12
+
 ### Version 4.4.3 (02/03/2016)
 
 * updates to Employment viewer release history

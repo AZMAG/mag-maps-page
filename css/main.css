@@ -153,6 +153,13 @@ ul.footerList {
     width: 60px;
     /*margin-left: 180px;*/
 }
+.updatePNG {
+    position: absolute;
+    top: 180px;
+    width: 270px;
+    opacity: 0.65;
+    z-index: 1;
+}
 .marketing .col-sm-4 {
     text-align: center;
     margin-bottom: 20px;
@@ -168,7 +175,7 @@ ul.footerList {
     margin: 0px;
 }
 .release {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bold;
     padding-left: 20px;
 }

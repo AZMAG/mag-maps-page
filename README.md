@@ -10,7 +10,7 @@ This JavaScript web-page was developed by MAG staff for MAG member agencies and 
 
 ### Version
 
-#### `v4.4.4 - 02/04/2016`
+#### `v4.4.5 - 03/01/2016`
 
 ### Keywords
 

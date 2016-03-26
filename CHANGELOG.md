@@ -7,6 +7,11 @@ CHANGELOG for Splash Page Website
 
 ### Version X.X.X (xx/xx/2016)
 
+### Version 4.4.6 (03/25/2016)
+
+* updates to MAG Land Use viewer release history
+* updates to MAG Employment viewer release history
+
 ### Version 4.4.5 (03/01/2016)
 
 * updates to State Demographic viewer release history

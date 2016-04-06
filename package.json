@@ -1,11 +1,23 @@
 {
   "name": "Splash-Project",
-  "version": "4.4.6",
-  "date": "03/25/2016",
-  "author": "Vern Wolfley",
-  "email": "vwolfley@azmag.gov",
-  "url": "http://ims.azmag.gov/",
+  "version": "4.4.7",
+  "date": "04/06/2016",
+  "description": "MAG Main Map Page",
+  "keywords": ["MAG", "maps", "state", "Arizona", "ESRI", "#MAGmaps"],
+  "main": "index.js",
+  "homepage": "http://ims.azmag.gov/",
+  "author": "Vern Wolfley <vwolfley@azmag.gov>",
+  "contributors": [{
+    "name": "Vern Wolfley",
+    "email": "vwolfley@azmag.gov"
+  }, {
+    "name": "Jack Fairfield",
+    "email": "jfairfield@azmag.gov"
+  }],
   "private": true,
+  "dependencies": {
+
+  },
   "devDependencies": {
     "grunt": "*",
     "grunt-contrib-concat": "*",
@@ -19,5 +31,6 @@
     "jshint-stylish": "*",
     "lodash": "*",
     "matchdep": "*"
-  }
+  },
+  "license": "MIT"
 }

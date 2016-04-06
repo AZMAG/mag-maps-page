@@ -7,6 +7,14 @@ CHANGELOG for Splash Page Website
 
 ### Version X.X.X (xx/xx/2016)
 
+### Version 4.4.7 (04/06/2016)
+
+* changed gitignore - added node_modules do not track
+* added LICENCSE.txt
+* updates to grunt file
+* updates to package.json
+* updates to MAG State Demographic Viewer v2.1.6
+
 ### Version 4.4.6 (03/25/2016)
 
 * updates to MAG Land Use viewer release history

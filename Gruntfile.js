@@ -8,21 +8,25 @@ module.exports = function(grunt) {
 
         pkg: grunt.file.readJSON("package.json"),
 
-        bannercss: '/**!\n' +
-            ' * @concat.min.css\n' +
-            ' * @CSS document for Splash Page Project @ MAG\n' +
-            ' * @For Production\n' +
-            ' * @<%= pkg.name %> - v<%= pkg.version %> | <%= grunt.template.today("mm-dd-yyyy") %>\n' +
-            ' * @author <%= pkg.author %>\n' +
-            '*/\n',
+        bannercss: '/*! ========================================================================\n' +
+            ' * Maricopa Association of Governments\n' +
+            ' * MAG: concat.min.css | v<%= pkg.version %> | MAG Main Map Page\n' +
+            ' * Production | <%= grunt.template.today("mm/dd/yyyy") %>\n' +
+            ' * http://ims.azmag.gov/\n' +
+            ' * ==========================================================================\n' +
+            ' * Copyright 2016 MAG\n' +
+            ' * Licensed under MIT\n' +
+            ' * ========================================================================== */\n',
 
-        bannerjs: '/*!\n' +
-            ' * @main.min.js\n' +
-            ' * @js document for Splash Page Project @ MAG\n' +
-            ' * @For Production\n' +
-            ' * @<%= pkg.name %> - v<%= pkg.version %> | <%= grunt.template.today("mm-dd-yyyy") %>\n' +
-            ' * @author <%= pkg.author %>\n' +
-            '*/\n',
+        bannerjs: '/*! ========================================================================\n' +
+            ' * Maricopa Association of Governments\n' +
+            ' * MAG: main.min.js | v<%= pkg.version %> | MAG Main Map Page\n' +
+            ' * Production | <%= grunt.template.today("mm/dd/yyyy") %>\n' +
+            ' * http://ims.azmag.gov/\n' +
+            ' * ==========================================================================\n' +
+            ' * Copyright 2016 MAG\n' +
+            ' * Licensed under MIT\n' +
+            ' * ========================================================================== */\n',
 
         htmlhint: {
             build: {
@@ -132,7 +136,7 @@ module.exports = function(grunt) {
 
         replace: {
             update_Meta: {
-                src: ["index.html", "about.html", "contact.html", "details.html", "js/main.js", "humans.txt", "README.md"], // source files array
+                src: ["index.html", "about.html", "contact.html", "details.html", "js/main.js", "humans.txt", "README.md", "css/main.css"], // source files array
                 // src: ["README.md"], // source files array
                 overwrite: true, // overwrite matched source files
                 replacements: [{
@@ -143,6 +147,10 @@ module.exports = function(grunt) {
                     // html pages
                     from: /(<meta name="version" content=")([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))(">)/g,
                     to: '<meta name="version" content="' + '<%= pkg.version %>' + '">',
+                }, {
+                    // main.js
+                    from: /(MAG main.js)( \| )(v)([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))/g,
+                    to: "MAG main.js | v" + '<%= pkg.version %>',
                 }, {
                     // main.js
                     from: /(v)([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))( \| )[0-9]{2}\/[0-9]{2}\/[0-9]{4}/g,
@@ -159,6 +167,10 @@ module.exports = function(grunt) {
                     // README.md
                     from: /(#### `v)([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))( - )[0-9]{2}\/[0-9]{2}\/[0-9]{4}(`)/g,
                     to: "#### `v" + '<%= pkg.version %>' + ' - ' + '<%= pkg.date %>' + '`',
+                }, {
+                    // main.css
+                    from: /(MAG main.css v)([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))/g,
+                    to: "MAG main.css v" + '<%= pkg.version %>'
                 }]
             }
         }

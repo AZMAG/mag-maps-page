@@ -1,4 +1,11 @@
- /*! main.js | MAG Splash Page */
+ /* ========================================================================
+ * Maricopa Association of Governments
+ * MAG main.js | v4.4.7 | MAG Main Map Page
+ * http://ims.azmag.gov/
+ * ========================================================================
+ * Copyright 2016 MAG
+ * Licensed under MIT
+ * ======================================================================== */
 
  $(document).ready(function() {
      //*** terms binding
@@ -6,8 +13,7 @@
      //*** privacy binding
      $("#privacy").load("views/privacy.html");
 
-     $(".version").html("v4.4.6 | 03/25/2016");
-     // $(".version").html("v4.4.6 | 03/25/2016");
+     $(".version").html("v4.4.7 | 04/06/2016");
  });
 
  // *** social pluggins

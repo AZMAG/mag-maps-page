@@ -7,6 +7,10 @@ CHANGELOG for Splash Page Website
 
 ### Version X.X.X (xx/xx/2016)
 
+### Version 4.4.8 (04/28/2016)
+
+* update the training buttons on the map launch page to include links to all three of our training sites 
+
 ### Version 4.4.7 (04/06/2016)
 
 * changed gitignore - added node_modules do not track

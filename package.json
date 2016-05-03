@@ -19,18 +19,20 @@
 
   },
   "devDependencies": {
-    "grunt": "*",
-    "grunt-contrib-concat": "*",
-    "grunt-contrib-csslint": "*",
-    "grunt-contrib-cssmin": "*",
-    "grunt-contrib-jshint": "*",
-    "grunt-contrib-uglify": "*",
-    "grunt-contrib-watch": "*",
-    "grunt-htmlhint": "*",
-    "grunt-text-replace": "*",
-    "jshint-stylish": "*",
-    "lodash": "*",
-    "matchdep": "*"
+    "grunt":                  "*",
+    "grunt-contrib-concat":   "*",
+    "grunt-contrib-csslint":  "*",
+    "grunt-contrib-cssmin":   "*",
+    "grunt-contrib-jshint":   "*",
+    "grunt-contrib-uglify":   "*",
+    "grunt-contrib-watch":    "*",
+    "grunt-htmlhint":         "*",
+    "grunt-text-replace":     "*",
+    "grunt-version-check":    "*",
+    "jshint-stylish":         "*",
+    "lodash":                 "*",
+    "matchdep":               "*",
+    "normalize.css":          "*"
   },
   "license": "MIT"
 }

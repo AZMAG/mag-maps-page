@@ -5,7 +5,15 @@ CHANGELOG for Splash Page Website
 
 `Major/Minor/Patch 0.0.0`
 
-### Version X.X.X (xx/xx/2016)
+1. MAJOR version when you make incompatible API changes.
+2. MINOR version when you add functionality in a backwards-compatible manner.
+3. PATCH version when you make backwards-compatible bug fixes.
+=========================================================================================
+
+### Version 4.4.8 (05/04/2016)
+
+* update the training buttons on the map launch page to include links to all three of our training sites
+* updates to MAG Employment viewer release history
 
 ### Version 4.4.7 (04/06/2016)
 

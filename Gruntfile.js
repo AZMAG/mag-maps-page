@@ -8,25 +8,27 @@ module.exports = function(grunt) {
 
         pkg: grunt.file.readJSON("package.json"),
 
-        bannercss: '/*! ========================================================================\n' +
-            ' * Maricopa Association of Governments\n' +
-            ' * MAG: concat.min.css | v<%= pkg.version %> | MAG Main Map Page\n' +
-            ' * Production | <%= grunt.template.today("mm/dd/yyyy") %>\n' +
-            ' * http://ims.azmag.gov/\n' +
-            ' * ==========================================================================\n' +
-            ' * Copyright 2016 MAG\n' +
-            ' * Licensed under MIT\n' +
-            ' * ========================================================================== */\n',
+        bannercss:  '/*! ========================================================================\n' +
+                    ' * Maricopa Association of Governments\n' +
+                    ' * CSS files for MAG Main Map Page\n' +
+                    ' * concat.min.css | version | <%= pkg.version %>\n' +
+                    ' * Production | <%= pkg.date %> | http://ims.azmag.gov/\n' +
+                    ' * MAG Main Map Page\n' +
+                    ' * ==========================================================================\n' +
+                    ' * Copyright 2016 MAG\n' +
+                    ' * Licensed under MIT\n' +
+                    ' * ========================================================================== */\n',
 
-        bannerjs: '/*! ========================================================================\n' +
-            ' * Maricopa Association of Governments\n' +
-            ' * MAG: main.min.js | v<%= pkg.version %> | MAG Main Map Page\n' +
-            ' * Production | <%= grunt.template.today("mm/dd/yyyy") %>\n' +
-            ' * http://ims.azmag.gov/\n' +
-            ' * ==========================================================================\n' +
-            ' * Copyright 2016 MAG\n' +
-            ' * Licensed under MIT\n' +
-            ' * ========================================================================== */\n',
+        bannerjs:   '/*! ========================================================================\n' +
+                    ' * Maricopa Association of Governments\n' +
+                    ' * JavaScript files for MAG Main Map Page\n' +
+                    ' * main.min.js | version | <%= pkg.version %>\n' +
+                    ' * Production | <%= pkg.date %> | http://ims.azmag.gov/\n' +
+                    ' * MAG Main Map Page\n' +
+                    ' * ==========================================================================\n' +
+                    ' * Copyright 2016 MAG\n' +
+                    ' * Licensed under MIT\n' +
+                    ' * ========================================================================== */\n',
 
         htmlhint: {
             build: {
@@ -98,7 +100,7 @@ module.exports = function(grunt) {
             add_banner: {
                 options: {
                     // add banner to top of output file
-                    banner: '/* <%= pkg.name %> - v<%= pkg.version %> | <%= grunt.template.today("mm-dd-yyyy") %> */\n'
+                    banner: '/* <%= pkg.name %> - v<%= pkg.version %> | <%= pkg.date %> */\n'
                 },
                 files: {
                     "css/main.min.css": ["css/main.css"],
@@ -169,8 +171,8 @@ module.exports = function(grunt) {
                     to: "#### `v" + '<%= pkg.version %>' + ' - ' + '<%= pkg.date %>' + '`',
                 }, {
                     // main.css
-                    from: /(MAG main.css v)([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))/g,
-                    to: "MAG main.css v" + '<%= pkg.version %>'
+                    from: /(main.css)( \| )(version)( \| )([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))/g,
+                    to: "main.css | version |" +' <%= pkg.version %>',
                 }]
             }
         }
@@ -181,7 +183,7 @@ module.exports = function(grunt) {
     // this would be run by typing "grunt test" on the command line
     grunt.registerTask("build", ["replace", "uglify", "cssmin", "concat"]);
 
-    grunt.registerTask("buildR", ["replace"]);
+    grunt.registerTask("update", ["replace"]);
 
     // grunt.registerTask("test", ["htmlhint", "jshint"]);
 

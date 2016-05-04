@@ -1,18 +1,22 @@
 /* ========================================================================
  * Maricopa Association of Governments
- * MAG main.css | HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/
+ * CSS document for MAG Main Map Page
+ * @main.css | http://ims.azmag.gov/
  * MAG Main Map Page
- * http://ims.azmag.gov/
  * ========================================================================
  * Copyright 2016 MAG
  * Licensed under MIT
  * ======================================================================== */
+/*!
+ * ==========================================
+ *  main.css | version | 4.4.8 | MIT License
+ * ==========================================
+ */
 
-/*! ===============================================================================
- *  MAG main.css v4.4.7 | HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/
- *  =============================================================================== */
 
 /*
+ * HTML5 Boilerplate | version | 4.3.0 | MIT License | http://h5bp.com/
+ *
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.

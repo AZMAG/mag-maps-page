@@ -1,7 +1,7 @@
 {
   "name": "Splash-Project",
-  "version": "4.4.7",
-  "date": "04/06/2016",
+  "version": "4.4.8",
+  "date": "05/04/2016",
   "description": "MAG Main Map Page",
   "keywords": ["MAG", "maps", "state", "Arizona", "ESRI", "#MAGmaps"],
   "main": "index.js",
@@ -19,18 +19,20 @@
 
   },
   "devDependencies": {
-    "grunt": "*",
-    "grunt-contrib-concat": "*",
-    "grunt-contrib-csslint": "*",
-    "grunt-contrib-cssmin": "*",
-    "grunt-contrib-jshint": "*",
-    "grunt-contrib-uglify": "*",
-    "grunt-contrib-watch": "*",
-    "grunt-htmlhint": "*",
-    "grunt-text-replace": "*",
-    "jshint-stylish": "*",
-    "lodash": "*",
-    "matchdep": "*"
+    "grunt":                  "*",
+    "grunt-contrib-concat":   "*",
+    "grunt-contrib-csslint":  "*",
+    "grunt-contrib-cssmin":   "*",
+    "grunt-contrib-jshint":   "*",
+    "grunt-contrib-uglify":   "*",
+    "grunt-contrib-watch":    "*",
+    "grunt-htmlhint":         "*",
+    "grunt-text-replace":     "*",
+    "grunt-version-check":    "*",
+    "jshint-stylish":         "*",
+    "lodash":                 "*",
+    "matchdep":               "*",
+    "normalize.css":          "*"
   },
   "license": "MIT"
 }

@@ -100,7 +100,7 @@ module.exports = function(grunt) {
             add_banner: {
                 options: {
                     // add banner to top of output file
-                    banner: '/* <%= pkg.name %> - v<%= pkg.version %> | <%= grunt.template.today("mm-dd-yyyy") %> */\n'
+                    banner: '/* <%= pkg.name %> - v<%= pkg.version %> | <%= pkg.date %> */\n'
                 },
                 files: {
                     "css/main.min.css": ["css/main.css"],

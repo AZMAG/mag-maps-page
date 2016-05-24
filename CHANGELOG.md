@@ -1,21 +1,35 @@
-CHANGELOG for Splash Page Website
-=================================
+# CHANGELOG #
+#### Splash Page Website ####
 
+***************************************
 [![Semver](http://img.shields.io/SemVer/2.0.0.png)](http://semver.org/spec/v2.0.0.html)
 
-`Major/Minor/Patch 0.0.0`
+All notable changes to this project will be documented in this file.
 
-1. MAJOR version when you make incompatible API changes.
-2. MINOR version when you add functionality in a backwards-compatible manner.
-3. PATCH version when you make backwards-compatible bug fixes.
-=========================================================================================
+Releases will be numbered with the following format:
 
-### Version 4.4.8 (05/04/2016)
+`<major>.<minor>.<patch>`
+
+And constructed with the following guidelines:
+
+1. MAJOR version when you make incompatible API changes **bumps the major** resets minor and patch
+2. MINOR version when you add functionality in a backwards-compatible manner **bumps the minor** resets patch
+3. PATCH version when you make backwards-compatible bug fixes and misc changes **bumps only the patch**
+
+***************************************************************************************************************
+
+## Version 4.4.9 | 05/24/2016
+
+* fixed facebook share
+* updates to MAG Employment viewer release history
+* updates to MAG State Demographics viewer release history
+
+## Version 4.4.8 | 05/04/2016
 
 * update the training buttons on the map launch page to include links to all three of our training sites
 * updates to MAG Employment viewer release history
 
-### Version 4.4.7 (04/06/2016)
+## Version 4.4.7 | 04/06/2016
 
 * changed gitignore - added node_modules do not track
 * added LICENCSE.txt

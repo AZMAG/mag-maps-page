@@ -13,7 +13,7 @@ This JavaScript web-page was developed by MAG staff for MAG member agencies and 
 
 ## Keywords
 
-`Maricopa County` `Pinal County` `State` `Maps` `MAG` `ESRI` `#MAGmaps`
+`Maricopa County` `Pinal County` `State` `Arizona` `MAG` `maps` `ESRI` `#MAGmaps`
 
 ## Version
 

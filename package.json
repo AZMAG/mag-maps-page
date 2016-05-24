@@ -1,7 +1,7 @@
 {
   "name": "Splash-Project",
-  "version": "4.4.8",
-  "date": "05/04/2016",
+  "version": "4.4.9",
+  "date": "05/24/2016",
   "description": "MAG Main Map Page",
   "keywords": ["MAG", "maps", "state", "Arizona", "ESRI", "#MAGmaps"],
   "main": "index.js",
@@ -19,7 +19,7 @@
 
   },
   "devDependencies": {
-    "grunt":                  "*",
+    "grunt":                  "0.4.5",
     "grunt-contrib-concat":   "*",
     "grunt-contrib-csslint":  "*",
     "grunt-contrib-cssmin":   "*",

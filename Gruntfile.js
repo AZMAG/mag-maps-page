@@ -11,8 +11,9 @@ module.exports = function(grunt) {
         bannercss:  '/*! ========================================================================\n' +
                     ' * Maricopa Association of Governments\n' +
                     ' * CSS files for MAG Main Map Page\n' +
-                    ' * concat.min.css | version | <%= pkg.version %>\n' +
-                    ' * Production | <%= pkg.date %> | http://ims.azmag.gov/\n' +
+                    ' * @concat.min.css | version | <%= pkg.version %>\n' +
+                    ' * Production | <%= pkg.date %> \n' +
+                    ' * http://ims.azmag.gov/\n' +
                     ' * MAG Main Map Page\n' +
                     ' * ==========================================================================\n' +
                     ' * Copyright 2016 MAG\n' +
@@ -22,8 +23,9 @@ module.exports = function(grunt) {
         bannerjs:   '/*! ========================================================================\n' +
                     ' * Maricopa Association of Governments\n' +
                     ' * JavaScript files for MAG Main Map Page\n' +
-                    ' * main.min.js | version | <%= pkg.version %>\n' +
-                    ' * Production | <%= pkg.date %> | http://ims.azmag.gov/\n' +
+                    ' * @main.min.js | version | <%= pkg.version %>\n' +
+                    ' * Production | <%= pkg.date %> \n' +
+                    ' * http://ims.azmag.gov/\n' +
                     ' * MAG Main Map Page\n' +
                     ' * ==========================================================================\n' +
                     ' * Copyright 2016 MAG\n' +
@@ -159,16 +161,20 @@ module.exports = function(grunt) {
                     to: 'v' + '<%= pkg.version %>' + ' | ' + '<%= pkg.date %>',
                 }, {
                     // humans.txt
-                    from: /(Version\: v)([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))/g,
-                    to: "Version: v" + '<%= pkg.version %>',
+                    from: /(Version\: )([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))/g,
+                    to: "Version: " + '<%= pkg.version %>',
                 }, {
                     // humans.txt
                     from: /(Last updated\: )[0-9]{2}\/[0-9]{2}\/[0-9]{4}/g,
                     to: "Last updated: " + '<%= pkg.date %>',
+               }, {
+                    // README.md
+                    from: /(#### `version )([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))/g,
+                    to: "#### `version " + '<%= pkg.version %>',
                 }, {
                     // README.md
-                    from: /(#### `v)([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))( - )[0-9]{2}\/[0-9]{2}\/[0-9]{4}(`)/g,
-                    to: "#### `v" + '<%= pkg.version %>' + ' - ' + '<%= pkg.date %>' + '`',
+                    from: /(`Updated: )[0-9]{2}\/[0-9]{2}\/[0-9]{4}/g,
+                    to: "`Updated: " + '<%= pkg.date %>',
                 }, {
                     // main.css
                     from: /(main.css)( \| )(version)( \| )([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))/g,

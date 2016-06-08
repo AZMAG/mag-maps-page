@@ -12,8 +12,8 @@
     <meta name="contact" content="www.azmag.gov">
     <meta name="url" content="http://ims.azmag.gov/">
     <meta name="creation-date" content="01/29/2014">
-    <meta name="revision-date" content="05/24/2016">
-    <meta name="version" content="4.4.9">
+    <meta name="revision-date" content="06/08/2016">
+    <meta name="version" content="4.4.10">
 
     <!-- Apple-Specific Meta Tags -->
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -65,6 +65,23 @@
     <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv-printshiv.min.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <!-- Google Analytics -->
+    <script>
+      (function(b, o, i, l, e, r) {
+        b.GoogleAnalyticsObject = l;
+        b[l] || (b[l] =
+          function() {
+            (b[l].q = b[l].q || []).push(arguments)
+          });
+        b[l].l = +new Date;
+        e = o.createElement(i);
+        r = o.getElementsByTagName(i)[0];
+        e.src = "//www.google-analytics.com/analytics.js";
+        r.parentNode.insertBefore(e, r)
+      }(window, document, "script", "ga"));
+      ga("create", "UA-29422512-1");
+      ga("send", "pageview");
+    </script>
   </head>
    <body data-spy="scroll" data-target="#myScrollspy">
     <!--[if lt IE 8]>
@@ -95,7 +112,7 @@
                 <li><a href="http://geo.azmag.gov/maps/employment/">Employment Map Viewer</a></li>
                 <li><a href="http://readonarizona.org/data-center/">Read On MapLIT Viewer</a></li>
                 <li><a href="http://geo.azmag.gov/maps/landuse/">Land Use Map Viewer</a></li>
-                <li><a href="http://geo.azmag.gov/maps/landmarks/">Building Landmarks Viewer</a></li>
+                <li><a href="http://geo.azmag.gov/maps/landmarks/">MAG Neighborhood Explorer</a></li>
                 <li><a href="http://geo.azmag.gov/maps/projections2013/">Projections Map Viewer</a></li>
                 <li><a href="http://geo.azmag.gov/maps/bikemap/">Bikeways Map Viewer</a></li>
                 <li><a href="http://geo.azmag.gov/maps/VictimAdvocates/">Victim Services Map Viewer</a></li>
@@ -123,6 +140,22 @@
     <div class="row">
 
         <div id="content" class="col-xs-12">
+
+          <!-- Update 06/08/2016-->
+          <section>
+            <h4><a name="nev400">MAG Neighborhood Explorer - v4.0.0</a></h4>
+            <h5>June 08, 2016</h5>
+             <h5 class="Indicator Indicator--reversed Indicator--sec">NEW</h5>
+            <ul>
+              <li>New look and feel</li>
+              <li>Updated data for 2016</li>
+              <li>Added drawing buffer tools for query selection</li>
+              <li>Added results section form query selection</li>
+              <li>Added print map function</li>
+              <li>Added map sharing function</li>
+            </ul>
+          </section>
+          <hr>
 <!-- Update 05/24/2016-->
           <section>
             <h4><a name="empv420">Employment Viewer - v4.2.0</a></h4>

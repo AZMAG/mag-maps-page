@@ -18,6 +18,11 @@ And constructed with the following guidelines:
 
 ***************************************************************************************************************
 
+## Version 4.4.10 | 06/08/2016
+
+* added Google Analytics to pages
+* updated MAG Neighborhood Explorer
+
 ## Version 4.4.9 | 05/24/2016
 
 * fixed facebook share

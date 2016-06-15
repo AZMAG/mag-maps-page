@@ -1,8 +1,9 @@
-# MAG Maps Home Page ![](http://geo.azmag.gov/maps/readonaz/app/resources/img/maglogo_black.png)
-===================
+![](http://geo.azmag.gov/maps/readonaz/app/resources/img/maglogo_black.png)
+# MAG Maps Home Page #
+======================
 
-[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 [![Semver](http://img.shields.io/SemVer/2.0.0.png)](http://semver.org/spec/v4.4.7.html)
+[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ****************************************************************************************************************
@@ -17,15 +18,15 @@ This JavaScript web-page was developed by MAG staff for MAG member agencies and 
 
 ## Version
 
-#### `version 4.4.10` ####
+#### version 4.4.11 ####
 
-`Updated: 06/08/2016`
+`Updated: 06/15/2016`
 
 `Created: 10/21/2014`
 
 Releases will be numbered with the following format:
 
-`<major>.<minor>.<patch>`
+**`<major>.<minor>.<patch>`**
 
 And constructed with the following guidelines:
 

@@ -18,9 +18,9 @@ This JavaScript web-page was developed by MAG staff for MAG member agencies and 
 
 ## Version
 
-#### version 4.4.11 ####
+#### version 4.4.12 ####
 
-`Updated: 06/15/2016`
+`Updated: 06/16/2016`
 
 `Created: 10/21/2014`
 
@@ -30,9 +30,9 @@ Releases will be numbered with the following format:
 
 And constructed with the following guidelines:
 
-1. MAJOR version when you make incompatible API changes **bumps the major** resets minor and patch
-2. MINOR version when you add functionality in a backwards-compatible manner **bumps the minor** resets patch
-3. PATCH version when you make backwards-compatible bug fixes and misc changes **bumps only the patch**
+1. **MAJOR** version when you make incompatible API changes **bumps the major** resets minor and patch
+2. **MINOR** version when you add functionality in a backwards-compatible manner **bumps the minor** resets patch
+3. **PATCH** version when you make backwards-compatible bug fixes and misc changes **bumps only the patch**
 
 ## Credits
 
@@ -40,13 +40,13 @@ And constructed with the following guidelines:
 
 ## Site URL's
 
-[Site] (http://ims.azmag.gov/)
+[http://ims.azmag.gov/] (http://ims.azmag.gov/)
 
 ## Documentation
 
 A detailed list of the changes and fixes in each version update can be found in the CHANGELOG.md.
 
-- [CHANGELOG] (CHANGELOG.md)
+[CHANGELOG] (CHANGELOG.md)
 
 ## Process
 
@@ -70,6 +70,8 @@ To assist the Maricopa Association of Governments in the maintenance and/or corr
 Please acknowledge the Maricopa Association of Governments (MAG) GIS as the source when Map Server data is used in the preparation of reports, papers, publications, maps, or other products.
 
 ## Copyright and Licensing
+
+[LICENSE] (LICENSE)
 
 Code released under the MIT license.
 

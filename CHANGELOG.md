@@ -8,15 +8,26 @@ All notable changes to this project will be documented in this file.
 
 Releases will be numbered with the following format:
 
-`<major>.<minor>.<patch>`
+**`<major>.<minor>.<patch>`**
 
 And constructed with the following guidelines:
 
-1. MAJOR version when you make incompatible API changes **bumps the major** resets minor and patch
-2. MINOR version when you add functionality in a backwards-compatible manner **bumps the minor** resets patch
-3. PATCH version when you make backwards-compatible bug fixes and misc changes **bumps only the patch**
+1. **MAJOR** version when you make incompatible API changes **bumps the major** resets minor and patch
+2. **MINOR** version when you add functionality in a backwards-compatible manner **bumps the minor** resets patch
+3. **PATCH** version when you make backwards-compatible bug fixes and misc changes **bumps only the patch**
 
 ***************************************************************************************************************
+
+## Version 4.4.12 | 06/16/2016
+
+* updated MAG Employment Map Viewer
+
+## Version 4.4.11 | 06/15/2016
+
+* updated MAG Region Demographic Map Viewer
+* updated State Demographic Map Viewer
+* updated MAG Land Use Map Viewer
+* updated MAG Bikeways Map Viewer
 
 ## Version 4.4.10 | 06/08/2016
 

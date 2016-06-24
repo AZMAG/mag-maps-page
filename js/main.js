@@ -1,6 +1,6 @@
  /* ========================================================================
  * Maricopa Association of Governments
- * MAG main.js | v4.4.12 | MAG Main Map Page
+ * MAG main.js | v4.4.13 | MAG Main Map Page
  * http://ims.azmag.gov/
  * ========================================================================
  * Copyright 2016 MAG
@@ -13,7 +13,7 @@
      //*** privacy binding
      $("#privacy").load("views/privacy.html");
 
-     $(".version").html("v4.4.12 | 06/16/2016");
+     $(".version").html("v4.4.13 | 06/24/2016");
  });
 
  // *** social pluggins

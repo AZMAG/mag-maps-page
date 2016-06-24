@@ -1,7 +1,6 @@
 # CHANGELOG #
 #### Splash Page Website ####
 
-***************************************
 [![Semver](http://img.shields.io/SemVer/2.0.0.png)](http://semver.org/spec/v2.0.0.html)
 
 All notable changes to this project will be documented in this file.
@@ -17,6 +16,11 @@ And constructed with the following guidelines:
 3. **PATCH** version when you make backwards-compatible bug fixes and misc changes **bumps only the patch**
 
 ***************************************************************************************************************
+
+## Version 4.4.13 | 06/24/2016
+
+* updated MAG Region Demographic Map Viewer
+* updated State Demographic Map Viewer
 
 ## Version 4.4.12 | 06/16/2016
 

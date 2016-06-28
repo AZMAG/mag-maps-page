@@ -1,7 +1,7 @@
 {
   "name": "Splash-Project",
-  "version": "4.4.13",
-  "date": "06/24/2016",
+  "version": "4.4.14",
+  "date": "06/28/2016",
   "description": "MAG Main Map Page",
   "keywords": ["MAG", "maps", "state", "Arizona", "ESRI", "#MAGmaps"],
   "main": "index.js",

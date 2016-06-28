@@ -17,6 +17,10 @@ And constructed with the following guidelines:
 
 ***************************************************************************************************************
 
+## Version 4.4.14 | 06/28/2016
+
+* updates to Projections Viewer
+
 ## Version 4.4.13 | 06/24/2016
 
 * updated MAG Region Demographic Map Viewer

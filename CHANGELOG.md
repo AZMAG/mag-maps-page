@@ -17,6 +17,10 @@ And constructed with the following guidelines:
 
 ***************************************************************************************************************
 
+## Version 4.4.15 | 09/27/2016
+
+* updates to employment viewer
+
 ## Version 4.4.14 | 06/28/2016
 
 * updates to Projections Viewer

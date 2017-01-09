@@ -17,6 +17,10 @@ And constructed with the following guidelines:
 
 ***************************************************************************************************************
 
+## Version 4.4.16 | 01/09/2017
+
+* update the training buttons on the map launch page
+
 ## Version 4.4.15 | 09/27/2016
 
 * updates to employment viewer

@@ -17,6 +17,10 @@ And constructed with the following guidelines:
 
 ***************************************************************************************************************
 
+## Version 4.4.17 | 01/12/2017
+
+* update to MAG Bikeways Viewer v3.2.0
+
 ## Version 4.4.16 | 01/09/2017
 
 * update the training buttons on the map launch page

@@ -17,6 +17,10 @@ And constructed with the following guidelines:
 
 ***************************************************************************************************************
 
+## Version 4.5.0 | 02/09/2017
+
+* added Spine Study Map Viewer to page
+
 ## Version 4.4.17 | 01/12/2017
 
 * update to MAG Bikeways Viewer v3.2.0

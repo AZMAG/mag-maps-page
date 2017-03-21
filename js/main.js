@@ -15,7 +15,7 @@
      //*** version binding
      $(".version").html("v4.5.2 | 03/21/2017");
      //*** copy write binding
-     $(".copywrite").html("2017");
+     $(".copyright").html("2017");
  });
 
  // *** social pluggins

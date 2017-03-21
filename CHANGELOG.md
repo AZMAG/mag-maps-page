@@ -17,6 +17,12 @@ And constructed with the following guidelines:
 
 ***************************************************************************************************************
 
+## Version 4.5.2 | 03/21/2017
+
+* automated the copy write update info
+* updated copy write info
+* updates for State Demographics Viewer
+
 ## Version 4.5.0 | 02/09/2017
 
 * added Spine Study Map Viewer to page

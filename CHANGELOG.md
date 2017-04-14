@@ -17,6 +17,13 @@ And constructed with the following guidelines:
 
 ***************************************************************************************************************
 
+## Version 4.5.3 | 04/14/2017
+
+* updates for State Demographic Viewer
+* updates for Regional Demographic Viewer
+* updates for Land Use Viewer
+* updates for Employment Viewer
+
 ## Version 4.5.2 | 03/21/2017
 
 * automated the copy write update info

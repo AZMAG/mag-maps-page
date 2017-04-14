@@ -16,8 +16,8 @@ module.exports = function(grunt) {
                     ' * http://ims.azmag.gov/\n' +
                     ' * MAG Main Map Page\n' +
                     ' * ==========================================================================\n' +
-                    ' * Copyright 2017 MAG\n' +
-                    ' * Licensed under MIT\n' +
+                    ' * @Copyright 2017 MAG\n' +
+                    ' * @Licensed under MIT\n' +
                     ' * ========================================================================== */\n',
 
         bannerjs:   '/*! ========================================================================\n' +
@@ -28,8 +28,8 @@ module.exports = function(grunt) {
                     ' * http://ims.azmag.gov/\n' +
                     ' * MAG Main Map Page\n' +
                     ' * ==========================================================================\n' +
-                    ' * Copyright 2017 MAG\n' +
-                    ' * Licensed under MIT\n' +
+                    ' * @Copyright 2017 MAG\n' +
+                    ' * @Licensed under MIT\n' +
                     ' * ========================================================================== */\n',
 
         htmlhint: {

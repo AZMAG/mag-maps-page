@@ -18,9 +18,9 @@ This JavaScript web-page was developed by MAG staff for MAG member agencies and 
 
 ## Version
 
-#### version 4.5.4 ####
+#### version 4.6.0 ####
 
-`Updated: 04/14/2017`
+`Updated: 05/24/2017`
 
 `Created: 10/21/2014`
 
@@ -40,13 +40,13 @@ And constructed with the following guidelines:
 
 ## Site URL's
 
-[http://ims.azmag.gov/] (http://ims.azmag.gov/)
+[http://ims.azmag.gov/](http://ims.azmag.gov/)
 
 ## Documentation
 
 A detailed list of the changes and fixes in each version update can be found in the CHANGELOG.md.
 
-[CHANGELOG] (CHANGELOG.md)
+[CHANGELOG](CHANGELOG.md)
 
 ## Process
 
@@ -71,11 +71,11 @@ Please acknowledge the Maricopa Association of Governments (MAG) GIS as the sour
 
 ## Copyright and Licensing
 
-[LICENSE] (LICENSE)
+[LICENSE](LICENSE)
 
 Code released under the MIT license.
 
-Copyright (c) 2016 Maricopa Association of Governments
+Copyright (c) 2017 Maricopa Association of Governments
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 

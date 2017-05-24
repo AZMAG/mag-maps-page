@@ -17,6 +17,14 @@ And constructed with the following guidelines:
 
 ***************************************************************************************************************
 
+## Version 4.6.0 | 05/24/2017
+
+* update to files only!
+* NO code changes!
+* removed node_modules from git
+* created src folder
+* created build folder
+
 ## Version 4.5.3 | 04/14/2017
 
 * updates for State Demographic Viewer

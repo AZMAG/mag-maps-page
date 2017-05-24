@@ -1,7 +1,7 @@
 {
-  "name": "Splash-Project",
-  "version": "4.5.4",
-  "date": "04/14/2017",
+  "name": "MAGmapping-app",
+  "version": "4.6.0",
+  "date": "05/24/2017",
   "description": "MAG Main Map Page",
   "keywords": ["MAG", "maps", "state", "Arizona", "ESRI", "#MAGmaps"],
   "main": "index.js",
@@ -15,24 +15,21 @@
     "email": "jfairfield@azmag.gov"
   }],
   "private": true,
-  "dependencies": {
-
-  },
+  "dependencies": {},
   "devDependencies": {
-    "grunt":                  "0.4.5",
-    "grunt-contrib-concat":   "*",
-    "grunt-contrib-csslint":  "*",
-    "grunt-contrib-cssmin":   "*",
-    "grunt-contrib-jshint":   "*",
-    "grunt-contrib-uglify":   "*",
-    "grunt-contrib-watch":    "*",
-    "grunt-htmlhint":         "*",
-    "grunt-text-replace":     "*",
-    "grunt-version-check":    "*",
-    "jshint-stylish":         "*",
-    "lodash":                 "*",
-    "matchdep":               "*",
-    "normalize.css":          "*"
+    "grunt": "1.0.1",
+    "grunt-contrib-concat": "1.0.1",
+    "grunt-contrib-csslint": "2.0.0",
+    "grunt-contrib-cssmin": "2.2.0",
+    "grunt-contrib-jshint": "1.1.0",
+    "grunt-contrib-uglify": "3.0.0",
+    "grunt-contrib-watch": "1.0.0",
+    "grunt-text-replace": "0.4.0",
+    "grunt-version-check": "0.3.7",
+    "jshint-stylish-ex": "0.2.0",
+    "lodash": "4.17.4",
+    "matchdep": "1.0.1",
+    "normalize.css": ">=7.0.0"
   },
   "license": "MIT"
 }

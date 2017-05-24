@@ -219,7 +219,7 @@ pip-log.txt
 ############################
 
 # Dependency directory
-node_modules
+node_modules/
 bower_components
 
 # workspace files are user-specific don't track

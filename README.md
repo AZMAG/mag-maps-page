@@ -2,7 +2,9 @@
 
 # MAG Mapping Home Page #
 
+[![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=my-website)](http://ims.azmag.gov/)
 [![GitHub issues](https://img.shields.io/github/issues/AZMAG/map-MAGmappingPage.svg)](https://github.com/AZMAG/map-MAGmappingPage/issues)
+[![GitHub version](https://badge.fury.io/gh/AZMAG%2Fmap-MAGmappingPage.svg)](https://badge.fury.io/gh/AZMAG%2Fmap-MAGmappingPage)
 [![dependencies](https://david-dm.org/AZMAG/map-MAGmappingPage.png)](https://david-dm.org/AZMAG/map-MAGmappingPage)
 [![devDependency Status](https://david-dm.org/AZMAG/map-MAGmappingPage/dev-status.png)](https://david-dm.org/AZMAG/map-MAGmappingPage)
 [![Semver](http://img.shields.io/SemVer/2.0.0.png)](http://semver.org/spec/v4.4.7.html)
@@ -21,7 +23,7 @@ This JavaScript web-page was developed by MAG staff for MAG member agencies and 
 
 ## Version
 
-#### version 4.6.0 ####
+### version 4.6.0 ###
 
 `Updated: 05/24/2017`
 
@@ -47,7 +49,7 @@ And constructed with the following guidelines:
 
 ## Documentation
 
-A detailed list of the changes and fixes in each version update can be found in the CHANGELOG.md.
+A detailed list of the changes and fixes in each version update can be found in the `CHANGELOG.md`.
 
 * [CHANGELOG](CHANGELOG.md)
 
@@ -76,8 +78,8 @@ Please acknowledge the Maricopa Association of Governments (MAG) GIS as the sour
 
 Code released under the MIT license.
 
-A copy of the license is available in the repository's LICENSE file.
+A copy of the license is available in the repository's `LICENSE` file.
 
-* [MIT LICENSE](LICENSE)
+* [LICENSE](LICENSE)
 
 

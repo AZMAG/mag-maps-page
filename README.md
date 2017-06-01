@@ -2,6 +2,11 @@
 # MAG Maps Home Page #
 ======================
 
+[![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=my-website)](http://ims.azmag.gov/)
+[![GitHub issues](https://img.shields.io/github/issues/AZMAG/map-MAGmappingPage.svg)](https://github.com/AZMAG/map-MAGmappingPage/issues)
+[![GitHub version](https://badge.fury.io/gh/AZMAG%2Fmap-MAGmappingPage.svg)](https://badge.fury.io/gh/AZMAG%2Fmap-MAGmappingPage)
+[![dependencies](https://david-dm.org/AZMAG/map-MAGmappingPage.png)](https://david-dm.org/AZMAG/map-MAGmappingPage)
+[![devDependency Status](https://david-dm.org/AZMAG/map-MAGmappingPage/dev-status.png)](https://david-dm.org/AZMAG/map-MAGmappingPage)
 [![Semver](http://img.shields.io/SemVer/2.0.0.png)](http://semver.org/spec/v4.4.7.html)
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
@@ -18,7 +23,7 @@ This JavaScript web-page was developed by MAG staff for MAG member agencies and 
 
 ## Version
 
-#### version 4.6.0 ####
+### version 4.6.0 ###
 
 `Updated: 05/24/2017`
 
@@ -40,7 +45,7 @@ And constructed with the following guidelines:
 
 ## Site URL's
 
-[http://ims.azmag.gov/](http://ims.azmag.gov/)
+[MAG Mapping](http://ims.azmag.gov/)
 
 ## Documentation
 
@@ -71,14 +76,8 @@ Please acknowledge the Maricopa Association of Governments (MAG) GIS as the sour
 
 ## Copyright and Licensing
 
-[LICENSE](LICENSE)
-
 Code released under the MIT license.
 
-Copyright (c) 2017 Maricopa Association of Governments
+A copy of the license is available in the repository's `LICENSE` file.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+[LICENSE](LICENSE)

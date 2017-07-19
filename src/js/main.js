@@ -18,7 +18,7 @@
      //*** privacy binding
      $("#privacy").load("views/privacy.html");
      //*** version binding
-     $(".version").html("v4.5.4 | 04/14/2017");
+     $(".version").html("v4.6.1 | 07/19/2017");
      //*** copy write binding
      $(".copyright").html("2017");
  });

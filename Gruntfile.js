@@ -13,12 +13,12 @@ module.exports = function(grunt) {
 			" * Maricopa Association of Governments\n" +
 			" * Style document for MAG Maps Main Page\n" +
 			" * =============================================================\n" +
-			" * @project	MAG Maps Main Page\n" +
+			" * @project 	MAG Maps Main Page\n" +
 			" * @file		main.css\n" +
 			" * @version 	<%= pkg.version %>\n" +
 			" * @date 		<%= pkg.date %>\n" +
 			" * @copyright	<%= pkg.copyright %> MAG\n" +
-			" * @license	MIT\n" +
+			" * @license 	MIT\n" +
 			" * ===============================================================\n" +
 			" */",
 
@@ -27,12 +27,12 @@ module.exports = function(grunt) {
 			" * Maricopa Association of Governments\n" +
 			" * JavaScript files for MAG Main Map Page\n" +
 			" * =============================================================\n" +
-			" * @project	MAG Maps Main Page\n" +
+			" * @project 	MAG Maps Main Page\n" +
 			" * @file		main.js\n" +
 			" * @version 	<%= pkg.version %>\n" +
 			" * @date 		<%= pkg.date %>\n" +
 			" * @copyright	<%= pkg.copyright %> MAG\n" +
-			" * @license	MIT\n" +
+			" * @license 	MIT\n" +
 			" * ========================================================================== */\n",
 
 		htmlhint: {
@@ -182,6 +182,20 @@ module.exports = function(grunt) {
 					// main.js
 					from: /(@copyright 	)[0-9]{4}/g,
 					to: "@copyright 	" + "<%= pkg.copyright %>",
+				}, {
+					// main.js
+					// html("v4.5.4 | 04/14/2017");
+					from: /(v)([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))/g,
+					to: "v" + "<%= pkg.version %>",
+				}, {
+					// main.js
+					from: /( \| )[0-9]{2}\/[0-9]{2}\/[0-9]{4}/g,
+					to: " | " + "<%= pkg.date %>",
+				}, {
+					// main.js
+					// $(".copyright").html("2017");
+					from: /(copyright"\).html\(\")[0-9]{4}/g,
+					to: 'copyright").html("'  + "<%= pkg.copyright %>",
 				}, {
 					// humans.txt
 					from: /(Version\: )([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))/g,

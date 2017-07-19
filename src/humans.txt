@@ -58,8 +58,8 @@
 # SITE
     Site name: MAG Mapping Home Page
     Site URL:  http://ims.azmag.gov/
-    Version: 4.5.4
-    Last updated: 04/14/2017
+    Version: 4.6.1
+    Last updated: 07/19/2017
     Creation Date: 01/29/2014
     Language: English
     Doctype: HTML5

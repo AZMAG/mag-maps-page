@@ -17,6 +17,12 @@ And constructed with the following guidelines:
 
 ***************************************************************************************************************
 
+## Version 4.6.1 | 07/19/2017
+
+* update files 
+* Remove Victim Services Map Viewer
+* update Grunt files
+
 ## Version 4.6.0 | 05/24/2017
 
 * update to files only!

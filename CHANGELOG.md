@@ -17,6 +17,10 @@ And constructed with the following guidelines:
 
 ***************************************************************************************************************
 
+## Version 4.6.2 | 07/19/2017
+
+* fix Grunt Build errors
+
 ## Version 4.6.1 | 07/19/2017
 
 * update files 

@@ -185,8 +185,8 @@ module.exports = function(grunt) {
 				}, {
 					// main.js
 					// html("v4.5.4 | 04/14/2017");
-					from: /(v)([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))/g,
-					to: "v" + "<%= pkg.version %>",
+					from: /(html\(\"v)([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))/g,
+					to: 'html("v' + "<%= pkg.version %>",
 				}, {
 					// main.js
 					from: /( \| )[0-9]{2}\/[0-9]{2}\/[0-9]{4}/g,

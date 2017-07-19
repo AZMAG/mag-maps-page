@@ -1,12 +1,15 @@
 {
   "name": "MAGmapping-app",
-  "version": "4.6.0",
-  "date": "05/24/2017",
+  "version": "4.6.1",
+  "date": "07/19/2017",
+  "copyright": "2017",
   "description": "MAG Main Map Page",
   "keywords": ["MAG", "maps", "state", "Arizona", "ESRI", "#MAGmaps"],
   "main": "index.js",
   "homepage": "http://ims.azmag.gov/",
-  "author": "Vern Wolfley <vwolfley@azmag.gov>",
+  "repository": "https://github.com/AZMAG/map-MAGmappingPage",
+  "repository-internal": "I:/Projects/Git_repos/mappingPage.git",
+  "author": "MAG Information Services (http://www.azmag.gov/Information_Services/default.asp)",
   "contributors": [{
     "name": "Vern Wolfley",
     "email": "vwolfley@azmag.gov"
@@ -19,6 +22,8 @@
   "devDependencies": {
     "grunt": "1.0.1",
     "grunt-contrib-concat": "1.0.1",
+    "grunt-contrib-copy": "1.0.0",
+    "grunt-contrib-clean": "1.1.0",
     "grunt-contrib-csslint": "2.0.0",
     "grunt-contrib-cssmin": "2.2.0",
     "grunt-contrib-jshint": "1.1.0",

@@ -1,18 +1,18 @@
 /* ========================================================================
- * Maricopa Association of Governments
- * CSS document for MAG Main Map Page
- * @main.css | http://ims.azmag.gov/
  * MAG Main Map Page
+ * Maricopa Association of Governments
+ * Style document for MAG ReadOn AZ MapLIT Viewer
  * ========================================================================
- * Copyright 2016 MAG
- * Licensed under MIT
+ * @project		MAG Main Map Page
+ * @file		main.css
+ * @version 	4.6.1
+ * @copyright 	2017 MAG
+ * @license		MIT
+ * ========================================================================
+ * @uses	HTML5 Boilerplate
+ * @uses	normalize.css
  * ======================================================================== */
-/*!
- * ==========================================
- *  main.css | version | 4.5.4 | MIT License
- * ==========================================
- */
-
+ /*! @main.css | v4.6.1 | @license MIT | @copyright 2017 MAG */
 
 /*
  * HTML5 Boilerplate | version | 4.3.0 | MIT License | http://h5bp.com/

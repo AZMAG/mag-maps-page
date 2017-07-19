@@ -1,3 +1,7 @@
+# Include your project-specific ignores in this file
+# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+# Useful .gitignore templates: https://github.com/github/gitignore
+#
 #################
 ## Eclipse
 #################
@@ -214,24 +218,16 @@ pip-log.txt
 #Mr Developer
 .mr.developer.cfg
 
-############################
+###########################
 ## Project Specific Ignores
-############################
+###########################
 
 # Dependency directory
-node_modules/
+node_modules
 bower_components
 
-# workspace files are user-specific don't track
-*.sublime-workspace
+ # workspace files are user-specific don't track
+ *.sublime-workspace
 
-fonts/glyphicons-halflings-regular.eot
-css/normalize.css
-fonts/glyphicons-halflings-regular.svg
-fonts/glyphicons-halflings-regular.ttf
-fonts/glyphicons-halflings-regular.woff
-js/vendor/bootstrap.min.js
-js/plugins.js
-js/vendor/jquery-1.10.2.min.js
-js/vendor/modernizr-2.6.2.min.js
-css/bootstrap.min.css
+# folder for editing and testing
+reports/

@@ -23,9 +23,9 @@ This JavaScript web-page was developed by MAG staff for MAG member agencies and 
 
 ## Version
 
-### version 4.6.0 ###
+### version 4.6.1 ###
 
-`Updated: 05/24/2017`
+`Updated: 07/19/2017`
 
 `Created: 10/21/2014`
 
@@ -45,13 +45,13 @@ And constructed with the following guidelines:
 
 ## Site URL's
 
-[MAG Mapping](http://ims.azmag.gov/)
+* [MAG Mapping](http://ims.azmag.gov/)
 
 ## Documentation
 
-A detailed list of the changes and fixes in each version update can be found in the CHANGELOG.md.
+A detailed list of the changes and fixes in each version update can be found in the `CHANGELOG.md`.
 
-[CHANGELOG](CHANGELOG.md)
+* [CHANGELOG](CHANGELOG.md)
 
 ## Process
 
@@ -80,4 +80,4 @@ Code released under the MIT license.
 
 A copy of the license is available in the repository's `LICENSE` file.
 
-[LICENSE](LICENSE)
+* [LICENSE](LICENSE)

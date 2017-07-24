@@ -17,6 +17,12 @@ And constructed with the following guidelines:
 
 ***************************************************************************************************************
 
+## Version 4.6.3 | 07/24/2017
+
+* Add Regional Activity & Destination Viewer (RAD)
+* Make icons into links also
+* update details page 
+
 ## Version 4.6.2 | 07/19/2017
 
 * fix Grunt Build errors

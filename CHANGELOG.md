@@ -21,7 +21,8 @@ And constructed with the following guidelines:
 
 * Add Regional Activity & Destination Viewer (RAD)
 * Make icons into links also
-* update details page 
+* Update details page 
+* Add Grunt task to update index.html page on build
 
 ## Version 4.6.2 | 07/19/2017
 

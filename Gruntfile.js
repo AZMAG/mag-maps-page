@@ -263,7 +263,7 @@ module.exports = function(grunt) {
 	// this would be run by typing "grunt test" on the command line
 
 	// grunt.registerTask("build", ["replace", "uglify", "cssmin", "concat"]);
-	grunt.registerTask("build", ["clean:build", "replace", "copy", "uglify", "cssmin", "concat", "clean:cleanjs", "clean:cleancss"]);
+	grunt.registerTask("build", ["clean:build", "replace", "copy", "uglify", "cssmin", "concat", "clean:cleanjs", "clean:cleancss", "toggleComments"]);
 
 	grunt.registerTask("update", ["replace"]);
 

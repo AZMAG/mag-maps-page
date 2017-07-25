@@ -1,493 +1,516 @@
 <!doctype html>
-<html class="no-js">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>MAG | Mapping</title>
+		<title>MAG | Mapping</title>
 
-    <meta name="description" content="MAG Mapping Center is a collection of interactive maps developed by MAG for public use.  #MAGmaps">
-    <meta name="author" content="Maricopa Association of Governments">
-    <link type="text/plain" rel="author" href="http://ims.azmag.gov/humans.txt">
-    <meta name="contact" content="www.azmag.gov">
-    <meta name="url" content="http://ims.azmag.gov/">
-    <meta name="creation-date" content="01/29/2014">
-    <meta name="revision-date" content="07/19/2017">
-    <meta name="version" content="4.6.2">
+		<meta name="description" content="MAG Mapping Center is a collection of interactive maps developed by MAG for public use.  #MAGmaps">
+		<meta name="author" content="Maricopa Association of Governments">
+		<link type="text/plain" rel="author" href="http://ims.azmag.gov/humans.txt">
+		<meta name="contact" content="www.azmag.gov">
+		<meta name="url" content="http://ims.azmag.gov/">
+		<meta name="creation-date" content="01/29/2014">
+		<meta name="revision-date" content="07/24/2017">
+		<meta name="version" content="4.6.3">
 
-    <!-- Apple-Specific Meta Tags -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<!-- Apple-Specific Meta Tags -->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-    <!-- OpenGraph Meta Tags fb-->
-    <meta property="og:title" content="MAG Mapping Center">
-    <meta property="og:site_name" content="MAG | Mapping">
-    <meta property="og:image" content="http://ims.azmag.gov/magicon_144.png">
-    <meta property="og:url" content="http://ims.azmag.gov/">
-    <meta property="og:type" contant="website">
-    <meta property="og:description" content="MAG Mapping Center is a collection of interactive maps developed by MAG for public use.  #MAGmaps">
-    <meta property="fb:app_id" content="">
-    <meta property="place:location:latitude" content="33.451741">
-    <meta property="place:location:longitude" content="-112.075375">
-    <meta property="place:location:region" content="AZ">
-    <!-- Twitter Cards -->
-    <meta name="twitter:card" contant="summary">
-    <meta name="twitter:url" content="http://ims.azmag.gov/">
-    <meta name="twitter:title" content="MAG Mapping Center">
-    <meta name="twitter:description" content="MAG Mapping Center is a collection of interactive maps developed by MAG for public use.  #MAGmaps">
-    <meta name="twitter:image" content="http://ims.azmag.gov/magicon_144.png">
-    <meta name="twitter:creator" content="@MAGregion">
-    <!-- Google+ -->
-    <meta itemprop="name" content="MAG Mapping Center">
-    <meta itemprop="description" contant="MAG Mapping Center is a collection of interactive maps developed by MAG for public use.  #MAGmaps">
-    <meta itemprop="image" content="http://ims.azmag.gov/magicon_144.png">
+		<!-- OpenGraph Meta Tags fb-->
+		<meta property="og:title" content="MAG Mapping Center">
+		<meta property="og:site_name" content="MAG | Mapping">
+		<meta property="og:image" content="http://ims.azmag.gov/magicon_144.png">
+		<meta property="og:url" content="http://ims.azmag.gov/">
+		<meta property="og:type" contant="website">
+		<meta property="og:description" content="MAG Mapping Center is a collection of interactive maps developed by MAG for public use.  #MAGmaps">
+		<meta property="fb:app_id" content="">
+		<meta property="place:location:latitude" content="33.451741">
+		<meta property="place:location:longitude" content="-112.075375">
+		<meta property="place:location:region" content="AZ">
+		<!-- Twitter Cards -->
+		<meta name="twitter:card" contant="summary">
+		<meta name="twitter:url" content="http://ims.azmag.gov/">
+		<meta name="twitter:title" content="MAG Mapping Center">
+		<meta name="twitter:description" content="MAG Mapping Center is a collection of interactive maps developed by MAG for public use.  #MAGmaps">
+		<meta name="twitter:image" content="http://ims.azmag.gov/magicon_144.png">
+		<meta name="twitter:creator" content="@MAGregion">
+		<!-- Google+ -->
+		<meta itemprop="name" content="MAG Mapping Center">
+		<meta itemprop="description" contant="MAG Mapping Center is a collection of interactive maps developed by MAG for public use.  #MAGmaps">
+		<meta itemprop="image" content="http://ims.azmag.gov/magicon_144.png">
 
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <link rel="apple-touch-icon" type="image/png" sizes="144x144" href="img/magicon_144.png">
-    <link rel="apple-touch-icon" type="image/png" sizes="114x114" href="img/magicon_114.png">
-    <link rel="apple-touch-icon" type="image/png" sizes="72x72" href="img/magicon_72.png">
-    <link rel="apple-touch-icon" type="image/png" sizes="57x57" href="img/magicon_57.png">
-    <link rel="shortcut icon" type="image-favorites-icon" href="img/magfavicon.png">
+		<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+		<link rel="apple-touch-icon" type="image/png" sizes="144x144" href="img/magicon_144.png">
+		<link rel="apple-touch-icon" type="image/png" sizes="114x114" href="img/magicon_114.png">
+		<link rel="apple-touch-icon" type="image/png" sizes="72x72" href="img/magicon_72.png">
+		<link rel="apple-touch-icon" type="image/png" sizes="57x57" href="img/magicon_57.png">
+		<link rel="shortcut icon" type="image-favorites-icon" href="img/magfavicon.png">
 
-    <!-- Load CSS -->
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" >
-
-    <!-- Custom styles for this template -->
-    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
-    <!-- <link rel="stylesheet" href="css/carousel.css" > -->
-    <!-- <link rel="stylesheet" href="css/main.css"> -->
-    <link rel="stylesheet" type="text/css" href="css/concat.min.css">
-
-    <script src="js/vendor/modernizr-2.8.0.min.js"></script>
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv-printshiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <!-- Google Analytics -->
-    <script>
-      (function(b, o, i, l, e, r) {
-        b.GoogleAnalyticsObject = l;
-        b[l] || (b[l] =
-          function() {
-            (b[l].q = b[l].q || []).push(arguments)
-          });
-        b[l].l = +new Date;
-        e = o.createElement(i);
-        r = o.getElementsByTagName(i)[0];
-        e.src = "//www.google-analytics.com/analytics.js";
-        r.parentNode.insertBefore(e, r)
-      }(window, document, "script", "ga"));
-      ga("create", "UA-29422512-1");
-      ga("send", "pageview");
-    </script>
-  </head>
-    <body>
-        <!--[if lt IE 8]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+		<!-- Load CSS -->
+		<!-- Bootstrap core CSS -->
+<!-- comments:comment html -->
+		<link rel="stylesheet" href="css/bootstrap.min.css" >
+<!-- endcomments -->
+		<!-- Custom styles for this template -->
+<!-- comments:comment html -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/carousel.css" >
+		<link rel="stylesheet" href="css/main.css">
+<!-- endcomments -->
+<!-- comments:uncomment html -->
+		<!-- <link rel="stylesheet" type="text/css" href="css/concat.min.css"> -->
+<!-- endcomments -->
+		<script src="js/vendor/modernizr-2.8.0.min.js"></script>
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+		<script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv-printshiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		<!-- Google Analytics -->
+		<script>
+			(function(b, o, i, l, e, r) {
+				b.GoogleAnalyticsObject = l;
+				b[l] || (b[l] =
+					function() {
+						(b[l].q = b[l].q || []).push(arguments)
+					});
+				b[l].l = +new Date;
+				e = o.createElement(i);
+				r = o.getElementsByTagName(i)[0];
+				e.src = "//www.google-analytics.com/analytics.js";
+				r.parentNode.insertBefore(e, r)
+			}(window, document, "script", "ga"));
+			ga("create", "UA-29422512-1");
+			ga("send", "pageview");
+		</script>
+	</head>
+		<body>
+				<!--[if lt IE 9]>
+						<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+				<![endif]-->
 <!-- ======================================================= -->
 <!-- NAVBAR
 ================================================== -->
 <div class="navbar-wrapper">
-      <div class="container">
+			<div class="container">
 
-        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="http://ims.azmag.gov/"><img class="logoMAG" src="img/maglogo_white.png" alt="MAG Logo">Mapping</a>
-            </div>
-            <div class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                <li><a href="http://www.azmag.gov/">Home</a></li>
-                <li><a href="http://datacenter.azmag.gov/">Data Center</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Maps<b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="http://geo.azmag.gov/maps/demographic/">Demographic Map Viewer</a></li>
-                    <li><a href="http://geo.azmag.gov/maps/azdemographics/">State Demographic Map Viewer</a></li>
-                    <li><a href="http://geo.azmag.gov/maps/employment/">Employment Map Viewer</a></li>
-                    <li><a href="http://readonarizona.org/data-center/">Read On MapLIT Viewer</a></li>
-                    <li><a href="http://geo.azmag.gov/maps/landuse/">Land Use Map Viewer</a></li>
-                    <li><a href="http://geo.azmag.gov/maps/landmarks/">MAG Neighborhood Explorer</a></li>
-                    <li><a href="http://geo.azmag.gov/maps/projections/">Projections Map Viewer</a></li>
-                    <li><a href="http://geo.azmag.gov/maps/bikemap/">Bikeways Map Viewer</a></li>
-                    <li><a href="http://bit.ly/SpineStudy">Spine Study Map Viewer</a></li>
-                  </ul>
-                </li>
-              </ul>
-              <ul class="nav navbar-nav navbar-right">
-                <li><a href="http://ims.azmag.gov/about.html">About</a></li>
-                <li><a href="http://ims.azmag.gov/contact.html">Contact</a></li>
-              </ul>
-            </div><!--/.navbar-collapse -->
-          </div>
-        </div>
-      </div><!--/ container -->
-    </div>
+				<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+					<div class="container">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="http://ims.azmag.gov/"><img class="logoMAG" src="img/maglogo_white.png" alt="MAG Logo">Mapping</a>
+						</div>
+						<div class="navbar-collapse collapse">
+							<ul class="nav navbar-nav">
+								<li><a href="http://www.azmag.gov/">Home</a></li>
+								<li><a href="http://datacenter.azmag.gov/">Data Center</a></li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Maps<b class="caret"></b></a>
+									<ul class="dropdown-menu">
+										<li><a href="http://geo.azmag.gov/maps/demographic/">Demographic Map Viewer</a></li>
+										<li><a href="http://geo.azmag.gov/maps/azdemographics/">State Demographic Map Viewer</a></li>
+										<li><a href="http://geo.azmag.gov/maps/employment/">Employment Map Viewer</a></li>
+										<li><a href="http://readonarizona.org/data-center/">Read On MapLIT Viewer</a></li>
+										<li><a href="http://geo.azmag.gov/maps/recreation/">Regional Activity & Destination Viewer</a></li>
+										<li><a href="http://geo.azmag.gov/maps/bikemap/">Bikeways Map Viewer</a></li>
+										<li><a href="http://geo.azmag.gov/maps/landuse/">Land Use Map Viewer</a></li>
+										<li><a href="http://geo.azmag.gov/maps/landmarks/">MAG Neighborhood Explorer</a></li>
+										<li><a href="http://geo.azmag.gov/maps/projections/">Projections Map Viewer</a></li>
+										<li><a href="http://bit.ly/SpineStudy">Spine Study Map Viewer</a></li>
+									</ul>
+								</li>
+							</ul>
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="http://ims.azmag.gov/about.html">About</a></li>
+								<li><a href="http://ims.azmag.gov/contact.html">Contact</a></li>
+							</ul>
+						</div><!--/.navbar-collapse -->
+					</div>
+				</div>
+			</div><!--/ container -->
+		</div>
 
 <!-- Carousel
 ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
-        <li data-target="#myCarousel" data-slide-to="4"></li>
-        <li data-target="#myCarousel" data-slide-to="5"></li>
-        <li data-target="#myCarousel" data-slide-to="6"></li>
-        <li data-target="#myCarousel" data-slide-to="7"></li>
-        <li data-target="#myCarousel" data-slide-to="8"></li>
-      </ol>
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+				<li data-target="#myCarousel" data-slide-to="3"></li>
+				<li data-target="#myCarousel" data-slide-to="4"></li>
+				<li data-target="#myCarousel" data-slide-to="5"></li>
+				<li data-target="#myCarousel" data-slide-to="6"></li>
+				<li data-target="#myCarousel" data-slide-to="7"></li>
+				<li data-target="#myCarousel" data-slide-to="8"></li>
+				<li data-target="#myCarousel" data-slide-to="9"></li>
+			</ol>
 
-      <div class="carousel-inner">
+			<div class="carousel-inner">
 
-        <div class="item active">
-          <div class="container-fluid car">
-            <img class="img-responsive car" src="img/main_demographic.jpg" alt="Slide 0 demographic">
-          </div>
-            <div class="carousel-caption caption">
-              <h1>MAG Region Demographic Map Viewer</h1>
-              <p>The Demographic Map Viewer is one of the Maricopa Association of Governments interactive mapping and analysis sites, showing selected population and housing data.&nbsp; Explore data from Census 2010 and American Community Survey (ACS) 2011-2015 5-year.</p>
-              <p><a class="btn btn-lg btn-primary" href="http://geo.azmag.gov/maps/demographic/" role="button">View Map</a></p>
-            </div>
-        </div>
+				<div class="item active">
+					<div class="container-fluid car">
+						<img class="img-responsive car" src="img/main_demographic.jpg" alt="Slide 0 demographic">
+					</div>
+						<div class="carousel-caption caption">
+							<h1>MAG Region Demographic Map Viewer</h1>
+							<p>The Demographic Map Viewer is one of the Maricopa Association of Governments interactive mapping and analysis sites, showing selected population and housing data.&nbsp; Explore data from Census 2010 and American Community Survey (ACS) 2011-2015 5-year.</p>
+							<p><a class="btn btn-lg btn-primary" href="http://geo.azmag.gov/maps/demographic/" role="button">View Map</a></p>
+						</div>
+				</div>
 
-        <div class="item">
-          <div class="container-fluid car">
-            <img class="img-responsive car" src="img/main_stateDemo.jpg" alt="Slide 1 demographic">
-          </div>
-            <div class="carousel-caption caption">
-              <h1>State Demographic Map Viewer</h1>
-              <p>The State Demographic Map Viewer is one of the Maricopa Association of Governments interactive mapping and analysis sites, showing selected population and housing data for the entire State of Arizona.&nbsp; Explore data from Census 2010 and American Community Survey (ACS) 2011-2015 5-year.</p>
-              <p><a class="btn btn-lg btn-primary" href="http://geo.azmag.gov/maps/azdemographics/" role="button">View Map</a></p>
-            </div>
-        </div>
+				<div class="item">
+					<div class="container-fluid car">
+						<img class="img-responsive car" src="img/main_stateDemo.jpg" alt="Slide 1 demographic">
+					</div>
+						<div class="carousel-caption caption">
+							<h1>State Demographic Map Viewer</h1>
+							<p>The State Demographic Map Viewer is one of the Maricopa Association of Governments interactive mapping and analysis sites, showing selected population and housing data for the entire State of Arizona.&nbsp; Explore data from Census 2010 and American Community Survey (ACS) 2011-2015 5-year.</p>
+							<p><a class="btn btn-lg btn-primary" href="http://geo.azmag.gov/maps/azdemographics/" role="button">View Map</a></p>
+						</div>
+				</div>
 
-        <div class="item">
-          <div class="container-fluid car">
-            <img class="img-responsive car" src="img/main_employment.jpg" data-src="1500x450" alt="Slide 2 Employment">
-            </div>
-            <div class="carousel-caption caption">
-              <h1>Employment Map Viewer</h1>
-              <p>The Employment Map Viewer is one of the Maricopa Association of Governments interactive mapping and analysis sites, showing selected employer data.&nbsp; Explore the 2015 Employer Database.</p>
-              <p><a class="btn btn-lg btn-primary" href="http://geo.azmag.gov/maps/employment/" role="button">View Map</a>
-              <br>
-              <!-- <img class="update" src="img/updated.png" data-src="60x15" alt="update"></p> -->
-            </div>
-        </div>
+				<div class="item">
+					<div class="container-fluid car">
+						<img class="img-responsive car" src="img/main_employment.jpg" data-src="1500x450" alt="Slide 2 Employment">
+						</div>
+						<div class="carousel-caption caption">
+							<h1>Employment Map Viewer</h1>
+							<p>The Employment Map Viewer is one of the Maricopa Association of Governments interactive mapping and analysis sites, showing selected employer data.&nbsp; Explore the 2015 Employer Database.</p>
+							<p><a class="btn btn-lg btn-primary" href="http://geo.azmag.gov/maps/employment/" role="button">View Map</a>
+							<br>
+							<!-- <img class="update" src="img/updated.png" data-src="60x15" alt="update"></p> -->
+						</div>
+				</div>
 
-        <div class="item">
-          <div class="container-fluid car">
-            <img class="img-responsive" src="img/main_mapLit.jpg" data-src="1500x450" alt="Slide 3 MapLIT">
-            </div>
-            <div class="carousel-caption caption">
-              <h1>Read On Arizona MapLIT Viewer</h1>
-              <p>Maricopa Association of Governments is part of Read On Arizona's collaborative partnership that created MapLIT, and interactive mapping tool as a "one stop" resource to identify key data sets (census, school, health, family engagement) that impact early literacy outcomes in communities.</p>
-              <p><a class="btn btn-lg btn-primary" href="http://readonarizona.org/data-center/" role="button">View Map</a></p>
-            </div>
-        </div>
+				<div class="item">
+					<div class="container-fluid car">
+						<img class="img-responsive" src="img/main_mapLit.jpg" data-src="1500x450" alt="Slide 3 MapLIT">
+						</div>
+						<div class="carousel-caption caption">
+							<h1>Read On Arizona MapLIT Viewer</h1>
+							<p>Maricopa Association of Governments is part of Read On Arizona's collaborative partnership that created MapLIT, and interactive mapping tool as a "one stop" resource to identify key data sets (census, school, health, family engagement) that impact early literacy outcomes in communities.</p>
+							<p><a class="btn btn-lg btn-primary" href="http://readonarizona.org/data-center/" role="button">View Map</a></p>
+						</div>
+				</div>
 
-        <div class="item">
-          <div class="container-fluid car">
-            <img class="img-responsive" src="img/main_landuse.jpg" data-src="1500x450" alt="Slide 4 Landuse">
-            </div>
-            <div class="carousel-caption caption">
-              <h1>Land Use Map Viewer</h1>
-              <p>The Land Use Map Viewer is one of the Maricopa Association of Governments interactive mapping and analysis sites, showing land use data.&nbsp; Explore the MAG 2016 Existing and Future Land Use datasets.</p>
-              <p><a class="btn btn-lg btn-primary" href="http://geo.azmag.gov/maps/landuse/" role="button">View Map</a></p>
-            </div>
-        </div>
+				<div class="item">
+					<div class="container-fluid car">
+					<img class="img-responsive" src="img/main_recreation.jpg" data-src="1500x450" alt="Slide 4 RAD">
+					</div>
+					<div class="carousel-caption caption">
+						<h1>Regional Activity & Destination Viewer</h1>
+						<p>The Regional Activity and Destination Viewer is one of the Maricopa Association of Governments interactive mapping sites, showing all the public parks and recreational opportunities that exist in the region.  Explore the MAG activity and destination datasets.</p>
+						<p><a class="btn btn-lg btn-primary" href="http://geo.azmag.gov/maps/recreation/" role="button">View Map</a></p>
+					</div>
+				</div>
 
-        <div class="item">
-          <div class="container-fluid car">
-          <img class="img-responsive" src="img/main_bicycle.jpg" data-src="1500x450" alt="Slide 5 Bikemap">
-          </div>
-          <div class="carousel-caption caption">
-            <h1>Bikeways Map Viewer</h1>
-            <p>The Bikeways Map Viewer is one of the Maricopa Association of Governments interactive mapping sites, showing locally-designated bicycle facilities data.&nbsp; Explore the MAG Bikeways datasets.</p>
-            <p><a class="btn btn-lg btn-primary" href="http://geo.azmag.gov/maps/bikemap/" role="button">View Map</a></p>
-          </div>
-        </div>
+				<div class="item">
+					<div class="container-fluid car">
+					<img class="img-responsive" src="img/main_bicycle.jpg" data-src="1500x450" alt="Slide 5 Bikemap">
+					</div>
+					<div class="carousel-caption caption">
+						<h1>Bikeways Map Viewer</h1>
+						<p>The Bikeways Map Viewer is one of the Maricopa Association of Governments interactive mapping sites, showing locally-designated bicycle facilities data.&nbsp; Explore the MAG Bikeways datasets.</p>
+						<p><a class="btn btn-lg btn-primary" href="http://geo.azmag.gov/maps/bikemap/" role="button">View Map</a></p>
+					</div>
+				</div>
 
-        <div class="item">
-          <div class="container-fluid car">
-              <img class="img-responsive" src="img/main_landmarks.jpg" data-src="1500x450" alt="Slide 6 Landmarks">
-          </div>
-          <div class="carousel-caption caption">
-            <h1>MAG Neighborhood Explorer</h1>
-            <p>The MAG Neighborhood Explorer is one of the Maricopa Association of Governments interactive mapping and analysis sites, showing landmark data.&nbsp; Explore the MAG 2016 Building Landmark Inventory datasets.</p>
-            <p><a class="btn btn-lg btn-primary" href="http://geo.azmag.gov/maps/landmarks/" role="button">View Map</a></p>
-          </div>
-        </div>
-        <div class="item">
-          <div class="container-fluid car">
-          <img class="img-responsive" src="img/main_projections.jpg" data-src="1500x450" alt="Slide 7 Projections">
-          </div>
-          <div class="carousel-caption caption">
-            <h1>Projections Map Viewer</h1>
-            <p>The Projections Map Viewer is one of the Maricopa Association of Governments interactive mapping and analysis sites, showing socioeconomic projections data.&nbsp; Explore the MAG 2016 Socioeconomic Projections series dataset.</p>
-            <p><a class="btn btn-lg btn-primary" href="http://geo.azmag.gov/maps/projections/" role="button">View Map</a></p>
-          </div>
-        </div>
+				<div class="item">
+					<div class="container-fluid car">
+						<img class="img-responsive" src="img/main_landuse.jpg" data-src="1500x450" alt="Slide 6 Landuse">
+						</div>
+						<div class="carousel-caption caption">
+							<h1>Land Use Map Viewer</h1>
+							<p>The Land Use Map Viewer is one of the Maricopa Association of Governments interactive mapping and analysis sites, showing land use data.&nbsp; Explore the MAG 2016 Existing and Future Land Use datasets.</p>
+							<p><a class="btn btn-lg btn-primary" href="http://geo.azmag.gov/maps/landuse/" role="button">View Map</a></p>
+						</div>
+				</div>
 
-        <div class="item">
-          <div class="container-fluid car">
-            <img class="img-responsive" src="img/main_spine.jpg" data-src="1500x450" alt="Slide 8 Spine Study">
-          </div>
-          <div class="carousel-caption caption">
-            <h1>Spine Study Map Viewer</h1>
-            <p>The Spine Study effort is analyzing various long-term strategies to improve mobility in the corridor. The study is evaluating the full range of transportation modes and concepts to identify the best multi-modal solutions. These long-term solutions are envisioned as a combination of traditional methods, new technology, and increased use of transit (such as buses.) &nbsp; Explore the MAG Spine Study for Interstate-10 and Interstate-17.</p>
-            <p><a class="btn btn-lg btn-primary" href="http://bit.ly/SpineStudy" role="button">View Map</a></p>
-          </div>
-        </div>
+				<div class="item">
+					<div class="container-fluid car">
+							<img class="img-responsive" src="img/main_landmarks.jpg" data-src="1500x450" alt="Slide 7 Landmarks">
+					</div>
+					<div class="carousel-caption caption">
+						<h1>MAG Neighborhood Explorer</h1>
+						<p>The MAG Neighborhood Explorer is one of the Maricopa Association of Governments interactive mapping and analysis sites, showing landmark data.&nbsp; Explore the MAG 2016 Building Landmark Inventory datasets.</p>
+						<p><a class="btn btn-lg btn-primary" href="http://geo.azmag.gov/maps/landmarks/" role="button">View Map</a></p>
+					</div>
+				</div>
+				<div class="item">
+					<div class="container-fluid car">
+					<img class="img-responsive" src="img/main_projections.jpg" data-src="1500x450" alt="Slide 8 Projections">
+					</div>
+					<div class="carousel-caption caption">
+						<h1>Projections Map Viewer</h1>
+						<p>The Projections Map Viewer is one of the Maricopa Association of Governments interactive mapping and analysis sites, showing socioeconomic projections data.&nbsp; Explore the MAG 2016 Socioeconomic Projections series dataset.</p>
+						<p><a class="btn btn-lg btn-primary" href="http://geo.azmag.gov/maps/projections/" role="button">View Map</a></p>
+					</div>
+				</div>
 
-       </div><!-- carousel-inner -->
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-    </div><!-- /.carousel -->
+				<div class="item">
+					<div class="container-fluid car">
+						<img class="img-responsive" src="img/main_spine.jpg" data-src="1500x450" alt="Slide 9 Spine Study">
+					</div>
+					<div class="carousel-caption caption">
+						<h1>Spine Study Map Viewer</h1>
+						<p>The Spine Study effort is analyzing various long-term strategies to improve mobility in the corridor. The study is evaluating the full range of transportation modes and concepts to identify the best multi-modal solutions. These long-term solutions are envisioned as a combination of traditional methods, new technology, and increased use of transit (such as buses.) &nbsp; Explore the MAG Spine Study for Interstate-10 and Interstate-17.</p>
+						<p><a class="btn btn-lg btn-primary" href="http://bit.ly/SpineStudy" role="button">View Map</a></p>
+					</div>
+				</div>
 
-    <!-- Marketing messaging and featurettes
+			 </div><!-- carousel-inner -->
+			<a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+			<a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+		</div><!-- /.carousel -->
+
+		<!-- Marketing messaging and featurettes
 ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
+		<!-- Wrap the rest of the page in another container to center all the content. -->
 
-    <div class="container marketing">
-    <!-- Three columns of text below the carousel -->
+		<div class="container marketing">
+		<!-- Three columns of text below the carousel -->
 
-    <div class="col-sm-9">
+		<div class="col-sm-9">
 
-<!-- Row One -->
-      <div class="row">
-        <div class="col-sm-4">
-          <img class="img-rounded" src="img/demographic.jpg" data-src="140x140" alt="Demograpic image">
-          <h2>MAG Region Demographic Map Viewer</h2>
-           <p>The Demographic Map Viewer is one of the Maricopa Association of Governments interactive mapping and analysis sites, showing selected population and housing data for the two counties in the MAG Region.&nbsp; Explore data from Census 2010 and American Community Survey (ACS) 2011-2015 5-year.</p>
-          <p>
-            <a class="btn btn-primary" href="http://geo.azmag.gov/maps/demographic/" role="button">View Map &raquo;</a>
-            <!-- <a class="btn btn-info" href="http://geo.azmag.gov/maps/demographic_sl/" role="button">Old Map &raquo;</a> -->
-          </p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-sm-4">
-          <img class="img-rounded" src="img/azdemographic.jpg" data-src="140x140" alt="State Demograpic image">
-          <h2>State Demographic Map Viewer</h2>
-           <p>The State Demographic Map Viewer is one of the Maricopa Association of Governments interactive mapping and analysis sites, showing selected population and housing data for the entire State of Arizona.&nbsp; Explore data from Census 2010 and American Community Survey (ACS) 2011-2015 5-year.</p>
-          <p>
-            <a class="btn btn-primary" href="http://geo.azmag.gov/maps/azdemographics/" role="button">View Map &raquo;</a>
-          </p>
-        </div><!-- /.col-lg-4 -->
+		<!-- Row One -->
+			<div class="row">
+				<div class="col-sm-4">
+					<a href="http://geo.azmag.gov/maps/demographic/"><img class="img-rounded" src="img/demographic.jpg" data-src="140x140" alt="Demograpic image"></a>
+					<h2>MAG Region Demographic Map Viewer</h2>
+					 <p>The Demographic Map Viewer is one of the Maricopa Association of Governments interactive mapping and analysis sites, showing selected population and housing data for the two counties in the MAG Region.&nbsp; Explore data from Census 2010 and American Community Survey (ACS) 2011-2015 5-year.</p>
+					<p><a class="btn btn-primary" href="http://geo.azmag.gov/maps/demographic/" role="button">View Map &raquo;</a></p>
+				</div><!-- /.col-lg-4 -->
+				<div class="col-sm-4">
+					<a href="http://geo.azmag.gov/maps/azdemographics/"><img class="img-rounded" src="img/azdemographic.jpg" data-src="140x140" alt="State Demograpic image"></a>
+					<h2>State Demographic Map Viewer</h2>
+					 <p>The State Demographic Map Viewer is one of the Maricopa Association of Governments interactive mapping and analysis sites, showing selected population and housing data for the entire State of Arizona.&nbsp; Explore data from Census 2010 and American Community Survey (ACS) 2011-2015 5-year.</p>
+					<p><a class="btn btn-primary" href="http://geo.azmag.gov/maps/azdemographics/" role="button">View Map &raquo;</a></p>
+				</div><!-- /.col-lg-4 -->
 
-        <div class="col-sm-4">
-          <img class="img-rounded" src="img/employment.jpg" data-src="140x140" alt="Employment image">
-          <h2>Employment Map Viewer</h2>
-          <p>The Employment Map Viewer is one of the Maricopa Association of Governments interactive mapping and analysis sites, showing selected employer data.&nbsp; Explore the 2015 Employer Database.</p>
-          <p><a class="btn btn-primary" href="http://geo.azmag.gov/maps/employment/" role="button">View Map &raquo;</a>
-            <br>
-          <!-- <img class="update" src="img/updated.png" data-src="60x15" alt="update"></p> -->
-        </div><!-- /.col-lg-4 -->
+				<div class="col-sm-4">
+					<a href="http://geo.azmag.gov/maps/employment/"><img class="img-rounded" src="img/employment.jpg" data-src="140x140" alt="Employment image"></a>
+					<h2>Employment Map Viewer</h2>
+					<p>The Employment Map Viewer is one of the Maricopa Association of Governments interactive mapping and analysis sites, showing selected employer data.&nbsp; Explore the 2015 Employer Database.</p>
+					<p><a class="btn btn-primary" href="http://geo.azmag.gov/maps/employment/" role="button">View Map &raquo;</a>
+				</div><!-- /.col-lg-4 -->
 
-      </div><!-- /.row -->
+			</div><!-- /.row -->
 <!-- Row Two -->
-      <div class="row">
-        <div class="col-sm-4">
-          <img class="img-rounded" src="img/MapLIT-final1.png" data-src="140x140" alt="MapLIT image">
-          <h2>Read On Arizona MapLIT Viewer</h2>
-          <p>Maricopa Association of Governments is part of Read On Arizona's collaborative partnership that created MapLIT, and interactive mapping tool as a "one stop" resource to identify key data sets (census, school, health, family engagement) that impact early literacy outcomes in communities.</p>
-          <p><a class="btn btn-primary" href="http://readonarizona.org/data-center/" role="button">View Map &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
+			<div class="row">
+				<div class="col-sm-4">
+					<a href="http://readonarizona.org/data-center/"><img class="img-rounded" src="img/MapLIT-final1.png" data-src="140x140" alt="MapLIT image"></a>
+					<h2>Read On Arizona MapLIT Viewer</h2>
+					<p>Maricopa Association of Governments is part of Read On Arizona's collaborative partnership that created MapLIT, and interactive mapping tool as a "one stop" resource to identify key data sets (census, school, health, family engagement) that impact early literacy outcomes in communities.</p>
+					<p><a class="btn btn-primary" href="http://readonarizona.org/data-center/" role="button">View Map &raquo;</a></p>
+				</div><!-- /.col-lg-4 -->
 
-        <div class="col-sm-4">
-          <img class="img-rounded" src="img/landuse.jpg" data-src="140x140" alt="Landuse image">
-          <h2>Land Use Map Viewer</h2>
-          <p>The Land Use Map Viewer is one of the Maricopa Association of Governments interactive mapping and analysis sites, showing land use data.&nbsp; Explore the MAG 2016 Existing and Future Land Use datasets.</p>
-          <p><a class="btn btn-primary" href="http://geo.azmag.gov/maps/landuse/" role="button">View Map &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
+				<div class="col-sm-4">
+					<a href="http://geo.azmag.gov/maps/recreation/"><img class="img-rounded" src="img/recreation.png" data-src="140x140" alt="Recreation image"></a>
+					<h2>Regional Activity & Destination Viewer</h2>
+					<p>The Regional Activity and Destination Viewer is one of the Maricopa Association of Governments interactive mapping sites, showing all the public parks and recreational opportunities that exist in the region.  Explore the MAG activity and destination datasets.</p>
+					<p><a class="btn btn-primary" href="http://geo.azmag.gov/maps/recreation/" role="button">View Map &raquo;</a></p>
+				</div><!-- /.col-lg-4 -->
 
-        <div class="col-sm-4">
-          <img class="img-rounded" src="img/bicycle.jpg" data-src="140x140" alt="Bikemap image">
-          <h2>Bikeways Map Viewer</h2>
-          <p>The Bikeways Map Viewer is one of the Maricopa Association of Governments interactive mapping sites, showing locally-designated bicycle facilities data.&nbsp; Explore the MAG Bikeways datasets.</p>
-          <p><a class="btn btn-primary" href="http://geo.azmag.gov/maps/bikemap/" role="button">View Map &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
+				<div class="col-sm-4">
+					<a href="http://geo.azmag.gov/maps/bikemap/"><img class="img-rounded" src="img/bicycle.jpg" data-src="140x140" alt="Bikemap image"></a>
+					<h2>Bikeways Map Viewer</h2>
+					<p>The Bikeways Map Viewer is one of the Maricopa Association of Governments interactive mapping sites, showing locally-designated bicycle facilities data.&nbsp; Explore the MAG Bikeways datasets.</p>
+					<p><a class="btn btn-primary" href="http://geo.azmag.gov/maps/bikemap/" role="button">View Map &raquo;</a></p>
+				</div><!-- /.col-lg-4 -->
+			</div><!-- /.row -->
 <!-- Row Three -->
-      <div class="row">
-        <div class="col-sm-4">
-          <img class="img-rounded" src="img/landmarks.jpg" data-src="140x140" alt="Landmarks image">
-          <h2>MAG Neighborhood Explorer</h2>
-          <p>The MAG Neighborhood Explorer is one of the Maricopa Association of Governments interactive mapping and analysis sites, showing landmark data.&nbsp; Explore the MAG 2016 Building Landmark Inventory datasets.</p>
-          <p><a class="btn btn-primary" href="http://geo.azmag.gov/maps/landmarks/" role="button">View Map &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
+			<div class="row">
+				<div class="col-sm-4">
+					<a href="http://geo.azmag.gov/maps/landuse/"><img class="img-rounded" src="img/landuse.jpg" data-src="140x140" alt="Landuse image"></a>
+					<h2>Land Use Map Viewer</h2>
+					<p>The Land Use Map Viewer is one of the Maricopa Association of Governments interactive mapping and analysis sites, showing land use data.&nbsp; Explore the MAG 2016 Existing and Future Land Use datasets.</p>
+					<p><a class="btn btn-primary" href="http://geo.azmag.gov/maps/landuse/" role="button">View Map &raquo;</a></p>
+				</div><!-- /.col-lg-4 -->
 
-        <div class="col-sm-4">
-          <img class="img-rounded" src="img/projections.jpg" data-src="140x140" alt="Projections image">
-          <h2>Projections Map Viewer</h2>
-          <p>The Projections Map Viewer is one of the Maricopa Association of Governments interactive mapping and analysis sites, showing socioeconomic projections data.&nbsp; Explore the MAG 2016 Socioeconomic Projections series dataset.</p>
-          <p><a class="btn btn-primary" href="http://geo.azmag.gov/maps/projections/" role="button">View Map &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
+				<div class="col-sm-4">
+					<a href="http://geo.azmag.gov/maps/landmarks/"><img class="img-rounded" src="img/landmarks.jpg" data-src="140x140" alt="Landmarks image"></a>
+					<h2>MAG Neighborhood Explorer</h2>
+					<p>The MAG Neighborhood Explorer is one of the Maricopa Association of Governments interactive mapping and analysis sites, showing landmark data.&nbsp; Explore the MAG 2016 Building Landmark Inventory datasets.</p>
+					<p><a class="btn btn-primary" href="http://geo.azmag.gov/maps/landmarks/" role="button">View Map &raquo;</a></p>
+				</div><!-- /.col-lg-4 -->
 
-        <div class="col-sm-4">
-          <img class="img-rounded" src="img/spine_icon_small.png" data-src="140x140" alt="Spine Study image">
-          <h2>Spine Study Map Viewer</h2>
-          <p>The Spine Study effort is analyzing various long-term strategies to improve mobility in the corridor. The study is evaluating the full range of transportation modes and concepts to identify the best multi-modal solutions.&nbsp; Explore the MAG Spine Study for Interstate-10 and Interstate-17.</p>
-          <p><a class="btn btn-primary" href="http://bit.ly/SpineStudy" role="button">View Map &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
+				<div class="col-sm-4">
+					<a href="http://geo.azmag.gov/maps/projections/"><img class="img-rounded" src="img/projections.jpg" data-src="140x140" alt="Projections image"></a>
+					<h2>Projections Map Viewer</h2>
+					<p>The Projections Map Viewer is one of the Maricopa Association of Governments interactive mapping and analysis sites, showing socioeconomic projections data.&nbsp; Explore the MAG 2016 Socioeconomic Projections series dataset.</p>
+					<p><a class="btn btn-primary" href="http://geo.azmag.gov/maps/projections/" role="button">View Map &raquo;</a></p>
+				</div><!-- /.col-lg-4 -->
+			</div><!-- /.row -->
 <!-- Row Four -->
+			<div class="row">
+				<div class="col-sm-4">
+				</div>
+				<div class="col-sm-4">
+					<a href="http://bit.ly/SpineStudy"><img class="img-rounded" src="img/spine_icon_small.png" data-src="140x140" alt="Spine Study image"></a>
+					<h2>Spine Study Map Viewer</h2>
+					<p>The Spine Study effort is analyzing various long-term strategies to improve mobility in the corridor. The study is evaluating the full range of transportation modes and concepts to identify the best multi-modal solutions.&nbsp; Explore the MAG Spine Study for Interstate-10 and Interstate-17.</p>
+					<p><a class="btn btn-primary" href="http://bit.ly/SpineStudy" role="button">View Map &raquo;</a></p>
+				</div><!-- /.col-lg-4 -->
+			</div><!-- /.row -->
+</div>
+			<div class="col-sm-3 blog-sidebar">
+					<div class="sidebar-module sidebar-module-inset">
+						<h4 class="blogTitle">Release History</h4>
+						<p>The following is a release history of all of the web viewers from MAG.  Click on the link to see more detail.</p>
+
+						<ul class="release">
+							<li><a href="http://ims.azmag.gov/details.html#rad100">Regional Activity (RAD) Viewer v1.0.0</a></li>
+							<li><a href="http://ims.azmag.gov/details.html#mdmv403">MAG Region Demographic Viewer v4.0.3</a></li>
+							<li><a href="http://ims.azmag.gov/details.html#sdmv306">State Demographic Viewer v3.0.6</a></li>
+							<li><a href="http://ims.azmag.gov/details.html#luv303">Land Use Viewer v3.0.3</a></li>
+							<li><a href="http://ims.azmag.gov/details.html#empv4216">Employment Viewer v4.2.16</a></li>
+							<li><a href="http://ims.azmag.gov/details.html#bkmv320">Bikeways Map Viewer v3.2.0</a></li>
+							<li><a href="http://ims.azmag.gov/details.html#pjmv220">Projections Viewer v2.2.0</a></li>
+							<li><a href="http://ims.azmag.gov/details.html#nev400">Neighborhood Explorer v4.0.0</a></li>
+
+							<!-- <li><a href="http://ims.azmag.gov/details.html#luv301">Land Use Viewer v3.0.1</a></li> -->
+							<!-- <li><a href="http://ims.azmag.gov/details.html#sdmv303">State Demographic Viewer v3.0.3</a></li> -->
+							<!-- <li><a href="http://ims.azmag.gov/details.html#mdmv317">MAG Region Demographic Viewer v3.1.7</a></li> -->
+							<!-- <li><a href="http://ims.azmag.gov/details.html#sdmv2210">State Demographic Viewer v2.2.10</a></li> -->
+							<!-- <li><a href="http://ims.azmag.gov/details.html#bkmv312">Bikeways Map Viewer v3.1.2</a></li> -->
+							<!-- <li><a href="http://ims.azmag.gov/details.html#empv423">Employment Viewer v4.2.3</a></li> -->
+							<!-- <li><a href="http://ims.azmag.gov/details.html#mdmv316">MAG Region Demographic Viewer v3.1.6</a></li> -->
+							<!-- <li><a href="http://ims.azmag.gov/details.html#sdmv229">State Demographic Viewer v2.2.9</a></li> -->
+							<!-- <li><a href="http://ims.azmag.gov/details.html#empv420">Employment Viewer v4.2.0</a></li> -->
+							<!-- <li><a href="http://ims.azmag.gov/details.html#sdmv226">State Demographic Viewer v2.2.6</a></li> -->
+							<!-- <li><a href="http://ims.azmag.gov/details.html#luv300">Land Use Viewer v3.0.0</a></li> -->
+							<!-- <li><a href="http://ims.azmag.gov/details.html#mdmv3012">MAG Region Demographic Viewer v3.0.12</a></li> -->
+							<!-- <li><a href="http://ims.azmag.gov/details.html#empv4112">Employment Viewer v4.1.12</a></li> -->
+							<!-- <li><a href="http://ims.azmag.gov/details.html#sdmv215">State Demographic Viewer v2.1.5</a></li> -->
+							<!-- <li><a href="http://ims.azmag.gov/details.html#empv4111">Employment Viewer v4.1.11</a></li> -->
+							<!-- <li><a href="http://ims.azmag.gov/details.html#mdmv3010">MAG Demographic Viewer v3.0.10</a></li> -->
+							<!-- <li><a href="http://ims.azmag.gov/details.html#sdmv213">State Demographic Viewer v2.1.3</a></li> -->
+							<!-- <li><a href="http://ims.azmag.gov/details.html#sdmv211">State Demographic Viewer v2.1.1</a></li> -->
+							<!-- <li><a href="http://ims.azmag.gov/details.html#mdmv308">MAG Demographic Viewer v3.0.8</a></li> -->
+							<!-- <li><a href="http://ims.azmag.gov/details.html#empv418">Employment Viewer v4.1.8</a></li> -->
+							<!-- <li><a href="http://ims.azmag.gov/details.html#empv417">Employment Viewer v4.1.7</a></li> -->
+							<!-- <li><a href="http://ims.azmag.gov/details.html#empv416">Employment Viewer v4.1.6</a></li> -->
+						</ul>
+					</div>
+					<!-- <div class="sidebar-module archives">
+						<h4>Archives</h4>
+						<ol class="list-unstyled">
+							<li><a href="#">March 2014</a></li>
+							<li><a href="#">February 2014</a></li>
+							<li><a href="#">January 2014</a></li>
+						</ol>
+					</div> -->
+
+					<p class="iButton"><a class="btn btn-primary" href="https://public.govdelivery.com/accounts/AZMAG/subscriber/topics?qsp=AZMAG_1" role="button" target="_blank">Subscribe for Updates</a></p>
+					<div class="dropdown iButton">
+						<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Register for Training
+						<span class="caret"></span></button>
+						<ul class="dropdown-menu" style="margin-left: 19%;">
+							<li><a href="https://www.eventbrite.com/e/2017-mag-interactive-map-viewer-training-east-valley-gilbert-registration-29898233421">East Valley</a></li>
+							<li><a href="https://www.eventbrite.com/e/2017-mag-interactive-map-viewer-training-downtown-phoenix-registration-29871261748">Downtown Phoenix</a></li>
+							<li><a href="https://www.eventbrite.com/e/2017-mag-interactive-map-viewer-training-west-valley-west-phoenix-registration-29906953503">West Valley</a></li>
+						</ul>
+					</div>
+					<!-- <p class="iButton"><a class="btn btn-primary" href="https://www.eventbrite.com/e/2016-mag-interactive-map-viewer-training-registration-21072688980" role="button" target="_blank">Register for Training</a></p> -->
+
+			</div><!-- /.blog-sidebar -->
 
 
-    </div>
+		</div><!-- /.container -->
 
-      <div class="col-sm-3 blog-sidebar">
-          <div class="sidebar-module sidebar-module-inset">
-            <h4 class="blogTitle">Release History</h4>
-            <p>The following is a release history of all of the web viewers from MAG.  Click on the link to see more detail.</p>
+			<!-- footer container -->
+			<div class="container">
+				<hr>
+			<!-- FOOTER -->
+				<footer id="footer">
+					<div class="row">
+						<div class="col-md-3">
+							<span id="socialMAG"><strong>Follow Us</strong></span>
+							<ul class="footerList">
+								<li><a href="http://www.facebook.com/pages/MAG-Maricopa-Association-of-Governments/151342484887613"><img src="img/fb_icon.png" alt="Facebook"></a></li>
+								<li><a href="http://twitter.com/magregion"><img src="img/twitter_icon.png" alt="Twitter"></a></li>
+								<li><a href="http://www.youtube.com/magcommunications"><img src="img/youtube_icon.png" alt="YouTube"></a></li>
+							</ul>
+						</div>
 
-            <ul class="release">
-              <li><a href="http://ims.azmag.gov/details.html#mdmv403">MAG Region Demographic Viewer v4.0.3</a></li>
-              <li><a href="http://ims.azmag.gov/details.html#sdmv306">State Demographic Viewer v3.0.6</a></li>
-              <li><a href="http://ims.azmag.gov/details.html#luv303">Land Use Viewer v3.0.3</a></li>
-              <li><a href="http://ims.azmag.gov/details.html#empv4216">Employment Viewer v4.2.16</a></li>
-              <li><a href="http://ims.azmag.gov/details.html#bkmv320">Bikeways Map Viewer v3.2.0</a></li>
-              <li><a href="http://ims.azmag.gov/details.html#pjmv220">Projections Viewer v2.2.0</a></li>
-              <li><a href="http://ims.azmag.gov/details.html#nev400">Neighborhood Explorer v4.0.0</a></li>
+						<div class="col-md-9">
+								<ul id="social" class="pull-right">
+									<!-- email -->
+									<li><a href="mailto:?subject=MAG Mapping Center&body=%0A%0ACheck out this website.%0A%0AMAG Mapping Center - #MAGmaps%0Ahttp://ims.azmag.gov/" title="MAG|Mapping Center"><img id="mailicon" src="img/email_icon.png"></a></li>
 
-              <!-- <li><a href="http://ims.azmag.gov/details.html#luv301">Land Use Viewer v3.0.1</a></li> -->
-              <!-- <li><a href="http://ims.azmag.gov/details.html#sdmv303">State Demographic Viewer v3.0.3</a></li> -->
-              <!-- <li><a href="http://ims.azmag.gov/details.html#mdmv317">MAG Region Demographic Viewer v3.1.7</a></li> -->
-              <!-- <li><a href="http://ims.azmag.gov/details.html#sdmv2210">State Demographic Viewer v2.2.10</a></li> -->
-              <!-- <li><a href="http://ims.azmag.gov/details.html#bkmv312">Bikeways Map Viewer v3.1.2</a></li> -->
-              <!-- <li><a href="http://ims.azmag.gov/details.html#empv423">Employment Viewer v4.2.3</a></li> -->
-              <!-- <li><a href="http://ims.azmag.gov/details.html#mdmv316">MAG Region Demographic Viewer v3.1.6</a></li> -->
-              <!-- <li><a href="http://ims.azmag.gov/details.html#sdmv229">State Demographic Viewer v2.2.9</a></li> -->
-              <!-- <li><a href="http://ims.azmag.gov/details.html#empv420">Employment Viewer v4.2.0</a></li> -->
-              <!-- <li><a href="http://ims.azmag.gov/details.html#sdmv226">State Demographic Viewer v2.2.6</a></li> -->
-              <!-- <li><a href="http://ims.azmag.gov/details.html#luv300">Land Use Viewer v3.0.0</a></li> -->
-              <!-- <li><a href="http://ims.azmag.gov/details.html#mdmv3012">MAG Region Demographic Viewer v3.0.12</a></li> -->
-              <!-- <li><a href="http://ims.azmag.gov/details.html#empv4112">Employment Viewer v4.1.12</a></li> -->
-              <!-- <li><a href="http://ims.azmag.gov/details.html#sdmv215">State Demographic Viewer v2.1.5</a></li> -->
-              <!-- <li><a href="http://ims.azmag.gov/details.html#empv4111">Employment Viewer v4.1.11</a></li> -->
-              <!-- <li><a href="http://ims.azmag.gov/details.html#mdmv3010">MAG Demographic Viewer v3.0.10</a></li> -->
-              <!-- <li><a href="http://ims.azmag.gov/details.html#sdmv213">State Demographic Viewer v2.1.3</a></li> -->
-              <!-- <li><a href="http://ims.azmag.gov/details.html#sdmv211">State Demographic Viewer v2.1.1</a></li> -->
-              <!-- <li><a href="http://ims.azmag.gov/details.html#mdmv308">MAG Demographic Viewer v3.0.8</a></li> -->
-              <!-- <li><a href="http://ims.azmag.gov/details.html#empv418">Employment Viewer v4.1.8</a></li> -->
-              <!-- <li><a href="http://ims.azmag.gov/details.html#empv417">Employment Viewer v4.1.7</a></li> -->
-              <!-- <li><a href="http://ims.azmag.gov/details.html#empv416">Employment Viewer v4.1.6</a></li> -->
-            </ul>
-          </div>
-          <!-- <div class="sidebar-module archives">
-            <h4>Archives</h4>
-            <ol class="list-unstyled">
-              <li><a href="#">March 2014</a></li>
-              <li><a href="#">February 2014</a></li>
-              <li><a href="#">January 2014</a></li>
-            </ol>
-          </div> -->
+									<!-- Facebook -->
+									<li><div id="fb-root"><div class="fb-like" data-href="http://ims.azmag.gov/" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div></div></li>
 
-          <p class="iButton"><a class="btn btn-primary" href="https://public.govdelivery.com/accounts/AZMAG/subscriber/topics?qsp=AZMAG_1" role="button" target="_blank">Subscribe for Updates</a></p>
-          <div class="dropdown iButton">
-            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Register for Training
-            <span class="caret"></span></button>
-            <ul class="dropdown-menu" style="margin-left: 19%;">
-              <li><a href="https://www.eventbrite.com/e/2017-mag-interactive-map-viewer-training-east-valley-gilbert-registration-29898233421">East Valley</a></li>
-              <li><a href="https://www.eventbrite.com/e/2017-mag-interactive-map-viewer-training-downtown-phoenix-registration-29871261748">Downtown Phoenix</a></li>
-              <li><a href="https://www.eventbrite.com/e/2017-mag-interactive-map-viewer-training-west-valley-west-phoenix-registration-29906953503">West Valley</a></li>
-            </ul>
-          </div>
-          <!-- <p class="iButton"><a class="btn btn-primary" href="https://www.eventbrite.com/e/2016-mag-interactive-map-viewer-training-registration-21072688980" role="button" target="_blank">Register for Training</a></p> -->
+									<!-- Twitter -->
+									<li><a href="https://twitter.com/share" alt="twitter" class="twitter-share-button" data-count="none" data-url="http://ims.azmag.gov/" data-text="MAG | Mapping Center" data-via="MAGregion" data-hashtags="MAGmaps">Tweet</a></li>
 
-      </div><!-- /.blog-sidebar -->
+									<!-- Linked-In -->
+									<li><script src="//platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script><script type="IN/Share" data-url="http://ims.azmag.gov/"></script></li>
 
+									<!-- Google Plus -->
+									<li><div class="g-plusone" data-size="medium" data-annotation="none" data-href="http://ims.azmag.gov/"></div></li>
 
-    </div><!-- /.container -->
+								</ul>
+						</div>
+					</div><!-- /row -->
+						<p class="pull-right"><a href="#">Back to top</a></p>
+						<span class="legal">Copyright &copy; <span class="copyright"></span> by <a href="http://www.azmag.gov/">Maricopa Association of Governments</a> | <span class="version"></span> | <a href="#" data-toggle="modal" data-target="#privacyModal">Privacy</a> | <a href="#" data-toggle="modal" data-target="#termsModal">Terms</a></span>
 
-      <!-- footer container -->
-      <div class="container">
-        <hr>
-      <!-- FOOTER -->
-        <footer id="footer">
-          <div class="row">
-            <div class="col-md-3">
-              <span id="socialMAG"><strong>Follow Us</strong></span>
-              <ul class="footerList">
-                <li><a href="http://www.facebook.com/pages/MAG-Maricopa-Association-of-Governments/151342484887613"><img src="img/fb_icon.png" alt="Facebook"></a></li>
-                <li><a href="http://twitter.com/magregion"><img src="img/twitter_icon.png" alt="Twitter"></a></li>
-                <li><a href="http://www.youtube.com/magcommunications"><img src="img/youtube_icon.png" alt="YouTube"></a></li>
-              </ul>
-            </div>
+						<!-- Privacy Modal -->
+						<div id="privacyModal" class="modal fade bs-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+							<div class="modal-dialog modal-lg">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+										<h2 class="modal-title" id=""><strong>Privacy</strong></h2>
+									</div>
+									<div id="privacy" class="modal-body"></div>
+								</div><!-- /.modal-content -->
+							</div><!-- /.modal-dialog -->
+						</div><!-- /.modal -->
 
-            <div class="col-md-9">
-                <ul id="social" class="pull-right">
-                  <!-- email -->
-                  <li><a href="mailto:?subject=MAG Mapping Center&body=%0A%0ACheck out this website.%0A%0AMAG Mapping Center - #MAGmaps%0Ahttp://ims.azmag.gov/" title="MAG|Mapping Center"><img id="mailicon" src="img/email_icon.png"></a></li>
-
-                  <!-- Facebook -->
-                  <li><div id="fb-root"><div class="fb-like" data-href="http://ims.azmag.gov/" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div></div></li>
-
-                  <!-- Twitter -->
-                  <li><a href="https://twitter.com/share" alt="twitter" class="twitter-share-button" data-count="none" data-url="http://ims.azmag.gov/" data-text="MAG | Mapping Center" data-via="MAGregion" data-hashtags="MAGmaps">Tweet</a></li>
-
-                  <!-- Linked-In -->
-                  <li><script src="//platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script><script type="IN/Share" data-url="http://ims.azmag.gov/"></script></li>
-
-                  <!-- Google Plus -->
-                  <li><div class="g-plusone" data-size="medium" data-annotation="none" data-href="http://ims.azmag.gov/"></div></li>
-
-                </ul>
-            </div>
-          </div><!-- /row -->
-            <p class="pull-right"><a href="#">Back to top</a></p>
-            <span class="legal">Copyright &copy; <span class="copyright"></span> by <a href="http://www.azmag.gov/">Maricopa Association of Governments</a> | <span class="version"></span> | <a href="#" data-toggle="modal" data-target="#privacyModal">Privacy</a> | <a href="#" data-toggle="modal" data-target="#termsModal">Terms</a></span>
-
-            <!-- Privacy Modal -->
-            <div id="privacyModal" class="modal fade bs-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-              <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h2 class="modal-title" id=""><strong>Privacy</strong></h2>
-                  </div>
-                  <div id="privacy" class="modal-body"></div>
-                </div><!-- /.modal-content -->
-              </div><!-- /.modal-dialog -->
-            </div><!-- /.modal -->
-
-            <!-- Terms Modal -->
-            <div id="termsModal" class="modal fade bs-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-              <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h2 class="modal-title" id=""><strong>Terms</strong></h2>
-                  </div>
-                  <div id="terms" class="modal-body"></div>
-                </div><!-- /.modal-content -->
-              </div><!-- /.modal-dialog -->
-            </div><!-- /.modal -->
-        </footer>
-      </div><!-- footer/.container -->
+						<!-- Terms Modal -->
+						<div id="termsModal" class="modal fade bs-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+							<div class="modal-dialog modal-lg">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+										<h2 class="modal-title" id=""><strong>Terms</strong></h2>
+									</div>
+									<div id="terms" class="modal-body"></div>
+								</div><!-- /.modal-content -->
+							</div><!-- /.modal-dialog -->
+						</div><!-- /.modal -->
+				</footer>
+			</div><!-- footer/.container -->
 
 <!-- JavaScript / Placed at the end of the document so the pages load faster
 ============================================================================================================ -->
-  <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script>window.jQuery || document.write("<script src='js/vendor/jquery-1.11.0.min.js'><\/script>")</script>
+	<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script>window.jQuery || document.write("<script src='js/vendor/jquery-1.11.0.min.js'><\/script>")</script>
 <!-- Bootstrap core JavaScript
 ================================================== -->
-  <script src="js/vendor/bootstrap.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+	<script>$.fn.modal || document.write("<script src='js/vendor/bootstrap.min.js'><\/script>")</script>
 <!-- Custom JavaScript
 ================================================== -->
-  <script src="js/plugins.js"></script>
-  <script src="js/main.min.js"></script>
-  <!-- <script src="js/main.js"></script> -->
-    </body>
+<!-- comments:comment html -->
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
+<!-- endcomments -->
+<!-- comments:uncomment html -->
+	<!-- <script src="js/master.min.js"></script> -->
+<!-- endcomments -->
+		</body>
 </html>

@@ -14,7 +14,7 @@ module.exports = function(grunt) {
 			" * Style document for MAG Maps Main Page\n" +
 			" * =============================================================\n" +
 			" * @project 	MAG Maps Main Page\n" +
-			" * @file		main.css\n" +
+			" * @file		concat.main.css\n" +
 			" * @version 	<%= pkg.version %>\n" +
 			" * @date 		<%= pkg.date %>\n" +
 			" * @copyright	<%= pkg.copyright %> MAG\n" +
@@ -28,7 +28,7 @@ module.exports = function(grunt) {
 			" * JavaScript files for MAG Main Map Page\n" +
 			" * =============================================================\n" +
 			" * @project 	MAG Maps Main Page\n" +
-			" * @file		main.js\n" +
+			" * @file		master.min.js\n" +
 			" * @version 	<%= pkg.version %>\n" +
 			" * @date 		<%= pkg.date %>\n" +
 			" * @copyright	<%= pkg.copyright %> MAG\n" +
@@ -90,12 +90,13 @@ module.exports = function(grunt) {
 		},
 
 		uglify: {
-			options: {
-				// add banner to top of output file
-				banner: "<%= bannerjs %>\n"
-			},
+			// options: {
+			// 	// add banner to top of output file
+			// 	banner: "<%= bannerjs %>\n"
+			// },
 			build: {
 				files: {
+					"dist/js/plugins.min.js": ["src/js/plugins.js"],
 					"dist/js/main.min.js": ["src/js/main.js"]
 				}
 			}
@@ -116,19 +117,34 @@ module.exports = function(grunt) {
 		},
 
 		concat: {
-			options: {
-				stripBanners: true,
-				banner: "<%= bannercss %>\n"
-			},
-			dist: {
-				src: ["dist/css/normalize.min.css", "dist/css/carousel.min.css", "dist/css/main.min.css"],
+			css: {
+				options: {
+					stripBanners: true,
+					banner: "<%= bannercss %>\n"
+				},
+				src: ["dist/css/bootstrap.min.css", "dist/css/normalize.min.css", "dist/css/carousel.min.css", "dist/css/main.min.css"],
 				dest: "dist/css/concat.min.css"
+			},
+			js: {
+				options: {
+					stripBanners: true,
+					banner: "<%= bannerjs %>\n"
+				},
+				src: ["dist/js/plugins.min.js", "dist/js/main.min.js"],
+				dest: "dist/js/master.min.js"
 			}
+
 		},
 
 		clean: {
 			build: {
 				src: ["dist/"]
+			},
+			cleanjs: {
+				src: ["dist/js/*.js", "!dist/js/master.min.js"]
+			},
+			cleancss: {
+				src: ["dist/css/*.css", "!dist/css/concat.min.css"]
 			}
 		},
 
@@ -138,6 +154,15 @@ module.exports = function(grunt) {
 				src: ["**"],
 				dest: "dist/",
 				expand: true
+			}
+		},
+
+		toggleComments: {
+			customOptions: {
+				options: {
+					removeCommands: false
+				},
+				files: {"dist/index.html": "src/index.html"}
 			}
 		},
 
@@ -195,7 +220,7 @@ module.exports = function(grunt) {
 					// main.js
 					// $(".copyright").html("2017");
 					from: /(copyright"\).html\(\")[0-9]{4}/g,
-					to: 'copyright").html("'  + "<%= pkg.copyright %>",
+					to: 'copyright").html("' + "<%= pkg.copyright %>",
 				}, {
 					// humans.txt
 					from: /(Version\: )([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))/g,
@@ -238,13 +263,15 @@ module.exports = function(grunt) {
 	// this would be run by typing "grunt test" on the command line
 
 	// grunt.registerTask("build", ["replace", "uglify", "cssmin", "concat"]);
-	grunt.registerTask("build", ["clean", "replace", "copy", "uglify", "cssmin", "concat"]);
+	grunt.registerTask("build", ["clean:build", "replace", "copy", "uglify", "cssmin", "concat", "clean:cleanjs", "clean:cleancss", "toggleComments"]);
 
 	grunt.registerTask("update", ["replace"]);
 
 	// grunt.registerTask("test", ["htmlhint", "jshint"]);
 
-	// grunt.registerTask("test", ["csslint"]);
+	// grunt.registerTask("test", ["csslint"]);toggleComments
+
+	grunt.registerTask("test", ["toggleComments"]);
 
 	// the default task can be run just by typing "grunt" on the command line
 	grunt.registerTask("default", []);

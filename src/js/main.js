@@ -5,8 +5,8 @@
  * =========================================================================
  * @project		MAG Main Map Page
  * @file		main.js
- * @version 	4.6.3
- * @date 		07/24/2017
+ * @version 	4.6.4
+ * @date 		08/07/2017
  * @copyright 	2017 MAG
  * @licensed 	MIT
  * =========================================================================
@@ -18,7 +18,7 @@
      //*** privacy binding
      $("#privacy").load("views/privacy.html");
      //*** version binding
-     $(".version").html("v4.6.3 | 07/24/2017");
+     $(".version").html("v4.6.4 | 08/07/2017");
      //*** copy write binding
      $(".copyright").html("2017");
  });

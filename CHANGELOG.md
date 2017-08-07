@@ -17,6 +17,10 @@ And constructed with the following guidelines:
 
 ***************************************************************************************************************
 
+## Version 4.6.4 | 08/07/2017
+
+* Update to Employment Viewer 2016 Data
+
 ## Version 4.6.3 | 07/24/2017
 
 * Add Regional Activity & Destination Viewer (RAD)

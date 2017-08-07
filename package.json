@@ -1,7 +1,7 @@
 {
   "name": "MAGmapping-app",
-  "version": "4.6.3",
-  "date": "07/24/2017",
+  "version": "4.6.4",
+  "date": "08/07/2017",
   "copyright": "2017",
   "description": "MAG Main Map Page",
   "keywords": [
@@ -21,7 +21,7 @@
     "type": "git",
     "url": "I:/Projects/Git_repos/mappingPage.git"
   }],
-  "author": "MAG Information Services (http://www.azmag.gov/Information_Services/default.asp)",
+  "author": "MAG Information Services (http://www.azmag.gov/)",
   "contributors": [{
     "name": "Vern Wolfley",
     "email": "vwolfley@azmag.gov"

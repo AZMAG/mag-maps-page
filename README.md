@@ -23,7 +23,7 @@ This JavaScript web-page was developed by MAG staff for MAG member agencies and 
 
 ## Version
 
-### version 4.6.5 ###
+### version 4.6.6 ###
 
 `Updated: 08/22/2017`
 

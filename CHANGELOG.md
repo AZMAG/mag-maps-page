@@ -21,6 +21,7 @@ And constructed with the following guidelines:
 
 * fix navigation buttons
 * changed http://ims.azmag.gov/ to http://maps.azmag.gov/
+* fixed some grunt tasks
 
 ## Version 4.6.5 | 08/22/2017
 

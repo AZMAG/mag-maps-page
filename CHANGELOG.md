@@ -17,6 +17,11 @@ And constructed with the following guidelines:
 
 ***************************************************************************************************************
 
+## Version 4.6.6 | 08/22/2017
+
+* fix navigation buttons
+* changed http://ims.azmag.gov/ to http://maps.azmag.gov/
+
 ## Version 4.6.5 | 08/22/2017
 
 * Update to Employment Viewer - bug fix 

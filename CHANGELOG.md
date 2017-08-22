@@ -17,6 +17,10 @@ And constructed with the following guidelines:
 
 ***************************************************************************************************************
 
+## Version 4.6.5 | 08/22/2017
+
+* Update to Employment Viewer - bug fix 
+
 ## Version 4.6.4 | 08/07/2017
 
 * Update to Employment Viewer 2016 Data

@@ -12,13 +12,13 @@ end_of_line = lf
 max_line_length = null
 
 [*.{css,html,js}]
-indent_style = tab
+indent_style = space
 indent_size = 4
 
 # Markdown files
 # Use 4 spaces for indentation
 [*.md]
-indent_style = tab
+indent_style = space
 indent_size = 4
 trim_trailing_whitespace = false
 

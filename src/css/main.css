@@ -5,14 +5,14 @@
  * ========================================================================
  * @project		MAG Main Map Page
  * @file		main.css
- * @version 	4.6.6
+ * @version 	4.7.0
  * @copyright 	2017 MAG
  * @license		MIT
  * ========================================================================
  * @uses	HTML5 Boilerplate
  * @uses	normalize.css
  * ======================================================================== */
- /*! @main.css | v4.6.6 | @license MIT | @copyright 2017 MAG */
+ /*! @main.css | v4.7.0 | @license MIT | @copyright 2017 MAG */
 
 /*
  * HTML5 Boilerplate | version | 4.3.0 | MIT License | http://h5bp.com/
@@ -203,6 +203,7 @@ a:hover {
 }
 .iButton {
     text-align: center;
+    margin: 0 0 10px 0;
 }
 .blogTitle {
     text-align: center;

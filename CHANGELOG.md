@@ -17,6 +17,10 @@ And constructed with the following guidelines:
 
 ***************************************************************************************************************
 
+## Version 4.7.1 | 08/30/2017
+
+* updates to Regional Activity & Destination Viewer
+
 ## Version 4.7.0 | 08/24/2017
 
 * update icons for viewers

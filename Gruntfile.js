@@ -9,29 +9,29 @@ module.exports = function(grunt) {
         pkg: grunt.file.readJSON("package.json"),
 
         bannercss: "/*! =============================================================\n" +
-            " * MAG Maps Main Page\n" +
             " * Maricopa Association of Governments\n" +
-            " * Style document for MAG Maps Main Page\n" +
+            " * CSS Document\n" +
+            " * @project    MAG Maps Main Page\n" +
             " * =============================================================\n" +
-            " * @project 	MAG Maps Main Page\n" +
             " * @file		concat.main.css\n" +
+            " * @summary    css files that have been minified and concatenated\n" +
             " * @version 	<%= pkg.version %>\n" +
             " * @date 		<%= pkg.date %>\n" +
-            " * @copyright	<%= pkg.copyright %> MAG\n" +
+            " * @copyright	<%= pkg.copyright %>\n" +
             " * @license 	MIT\n" +
             " * ===============================================================\n" +
             " */",
 
         bannerjs: "/*! ========================================================================\n" +
-            " * MAG Maps Main Page\n" +
             " * Maricopa Association of Governments\n" +
-            " * JavaScript files for MAG Main Map Page\n" +
+            " * JavaScript Document\n" +
+            " * @project    MAG Maps Main Page\n" +
             " * =============================================================\n" +
-            " * @project 	MAG Maps Main Page\n" +
             " * @file		master.min.js\n" +
+            " * @summary    JavaScript files that have been minified and concatenated\n" +
             " * @version 	<%= pkg.version %>\n" +
             " * @date 		<%= pkg.date %>\n" +
-            " * @copyright	<%= pkg.copyright %> MAG\n" +
+            " * @copyright	<%= pkg.copyright %>\n" +
             " * @license 	MIT\n" +
             " * ========================================================================== */\n",
 

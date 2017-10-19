@@ -17,6 +17,11 @@ And constructed with the following guidelines:
 
 ***************************************************************************************************************
 
+## Version 4.7.2 | 10/19/2017
+
+* updates to Regional Activity & Destination Viewer Basemap
+* addition of State Employment Viewer
+
 ## Version 4.7.1 | 08/30/2017
 
 * updates to Regional Activity & Destination Viewer
@@ -191,7 +196,7 @@ And constructed with the following guidelines:
 
 ### Version 4.3.2 (09/10/2015)
 
-* change to Read On Arizona Link - [Read On Link] (http://readonarizona.org/data-center/)
+* change to Read On Arizona Link - [Read On Link](http://readonarizona.org/data-center/)
 
 ### Version 4.3.1 (09/10/2015)
 
@@ -229,10 +234,10 @@ And constructed with the following guidelines:
 
 * use `<!doctype html>` instead of `<!DOCTYPE html>`
 * remove IE conditional classes per HTML5 Boilerplate
-* updated to [Normalize.css v3.0.1] (http://necolas.github.io/normalize.css/)
-* updated to [Modernizr v2.8.0] (http://modernizr.com/)
-* updated to [jquery v1.11.0] (http://jquery.com/)
-* updated to [html5shiv v3.7.2] (http://www.jsdelivr.com/#!html5shiv)
+* updated to [Normalize.css v3.0.1](http://necolas.github.io/normalize.css/)
+* updated to [Modernizr v2.8.0](http://modernizr.com/)
+* updated to [jquery v1.11.0](http://jquery.com/)
+* updated to [html5shiv v3.7.2](http://www.jsdelivr.com/#!html5shiv)
 * updated Grunt files
 * removed links to silverlight sites for Demographic and Land Use Maps
 
@@ -299,31 +304,31 @@ And constructed with the following guidelines:
 
 ### Version 1.0.0 (00/00/0000)
 
-*Orignial site from Matt Nielsen
+* Original site from Matt Nielsen
 
 ============================
 ## Resources / Examples
 
-* images/Icons from [VectorStock.com] (http://www.vectorstock.com/)
+* images/Icons from [VectorStock.com](http://www.vectorstock.com/)
 * [Demographic Map Viewer] ()
-* [Employment Map Viewer] (http://www.vectorstock.com/royalty-free-vector/business-icons-set-2--blue-series-vector-1510957)
-* [Land Use Map Viewer] (http://www.vectorstock.com/royalty-free-vector/school-and-education-icons-set-1--blue-series-vector-1228759)
-* [Building Landmark Inventory Viewer] (http://www.vectorstock.com/royalty-free-vector/business-icons-set-2--blue-series-vector-1510957)
-* [Projections Map Viewer] (http://www.vectorstock.com/royalty-free-vector/business-icons-set-3--blue-series-vector-1510958)
-* [Bikeways Map Viewer] (http://www.vectorstock.com/royalty-free-vector/transportation-icons--blue-series-vector-1287781)
-* [Victim Services] (http://www.vectorstock.com/royalty-free-vector/purple-awareness-ribbons-kit-vector-1854058)
+* [Employment Map Viewer](http://www.vectorstock.com/royalty-free-vector/business-icons-set-2--blue-series-vector-1510957)
+* [Land Use Map Viewer](http://www.vectorstock.com/royalty-free-vector/school-and-education-icons-set-1--blue-series-vector-1228759)
+* [Building Landmark Inventory Viewer](http://www.vectorstock.com/royalty-free-vector/business-icons-set-2--blue-series-vector-1510957)
+* [Projections Map Viewer](http://www.vectorstock.com/royalty-free-vector/business-icons-set-3--blue-series-vector-1510958)
+* [Bikeways Map Viewer](http://www.vectorstock.com/royalty-free-vector/transportation-icons--blue-series-vector-1287781)
+* [Victim Services](http://www.vectorstock.com/royalty-free-vector/purple-awareness-ribbons-kit-vector-1854058)
 * [Read On MapLit] (Logo from Read On Arizona)
 
 
 * images on carousel
-* [iStock] (http://www.istockphoto.com/)
-* [main_demographic.jpg] (iStock_000021117525_Medium.jpg)
-* [main_employment.jpg] (iStock_000021960337Medium.jpg)
-* [main_landuse.jpg] (iStock_000010422808Medium.jpg)
-* [main_landmarks.jpg] (iStock_000014709135Medium.jpg)
-* [main_projections.jpg] (iStock_000005034683_Medium.jpg)
-* [main_bicycle.jpg] (stockfresh_1935940_cyclist-on-urban-cyceway_sizeM.jpg)
-* [main_victimsvc.jpg] (iStock_000009765670Medium.jpg)
-* [main_stateDemo.jpg] (iStock_000002918761XLarge.jpg & iStock_000012946900XLarge.jpg)
-* [main_mapLit.jpg] (iStock_000022638300_Bookcase_LRG.jpg)
+* [iStock](http://www.istockphoto.com/)
+* [main_demographic.jpg](iStock_000021117525_Medium.jpg)
+* [main_employment.jpg](iStock_000021960337Medium.jpg)
+* [main_landuse.jpg](iStock_000010422808Medium.jpg)
+* [main_landmarks.jpg](iStock_000014709135Medium.jpg)
+* [main_projections.jpg](iStock_000005034683_Medium.jpg)
+* [main_bicycle.jpg](stockfresh_1935940_cyclist-on-urban-cyceway_sizeM.jpg)
+* [main_victimsvc.jpg](iStock_000009765670Medium.jpg)
+* [main_stateDemo.jpg](iStock_000002918761XLarge.jpg & iStock_000012946900XLarge.jpg)
+* [main_mapLit.jpg](iStock_000022638300_Bookcase_LRG.jpg)
 

@@ -1,6 +1,6 @@
 ![](http://geo.azmag.gov/maps/readonaz/app/resources/img/maglogo_black.png)
-# MAG Maps Home Page #
-======================
+
+# MAG Mapping Home Page #
 
 [![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=my-website)](http://ims.azmag.gov/)
 [![GitHub issues](https://img.shields.io/github/issues/AZMAG/map-MAGmappingPage.svg)](https://github.com/AZMAG/map-MAGmappingPage/issues)

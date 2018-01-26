@@ -65,18 +65,11 @@ module.exports = function(grunt) {
         },
 
         cssmin: {
-            options: {
-                specialComments: "all",
-                processImport: false,
-                roundingPrecision: -1,
-                mergeIntoShorthands: false,
-                advanced: false,
-            },
             target: {
                 files: [{
                     expand: true,
                     cwd: "dist/css",
-                    src: ["src/css/main.css", "src/css/normalize.css", "src/css/carousel.css"],
+                    src: ["*.css", "!*.min.css"],
                     dest: "dist/css",
                     ext: ".min.css"
                 }]
@@ -186,9 +179,9 @@ module.exports = function(grunt) {
 
     // grunt.registerTask("test", ["htmlhint", "jshint"]);
 
-    // grunt.registerTask("test", ["csslint"]);toggleComments
+    grunt.registerTask("test", ["cssmin"]);
 
-    grunt.registerTask("test", ["toggleComments"]);
+    // grunt.registerTask("test", ["toggleComments"]);
 
     // the default task can be run just by typing "grunt" on the command line
     grunt.registerTask("default", []);

@@ -15,21 +15,27 @@
   ],
   "main": "index.js",
   "homepage": "http://ims.azmag.gov/",
-  "repository": [{
-    "type": "git",
-    "url": "https://github.com/AZMAG/map-MAGmappingPage"
-  }, {
-    "type": "git",
-    "url": "I:/Projects/Git_repos/mappingPage.git"
-  }],
+  "repository": [
+    {
+      "type": "git",
+      "url": "https://github.com/AZMAG/map-MAGmappingPage"
+    },
+    {
+      "type": "git",
+      "url": "I:/Projects/Git_repos/mappingPage.git"
+    }
+  ],
   "author": "MAG Information Services (http://www.azmag.gov/)",
-  "contributors": [{
-    "name": "Vern Wolfley",
-    "email": "vwolfley@azmag.gov"
-  }, {
-    "name": "Jack Fairfield",
-    "email": "jfairfield@azmag.gov"
-  }],
+  "contributors": [
+    {
+      "name": "Vern Wolfley",
+      "email": "vwolfley@azmag.gov"
+    },
+    {
+      "name": "Jack Fairfield",
+      "email": "jfairfield@azmag.gov"
+    }
+  ],
   "private": true,
   "dependencies": {},
   "devDependencies": {
@@ -43,6 +49,7 @@
     "grunt-contrib-uglify": "^3.0.1",
     "grunt-text-replace": "0.4.0",
     "grunt-version-check": "^0.3.8",
+    "jshint-stylish": "^2.2.1",
     "jshint-stylish-ex": "0.2.0",
     "lodash": "4.17.4",
     "matchdep": "1.0.1",

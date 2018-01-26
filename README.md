@@ -25,9 +25,9 @@ This JavaScript web-page was developed by MAG staff for MAG member agencies and 
 
 ### version 4.7.2 ###
 
-`Updated: 10/19/2017`
+`Updated: 2017-10-19`
 
-`Created: 10/21/2014`
+`Created: 2014-10-21`
 
 Releases will be numbered with the following format:
 

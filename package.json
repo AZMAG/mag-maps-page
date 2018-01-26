@@ -1,8 +1,8 @@
 {
   "name": "MAGmapping-app",
-  "version": "4.7.2",
-  "date": "10/19/2017",
-  "copyright": "2017",
+  "version": "4.7.3",
+  "date": "2018-01-26",
+  "copyright": "2018",
   "description": "MAG Main Map Page",
   "keywords": [
     "MAG",
@@ -38,11 +38,9 @@
     "grunt-contrib-clean": "1.1.0",
     "grunt-contrib-concat": "1.0.1",
     "grunt-contrib-copy": "1.0.0",
-    "grunt-contrib-csslint": "2.0.0",
     "grunt-contrib-cssmin": "2.2.0",
     "grunt-contrib-jshint": "1.1.0",
     "grunt-contrib-uglify": "^3.0.1",
-    "grunt-contrib-watch": "1.0.0",
     "grunt-text-replace": "0.4.0",
     "grunt-version-check": "^0.3.8",
     "jshint-stylish-ex": "0.2.0",

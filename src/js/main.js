@@ -1,15 +1,11 @@
- /* ========================================================================
- * MAG Main Map Page
+/* ========================================================================
  * Maricopa Association of Governments
- * JavaScript file for MAG Main Map Page
- * =========================================================================
- * @project		MAG Main Map Page
- * @file		main.js
- * @version 	4.7.2
- * @date 		10/19/2017
- * @copyright 	2017 MAG
- * @licensed 	MIT
- * =========================================================================
+ * JS document
+ * @project     MAG Main Map Page
+ * ========================================================================
+ * @file        main.js
+ * @summary     main javascript files for project
+ * ========================================================================
  */
 
  $(document).ready(function() {

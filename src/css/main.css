@@ -1,19 +1,12 @@
 /* ========================================================================
- * MAG Main Map Page
  * Maricopa Association of Governments
- * Style document for MAG ReadOn AZ MapLIT Viewer
+ * CSS document
+ * @project     MAG Main Map Page
  * ========================================================================
- * @project		MAG Main Map Page
- * @file		main.css
- * @version 	4.7.2
- * @copyright 	2017 MAG
- * @license		MIT
+ * @file        custom.css
+ * @summary     CSS document guiding layout for project
  * ========================================================================
- * @uses	HTML5 Boilerplate
- * @uses	normalize.css
- * ======================================================================== */
- /*! @main.css | v4.7.2 | @license MIT | @copyright 2017 MAG */
-
+ */
 /*
  * HTML5 Boilerplate | version | 4.3.0 | MIT License | http://h5bp.com/
  *
@@ -121,6 +114,15 @@ textarea {
     height: auto;
     padding: 0 12px 0 0;
 }
+
+.video-div {
+    margin-bottom: 10px;
+    text-align: center;
+}
+.mag-video {
+    width: 260px;
+    height: 146px;
+}
 /* ==========================================
 **** footer custom styles ****
 ============================================= */
@@ -203,7 +205,7 @@ a:hover {
 }
 .iButton {
     text-align: center;
-    margin: 0 0 10px 0;
+    margin: 0 0 12px 0;
 }
 .blogTitle {
     text-align: center;

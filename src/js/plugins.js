@@ -1,3 +1,12 @@
+/* ========================================================================
+ * Maricopa Association of Governments
+ * JS document
+ * @project     MAG Main Map Page
+ * ========================================================================
+ * @file        plugins.js
+ * @summary     plugins files for project
+ * ========================================================================
+ */
 // Avoid `console` errors in browsers that lack a console.
 (function() {
     var method;

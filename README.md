@@ -23,11 +23,11 @@ This JavaScript web-page was developed by MAG staff for MAG member agencies and 
 
 ## Version
 
-### version 4.7.2 ###
+### version 4.7.3 ###
 
-`Updated: 10/19/2017`
+`Updated: 2018-01-26`
 
-`Created: 10/21/2014`
+`Created: 2014-10-21`
 
 Releases will be numbered with the following format:
 

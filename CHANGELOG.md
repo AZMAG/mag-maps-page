@@ -17,6 +17,13 @@ And constructed with the following guidelines:
 
 ***************************************************************************************************************
 
+## Version 4.7.3 | 2018-01-26
+
+* added video link to page
+* update training links
+* add ATP (Active Transportation) links
+* change RAD link
+
 ## Version 4.7.2 | 10/19/2017
 
 * updates to Regional Activity & Destination Viewer Basemap

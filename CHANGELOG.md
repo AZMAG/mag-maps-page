@@ -17,6 +17,10 @@ And constructed with the following guidelines:
 
 ***************************************************************************************************************
 
+## Version 4.7.4 | 2018-02-02
+
+* temp disable of training buttons for East and West Valley locations
+
 ## Version 4.7.3 | 2018-01-26
 
 * added video link to page

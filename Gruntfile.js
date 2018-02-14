@@ -137,7 +137,7 @@ module.exports = function(grunt) {
             update_Meta: {
                 // source files array
                 // RegExp Expression
-                src: ["src/index.html", "src/about.html", "src/contact.html", "src/details.html", "src/js/main.js", "src/humans.txt", "README.md", "src/css/main.css"],
+                src: ["src/index.html", "src/about.html", "src/contact.html", "src/details.html", "src/js/main.js", "src/humans.txt", "README.md"],
                 overwrite: true, // overwrite matched source files
                 replacements: [{
                     // html pages
@@ -163,6 +163,14 @@ module.exports = function(grunt) {
                     // README.md
                     from: /(`Updated: )[0-9]{4}-[0-9]{2}-[0-9]{2}/g,
                     to: "`Updated: " + '<%= pkg.date %>'
+                }, {
+                    // main.js
+                    from: /(v)([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))( \| )[0-9]{4}-[0-9]{2}-[0-9]{2}/g,
+                    to: "v" + "<%= pkg.version %>" + " | " + "<%= pkg.date %>"
+                }, {
+                    // main.js    $(".copyright").html("2017");
+                    from: /(.html)+(\(")([0-9]{4})+("\))/g,
+                    to: '.html("' + "<%= pkg.copyright %>" + '")'
                 }]
             }
         }

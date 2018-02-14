@@ -17,6 +17,11 @@ And constructed with the following guidelines:
 
 ***************************************************************************************************************
 
+## Version 4.7.5 | 2018-02-14
+
+* update training schedule links
+* re-enabled training buttons for East and West Valley locations
+
 ## Version 4.7.4 | 2018-02-02
 
 * temp disable of training buttons for East and West Valley locations

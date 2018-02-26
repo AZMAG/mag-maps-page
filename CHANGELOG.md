@@ -17,6 +17,11 @@ And constructed with the following guidelines:
 
 ***************************************************************************************************************
 
+## Version 4.7.6 | 2018-02-26
+
+* removed regional demographics link
+* updated details page
+
 ## Version 4.7.5 | 2018-02-14
 
 * update training schedule links

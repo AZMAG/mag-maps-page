@@ -1,16 +1,6 @@
-/* ========================================================================
- * Maricopa Association of Governments
- * CSS document
- * @project     MAG Main Map Page
- * ========================================================================
- * @file        main.css
- * @summary     CSS document guiding layout for project
- * ========================================================================
- */
-/*! main.css */
+/*! HTML5 Boilerplate v6.0.1 | MIT License | https://html5boilerplate.com/ */
+
 /*
- * HTML5 Boilerplate | version | 4.3.0 | MIT License | http://h5bp.com/
- *
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
@@ -20,22 +10,19 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html,
-button,
-input,
-select,
-textarea {
-    color: #222;
-}
-
 html {
+    color: #222;
     font-size: 1em;
     line-height: 1.4;
 }
 
 /*
- * Remove text-shadow in selection highlight: h5bp.com/i
- * These selection rule sets have to be separate.
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
  * Customize the background color to match your design.
  */
 
@@ -63,13 +50,16 @@ hr {
 }
 
 /*
- * Remove the gap between images, videos, audio and canvas and the bottom of
- * their containers: h5bp.com/i/440
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
  */
 
 audio,
 canvas,
+iframe,
 img,
+svg,
 video {
     vertical-align: middle;
 }
@@ -93,10 +83,10 @@ textarea {
 }
 
 /* ==========================================================================
-   Browse Happy prompt
+   Browser Upgrade Prompt
    ========================================================================== */
 
-.browsehappy {
+.browserupgrade {
     margin: 0.2em 0;
     background: #ccc;
     color: #000;
@@ -106,312 +96,928 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/* ==========================================
-**** navbar custom styles ****
-============================================= */
-.logoMAG {
-    display: inline-block !important;
-    width: 135px;
-    height: auto;
-    padding: 0 12px 0 0;
+/*Import font from Google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+/*General*/
+body{
+    font-family: 'Open Sans', sans-serif;
 }
 
-.video-div {
-    margin-bottom: 10px;
-    text-align: center;
+a{
+    font-weight: 600;
+    color: #2baab1;
 }
-.mag-video {
-    width: 260px;
-    height: 146px;
-}
-/* ==========================================
-**** footer custom styles ****
-============================================= */
-ul.footerList li {
-    display: inline;
-    list-style-type: none;
-    padding: 0 5px 0 0;
-}
-ul.footerList {
-    margin: 5px 0 5px 0;
-    padding: 0;
-}
-#socialMedia {
-    position: relative;
-    vertical-align: top;
-    float: right;
-}
-#socialMAG {
-    vertical-align: top;
-    padding: 0;
-    margin: 0;
-}
-#social {
-    vertical-align: top;
-    padding: 0;
-    margin: 0;
-}
-#social li{
-    display: inline-block;
-    position: relative;
+
+a:hover{
+    color: #01777D;
     text-decoration: none;
-    vertical-align: top;
-    padding: 0 0 0 5px;
 }
-.legal {
-    font-size: .85em;
+
+a:focus{
+    color: #01777D;
 }
-#mailicon {
-    height: 20px;
-    width: auto;
+
+hr{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-top: 1px solid #e2e2e2;
 }
-/* ==========================================
-**** index.html custom styles ****
-============================================= */
-.update {
-    width: 60px;
-    /*margin-left: 180px;*/
+
+.image{
+
 }
-.updatePNG {
+
+.img-wrapper{
+    display: block;
+    overflow: hidden;
+    position: relative;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.img-wrapper:after{
+    content: "";
+    background: rgba(36,27,28,.9);
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    border-radius: 4px;
+    bottom: -4px;
+    color: #FFF;
+    left: -4px;
     position: absolute;
-    top: 180px;
-    width: 270px;
+    right: -4px;
+    top: -4px;
+    display: block;
+    filter: alpha(opacity=0);
     opacity: 0.65;
     z-index: 1;
 }
-.marketing .col-sm-4 {
+
+.linkImageOverlay:hover .img-wrapper:after{
+    opacity: 0;
+}
+
+.overlayTitle{
+     position: absolute;
+    color: white;
+    z-index: 3;
+    top: 42%;
+    bottom: 50%;
+    width: 100%;
+    left: 0;
+    height: 50%;
     text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.scrollTop{
+    background: rgba(0,0,0,0.7);
+    /* padding: 10px; */
+    height: 50px;
+    width: 60px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    position: fixed;
+    outline: none;
+    bottom: 0px;
+    right: 20px;
+    opacity: 0;
+    transition: opacity 0.35s;
+}
+
+/*Navbar styles*/
+.navbar-default{
+    background: white;
+    padding: 10px 0px;
+    margin-bottom: 0px;
+}
+
+.navbar-brand{
+    height: 100%;
+    width: 100%;
+    max-width: 350px;
+}
+.navbar-brand > img{
+    margin: auto;
+}
+
+#magNavbar .navbar-nav{
+    margin-top: 16.039px;
+}
+
+#magNavbar .nav > li > a{
+    padding: 10px 13px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #2baab1;
+    margin:2px;
+}
+
+#magNavbar .nav > li > a:hover{
+    background: #2baab1;
+    color: white;
+    border-radius: 4px;
+}
+
+#magNavbar .navbar-nav > .active > a{
+
+    background: #2baab1;
+    color: white;
+
+
+    border-radius: 4px;
+
+}
+
+/*Carousel Styles*/
+#slide-1{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('../images/cyclists-carousel-image.jpg');
+    background-position: center;
+    background-size: cover;
+}
+#slide-2{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('../images/img_tonto-basin.jpg');
+    background-position: center;
+    background-size: cover;
+}
+#slide-3{
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('../images/south-mountain-carousel-img.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.carousel-image{
+    width: 100%;
+    max-width: 1900px;
+    height: 45vh;
+    display: flex;
+}
+
+.carousel-content{
+    top: 0;
+    bottom: 0;
+    left:0;
+    right:0;
+    margin: auto;
+    width:50%;
+    text-align: center;
+    color: white;
+    z-index: 3;
+}
+
+.carousel-content h2{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.carousel-content p{
+    font-size: 20px;
+}
+
+.carousel-content .button-group{
+    font-size: 16px;
+}
+
+
+
+/*Map list section*/
+
+#maps-section{
+    margin: 80px 0px;
+}
+
+.map-box{
+    transition: box-shadow 0.35s;
     margin-bottom: 20px;
 }
-.sidebar-module-inset {
-    padding: 15px;
-    background-color: #f5f5f5;
-    border-radius: 4px;
-    margin-bottom: 10px;
+
+.map-box:hover{
+    box-shadow: 0px 0px 15px 5px #e9e9e9;
 }
-.details {
+
+.map-box img{
+    max-height: 110px;
+    display: block;
+    margin: auto;
+    transition: all 0.45s;
+}
+
+.map-box img:hover{
+    transform: scale(0.9,0.9);
+}
+
+.map-box h3{
     text-align: center;
-    margin: 0px;
 }
-.release {
-    font-size: 12px;
-    font-weight: bold;
-    padding-left: 20px;
+
+.map-box p{
+    text-align: center;
+    margin-bottom: 18px;
 }
-.archives {
-    padding: 15px;
+
+.map-box-content{
+    border: thin solid #ddd;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    padding: 18px;
+    position: relative;
+    min-height: 308px;
 }
-a:hover {
+
+
+.about-link{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0px 18px 18px 0px;
+
+}
+
+.about-link a{
+    color: #f79664;
+    cursor: pointer;
+}
+
+.map-launch{
+    text-align: center;
+}
+
+.map-launch a{
+    display: block;
+    padding: 8px;
+    text-transform: uppercase;
+    color: #2baab1;
+    background: #f4f7fa;
+    border-bottom: thin solid #ddd;
+    border-left: thin solid #ddd;
+    border-right: thin solid #ddd;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    transition: background 0.15s;
+
+}
+
+.map-launch a:hover{
+    background: #ddd;
     text-decoration: none;
 }
-.iButton {
-    text-align: center;
-    margin: 0 0 12px 0;
-}
-.blogTitle {
-    text-align: center;
-}
-/* ==========================================
-**** about.html custom styles ****
-============================================= */
 
-/* Move down content because we have a fixed navbar that is 50px tall */
-body {
-    padding-top: 50px;
-    padding-bottom: 20px;
-}
-article {
-    padding-top: 55px;
-    margin-top: -55px;
-}
-#magBld {
-    float: right;
+.release{
+    padding: 0px;
+    list-style-position: inside;
 }
 
-/* Custom Styles for affix element */
-ul.nav-tabs{
-    width: 200px;
-    margin-top: 20px;
-    border-radius: 4px;
-    border: 1px solid #ddd;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
-}
-ul.nav-tabs li{
-    margin: 0;
-    border-top: 1px solid #ddd;
-}
-ul.nav-tabs li:first-child{
-    border-top: none;
-}
-ul.nav-tabs li a{
-    margin: 0;
-    padding: 8px 16px;
-    border-radius: 0;
-}
-ul.nav-tabs li.active a, ul.nav-tabs li.active a:hover{
-    color: #fff;
-    background: #0088cc;
-    border: 1px solid #0088cc;
-}
-ul.nav-tabs li:first-child a{
-    border-radius: 4px 4px 0 0;
-}
-ul.nav-tabs li:last-child a{
-    border-radius: 0 0 4px 4px;
-}
-ul.nav-tabs.affix{
-    /*Set the top position of pinned element */
-    /*top: 400px;*/
+/*homepage video section*/
 
-}
-/* ==========================================
-**** contact.html custom styles ****
-============================================= */
-#googleMap {
-    height: 400px;
-    width: 500px;
-    overflow: hidden;
-    float: right;
+#video-section{
+    padding: 80px 0px;
+    background: #f4f7fa;
+
+    border-top: thin solid #ddd;
 }
 
-/* ==========================================
-**** carousel custom styles ****
-============================================= */
-.caption {
-    background-color: rgba(16,16,16,0.5) ; /*#101010*/
-}
-
-.container-fluid.car {
+/*Video gallery*/
+.vid-container {
     position: relative;
-    width: 1500px;
-    max-height: 450px;
-    margin-left: auto;
-    margin-right: auto;
+    padding-bottom: 52%;
+    height: 0;
 }
 
-.img-responsive.car {
-    width: auto;
-    height: 450px;
-}
-/* ==========================================
-**** modal custom styles ****
-============================================= */
-.modal-header {
-    background-color: #eeeeee;
+.vid-container iframe,
+.vid-container object,
+.vid-container embed {
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
-/* ==========================================
-**** details custom styles ****
-============================================= */
-.Indicator {
-    padding: 0 .75em;
-    margin-right: 11px;
-    line-height: 22px;
-    vertical-align: top;
-    background: #ffd73f;
-    color: #444;
+.video-section{
+    padding: 0px 150px;
 }
-.Indicator {
-    position: relative;
+
+.text-on-video{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 11px;
+}
+
+.play-button{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 68px;
+    height: 48px;
+    margin-left: -34px;
+    margin-top: -24px;
+    -moz-transition: opacity .25s cubic-bezier(0.0,0.0,0.2,1);
+    -webkit-transition: opacity .25s cubic-bezier(0.0,0.0,0.2,1);
+    transition: opacity .25s cubic-bezier(0.0,0.0,0.2,1);
+    z-index: 63;
+    outline: 0;
+    border: none;
+    background: url('https://s.ytimg.com/yts/img/large_play_button_ringo-vfljWXIdx.png') center center / 100% no-repeat;
+}
+
+#current-vid button {
+    background: url('https://s.ytimg.com/yts/img/large_play_button_hover_ringo-vfl7vEehF.png') center center / 100% no-repeat;
+
+}
+
+.vid-description{
+    display: none;
+}
+
+
+.custom-list{
+    list-style: none;
+    padding: 0px;
+}
+
+.custom-list em{
+    padding: 0px 15px 0px 25px;
+}
+
+/*Buttons*/
+
+.more{
+    text-align: right;
+}
+
+.button-group a{
+    margin: 15px 12px;
+    cursor: pointer;
+}
+
+.btn-white{
     display: inline-block;
+    padding: 5px 20px;
+    border: 4px solid white;
+    color: white;
+    border-radius: 5px;
+    transition: all 0.15s;
+}
+
+.btn-white:hover{
+    background: white;
+    color: #333;
+    text-decoration: none;
+}
+
+.btn-one{
+    display: inline-block;
+    background: #f79664;
+    color: white;
+    padding: 5px 20px;
+    border: 4px solid #f79664;
+    border-radius: 5px;
+    transition: all 0.15s;
+}
+
+.btn-one:hover{
+    text-decoration: none;
+    border: 4px solid #DB733E;
+    background: #DB733E;
+    color: white;
+}
+
+.btn-one:focus{
+    color: white;
+}
+
+.btn-two{
+    display: inline-block;
+    padding: 5px 20px;
+    border: 4px solid #f79664;
+    color: #f79664;
+    border-radius: 5px;
+    transition: all 0.15s;
+}
+
+.btn-two:hover{
+    background: #f79664;
+    color: #fff;
+    text-decoration: none;
+}
+/*End buttons*/
+
+/*Modal styles*/
+
+.modal-content h1, .modal-content h2,
+.modal-content h3, .modal-content h4,
+.modal-content h5{
+    color: #333;
+}
+
+.modal-content{
+    color: #333;
+}
+
+.modal-content p{
+    color: #333;
+}
+
+.modal-icon{
+    float: left;
+    padding: 0px 20px 20px 0px;
+    max-height: 130px
+}
+
+.modal-body {
+    min-height: 118px;
+    margin: 20px 0px;
+    padding: 25px;
+}
+
+.modal-body p{
+    font-size: 16px;
+}
+
+.modal-body h4{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 30px 0px 20px;;;
+}
+
+.modal-body .lead{
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+
+.modal-content .button-group a{
+    margin: 0px 7px;
+}
+
+.modal-content .btn{
+    padding: 7.45px 20px;
+}
+
+.modal-anchor{
+    cursor: pointer;
+}
+
+/*Inner pages*/
+
+.innerPageHeader{
+    height:35vh;
+    position: relative;
+    display: flex;
+}
+
+#rhHeader{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../images/img_map-state.JPG');
+    background-position: center;
+    background-size: cover;
+}
+
+#trHeader{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../images/img_using-computer-2.jpg');
+    background-position: bottom;
+    background-size: cover;
+}
+
+.headerText{
+    color: white;
+    margin: auto;
+    text-align: center;
+    width: 60%;
+}
+
+.headerText h2{
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.page-content{
+    margin: 40px 0px;
+}
+
+.page-content h3{
+    margin-bottom: 20px;
+}
+
+.in-page-nav{
+    padding: 30px 0px 20px;
+    border-bottom: thin solid #ddd;
+}
+
+.in-page-nav ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.in-page-nav ul li{
+    display: inline-block;
+    margin: 0px 5px;
+    height: 36px;
+}
+
+.in-page-nav a{
+    display: inline-block;
+    color: #333;
+    padding: 0px 3px 10px;
+    font-size: 16px;
+}
+
+.in-page-nav a:hover{
+    color: #2baab1;
+}
+
+.in-page-nav a:focus{
+    border-bottom: 4px solid #2baab1;
+    text-decoration: none;
+}
+
+.in-page-nav a.active{
+    border-bottom: 4px solid #2baab1;
+    pointer-events: none;
+}
+
+.indicator{
+    display: inline-block;
+    padding: 6px 10px;
+    font-size: 10px;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 10px;
+    position: relative;
 }
-.Indicator--reversed {
-    margin-right: 0;
-    margin-left: 11px;
-}
-.Indicator--sec {
-    background: #a9e15c;
-}
-.Indicator:after {
-    right: -11px;
-    border-width: 11px;
-    border-left-width: 0;
-    border-color: #ffd73f transparent;
-}
-.Indicator:after {
+
+.indicator:after{
+       left: -11px;
+    right: auto;
+    border-left-width: 11px;
+    border-right-width: 0;
     content: "";
     position: absolute;
     top: 0;
     height: 0;
     border-style: solid;
+    border-width: 11.5px;
 }
-.Indicator--reversed:after {
-    left: -11px;
-    right: auto;
-    border-left-width: 11px;
-    border-right-width: 0;
+
+.indicator-new{
+    background: #a9e15c;
+
 }
-.Indicator--sec:after {
-    border-color: #a9e15c transparent;
+
+.indicator-new:after{
+     border-color: #a9e15c transparent;
 }
+
+.indicator-fixed{
+    background: #ffd73f;
+}
+
+.indicator-fixed:after{
+    border-color:  #ffd73f transparent;
+}
+
+#releaseHistory h4{
+    color:  #2baab1;
+}
+
+#releaseHistory section{
+    border-bottom: thin solid #e2e2e2;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+
+#releaseHistory section:last-of-type{
+    border-bottom: none;
+}
+
+
+.indent-section{
+    margin-left: 30px;
+}
+
+#trainingTutorials{
+    margin-bottom: 70px;
+}
+
+#trainingTutorials h4{
+    margin: 20px 0px 20px;
+}
+
+#trainingTutorials h4:first-of-type{
+    margin: 10px 0px;
+}
+
+/*Footer section*/
+
+footer{
+    padding: 40px 0px 0px;;
+    background: #333;
+    color: #fff;
+}
+
+
+footer a{
+    color: white;
+    font-weight: 700;
+}
+
+footer a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+footer p{
+    font-size: 13px;
+}
+
+footer h4{
+    color: #aaa;
+    margin-bottom: 20px;
+}
+
+footer .container{
+}
+
+.footer-body{
+    margin-bottom: 40px;
+}
+
+.social-media a{
+    display: inline-flex;
+    width: 32px;
+    height: 32px;
+    background: white;
+    border-radius: 50%;
+    text-align: center;
+    color: #333;
+    margin-right: 10px;
+    transition: all 0.2s;
+}
+
+.social-media a:hover{
+    text-decoration: none;
+}
+
+.facebook:hover{
+    background: #3B5998;
+    color: white;
+}
+
+.twitter:hover{
+    background: #1DA1F2;
+    color: white;
+}
+
+.youtube:hover{
+    background: #bb0000;
+    color: white;
+}
+
+.social-media em{
+    margin: auto;
+    font-size: 17px;
+}
+
+.subscribeForm .form-group{
+    width: 60%;
+}
+
+.subscribeForm .form-group input{
+    width: 100%;
+    margin-top: -3px;
+}
+
+.form_button{
+    background: #f79664;
+    outline: none;
+    padding: 6px 20px;
+    border-radius: 4px;
+    border: 1px solid #f79664;
+}
+
+.copyrightTerms{
+    background: #000;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.copyrightTerms p{
+    font-size: 11px;
+}
+
+.footer-links{
+    margin-bottom: 20px;
+}
+
+.footer-links ul{
+    list-style: none;
+    text-align: center;
+}
+
+.footer-links ul li{
+    display: inline;
+    margin: 0px 7px;
+}
+
+.footer-links a{
+    font-weight: 400;
+    color: #fff;
+}
+
+/*Styles for mobile devices*/
+
+@media screen and (max-width:1460px){
+
+
+
+}
+
+@media screen and (max-width: 1260px){
+    .carousel-image {
+        height: 55vh;
+    }
+    .innerPageHeader{
+        height:40vh;
+    }
+}
+
+@media screen and (max-width: 925px){
+    .carousel-content h2, .headerText h2{
+        font-size: 35px;
+    }
+
+    .carousel-content p{
+        font-size: 20px;
+    }
+
+
+}
+
+@media screen and (max-width: 840px){
+    .button-group a {
+        margin: 5px;
+        cursor: pointer;
+    }
+
+    .carousel-content{
+        width: 65%;
+    }
+
+    .headerText {
+
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 650px){
+
+    .carousel-content h2, .headerText h2{
+        font-size: 33px;
+    }
+
+    .carousel-content p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 548px){
+
+
+    .innerPageHeader{
+    height:50vh;
+    }
+}
+
+@media screen and (max-width: 420px ){
+
+    .navbar-brand > img{
+        max-width: 220px
+    }
+    .navbar-brand{
+        width: auto;
+    }
+
+    .carousel-content h2, .headerText h2{
+        font-size: 28px;
+    }
+
+    .carousel-content p{
+        font-size: 14px;
+    }
+
+    .carousel-image {
+
+    height: 55vh;
+
+}
+
+}
+
+@media screen and (max-height: 700){
+    .carousel-image {
+        height: 65vh;
+    }
+}
+
+@media screen and (max-height: 670px){
+
+    .carousel-image {
+        height: 65vh;
+    }
+
+    .innerPageHeader{
+    height:60vh;
+    }
+}
+
+@media screen and (max-height: 570px ){
+
+    .carousel-image {
+        height: 80vh;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ==========================================================================
    Helper classes
    ========================================================================== */
 
 /*
- * Image replacement
- */
-
-.ir {
-    background-color: transparent;
-    border: 0;
-    overflow: hidden;
-    /* IE 6/7 fallback */
-    *text-indent: -9999px;
-}
-
-.ir:before {
-    content: "";
-    display: block;
-    width: 0;
-    height: 150%;
-}
-
-/*
- * Hide from both screenreaders and browsers: h5bp.com/u
+ * Hide visually and from screen readers
  */
 
 .hidden {
     display: none !important;
-    visibility: hidden;
 }
 
 /*
- * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
  */
 
 .visuallyhidden {
     border: 0;
     clip: rect(0 0 0 0);
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
     height: 1px;
     margin: -1px;
     overflow: hidden;
     padding: 0;
     position: absolute;
     width: 1px;
+    white-space: nowrap; /* 1 */
 }
 
 /*
- * Extends the .visuallyhidden class to allow the element to be focusable
- * when navigated to via the keyboard: h5bp.com/p
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
  */
 
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
     clip: auto;
+    -webkit-clip-path: none;
+    clip-path: none;
     height: auto;
     margin: 0;
     overflow: visible;
     position: static;
     width: auto;
+    white-space: inherit;
 }
 
 /*
- * Hide visually and from screenreaders, but maintain layout
+ * Hide visually and from screen readers, but maintain layout
  */
 
 .invisible {
@@ -440,15 +1046,6 @@ ul.nav-tabs.affix{
     clear: both;
 }
 
-/*
- * For IE 6/7 only
- * Include this rule to trigger hasLayout and contain floats.
- */
-
-.clearfix {
-    *zoom: 1;
-}
-
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
@@ -459,59 +1056,26 @@ ul.nav-tabs.affix{
     /* Style adjustments for viewports that meet the condition */
 }
 
-/* Extra small devices (phones, less than 768px) */
-/* No media query since this is the default in Bootstrap */
-
-/* Small devices (tablets, 768px and up) */
-@media (max-width: 767px) {
-    ul.nav-tabs.affix{
-        /*Set the top position of pinned element */
-        top: 0;
-        position: static;
-        width: auto;
-    }
-    #googleMap {
-        height: 300px;
-        width: 300px;
-        overflow: hidden;
-        float: right;
-    }
-
-}
-/* Small devices (tablets, 768px and up) */
-@media screen and (min-width: 768px) {
-    .modal-dialog {
-    width: 900px;
-    margin: 30px auto;
-    }
-}
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-
-}
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-
-}
-
 @media print,
-       (-o-min-device-pixel-ratio: 5/4),
        (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
        (min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
 
 /* ==========================================================================
    Print styles.
-   Inlined to avoid required HTTP connection: h5bp.com/r
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
 
 @media print {
-    * {
+    *,
+    *:before,
+    *:after {
         background: transparent !important;
-        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
         box-shadow: none !important;
         text-shadow: none !important;
     }
@@ -530,36 +1094,36 @@ ul.nav-tabs.affix{
     }
 
     /*
-     * Don't show links for images, or javascript/internal links
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
      */
 
-    .ir a:after,
-    a[href^="javascript:"]:after,
-    a[href^="#"]:after {
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
         content: "";
     }
 
+    pre {
+        white-space: pre-wrap !important;
+    }
     pre,
     blockquote {
         border: 1px solid #999;
         page-break-inside: avoid;
     }
 
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
     thead {
-        display: table-header-group; /* h5bp.com/t */
+        display: table-header-group;
     }
 
     tr,
     img {
         page-break-inside: avoid;
-    }
-
-    img {
-        max-width: 100% !important;
-    }
-
-    @page {
-        margin: 0.5cm;
     }
 
     p,

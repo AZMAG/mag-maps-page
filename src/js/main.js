@@ -4,7 +4,7 @@
  * @project     MAG Main Map Page
  * ========================================================================
  * @file        main.js
- * @summary     main javascript files for project
+ * @summary     main JavaScript files for project
  * ========================================================================
  */
 
@@ -41,7 +41,12 @@ $(document).ready(function() {
     $("#atp").load("views/modal-atp.html");
 });
 
-// *** social pluggins
+/*
+ ***********************************
+ * social pluggins
+ ***********************************
+ */
+
 // twitter
 ! function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0],
@@ -53,6 +58,7 @@ $(document).ready(function() {
         fjs.parentNode.insertBefore(js, fjs);
     }
 }(document, "script", "twitter-wjs");
+
 // google +1
 (function() {
     var po = document.createElement("script");
@@ -62,12 +68,13 @@ $(document).ready(function() {
     var s = document.getElementsByTagName("script")[0];
     s.parentNode.insertBefore(po, s);
 })();
+
 // facebook
 window.fbAsyncInit = function() {
     FB.init({
-        appId: '929950963769905',
+        appId: "929950963769905",
         xfbml: true,
-        version: 'v2.6'
+        version: "v2.6"
     });
 };
 
@@ -78,53 +85,49 @@ window.fbAsyncInit = function() {
     js.id = id;
     js.src = "//connect.facebook.net/en_US/sdk.js";
     fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));
-
+}(document, "script", "facebook-jssdk"));
 
 
 //*********** NEW ******
 
-$('.toggle-links').click(function() {
-
+$(".toggle-links").click(function() {
     "use strict";
-    $('.collapseGroup .collapse').collapse("hide");
-    var showTarget = $(this).attr('href');
+    $(".collapseGroup .collapse").collapse("hide");
+    var showTarget = $(this).attr("href");
 
     $(showTarget).collapse("show");
 
-    if (!$(this).hasClass('active')) {
-        $('.toggle-links').removeClass('active');
-        $(this).addClass('active');
+    if (!$(this).hasClass("active")) {
+        $(".toggle-links").removeClass("active");
+        $(this).addClass("active");
     }
 });
 
 //Change active on navigation
 $(function() {
     "use strict";
-    $('#magNavbar .nav li a').each(function() {
-        if ($(this).prop('href') === window.location.href) {
-            $(this).parent('li').addClass('active');
+    $("#magNavbar .nav li a").each(function() {
+        if ($(this).prop("href") === window.location.href) {
+            $(this).parent("li").addClass("active");
         }
     });
 });
 
 
 $(window).scroll(function() {
-
     "use strict";
     if ($(document).scrollTop() > 20) {
-        $('.scrollTop').css('opacity', '1');
+        $(".scrollTop").css("opacity", "1");
     } else {
-        $('.scrollTop').css('opacity', '0');
+        $(".scrollTop").css("opacity", "0");
     }
 
 });
 
-$('.scrollTop').click(function() {
+$(".scrollTop").click(function() {
     "use strict";
     window.scroll({
         top: 0,
-        behavior: 'smooth'
+        behavior: "smooth"
     });
 });
-

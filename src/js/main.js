@@ -24,6 +24,8 @@ $(document).ready(function() {
         //*** copy write binding
         $(".copyright").html("2018");
     });
+    $("#pastUpdates").load("views/pastUpdates.html");
+    $("#mostRecent").load("views/recentUpdates.html");
 
     //*** Modals ***
     $("#stateDemographics").load("views/modal-stateDemographics.html");

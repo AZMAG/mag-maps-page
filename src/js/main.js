@@ -9,14 +9,34 @@
  */
 
 $(document).ready(function() {
-    //*** terms binding
-    $("#terms").load("views/terms.html");
-    //*** privacy binding
-    $("#privacy").load("views/privacy.html");
-    //*** version binding
-    $(".version").html("v4.7.6 | 2018-02-26");
-    //*** copy write binding
-    $(".copyright").html("2018");
+    "use strict";
+    //*** Load page sections
+    $("#carousel-section").load("views/carousel-section.html");
+    $("#maps-section").load("views/maps-section.html");
+    $("#video-section").load("views/video-section.html");
+    $(".footer-section").load("views/footer-section.html", function() {
+        //*** terms binding
+        $("#termsModal").load("views/terms.html");
+        //*** privacy binding
+        $("#privacyModal").load("views/privacy.html");
+        //*** version binding
+        $(".version").html("v4.7.6 | 2018-02-26");
+        //*** copy write binding
+        $(".copyright").html("2018");
+    });
+
+    //*** Modals ***
+    $("#stateDemographics").load("views/modal-stateDemographics.html");
+    $("#rad").load("views/modal-rad.html");
+    $("#readOnAZ").load("views/modal-readOnAZ.html");
+    $("#employment").load("views/modal-employment.html");
+    $("#stateEmployment").load("views/modal-stateEmployment.html");
+    $("#bikeways").load("views/modal-bikeways.html");
+    $("#landUse").load("views/modal-landUse.html");
+    $("#projections").load("views/modal-projections.html");
+    $("#neighborhood").load("views/modal-neighborhood.html");
+    $("#spineStudy").load("views/modal-spineStudy.html");
+    $("#atp").load("views/modal-atp.html");
 });
 
 // *** social pluggins
@@ -106,19 +126,3 @@ $('.scrollTop').click(function() {
     });
 });
 
-$(document).ready(function() {
-    $('#playlistOne').slick({
-        centerMode: true,
-        centerPadding: '60px',
-        slidesToShow: 3,
-        responsive: [{
-                breakpoints: 768,
-                setttings: {
-                    centerPadding: '40px',
-                    slidesToShow: 2
-                }
-            }
-
-        ]
-    });
-});

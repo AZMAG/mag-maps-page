@@ -52,7 +52,7 @@ module.exports = function(grunt) {
                 name: "main.min.js",
                 files: [{
                     src: "dist/js/main.js",
-                    dest: "dist/js/main.min.js"
+                    dest: "dist/js/master.min.js"
                 }]
             },
         },
@@ -88,7 +88,7 @@ module.exports = function(grunt) {
                 src: ["dist/js/*.js", "!dist/js/master.min.js"]
             },
             cleancss: {
-                src: ["dist/css/*.css", "!dist/css/concat.min.css"]
+                src: ["dist/css/*.css", "!dist/css/main-concat.min.css"]
             }
         },
 
@@ -105,7 +105,7 @@ module.exports = function(grunt) {
         toggleComments: {
             customOptions: {
                 options: {
-                    removeCommands: false
+                    removeCommands: true
                 },
                 files: {
                     "dist/index.html": "src/index.html",
@@ -169,7 +169,7 @@ module.exports = function(grunt) {
 
     // grunt.registerTask("test", ["htmlhint", "jshint"]);
 
-    grunt.registerTask("test", ["cssmin"]);
+    grunt.registerTask("testcss", ["clean:build", "copy", "cssmin", "concat"]);
 
     // grunt.registerTask("test", ["toggleComments"]);
 

@@ -20,7 +20,7 @@ $(document).ready(function() {
         //*** privacy binding
         $("#privacyModal").load("views/privacy.html");
         //*** version binding
-        $(".version").html("v4.7.6 | 2018-02-26");
+        $(".version").html("v5.0.0 | 2018-04-12");
         //*** copy write binding
         $(".copyright").html("2018");
     });

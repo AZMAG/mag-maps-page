@@ -46,6 +46,12 @@
         Twitter:
         From: Phoenix, AZ
 
+        Name:  Merari Garcia
+        Role: Web Specialist II
+        Contact:
+        Twitter:
+        From: Phoenix, AZ
+
 
 # THANKS
 
@@ -58,8 +64,8 @@
 # SITE
     Site name: MAG Mapping Home Page
     Site URL:  http://ims.azmag.gov/
-    Version: 4.7.6
-    Last updated: 2018-02-26
+    Version: 5.0.0
+    Last updated: 2018-04-12
     Creation Date: 2014-01-21
     Language: English
     Doctype: HTML5

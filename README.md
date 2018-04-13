@@ -57,6 +57,10 @@ A detailed list of the changes and fixes in each version update can be found in 
 
 ## Resources
 
+## Dependencies
+
+* [git-labelmaker](https://github.com/himynameisdave/git-labelmaker?utm_source=hashnode.com)
+
 #### ***Reference Example Sites***
 
 ## Legal Disclaimer

@@ -17,6 +17,10 @@ And constructed with the following guidelines:
 
 ***************************************************************************************************************
 
+## Version 5.0.0 | 2018-04-12
+
+* page redesign!
+
 ## Version 4.7.6 | 2018-02-26
 
 * removed regional demographics link

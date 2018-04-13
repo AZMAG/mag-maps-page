@@ -1,5 +1,5 @@
 # CHANGELOG #
-#### Splash Page Website ####
+#### MAG Maps Home Page ####
 
 [![Semver](http://img.shields.io/SemVer/2.0.0.png)](http://semver.org/spec/v2.0.0.html)
 
@@ -15,7 +15,25 @@ And constructed with the following guidelines:
 2. **MINOR** version when you add functionality in a backwards-compatible manner **bumps the minor** resets patch
 3. **PATCH** version when you make backwards-compatible bug fixes and misc changes **bumps only the patch**
 
-***************************************************************************************************************
+**************************************************
+
+#### Types of Changes ####
+
+* `Added` for new features
+* `Changed` for changes in existing functionality
+* `Deprecated` for soon-to-be removed features
+* `Removed` for now removed features
+* `Fixed` for any bug fixes
+* `Security` in case of vulnerabilities
+
+[Source](http://keepachangelog.com/en/1.0.0/)
+
+***************************************************
+
+## Version 4.7.7 | 2018-04-13
+
+* Removed Spine Study Map from page
+* add git-labels.json and to Github
 
 ## Version 4.7.6 | 2018-02-26
 

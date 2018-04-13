@@ -30,6 +30,11 @@ And constructed with the following guidelines:
 
 ***************************************************
 
+## Version 4.7.7 | 2018-04-13
+
+* Removed Spine Study Map from page
+* add git-labels.json and to Github
+
 ## Version 4.7.6 | 2018-02-26
 
 * removed regional demographics link

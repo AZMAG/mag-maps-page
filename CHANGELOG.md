@@ -30,7 +30,7 @@ And constructed with the following guidelines:
 
 ***************************************************
 
-## Version 4.7.7 | 2018-04-13
+## Version 4.7.7 | 2018-04-16
 
 * Removed Spine Study Map from page
 * add git-labels.json and to Github

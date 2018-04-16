@@ -2,7 +2,7 @@
 
 # MAG Mapping Home Page #
 
-[![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=my-website)](http://ims.azmag.gov/)
+[![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=my-website)](http://maps.azmag.gov/)
 [![GitHub issues](https://img.shields.io/github/issues/AZMAG/map-MAGmappingPage.svg)](https://github.com/AZMAG/map-MAGmappingPage/issues)
 [![GitHub version](https://badge.fury.io/gh/AZMAG%2Fmap-MAGmappingPage.svg)](https://badge.fury.io/gh/AZMAG%2Fmap-MAGmappingPage)
 [![dependencies](https://david-dm.org/AZMAG/map-MAGmappingPage.png)](https://david-dm.org/AZMAG/map-MAGmappingPage)
@@ -10,8 +10,6 @@
 [![Semver](http://img.shields.io/SemVer/2.0.0.png)](http://semver.org/spec/v4.4.7.html)
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-
-****************************************************************************************************************
 
 The Maricopa Association of Governments (MAG) mapping home page is the portal to MAG's interactive mapping and analysis sites.
 
@@ -23,9 +21,9 @@ This JavaScript web-page was developed by MAG staff for MAG member agencies and 
 
 ## Version
 
-### version 4.7.6 ###
+### version 4.7.7 ###
 
-`Updated: 2018-02-26`
+`Updated: 2018-04-16`
 
 `Created: 2014-10-21`
 
@@ -45,7 +43,7 @@ And constructed with the following guidelines:
 
 ## Site URL's
 
-* [MAG Mapping](http://ims.azmag.gov/)
+* [MAG Mapping](http://maps.azmag.gov/)
 
 ## Documentation
 
@@ -56,6 +54,10 @@ A detailed list of the changes and fixes in each version update can be found in 
 ## Process
 
 ## Resources
+
+## Dependencies
+
+* [git-labelmaker](https://github.com/himynameisdave/git-labelmaker?utm_source=hashnode.com)
 
 #### ***Reference Example Sites***
 

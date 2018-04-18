@@ -110,7 +110,8 @@ module.exports = function(grunt) {
                 files: {
                     "dist/index.html": "src/index.html",
                     "dist/releaseHistory.html": "src/releaseHistory.html",
-                    "dist/trainings.html": "src/trainings.html"
+                    "dist/trainings.html": "src/trainings.html",
+                    "dist/js/main.js": "src/js/main.js"
                 }
             }
         },

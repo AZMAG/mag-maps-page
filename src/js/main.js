@@ -41,7 +41,7 @@ $(document).ready(function() {
         //*** privacy binding
         $("#privacyModal").load("views/modal-privacy.html");
         //*** version binding
-        $(".version").html("v5.0.0 | 2018-04-12");
+        $(".version").html("v5.0.0 | 2018-04-18");
         //*** copy write binding
         $(".copyright").html("2018");
     });
@@ -153,6 +153,9 @@ function openNewWindow(obj) {
     "use strict";
     var thisHref = obj.href;
     window.open(thisHref, 'popup', 'width=600,height=600');
+    // <!-- comments:uncomment // -->
+    // ga("send", "event", "Click", "Email-Button", "Email-Button");
+    // <!-- endcomments -->
 }
 
 //collapse one at a time
@@ -185,4 +188,15 @@ $(".scrollTop").click(function() {
         top: 0,
         behavior: "smooth"
     });
+});
+
+// ------------------------------
+// GOOGLE ANALYTICS CTA TRACKING
+// -----------------------------
+$(document).on('click', '.track', function(e) {
+    var text = $(this).text(); // Grab the text from the button
+    // console.log(text);
+    // <!-- comments:uncomment // -->
+    // ga('send', 'event', 'Button', 'Click', text);
+    // <!-- endcomments -->
 });

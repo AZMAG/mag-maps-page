@@ -196,6 +196,7 @@ hr{
     background: white;
     padding: 10px 0px;
     margin-bottom: 0px;
+	
 }
 
 .navbar-brand{
@@ -207,8 +208,13 @@ hr{
     margin: auto;
 }
 
+#magNavbar{
+	overflow: unset;
+}
+
 #magNavbar .navbar-nav{
     margin-top: 16.039px;
+	position: relative;
 }
 
 #magNavbar .nav > li > a{
@@ -226,7 +232,7 @@ hr{
     border-radius: 4px;
 }
 
-#magNavbar .navbar-nav > .active > a{
+#magNavbar .navbar-nav > li.active > a{
 
     background: #2baab1;
     color: white;
@@ -235,6 +241,117 @@ hr{
     border-radius: 4px;
 
 }
+
+#magNavbar .nav > li.shareButton > button:hover{
+	background: white;
+	color: #f79664;
+}
+
+.shareButton button{
+	font-size: 35px;
+	padding: 0px 0px 0px 13px;
+	margin: 2.5px 0px;
+	background: none;
+	outline:none;
+	border: none;
+	color: #2baab1;
+	
+}
+
+#magNavbar .nav > li.shareButton > button.active{
+	background: none !important;
+	color: #f79664;
+}
+
+#shareBox{
+	display: none;
+    z-index: 2;
+	position: absolute;
+    bottom: -83px;
+    right: 0;
+    background: white;
+    padding: 10px 20px;
+    border: thin solid #ccc;
+}
+
+#shareBox.active{
+	display: inline-block;
+}
+
+.shareLinks a{
+	cursor: pointer;
+	height: 33px;
+	width: 33px;
+	display: inline-flex;
+}
+
+.shareLinks a:hover{
+	opacity: 0.8;
+}
+
+.shareLinks ul{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.shareLinks li{
+	display: inline-block;
+	margin: 0px -2px;
+}
+
+#EMshareButton{
+	background: #efbe00;
+	color: white;
+}
+
+#FBshareButton{
+	background: #3B5998;
+	color: white;
+}
+
+#TWshareButton{
+	background:#1DA1F2;
+	color: white;
+}
+
+#INshareButton{
+	background: #0077B5;
+	color:white;
+}
+
+#GPlusShareButton{
+	background: #DB4437;
+	color: white;
+}
+
+.shareLinks em{
+	margin: auto;
+}
+
+/*Home header with black bar*/
+#homeBarHeader{
+	background-color: #171717;
+    border-top: 5px solid #384045;
+    
+    min-height: 50px;
+    padding: 20px 0px 0px;
+    position: relative;
+    text-align: left;
+}
+
+#homeBarHeader h2{
+	color: #FFF;
+    display: inline-block;
+    font-weight: 200;
+    min-height: 37px;
+    font-size: 2.6em;
+    line-height: 46px;
+    padding: 0 0 17px;
+	margin-bottom: 0px;
+	
+}
+
 
 /*Carousel Styles*/
 #slide-0{
@@ -324,6 +441,24 @@ hr{
 
 .carousel-content .button-group{
     font-size: 16px;
+}
+
+/*Video and training info section on homepage*/
+#videoAndTraining{
+	background: linear-gradient(rgba(40,155,161,0.9),rgba(40,155,161,0.9)),url('../images/img_az-map-lg.JPG');
+	background-size: cover;
+	background-position: center;
+	color: white;
+	position: relative;
+	padding: 60px 15px;
+}
+
+#videoAndTraining p{
+	font-size: 16px;
+}
+
+.button-bottom{
+	margin-top: 35px;
 }
 
 
@@ -760,6 +895,9 @@ footer{
     color: #fff;
 }
 
+.contact{
+	margin-right: 10px;
+}
 
 footer a{
     color: white;
@@ -912,6 +1050,12 @@ footer .container{
 
         width: 75%;
     }
+}
+@media screen and (max-width:767px){
+	#shareBox{
+		right: auto;
+		left: 0;
+	}
 }
 
 @media screen and (max-width: 650px){

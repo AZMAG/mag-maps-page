@@ -14,7 +14,7 @@
     "#MAGmaps"
   ],
   "main": "index.js",
-  "homepage": "http://ims.azmag.gov/",
+  "homepage": "http://maps.azmag.gov/",
   "repository": [
     {
       "type": "git",
@@ -34,6 +34,10 @@
     {
       "name": "Jack Fairfield",
       "email": "jfairfield@azmag.gov"
+    },
+    {
+      "name": "Merari Garcia",
+      "email": "mgarcia@azmag.gov"
     }
   ],
   "private": true,

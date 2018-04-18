@@ -2,7 +2,7 @@
 
 # MAG Mapping Home Page #
 
-[![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=my-website)](http://ims.azmag.gov/)
+[![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=my-website)](http://maps.azmag.gov/)
 [![GitHub issues](https://img.shields.io/github/issues/AZMAG/map-MAGmappingPage.svg)](https://github.com/AZMAG/map-MAGmappingPage/issues)
 [![GitHub version](https://badge.fury.io/gh/AZMAG%2Fmap-MAGmappingPage.svg)](https://badge.fury.io/gh/AZMAG%2Fmap-MAGmappingPage)
 [![dependencies](https://david-dm.org/AZMAG/map-MAGmappingPage.png)](https://david-dm.org/AZMAG/map-MAGmappingPage)
@@ -11,7 +11,6 @@
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-****************************************************************************************************************
 
 The Maricopa Association of Governments (MAG) mapping home page is the portal to MAG's interactive mapping and analysis sites.
 
@@ -45,7 +44,7 @@ And constructed with the following guidelines:
 
 ## Site URL's
 
-* [MAG Mapping](http://ims.azmag.gov/)
+* [MAG Mapping](http://maps.azmag.gov/)
 
 ## Documentation
 

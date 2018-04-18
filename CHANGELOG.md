@@ -30,7 +30,7 @@ And constructed with the following guidelines:
 
 ***************************************************
 
-## Version 5.0.0 | 2018-04-12
+## Version 5.0.0 | 2018-04-18
 
 * page redesign!
 

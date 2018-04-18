@@ -58,8 +58,9 @@ $(document).ready(function() {
     $("#landUse").load("views/modal-landUse.html");
     $("#projections").load("views/modal-projections.html");
     $("#neighborhood").load("views/modal-neighborhood.html");
-    $("#spineStudy").load("views/modal-spineStudy.html");
+    // $("#spineStudy").load("views/modal-spineStudy.html");
     $("#atp").load("views/modal-atp.html");
+    $("#tip").load("views/modal-tip.html");
 });
 
 /*

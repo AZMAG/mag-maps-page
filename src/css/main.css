@@ -404,13 +404,13 @@ hr{
     background-size: cover;
 }
 #slide-10{
-    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('../images/carousel/main_spine.jpg');
-    background-position: center;
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('../images/carousel/main_atp.jpg');
+    background-position: top;
     background-size: cover;
 }
 #slide-11{
-    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('../images/carousel/main_atp.jpg');
-    background-position: top;
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('../images/carousel/main_tip.png');
+    background-position: center;
     background-size: cover;
 }
 

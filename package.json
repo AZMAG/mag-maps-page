@@ -1,7 +1,7 @@
 {
   "name": "MAGmapping-app",
-  "version": "4.7.7",
-  "date": "2018-04-16",
+  "version": "5.0.0",
+  "date": "2018-04-18",
   "copyright": "2018",
   "description": "MAG Main Map Page",
   "keywords": [
@@ -14,7 +14,7 @@
     "#MAGmaps"
   ],
   "main": "index.js",
-  "homepage": "http://ims.azmag.gov/",
+  "homepage": "http://maps.azmag.gov/",
   "repository": [
     {
       "type": "git",
@@ -34,6 +34,10 @@
     {
       "name": "Jack Fairfield",
       "email": "jfairfield@azmag.gov"
+    },
+    {
+      "name": "Merari Garcia",
+      "email": "mgarcia@azmag.gov"
     }
   ],
   "private": true,

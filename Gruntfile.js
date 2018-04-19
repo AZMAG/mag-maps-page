@@ -49,17 +49,10 @@ module.exports = function(grunt) {
                 mangle: false
             },
             task0: {
-                name: "plugins.min.js",
-                files: [{
-                    src: "dist/js/plugins.js",
-                    dest: "dist/js/plugins.min.js"
-                }]
-            },
-            task1: {
                 name: "main.min.js",
                 files: [{
                     src: "dist/js/main.js",
-                    dest: "dist/js/main.min.js"
+                    dest: "dist/js/master.min.js"
                 }]
             },
         },
@@ -82,19 +75,9 @@ module.exports = function(grunt) {
                     stripBanners: true,
                     banner: "<%= bannercss %>\n"
                 },
-                src: ["dist/css/bootstrap.min.css", "dist/css/normalize.min.css", "dist/css/carousel.min.css", "dist/css/main.min.css"],
-                dest: "dist/css/concat.min.css"
-            },
-            js: {
-                options: {
-                    stripBanners: true,
-                    banner: "<%= bannerjs %>\n"
-                },
-                src: ["dist/js/plugins.min.js", "dist/js/main.min.js"],
-                dest: "dist/js/master.min.js",
-                nonull: true,
+                src: ["dist/css/normalize.min.css", "dist/css/main.min.css"],
+                dest: "dist/css/main-concat.min.css"
             }
-
         },
 
         clean: {
@@ -105,7 +88,7 @@ module.exports = function(grunt) {
                 src: ["dist/js/*.js", "!dist/js/master.min.js"]
             },
             cleancss: {
-                src: ["dist/css/*.css", "!dist/css/concat.min.css"]
+                src: ["dist/css/*.css", "!dist/css/main-concat.min.css"]
             }
         },
 
@@ -122,13 +105,13 @@ module.exports = function(grunt) {
         toggleComments: {
             customOptions: {
                 options: {
-                    removeCommands: false
+                    removeCommands: true
                 },
                 files: {
                     "dist/index.html": "src/index.html",
-                    "dist/details.html": "src/details.html",
-                    "dist/contact.html": "src/contact.html",
-                    "dist/about.html": "src/about.html"
+                    "dist/releaseHistory.html": "src/releaseHistory.html",
+                    "dist/trainings.html": "src/trainings.html",
+                    "dist/js/main.js": "src/js/main.js"
                 }
             }
         },
@@ -137,7 +120,7 @@ module.exports = function(grunt) {
             update_Meta: {
                 // source files array
                 // RegExp Expression
-                src: ["src/index.html", "src/about.html", "src/contact.html", "src/details.html", "src/js/main.js", "src/humans.txt", "README.md"],
+                src: ["src/index.html", "src/trainings.html", "src/releaseHistory.html", "src/js/main.js", "src/humans.txt", "README.md"],
                 overwrite: true, // overwrite matched source files
                 replacements: [{
                     // html pages
@@ -187,7 +170,7 @@ module.exports = function(grunt) {
 
     // grunt.registerTask("test", ["htmlhint", "jshint"]);
 
-    grunt.registerTask("test", ["cssmin"]);
+    grunt.registerTask("testcss", ["clean:build", "copy", "cssmin", "concat"]);
 
     // grunt.registerTask("test", ["toggleComments"]);
 

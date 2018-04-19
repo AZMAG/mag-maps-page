@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>MAG | Mapping</title>
+    <title>MAG | Trainings</title>
     <meta name="description" content="MAG Mapping Center is a collection of interactive maps developed by MAG for public use.  #MAGmaps">
     <meta name="author" content="Maricopa Association of Governments">
     <link type="text/plain" rel="author" href="http://maps.azmag.gov/humans.txt">
@@ -83,36 +83,68 @@
     <div id="navbar-section"></div>
     <!--End navbar-->
     <header>
-        <div id="carousel-section" class="carousel slide" data-ride="carousel"></div>
+        <div id="trHeader" class="innerPageHeader">
+            <div class="headerText">
+                <h2>Trainings and Tutorials</h2>
+                <p class="lead">Learn how to access demographic and employment data for your community, region, and throughout the state of Arizona.</p>
+            </div>
+        </div>
     </header>
-    <!--List of all map viewers-->
-    <div id="maps-section"></div>
-    <!--Modals with viewer information-->
-    <!--State Demographics-->
-    <div class="modal fade" id="stateDemographics" role="dialog"></div>
-    <!--RAD-->
-    <div class="modal fade" id="rad" role="dialog"></div>
-    <!--Read On Arizona-->
-    <div class="modal fade" id="readOnAZ" role="dialog"></div>
-    <!--Employment-->
-    <div class="modal fade" id="employment" role="dialog"></div>
-    <!--State Employment-->
-    <div class="modal fade" id="stateEmployment" role="dialog"></div>
-    <!--Bikeways Modal-->
-    <div class="modal fade" id="bikeways" role="dialog"></div>
-    <!--Land Use Modal-->
-    <div class="modal fade" id="landUse" role="dialog"></div>
-    <!--Projections Modal-->
-    <div class="modal fade" id="projections" role="dialog"></div>
-    <!--Neighborhood Explorer Modal-->
-    <div class="modal fade" id="neighborhood" role="dialog"></div>
-    <!--Active Transportation Modal-->
-    <div class="modal fade" id="atp" role="dialog"></div>
-    <!--TIP Modal-->
-    <div class="modal fade" id="tip" role="dialog"></div>
-    <!--End modals-->
-    <!--Video section-->
-    <div id="video-section"></div>
+    <div class="in-page-nav">
+        <ul>
+            <li><a class="toggle-links track active" href="#trainings" data-toggle="collapse">Trainings</a></li>
+            <li><a class="toggle-links track" href="#tutorials" data-toggle="collapse">Tutorials</a></li>
+            <li><a class="track" href="index.html">Back to Maps</a></li>
+        </ul>
+    </div>
+    <div id="trainingTutorials" class="page-content collapseGroup">
+        <div class="container">
+            <div id="trainings" class="collapse in">
+                <h3>Register for Training</h3>
+                <p class="lead">In a live computer lab setting, attendees will use the MAG map viewers to conduct searches for demographic and employment data. Anyone who conducts planning and community assessment is invited to attend.</p>
+                <h4>Workshop Overview</h4>
+                <ul>
+                    <li>Overview of the Demographic Map Viewer, State Demographic Map Viewer, and Employment Map Viewer.</li>
+                    <li>Using the Map Tools to Define a Custom Area.</li>
+                    <li>Exporting Selected Data.</li>
+                    <li>Printing a Map.</li>
+                    <li>Analyzing and Compiling Data.</li>
+                    <li>Additional Data Resources Available at MAG.</li>
+                </ul>
+                <h4>Register for Training in:</h4>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <a class="linkImageOverlay track" href="https://www.eventbrite.com/e/2018-mag-interactive-map-viewer-training-east-valley-gilbert-registration-42772354263" target="_blank">
+                            <div class="img-wrapper">
+                                <img class="img-responsive" src="images/img_east-valley.jpg" />
+                                <span class="overlayTitle">East Valley</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <a class="linkImageOverlay track" href="https://www.eventbrite.com/e/2018-mag-interactive-map-viewer-training-downtown-phoenix-registration-42092734502" target="_blank">
+                            <div class="img-wrapper">
+                                <img class="img-responsive" src="images/img_map-downtown.png" />
+                                <span class="overlayTitle">Downtown</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <a class="linkImageOverlay track" href="https://www.eventbrite.com/e/2018-mag-interactive-map-viewer-training-west-valley-west-phoenix-registration-42771706325" target="_blank">
+                            <div class="img-wrapper">
+                                <img class="img-responsive" src="images/img_west-valley.jpg" />
+                                <span class="overlayTitle">West Valley</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="tutorials" class="collapse">
+                <h4 class="text-center text-primary"><em>Tutorials coming soon!</em></h4>
+                <p class="text-center">Subscribe to get notified of page updates.</p>
+            </div>
+        </div>
+    </div>
     <!--Footer section-->
     <footer class="footer-section"></footer>
     <button class="scrollTop"><em class="fa fa-chevron-up"></em></button>

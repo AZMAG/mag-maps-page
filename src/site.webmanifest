@@ -1,0 +1,13 @@
+{
+    "name": "MAG Maps",
+    "short_name": "MAG Maps",
+    "description": "MAG Mapping Center is a collection of interactive maps developed by MAG for public use.  #MAGmaps",
+    "start_url": "http://maps.azmag.gov/index.html",
+    "lang": "en-US",
+    "dir": "ltr",
+    "icons": [{
+        "src": "icon.png",
+        "sizes": "192x192",
+        "type": "image/png"
+    }]
+}

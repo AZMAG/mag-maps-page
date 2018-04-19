@@ -21,9 +21,9 @@ $(document).ready(function() {
         });
 
         /*twitter share button href*/
-        var baseUrl = 'http://twitter.com/intent/tweet';
+        var baseUrl = 'https://twitter.com/intent/tweet';
         var text = "MAG%20%7C%20Mapping%20Center";
-        var thisPageUrl = "http://maps.azmag.gov/";
+        var thisPageUrl = "https://maps.azmag.gov/";
         var hashTag = "MAGmaps";
         var via = "MAGregion";
 

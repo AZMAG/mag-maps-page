@@ -30,7 +30,11 @@ And constructed with the following guidelines:
 
 ***************************************************
 
-## Version 5.0.0 | 2018-04-18
+## Version 5.0.1 | 2018-04-19
+
+* Changed http to https for security 
+
+## Version 5.0.0 | 2018-04-19
 
 * page redesign!
 * added Google analytics tracking to buttons

@@ -900,6 +900,42 @@ hr{
     margin: 10px 0px;
 }
 
+.trainingSchedule{
+	margin-bottom: 35px;
+}
+
+.trainingSchedule h4{
+	border-bottom: thin solid #ddd;
+	padding: 0px 10px 10px;
+}
+
+.scheduleList{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.scheduleList li{
+	display: inline-block;
+	height: 70px;
+	width: 70px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 5px 2.5px;
+	
+}
+
+.scheduleList li > a{
+	display: block;
+	background: #eee;
+	padding: 15px 0px;
+}
+
+.scheduleList li > a:hover{
+	background: #BCE2E6;
+}
+
+
 /*Footer section*/
 
 footer{
@@ -1136,6 +1172,7 @@ footer .container{
 
     .carousel-image {
         height: 80vh;
+		min-height: 560px;
     }
 
 

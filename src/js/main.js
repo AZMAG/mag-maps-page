@@ -11,6 +11,7 @@
 $(document).ready(function() {
     "use strict";
     //*** Load page sections
+<<<<<<< HEAD
 
     //Load nav bar then run function that adds active to nav link
     $("#navbar-section").load("views/section-navbar.html", function() {
@@ -47,6 +48,21 @@ $(document).ready(function() {
     });
     $("#pastUpdates").load("views/section-pastUpdates.html");
     $("#mostRecent").load("views/section-recentUpdates.html");
+=======
+    $("#carousel-section").load("views/carousel-section.html");
+    $("#maps-section").load("views/maps-section.html");
+    $("#video-section").load("views/video-section.html");
+    $(".footer-section").load("views/footer-section.html", function() {
+        //*** terms binding
+        $("#termsModal").load("views/terms.html");
+        //*** privacy binding
+        $("#privacyModal").load("views/privacy.html");
+        //*** version binding
+        $(".version").html("v4.7.6 | 2018-02-26");
+        //*** copy write binding
+        $(".copyright").html("2018");
+    });
+>>>>>>> update index and training html
 
     //*** Modals ***
     $("#stateDemographics").load("views/modal-stateDemographics.html");
@@ -58,9 +74,14 @@ $(document).ready(function() {
     $("#landUse").load("views/modal-landUse.html");
     $("#projections").load("views/modal-projections.html");
     $("#neighborhood").load("views/modal-neighborhood.html");
+<<<<<<< HEAD
     // $("#spineStudy").load("views/modal-spineStudy.html");
     $("#atp").load("views/modal-atp.html");
     $("#tip").load("views/modal-tip.html");
+=======
+    $("#spineStudy").load("views/modal-spineStudy.html");
+    $("#atp").load("views/modal-atp.html");
+>>>>>>> update index and training html
 });
 
 /*
@@ -190,6 +211,7 @@ $(".scrollTop").click(function() {
     });
 });
 
+<<<<<<< HEAD
 // ------------------------------
 // GOOGLE ANALYTICS CTA TRACKING
 // -----------------------------
@@ -200,3 +222,5 @@ $(document).on('click', '.track', function(e) {
     // ga('send', 'event', 'Button', 'Click', text);
     // <!-- endcomments -->
 });
+=======
+>>>>>>> update index and training html

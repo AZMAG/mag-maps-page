@@ -231,3 +231,4 @@ bower_components
 
 # folder for editing and testing
 reports/
+.vscode/launch.json

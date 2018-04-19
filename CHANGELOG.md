@@ -30,6 +30,11 @@ And constructed with the following guidelines:
 
 ***************************************************
 
+## Version 5.0.0 | 2018-04-18
+
+* page redesign!
+* added Google analytics tracking to buttons
+
 ## Version 4.7.7 | 2018-04-16
 
 * Removed Spine Study Map from page

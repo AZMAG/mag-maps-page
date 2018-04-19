@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>MAG | Mapping</title>
+    <title>MAG | Release History</title>
     <meta name="description" content="MAG Mapping Center is a collection of interactive maps developed by MAG for public use.  #MAGmaps">
     <meta name="author" content="Maricopa Association of Governments">
     <link type="text/plain" rel="author" href="http://maps.azmag.gov/humans.txt">
@@ -83,36 +83,27 @@
     <div id="navbar-section"></div>
     <!--End navbar-->
     <header>
-        <div id="carousel-section" class="carousel slide" data-ride="carousel"></div>
+        <div id="rhHeader" class="innerPageHeader">
+            <div class="headerText">
+                <h2>Release History</h2>
+                <p class="lead">A detailed release history for the MAG map viewers, showing whats new and what has been fixed.</p>
+            </div>
+        </div>
     </header>
+    <div class="in-page-nav">
+        <ul>
+            <li><a class="toggle-links track active" href="#mostRecent" data-toggle="collapse">Most Recent</a></li>
+            <li><a class="toggle-links track" href="#pastUpdates" data-toggle="collapse">Past Updates</a></li>
+            <li><a class="track" href="index.html">Back to Maps</a></li>
+        </ul>
+    </div>
+    <div id="releaseHistory" class="page-content collapseGroup">
+        <div class="container">
+            <div id="mostRecent" class="collapse in"></div>
+            <div id="pastUpdates" class="collapse"></div>
+        </div>
+    </div>
     <!--List of all map viewers-->
-    <div id="maps-section"></div>
-    <!--Modals with viewer information-->
-    <!--State Demographics-->
-    <div class="modal fade" id="stateDemographics" role="dialog"></div>
-    <!--RAD-->
-    <div class="modal fade" id="rad" role="dialog"></div>
-    <!--Read On Arizona-->
-    <div class="modal fade" id="readOnAZ" role="dialog"></div>
-    <!--Employment-->
-    <div class="modal fade" id="employment" role="dialog"></div>
-    <!--State Employment-->
-    <div class="modal fade" id="stateEmployment" role="dialog"></div>
-    <!--Bikeways Modal-->
-    <div class="modal fade" id="bikeways" role="dialog"></div>
-    <!--Land Use Modal-->
-    <div class="modal fade" id="landUse" role="dialog"></div>
-    <!--Projections Modal-->
-    <div class="modal fade" id="projections" role="dialog"></div>
-    <!--Neighborhood Explorer Modal-->
-    <div class="modal fade" id="neighborhood" role="dialog"></div>
-    <!--Active Transportation Modal-->
-    <div class="modal fade" id="atp" role="dialog"></div>
-    <!--TIP Modal-->
-    <div class="modal fade" id="tip" role="dialog"></div>
-    <!--End modals-->
-    <!--Video section-->
-    <div id="video-section"></div>
     <!--Footer section-->
     <footer class="footer-section"></footer>
     <button class="scrollTop"><em class="fa fa-chevron-up"></em></button>

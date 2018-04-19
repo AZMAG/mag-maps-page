@@ -30,6 +30,10 @@ And constructed with the following guidelines:
 
 ***************************************************
 
+## Version 5.0.2 | 2018-04-19
+
+* fix readon links - not https 
+
 ## Version 5.0.1 | 2018-04-19
 
 * fixed facebook link

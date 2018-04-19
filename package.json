@@ -1,12 +1,7 @@
 {
   "name": "MAGmapping-app",
-<<<<<<< HEAD
-  "version": "4.9.9",
-  "date": "2018-04-18",
-=======
   "version": "5.0.0",
-  "date": "2018-04-12",
->>>>>>> update release history docs
+  "date": "2018-04-19",
   "copyright": "2018",
   "description": "MAG Main Map Page",
   "keywords": [

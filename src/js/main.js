@@ -106,7 +106,7 @@ $(document).on('click', '#FBshareButton', function() {
     FB.ui({
         method: 'share',
         mobile_iframe: true,
-        href: 'https://developers.facebook.com/docs/',
+        href: 'https://maps.azmag.gov/',
     }, function(response) {});
 });
 

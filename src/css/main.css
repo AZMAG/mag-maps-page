@@ -354,62 +354,108 @@ hr{
 
 /*Carousel Styles*/
 #slide-0{
+<<<<<<< HEAD
     background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('../images/carousel/main_state.jpg');
+=======
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('../images/carousel/main_stateDemo.jpg');
+>>>>>>> update index file
     background-position: center;
     background-size: cover;
 }
 #slide-1{
+<<<<<<< HEAD
     background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('../images/carousel/main_demographic.jpg');
+=======
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('../images/carousel/main_recreation.jpg');
+>>>>>>> update index file
     background-position: center;
     background-size: cover;
 }
 #slide-2{
+<<<<<<< HEAD
     background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('../images/carousel/main_recreation.jpg');
     background-position: bottom;
     background-size: cover;
 }
 #slide-3{
     background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('../images/carousel/main_mapLit.jpg');
+=======
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('../images/carousel/main_mapLit.jpg');
+    background-position: center;
+    background-size: cover;
+}
+#slide-3{
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('../images/carousel/main_employment.jpg');
+>>>>>>> update index file
     background-position: center;
     background-size: cover;
 }
 #slide-4{
+<<<<<<< HEAD
     background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('../images/carousel/main_employment.jpg');
+=======
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('../images/carousel/main_state-employment.png');
+>>>>>>> update index file
     background-position: center;
     background-size: cover;
 }
 #slide-5{
+<<<<<<< HEAD
     background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('../images/carousel/main_state-employment.png');
+=======
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('../images/carousel/cyclists-carousel-image.jpg');
+>>>>>>> update index file
     background-position: center;
     background-size: cover;
 }
 #slide-6{
+<<<<<<< HEAD
     background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('../images/carousel/cyclists-carousel-image.jpg');
     background-position: top;
     background-size: cover;
 }
 #slide-7{
     background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('../images/carousel/south-mountain-carousel-img.jpg');
+=======
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('../images/carousel/south-mountain-carousel-img.jpg');
+    background-position: center;
+    background-size: cover;
+}
+#slide-7{
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('../images/carousel/main_projections.jpg');
+>>>>>>> update index file
     background-position: center;
     background-size: cover;
 }
 #slide-8{
+<<<<<<< HEAD
     background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('../images/carousel/main_projections.jpg');
+=======
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('../images/carousel/main_landmarks.jpg');
+>>>>>>> update index file
     background-position: center;
     background-size: cover;
 }
 #slide-9{
+<<<<<<< HEAD
     background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('../images/carousel/main_landmarks.jpg');
     background-position: bottom;
+=======
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('../images/carousel/main_spine.jpg');
+    background-position: center;
+>>>>>>> update index file
     background-size: cover;
 }
 #slide-10{
     background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('../images/carousel/main_atp.jpg');
+<<<<<<< HEAD
     background-position: top;
     background-size: cover;
 }
 #slide-11{
     background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('../images/carousel/main_tip.png');
+=======
+>>>>>>> update index file
     background-position: center;
     background-size: cover;
 }

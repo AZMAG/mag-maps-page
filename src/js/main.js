@@ -62,7 +62,12 @@ $(document).ready(function() {
         //*** copy write binding
         $(".copyright").html("2018");
     });
+<<<<<<< HEAD
 >>>>>>> update index and training html
+=======
+    $("#pastUpdates").load("views/pastUpdates.html");
+    $("#mostRecent").load("views/recentUpdates.html");
+>>>>>>> update release history docs
 
     //*** Modals ***
     $("#stateDemographics").load("views/modal-stateDemographics.html");

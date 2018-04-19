@@ -21,9 +21,9 @@ $(document).ready(function() {
         });
 
         /*twitter share button href*/
-        var baseUrl = 'http://twitter.com/intent/tweet';
+        var baseUrl = 'https://twitter.com/intent/tweet';
         var text = "MAG%20%7C%20Mapping%20Center";
-        var thisPageUrl = "http://maps.azmag.gov/";
+        var thisPageUrl = "https://maps.azmag.gov/";
         var hashTag = "MAGmaps";
         var via = "MAGregion";
 
@@ -41,7 +41,7 @@ $(document).ready(function() {
         //*** privacy binding
         $("#privacyModal").load("views/modal-privacy.html");
         //*** version binding
-        $(".version").html("v5.0.0 | 2018-04-19");
+        $(".version").html("v5.0.1 | 2018-04-19");
         //*** copy write binding
         $(".copyright").html("2018");
     });
@@ -83,7 +83,7 @@ $(document).ready(function() {
 
 //LinkedIn
 $(document).on('click', '#INshareButton', function() {
-    window.open("https://www.linkedin.com/shareArticle?url=http://maps.azmag.gov/", "shareLinkedIn", 'width=600, height=600');
+    window.open("https://www.linkedin.com/shareArticle?url=http://maps.azmag.gov/", "shareLinkedIn", 'width=650, height=700');
 });
 
 // google +1
@@ -113,8 +113,9 @@ $(document).on('click', '#FBshareButton', function() {
 window.fbAsyncInit = function() {
     FB.init({
         appId: "929950963769905",
+        cookie: true,
         xfbml: true,
-        version: "v2.6"
+        version: "v2.12"
     });
 };
 
@@ -123,9 +124,9 @@ window.fbAsyncInit = function() {
     if (d.getElementById(id)) { return; }
     js = d.createElement(s);
     js.id = id;
-    js.src = "//connect.facebook.net/en_US/sdk.js";
+    js.src = "https://connect.facebook.net/en_US/sdk.js";
     fjs.parentNode.insertBefore(js, fjs);
-}(document, "script", "facebook-jssdk"));
+}(document, 'script', 'facebook-jssdk'));
 
 
 $(document).on('click', '.shareButton button', function(e) {
@@ -200,4 +201,3 @@ $(document).on('click', '.track', function(e) {
     // ga('send', 'event', 'Button', 'Click', text);
     // <!-- endcomments -->
 });
-

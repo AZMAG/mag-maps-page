@@ -690,6 +690,14 @@ hr{
 
 /*Modal styles*/
 
+.modal-header {
+    background-color: #BCE2E6;
+}
+.modal-title {
+    font-size: 30px;
+    font-weight: 700;
+}
+
 .modal-content h1, .modal-content h2,
 .modal-content h3, .modal-content h4,
 .modal-content h5{
@@ -712,7 +720,7 @@ hr{
 
 .modal-body {
     min-height: 118px;
-    margin: 20px 0px;
+    /* margin: 20px 0px; */
     padding: 25px;
 }
 
@@ -723,7 +731,7 @@ hr{
 .modal-body h4{
     font-size: 20px;
     font-weight: 600;
-    margin: 30px 0px 20px;;;
+    margin: 20px 0px 20px;
 }
 
 .modal-body .lead{

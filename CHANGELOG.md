@@ -30,6 +30,10 @@ And constructed with the following guidelines:
 
 ***************************************************
 
+## Version 5.0.4 | 2018-04-20
+
+* Edited viewer box sizes and changed banner overlays
+
 ## Version 5.0.3 | 2018-04-19
 
 * Fixed carousel-image css

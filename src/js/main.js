@@ -41,7 +41,7 @@ $(document).ready(function() {
         //*** privacy binding
         $("#privacyModal").load("views/modal-privacy.html");
         //*** version binding
-        $(".version").html("v5.0.2 | 2018-04-19");
+        $(".version").html("v5.0.3 | 2018-04-19");
         //*** copy write binding
         $(".copyright").html("2018");
     });
@@ -106,7 +106,7 @@ $(document).on('click', '#FBshareButton', function() {
     FB.ui({
         method: 'share',
         mobile_iframe: true,
-        href: 'https://developers.facebook.com/docs/',
+        href: 'https://maps.azmag.gov/',
     }, function(response) {});
 });
 

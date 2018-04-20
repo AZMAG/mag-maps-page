@@ -30,6 +30,10 @@ And constructed with the following guidelines:
 
 ***************************************************
 
+## Version 5.0.5 | 2018-04-20
+
+* updated Release History info
+
 ## Version 5.0.4 | 2018-04-20
 
 * Edited viewer box sizes and changed banner overlays

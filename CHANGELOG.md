@@ -30,6 +30,12 @@ And constructed with the following guidelines:
 
 ***************************************************
 
+## Version 5.0.6 | 2018-04-23
+
+* Changed text on training page
+* Fixed Links for Land Use and Projections - Not Https yet
+* Removed Regional Employment Viewer Info
+
 ## Version 5.0.5 | 2018-04-20
 
 * updated Release History info

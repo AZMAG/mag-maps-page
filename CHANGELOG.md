@@ -30,11 +30,14 @@ And constructed with the following guidelines:
 
 ***************************************************
 
-## Version 5.0.6 | 2018-04-23
+## Version 5.0.6 | 2018-04-24
 
 * Changed text on training page
 * Fixed Links for Land Use and Projections - Not Https yet
 * Removed Regional Employment Viewer Info
+* Changed 'State Demographic Viewer' to 'Arizona Demographic Viewer'
+* Changged 'State Employment Viewer' to 'Arizona Employment Viewer'
+* Updated release history for Arizona Employment viewer
 
 ## Version 5.0.5 | 2018-04-20
 

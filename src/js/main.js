@@ -61,6 +61,8 @@ $(document).ready(function() {
     // $("#spineStudy").load("views/modal-spineStudy.html");
     $("#atp").load("views/modal-atp.html");
     $("#tip").load("views/modal-tip.html");
+    $("#schoolsDataCenter").load("views/modal-schoolsDataCenter.html");
+    $("#urbanAreas").load("views/modal-urbanAreas.html");
 });
 
 /*

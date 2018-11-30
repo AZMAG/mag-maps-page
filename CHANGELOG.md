@@ -30,7 +30,7 @@ And constructed with the following guidelines:
 
 ***************************************************
 
-## Version 5.0.7 | 2018-11-20
+## Version 5.0.7 | 2018-11-30
 
 * Added Schools Data Center to maps
 * Changed Neighborhood Viewer icon

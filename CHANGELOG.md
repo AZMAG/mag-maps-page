@@ -30,6 +30,12 @@ And constructed with the following guidelines:
 
 ***************************************************
 
+## Version 5.0.7 | 2018-11-30
+
+* Added Schools Data Center to maps
+* Changed Neighborhood Viewer icon
+* Added Urban Area Information Viewer
+
 ## Version 5.0.6 | 2018-04-24
 
 * Changed text on training page

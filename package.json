@@ -1,13 +1,14 @@
 {
   "name": "MAGmapping-app",
-  "version": "5.0.6",
-  "date": "2018-04-24",
+  "version": "5.0.7",
+  "date": "2018-11-30",
   "copyright": "2018",
   "description": "MAG Main Map Page",
   "keywords": [
     "MAG",
     "region",
     "maps",
+    "mapping",
     "state",
     "Arizona",
     "ESRI",
@@ -55,7 +56,7 @@
     "grunt-version-check": "^0.3.8",
     "jshint-stylish": "^2.2.1",
     "jshint-stylish-ex": "0.2.0",
-    "lodash": "4.17.4",
+    "lodash": ">=4.17.5",
     "matchdep": "1.0.1",
     "normalize.css": ">=7.0.0"
   },

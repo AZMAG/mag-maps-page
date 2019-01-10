@@ -31,9 +31,9 @@ And constructed with the following guidelines:
 2. **MINOR** version when you add functionality in a backwards-compatible manner **bumps the minor** resets patch
 3. **PATCH** version when you make backwards-compatible bug fixes and misc changes **bumps only the patch**
 
-### version | 5.0.7 ###
+### version | 5.0.8 ###
 
-* #### Updated | 2018-11-30 ####
+* #### Updated | 2019-01-10 ####
 
 * #### Created | 2014-10-21 ####
 
@@ -43,7 +43,7 @@ And constructed with the following guidelines:
 
 ## Site URL's
 
-* [MAG Mapping](http://maps.azmag.gov/)
+* [MAG Mapping](https://maps.azmag.gov/)
 
 ## Documentation
 

@@ -30,6 +30,12 @@ And constructed with the following guidelines:
 
 ***************************************************
 
+## Version 5.0.8 | 2019-01-10
+
+* Added to the build process
+* Removed old training dates
+* Added new training dates
+
 ## Version 5.0.7 | 2018-11-30
 
 * Added Schools Data Center to maps
@@ -61,12 +67,12 @@ And constructed with the following guidelines:
 
 ## Version 5.0.2 | 2018-04-19
 
-* fix readon links - not https 
+* fix readon links - not https
 
 ## Version 5.0.1 | 2018-04-19
 
 * fixed facebook link
-* Changed http to https for security 
+* Changed http to https for security
 
 ## Version 5.0.0 | 2018-04-19
 
@@ -112,9 +118,9 @@ And constructed with the following guidelines:
 
 * update icons for viewers
 * moved `View Map` buttons
-* Updated titles 
-* Moved `Subscribe for Update` button 
-* Moved `Register for Training` button 
+* Updated titles
+* Moved `Subscribe for Update` button
+* Moved `Register for Training` button
 
 ## Version 4.6.6 | 08/22/2017
 
@@ -124,7 +130,7 @@ And constructed with the following guidelines:
 
 ## Version 4.6.5 | 08/22/2017
 
-* Update to Employment Viewer - bug fix 
+* Update to Employment Viewer - bug fix
 
 ## Version 4.6.4 | 08/07/2017
 
@@ -134,7 +140,7 @@ And constructed with the following guidelines:
 
 * Add Regional Activity & Destination Viewer (RAD)
 * Make icons into links also
-* Update details page 
+* Update details page
 * Add Grunt task to update index.html page on build
 
 ## Version 4.6.2 | 07/19/2017
@@ -143,7 +149,7 @@ And constructed with the following guidelines:
 
 ## Version 4.6.1 | 07/19/2017
 
-* update files 
+* update files
 * Remove Victim Services Map Viewer
 * update Grunt files
 

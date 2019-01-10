@@ -41,9 +41,9 @@ $(document).ready(function() {
         //*** privacy binding
         $("#privacyModal").load("views/modal-privacy.html");
         //*** version binding
-        $(".version").html("v5.0.7 | 2018-11-30");
+        $(".version").html("v5.0.8 | 2019-01-10");
         //*** copy write binding
-        $(".copyright").html("2018");
+        $(".copyright").html("2019");
     });
     $("#pastUpdates").load("views/section-pastUpdates.html");
     $("#mostRecent").load("views/section-recentUpdates.html");

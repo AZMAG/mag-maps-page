@@ -41,6 +41,21 @@ module.exports = function(grunt) {
             target: ["Gruntfile.js", "src/js/*.js"],
         },
 
+        babel: {
+            options: {
+                sourceMaps: false,
+                presets: ["@babel/preset-env"]
+            },
+            dist: {
+                files: [{
+                    expand: true,
+                    cwd: "src/js",
+                    src: ["*.js"],
+                    dest: "dist/js"
+                }]
+            }
+        },
+
         uglify: {
             options: {
                 banner: "<% var subtask = uglify[grunt.task.current.target]; %>" +
@@ -77,6 +92,32 @@ module.exports = function(grunt) {
                 },
                 src: ["dist/css/normalize.min.css", "dist/css/main.min.css"],
                 dest: "dist/css/main-concat.min.css"
+            }
+        },
+
+        htmlmin: {
+            htmlmin1: {
+                options: {
+                    removeComments: true,
+                    collapseWhitespace: true
+                },
+                files: {
+                    "dist/index.html": "dist/index.html",
+                    "dist/releaseHistory.html": "dist/releaseHistory.html",
+                    "dist/trainings.html": "dist/trainings.html",
+                }
+            },
+            htmlmin2: {
+                options: {
+                    removeComments: true,
+                    collapseWhitespace: true
+                },
+                files: [{
+                    expand: true,
+                    cwd: "dist/views",
+                    src: ["*.html"],
+                    dest: "dist/views"
+                }]
             }
         },
 
@@ -120,16 +161,16 @@ module.exports = function(grunt) {
             update_Meta: {
                 // source files array
                 // RegExp Expression
-                src: ["src/index.html", "src/trainings.html", "src/releaseHistory.html", "src/js/main.js", "src/humans.txt", "README.md"],
+                src: ["src/index.html", "src/trainings.html", "src/releaseHistory.html", "src/js/main.js", "src/humans.txt", "README.md", "LICENSE", "src/LICENSE"],
                 overwrite: true, // overwrite matched source files
                 replacements: [{
                     // html pages
                     from: /(<meta name="revision-date" content=")[0-9]{4}-[0-9]{2}-[0-9]{2}(">)/g,
-                    to: '<meta name="revision-date" content="' + '<%= pkg.date %>' + '">',
+                    to: '<meta name="revision-date" content="' + "<%= pkg.date %>" + '">',
                 }, {
                     // html pages
                     from: /(<meta name="version" content=")([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))(">)/g,
-                    to: '<meta name="version" content="' + '<%= pkg.version %>' + '">',
+                    to: '<meta name="version" content="' + "<%= pkg.version %>" + '">',
                 }, {
                     // humans.txt
                     from: /(Version\: )([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))/g,
@@ -137,15 +178,15 @@ module.exports = function(grunt) {
                 }, {
                     // humans.txt
                     from: /(Last updated\: )[0-9]{4}-[0-9]{2}-[0-9]{2}/g,
-                    to: "Last updated: " + '<%= pkg.date %>',
+                    to: "Last updated: " + "<%= pkg.date %>",
                 }, {
                     // README.md
-                    from: /(### version )([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))/g,
-                    to: "### version " + "<%= pkg.version %>",
+                    from: /(### version \| )([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))/g,
+                    to: "### version \| " + "<%= pkg.version %>",
                 }, {
                     // README.md
-                    from: /(`Updated: )[0-9]{4}-[0-9]{2}-[0-9]{2}/g,
-                    to: "`Updated: " + '<%= pkg.date %>'
+                    from: /(Updated \| )[0-9]{4}-[0-9]{2}-[0-9]{2}/g,
+                    to: "Updated \| " + "<%= pkg.date %>"
                 }, {
                     // main.js
                     from: /(v)([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))( \| )[0-9]{4}-[0-9]{2}-[0-9]{2}/g,
@@ -154,6 +195,10 @@ module.exports = function(grunt) {
                     // main.js    $(".copyright").html("2017");
                     from: /(.html)+(\(")([0-9]{4})+("\))/g,
                     to: '.html("' + "<%= pkg.copyright %>" + '")'
+                }, {
+                    // LICENSE
+                    from: /(Copyright \(c\) )([0-9]{4})/g,
+                    to: "Copyright (c) " + "<%= pkg.copyright %>",
                 }]
             }
         }
@@ -163,8 +208,8 @@ module.exports = function(grunt) {
 
     // this would be run by typing "grunt test" on the command line
 
-    // grunt.registerTask("build", ["replace", "uglify", "cssmin", "concat"]);
-    grunt.registerTask("build", ["clean:build", "replace", "copy", "toggleComments", "uglify", "cssmin", "concat", "clean:cleanjs", "clean:cleancss"]);
+    // the default task can be run just by typing "grunt" on the command line
+    grunt.registerTask("default", []);
 
     grunt.registerTask("update", ["replace"]);
 
@@ -174,8 +219,8 @@ module.exports = function(grunt) {
 
     // grunt.registerTask("test", ["toggleComments"]);
 
-    // the default task can be run just by typing "grunt" on the command line
-    grunt.registerTask("default", []);
+    // grunt.registerTask("build", ["replace", "uglify", "cssmin", "concat"]);
+    grunt.registerTask("build", ["clean:build", "replace", "copy", "toggleComments", "uglify", "cssmin", "concat", "clean:cleanjs", "clean:cleancss", "htmlmin", ]);
 
 };
 

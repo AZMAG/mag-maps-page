@@ -30,6 +30,10 @@ And constructed with the following guidelines:
 
 ***************************************************
 
+## Version 5.0.9 | 2019-01-23
+
+* Added new training dates
+
 ## Version 5.0.8 | 2019-01-10
 
 * Added to the build process

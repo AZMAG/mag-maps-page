@@ -30,6 +30,10 @@ And constructed with the following guidelines:
 
 ***************************************************
 
+## Version 5.0.10 | 2019-02-08
+
+* Fixed github issue #20
+
 ## Version 5.0.9 | 2019-01-23
 
 * Added new training dates

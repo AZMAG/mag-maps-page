@@ -29,6 +29,9 @@ And constructed with the following guidelines:
 [Source](http://keepachangelog.com/en/1.0.0/)
 
 ***************************************************
+## Version 5.0.11 | 2019-03-04
+
+* Removed training on 3/6 per Merry
 
 ## Version 5.0.10 | 2019-02-08
 

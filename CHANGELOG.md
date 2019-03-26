@@ -30,6 +30,14 @@ And constructed with the following guidelines:
 
 ***************************************************
 
+## Version 5.0.12 | 2019-03-26
+
+* Removed training on west valley 3/28 per Merry
+
+## Version 5.0.11 | 2019-03-04
+
+* Removed training on 3/6 per Merry
+
 ## Version 5.0.10 | 2019-02-08
 
 * Fixed github issue #20

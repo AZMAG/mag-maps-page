@@ -444,6 +444,11 @@ hr {
     background-position: center;
     background-size: cover;
 }
+#slide-13 {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/carousel/hrn-banner-revised.jpg');
+    background-position: center;
+    background-size: cover;
+}
 
 .carousel-image {
     width: 100%;

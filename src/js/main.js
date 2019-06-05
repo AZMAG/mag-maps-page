@@ -63,6 +63,7 @@ $(document).ready(function() {
     $("#tip").load("views/modal-tip.html");
     $("#schoolsDataCenter").load("views/modal-schoolsDataCenter.html");
     $("#urbanAreas").load("views/modal-urbanAreas.html");
+    $("#heatRelief").load("views/modal-heatRelief.html");
 });
 
 /*

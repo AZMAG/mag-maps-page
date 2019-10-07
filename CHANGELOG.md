@@ -30,6 +30,15 @@ And constructed with the following guidelines:
 
 ***************************************************
 
+## Version 5.0.17 | 2019-10-07
+
+* Changed Employment Logo
+
+## Version 5.0.16 | 2019-07-08
+## Version 5.0.15 | 2019-06-05
+## Version 5.0.14 | 2019-04-25
+## Version 5.0.13 | 2019-04-13
+
 ## Version 5.0.12 | 2019-03-26
 
 * Removed training on west valley 3/28 per Merry

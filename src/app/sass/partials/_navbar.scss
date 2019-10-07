@@ -1,0 +1,81 @@
+/* ==========================================================================
+   Navigation Bar
+========================================================================== */
+
+/*Home header with black bar*/
+
+#homeBarHeader {
+    background-color: #171717;
+    border-top: 5px solid #384045;
+    min-height: 50px;
+    padding: 20px 0px 0px;
+    position: relative;
+    text-align: left;
+}
+
+#homeBarHeader h2 {
+    color: #FFF;
+    display: inline-block;
+    font-weight: 200;
+    min-height: 37px;
+    font-size: 2.6em;
+    line-height: 46px;
+    padding: 0 0 17px;
+    margin-bottom: 0px;
+}
+
+.navbar-default {
+    background: white;
+    padding: 10px 0px;
+    margin-bottom: 0px;
+}
+
+.navbar-brand {
+    height: 100%;
+    width: 100%;
+    max-width: 350px;
+}
+
+.navbar-brand>img {
+    margin: auto;
+}
+
+#magNavbar {
+    overflow: unset;
+}
+
+#magNavbar .navbar-nav {
+    margin-top: 16.039px;
+    position: relative;
+}
+
+#magNavbar .nav>li>a {
+    padding: 10px 13px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #2baab1;
+    margin: 2px;
+}
+
+#magNavbar .nav>li>a:hover {
+    background: #2baab1;
+    color: white;
+    border-radius: 4px;
+}
+
+#magNavbar .navbar-nav>li.active>a {
+    background: #2baab1;
+    color: white;
+    border-radius: 4px;
+}
+
+#magNavbar .nav>li.shareButton>button:hover {
+    background: #2baab1;
+    color: white;
+}
+
+#magNavbar .nav>li.shareButton>button.active {
+    background: white;
+    color: #2baab1;
+}

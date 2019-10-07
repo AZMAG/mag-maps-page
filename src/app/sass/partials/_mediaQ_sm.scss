@@ -1,0 +1,76 @@
+/********************************************************
+ Media Queries
+*********************************************************/
+/*==========  Mobile First Method  ==========*/
+/* Small Devices, Phones */
+
+@media screen and (max-width:767px) {
+    #shareBox {
+        right: auto;
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    .carousel-content h2,
+    .headerText h2 {
+        font-size: 33px;
+    }
+
+    .carousel-content p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 548px) {
+    .innerPageHeader {
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .navbar-brand>img {
+        max-width: 220px
+    }
+
+    .navbar-brand {
+        width: auto;
+    }
+
+    .carousel-content h2,
+    .headerText h2 {
+        font-size: 28px;
+    }
+
+    .carousel-content p {
+        font-size: 14px;
+    }
+
+    .carousel-image {
+        height: 60vh;
+    }
+}
+
+@media screen and (max-height: 700) {
+    .carousel-image {
+        height: 75vh;
+    }
+}
+
+@media screen and (max-height: 670px) {
+    .carousel-image {
+        height: 40vh;
+    }
+
+    .innerPageHeader {
+        height: 60vh;
+    }
+}
+
+@media screen and (max-height: 570px) {
+    .carousel-image {
+        height: 40vh;
+        min-height: 560px;
+    }
+}

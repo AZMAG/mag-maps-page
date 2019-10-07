@@ -1,0 +1,119 @@
+/* ==========================================================================
+   Social Media
+========================================================================== */
+
+.shareButton button {
+    font-size: 30px;
+    padding: 5px 13px 3px 13px;
+    background: none;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    color: #2baab1;
+}
+
+#shareBox {
+    display: none;
+    z-index: 2;
+    position: absolute;
+    bottom: -90px;
+    right: 0;
+    background: white;
+    padding: 10px 20px;
+    border: thin solid #ccc;
+    border-radius: 4px;
+}
+
+#shareBox.active {
+    display: inline-block;
+}
+
+.shareLinks {
+    a {
+        cursor: pointer;
+        height: 33px;
+        width: 33px;
+        display: inline-flex;
+
+        &:hover {
+            opacity: 0.8;
+        }
+
+    }
+
+    ul {
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    li {
+        display: inline-block;
+        margin: 0px -2px;
+    }
+}
+
+#EMshareButton {
+    background: #efbe00;
+    color: white;
+}
+
+#FBshareButton {
+    background: #3B5998;
+    color: white;
+}
+
+#TWshareButton {
+    background: #1DA1F2;
+    color: white;
+}
+
+#INshareButton {
+    background: #0077B5;
+    color: white;
+}
+
+#GPlusShareButton {
+    background: #DB4437;
+    color: white;
+}
+
+.shareLinks em {
+    margin: auto;
+}
+
+.social-media a {
+    display: inline-flex;
+    width: 32px;
+    height: 32px;
+    background: white;
+    border-radius: 50%;
+    text-align: center;
+    color: #333;
+    margin-right: 10px;
+    transition: all 0.2s;
+}
+
+.social-media a:hover {
+    text-decoration: none;
+}
+
+.facebook:hover {
+    background: #3B5998;
+    color: white;
+}
+
+.twitter:hover {
+    background: #1DA1F2;
+    color: white;
+}
+
+.youtube:hover {
+    background: #bb0000;
+    color: white;
+}
+
+.social-media em {
+    margin: auto;
+    font-size: 17px;
+}

@@ -1,0 +1,24 @@
+/* ==========================================================================
+   Typography
+========================================================================== */
+
+/*Import font from Google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+
+//Fonts
+$base-font-family: 'Open Sans',
+sans-serif;
+
+$alt-font-family:'Open Sans Condensed',
+Verdana,
+sans-serif;
+
+// Font weights
+$light: 300;
+$regular: 400;
+$medium: 500;
+$semi-bold: 600;
+$bold: 700;
+$extra-bold: 800;
+$heavy-bold: 900;

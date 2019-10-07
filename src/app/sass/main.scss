@@ -1,0 +1,36 @@
+@import "vendor/base";
+@import "modules/base";
+@import "partials/base";
+
+/* ==========================================================================
+   Custom Styles
+   ========================================================================== */
+
+html {
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    font-weight: 600;
+    color: #2baab1;
+
+    &:hover {
+        color: #01777D;
+        text-decoration: none;
+    }
+
+    &:focus {
+        color: #01777D;
+    }
+}
+
+
+hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-top: 1px solid #e2e2e2;
+}

@@ -1,0 +1,100 @@
+/* ==========================================================================
+   Footer Styles
+========================================================================== */
+
+footer {
+    padding: 40px 0px 0px;
+    background: #333;
+    color: #fff;
+
+    a {
+        color: white;
+        font-weight: 700;
+
+        &:hover {
+            color: white;
+            text-decoration: underline;
+        }
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    h4 {
+        color: #aaa;
+        margin-bottom: 20px;
+    }
+}
+
+.contact {
+    margin-right: 10px;
+}
+
+.footer-body {
+    margin-bottom: 40px;
+}
+
+.footer-links {
+    margin-bottom: 20px;
+
+    ul {
+        list-style: none;
+        text-align: center;
+
+        li {
+            display: inline;
+            margin: 0px 7px;
+        }
+    }
+
+    a {
+        font-weight: 400;
+        color: #fff;
+    }
+
+}
+
+.subscribeForm .form-group {
+    width: 60%;
+}
+
+.subscribeForm .form-group input {
+    width: 100%;
+    margin-top: -3px;
+}
+
+.form_button {
+    background: #f79664;
+    outline: none;
+    padding: 8px 20px;
+    border-radius: 4px;
+    border: 1px solid #f79664;
+}
+
+.copyrightTerms {
+    background: #000;
+    text-align: center;
+    padding: 15px 0px;
+
+    p {
+        font-size: 11px;
+    }
+}
+
+.scrollTop {
+    background: rgba(0, 0, 0, 0.7);
+    height: 50px;
+    width: 60px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    position: fixed;
+    outline: none;
+    bottom: 0px;
+    right: 20px;
+    opacity: 0;
+    transition: opacity 0.35s;
+}

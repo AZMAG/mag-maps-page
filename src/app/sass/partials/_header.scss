@@ -1,0 +1,48 @@
+/* ==========================================================================
+   Header Styles
+   ========================================================================== */
+
+.img-wrapper {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.img-wrapper:after {
+    content: "";
+    background: rgba(36, 27, 28, .9);
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    border-radius: 4px;
+    bottom: -4px;
+    color: #FFF;
+    left: -4px;
+    position: absolute;
+    right: -4px;
+    top: -4px;
+    display: block;
+    filter: alpha(opacity=0);
+    opacity: 0.65;
+    z-index: 1;
+}
+
+.linkImageOverlay:hover .img-wrapper:after {
+    opacity: 0;
+}
+
+.overlayTitle {
+    position: absolute;
+    color: white;
+    z-index: 3;
+    top: 42%;
+    bottom: 50%;
+    width: 100%;
+    left: 0;
+    height: 50%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+}

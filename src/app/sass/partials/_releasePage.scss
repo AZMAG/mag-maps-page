@@ -1,0 +1,135 @@
+/* ==========================================================================
+   Release Page
+========================================================================== */
+
+.innerPageHeader {
+    height: 35vh;
+    position: relative;
+    display: flex;
+}
+
+#rhHeader {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/img_map-state.JPG');
+    background-position: center;
+    background-size: cover;
+}
+
+#trHeader {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/img_using-computer-2.jpg');
+    background-position: bottom;
+    background-size: cover;
+}
+
+.headerText {
+    color: white;
+    margin: auto;
+    text-align: center;
+    width: 60%;
+
+    h2 {
+        font-weight: 800;
+        font-size: 40px;
+    }
+}
+
+.page-content {
+    margin: 40px 0px;
+    h3{
+       margin-bottom: 20px;
+    }
+}
+
+.in-page-nav {
+    padding: 30px 0px 20px;
+    border-bottom: thin solid #ddd;
+}
+
+.in-page-nav ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.in-page-nav ul li {
+    display: inline-block;
+    margin: 0px 5px;
+    height: 36px;
+}
+
+.in-page-nav a {
+    display: inline-block;
+    color: #333;
+    padding: 0px 3px 10px;
+    font-size: 16px;
+}
+
+.in-page-nav a:hover {
+    color: #2baab1;
+}
+
+.in-page-nav a:focus {
+    border-bottom: 4px solid #2baab1;
+    text-decoration: none;
+}
+
+.in-page-nav a.active {
+    border-bottom: 4px solid #2baab1;
+    pointer-events: none;
+}
+
+.indicator {
+    display: inline-block;
+    padding: 6px 10px;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+}
+
+.indicator:after {
+    left: -11px;
+    right: auto;
+    border-left-width: 11px;
+    border-right-width: 0;
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 11.5px;
+}
+
+.indicator-new {
+    background: #a9e15c;
+}
+
+.indicator-new:after {
+    border-color: #a9e15c transparent;
+}
+
+.indicator-fixed {
+    background: #ffd73f;
+}
+
+.indicator-fixed:after {
+    border-color: #ffd73f transparent;
+}
+
+#releaseHistory h4 {
+    color: #2baab1;
+}
+
+#releaseHistory section {
+    border-bottom: thin solid #e2e2e2;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+#releaseHistory section:last-of-type {
+    border-bottom: none;
+}
+
+.indent-section {
+    margin-left: 30px;
+}

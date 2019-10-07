@@ -1,0 +1,15 @@
+/********************************************************
+ Media Queries
+*********************************************************/
+/*==========  Mobile First Method  ==========*/
+/* Large Devices, Wide Screens */
+
+@media screen and (max-width: 1260px) {
+    .carousel-image {
+        height: 60vh;
+    }
+
+    .innerPageHeader {
+        height: 40vh;
+    }
+}

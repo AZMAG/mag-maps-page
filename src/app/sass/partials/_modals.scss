@@ -3,7 +3,7 @@
 ========================================================================== */
 
 .modal-header {
-    background-color: #BCE2E6;
+    background-color: lighten($main-color, 40%);
 }
 
 .modal-title {
@@ -12,18 +12,18 @@
 }
 
 .modal-content {
-    color: #333;
+    color: $text-alt1;
 
     h1,
     h2,
     h3,
     h4,
     h5 {
-        color: #333;
+        color: $text-alt1;
     }
 
     p {
-        color: #333;
+        color: $text-alt1;
     }
 
     .btn {

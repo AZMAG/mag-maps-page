@@ -1,249 +1,6 @@
 /* ==========================================================================
    Vendor Base
 ========================================================================== */
-/*! HTML5 Boilerplate v7.2.0 | MIT License | https://html5boilerplate.com/ */
-/* main.css 2.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
-/* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i");
-html {
-  color: #222;
-  font-size: 1em;
-  line-height: 1.4;
-}
-
-/*
- * Remove text-shadow in selection highlight:
- * https://twitter.com/miketaylr/status/12228805301
- *
- * Vendor-prefixed and regular ::selection selectors cannot be combined:
- * https://stackoverflow.com/a/16982510/7133471
- *
- * Customize the background color to match your design.
- */
-::-moz-selection {
-  background: #b3d4fc;
-  text-shadow: none;
-}
-
-::selection {
-  background: #b3d4fc;
-  text-shadow: none;
-}
-
-/*
- * A better looking default horizontal rule
- */
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
-}
-
-/*
- * Remove the gap between audio, canvas, iframes,
- * images, videos and the bottom of their containers:
- * https://github.com/h5bp/html5-boilerplate/issues/440
- */
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
-  vertical-align: middle;
-}
-
-/*
- * Remove default fieldset styles.
- */
-fieldset {
-  border: 0;
-  margin: 0;
-  padding: 0;
-}
-
-/*
- * Allow only vertical resizing of textareas.
- */
-textarea {
-  resize: vertical;
-}
-
-/* ==========================================================================
-   Browser Upgrade Prompt
-   ========================================================================== */
-.browserupgrade {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
-}
-
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
-/*
- * Hide visually and from screen readers
- */
-.hidden {
-  display: none !important;
-}
-
-/*
-* Hide only visually, but have it available for screen readers:
-* https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
-*
-* 1. For long content, line feeds are not interpreted as spaces and small width
-*    causes content to wrap 1 word per line:
-*    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
-*/
-.sr-only {
-  border: 0;
-  clip: rect(0, 0, 0, 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  /* 1 */
-}
-
-/*
-* Extends the .sr-only class to allow the element
-* to be focusable when navigated to via the keyboard:
-* https://www.drupal.org/node/897638
-*/
-.sr-only.focusable:active,
-.sr-only.focusable:focus {
-  clip: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  white-space: inherit;
-  width: auto;
-}
-
-/*
-* Hide visually and from screen readers, but maintain layout
-*/
-.invisible {
-  visibility: hidden;
-}
-
-/*
-* Clearfix: contain floats
-*
-* For modern browsers
-* 1. The space content is one way to avoid an Opera bug when the
-*    `contenteditable` attribute is included anywhere else in the document.
-*    Otherwise it causes space to appear at the top and bottom of elements
-*    that receive the `clearfix` class.
-* 2. The use of `table` rather than `block` is only necessary if using
-*    `:before` to contain the top-margins of child elements.
-*/
-.clearfix:before,
-.clearfix:after {
-  content: " ";
-  /* 1 */
-  display: table;
-  /* 2 */
-}
-
-.clearfix:after {
-  clear: both;
-}
-
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
-}
-
-@media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
-}
-
-/* ==========================================================================
-   Print styles.
-   Inlined to avoid the additional HTTP request:
-   https://www.phpied.com/delay-loading-your-print-css/
-   ========================================================================== */
-@media print {
-  *,
-  *:before,
-  *:after {
-    background: transparent !important;
-    color: #000 !important;
-    /* Black prints faster */
-    -webkit-box-shadow: none !important;
-    box-shadow: none !important;
-    text-shadow: none !important;
-  }
-  a,
-  a:visited {
-    text-decoration: underline;
-  }
-  a[href]:after {
-    content: " (" attr(href) ")";
-  }
-  abbr[title]:after {
-    content: " (" attr(title) ")";
-  }
-  /*
-     * Don't show links that are fragment identifiers,
-     * or use the `javascript:` pseudo protocol
-     */
-  a[href^="#"]:after,
-  a[href^="javascript:"]:after {
-    content: "";
-  }
-  pre {
-    white-space: pre-wrap !important;
-  }
-  pre,
-  blockquote {
-    border: 1px solid #999;
-    page-break-inside: avoid;
-  }
-  /*
-     * Printing Tables:
-     * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
-     */
-  thead {
-    display: table-header-group;
-  }
-  tr,
-  img {
-    page-break-inside: avoid;
-  }
-  p,
-  h2,
-  h3 {
-    orphans: 3;
-    widows: 3;
-  }
-  h2,
-  h3 {
-    page-break-after: avoid;
-  }
-}
-
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -251,6 +8,7 @@ textarea {
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i");
 html {
   line-height: 1.15;
   /* 1 */
@@ -587,6 +345,248 @@ template {
   display: none;
 }
 
+/*! HTML5 Boilerplate v7.2.0 | MIT License | https://html5boilerplate.com/ */
+/* main.css 2.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/*
+ * Hide visually and from screen readers
+ */
+.hidden {
+  display: none !important;
+}
+
+/*
+* Hide only visually, but have it available for screen readers:
+* https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+*
+* 1. For long content, line feeds are not interpreted as spaces and small width
+*    causes content to wrap 1 word per line:
+*    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+*/
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  /* 1 */
+}
+
+/*
+* Extends the .sr-only class to allow the element
+* to be focusable when navigated to via the keyboard:
+* https://www.drupal.org/node/897638
+*/
+.sr-only.focusable:active,
+.sr-only.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: inherit;
+  width: auto;
+}
+
+/*
+* Hide visually and from screen readers, but maintain layout
+*/
+.invisible {
+  visibility: hidden;
+}
+
+/*
+* Clearfix: contain floats
+*
+* For modern browsers
+* 1. The space content is one way to avoid an Opera bug when the
+*    `contenteditable` attribute is included anywhere else in the document.
+*    Otherwise it causes space to appear at the top and bottom of elements
+*    that receive the `clearfix` class.
+* 2. The use of `table` rather than `block` is only necessary if using
+*    `:before` to contain the top-margins of child elements.
+*/
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
+
+@media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+@media print {
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster */
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+  /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
+  pre {
+    white-space: pre-wrap !important;
+  }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  /*
+     * Printing Tables:
+     * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+  thead {
+    display: table-header-group;
+  }
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+
 /* ==========================================================================
    Modules Base
 ========================================================================== */
@@ -601,281 +601,84 @@ template {
    Partials Base
 ========================================================================== */
 /* ==========================================================================
-   Map Section Styles
+   Custom Styles
    ========================================================================== */
-/*Map list section*/
-#maps-section {
-  margin: 80px 0px;
+body {
+  font-family: "Open Sans", sans-serif;
 }
 
-.map-box {
-  -webkit-transition: -webkit-box-shadow 0.35s;
-  transition: -webkit-box-shadow 0.35s;
-  transition: box-shadow 0.35s;
-  transition: box-shadow 0.35s, -webkit-box-shadow 0.35s;
-  margin-bottom: 20px;
-}
-
-.map-box h3 {
-  text-align: center;
-}
-
-.map-box p {
-  text-align: center;
-  margin-bottom: 18px;
-}
-
-.map-box img {
-  max-height: 110px;
-  display: block;
-  margin: auto;
-  -webkit-transition: all 0.45s;
-  transition: all 0.45s;
-}
-
-.map-box img:hover {
-  -webkit-transform: scale(0.9, 0.9);
-          transform: scale(0.9, 0.9);
-}
-
-.map-box:hover {
-  -webkit-box-shadow: 0px 0px 15px 5px #e9e9e9;
-          box-shadow: 0px 0px 15px 5px #e9e9e9;
-}
-
-.map-box-content {
-  border: thin solid #ddd;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
-  padding: 18px;
-  position: relative;
-  min-height: 310px;
-}
-
-.about-link {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  margin: 0px 18px 18px 0px;
-}
-
-.about-link a {
-  color: #f79664;
-  cursor: pointer;
-}
-
-.map-launch {
-  text-align: center;
-}
-
-.map-launch a {
-  display: block;
-  padding: 8px;
-  text-transform: uppercase;
+a {
+  font-weight: 600;
   color: #2baab1;
-  background: #f4f7fa;
-  border-bottom: thin solid #ddd;
-  border-left: thin solid #ddd;
-  border-right: thin solid #ddd;
-  border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 4px;
-  -webkit-transition: background 0.15s;
-  transition: background 0.15s;
 }
 
-.map-launch a:hover {
-  background: #ddd;
+a:hover {
+  color: #01777D;
   text-decoration: none;
 }
 
-.release {
-  padding: 0px;
-  list-style-position: inside;
+a:focus {
+  color: #01777D;
 }
 
-.update {
-  font-size: 20px;
-  font-weight: bold;
-  color: red;
-}
-
-/********************************************************
- Media Queries
-*********************************************************/
-/*==========  Mobile First Method  ==========*/
-/* Small Devices, Phones */
-@media screen and (max-width: 767px) {
-  #shareBox {
-    right: auto;
-    left: 0;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  .carousel-content h2,
-  .headerText h2 {
-    font-size: 33px;
-  }
-  .carousel-content p {
-    font-size: 16px;
-  }
-}
-
-@media screen and (max-width: 548px) {
-  .innerPageHeader {
-    height: 50vh;
-  }
-}
-
-@media screen and (max-width: 420px) {
-  .navbar-brand > img {
-    max-width: 220px;
-  }
-  .navbar-brand {
-    width: auto;
-  }
-  .carousel-content h2,
-  .headerText h2 {
-    font-size: 28px;
-  }
-  .carousel-content p {
-    font-size: 14px;
-  }
-  .carousel-image {
-    height: 60vh;
-  }
-}
-
-@media screen and (max-height: 700) {
-  .carousel-image {
-    height: 75vh;
-  }
-}
-
-@media screen and (max-height: 670px) {
-  .carousel-image {
-    height: 40vh;
-  }
-  .innerPageHeader {
-    height: 60vh;
-  }
-}
-
-@media screen and (max-height: 570px) {
-  .carousel-image {
-    height: 40vh;
-    min-height: 560px;
-  }
-}
-
-/********************************************************
- Media Queries
-*********************************************************/
-/*==========  Mobile First Method  ==========*/
-/* Medium Devices, Desktops */
-@media screen and (max-width: 925px) {
-  .carousel-content h2,
-  .headerText h2 {
-    font-size: 35px;
-  }
-  .carousel-content p {
-    font-size: 20px;
-  }
-}
-
-@media screen and (max-width: 840px) {
-  .button-group a {
-    margin: 5px;
-    cursor: pointer;
-  }
-  .carousel-content {
-    width: 65%;
-  }
-  .headerText {
-    width: 75%;
-  }
-}
-
-/********************************************************
- Media Queries
-*********************************************************/
-/*==========  Mobile First Method  ==========*/
-/* Large Devices, Wide Screens */
-@media screen and (max-width: 1260px) {
-  .carousel-image {
-    height: 60vh;
-  }
-  .innerPageHeader {
-    height: 40vh;
-  }
+hr {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-top: 1px solid #cccccc;
 }
 
 /* ==========================================================================
-   Buttons Styles
+   Navigation Bar
 ========================================================================== */
-.more {
-  text-align: center;
+.navbar-default {
+  background: #ffffff;
+  padding: 10px 0px;
+  margin-bottom: 0px;
 }
 
-.button-group a {
-  margin: 15px 12px;
-  cursor: pointer;
+#magNavbar {
+  overflow: unset;
 }
 
-.btn-white {
-  display: inline-block;
-  padding: 5px 20px;
-  border: 4px solid white;
-  color: white;
-  border-radius: 5px;
-  -webkit-transition: all 0.15s;
-  transition: all 0.15s;
+#magNavbar .navbar-nav {
+  margin-top: 16.039px;
+  position: relative;
 }
 
-.btn-white:hover {
-  background: white;
-  color: #333;
-  text-decoration: none;
+#magNavbar .navbar-nav > li.active > a {
+  background: #2baab1;
+  color: #ffffff;
+  border-radius: 4px;
 }
 
-.btn-one {
-  display: inline-block;
-  background: #f79664;
-  color: white;
-  padding: 5px 20px;
-  border: 4px solid #f79664;
-  border-radius: 5px;
-  -webkit-transition: all 0.15s;
-  transition: all 0.15s;
+#magNavbar .nav > li > a {
+  padding: 10px 13px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #2baab1;
+  margin: 2px;
 }
 
-.btn-one:hover {
-  text-decoration: none;
-  border: 4px solid #DB733E;
-  background: #DB733E;
-  color: white;
+#magNavbar .nav > li > a:hover {
+  background: #2baab1;
+  color: #ffffff;
+  border-radius: 4px;
 }
 
-.btn-one:focus {
-  color: white;
+#magNavbar .nav > li.shareButton > button:hover {
+  background: #2baab1;
+  color: #ffffff;
 }
 
-.btn-two {
-  display: inline-block;
-  padding: 5px 20px;
-  border: 4px solid #f79664;
-  color: #f79664;
-  border-radius: 5px;
-  -webkit-transition: all 0.15s;
-  transition: all 0.15s;
+#magNavbar .nav > li.shareButton > button.active {
+  background: #ffffff;
+  color: #2baab1;
 }
 
-.btn-two:hover {
-  background: #f79664;
-  color: #fff;
-  text-decoration: none;
-}
-
+/* ==========================================================================
+   Header Styles
+   ========================================================================== */
 /* ==========================================================================
    Carousel Styles
 ========================================================================== */
@@ -994,7 +797,7 @@ template {
   margin: auto;
   width: 50%;
   text-align: center;
-  color: white;
+  color: #ffffff;
   z-index: 3;
 }
 
@@ -1013,21 +816,138 @@ template {
 }
 
 /* ==========================================================================
+   Map Section Styles
+========================================================================== */
+/*Map list section*/
+#maps-section {
+  margin: 80px 0px;
+}
+
+.map-box {
+  -webkit-transition: -webkit-box-shadow 0.35s;
+  transition: -webkit-box-shadow 0.35s;
+  transition: box-shadow 0.35s;
+  transition: box-shadow 0.35s, -webkit-box-shadow 0.35s;
+  margin-bottom: 20px;
+}
+
+.map-box h3 {
+  text-align: center;
+}
+
+.map-box p {
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.map-box img {
+  max-height: 110px;
+  display: block;
+  margin: auto;
+  -webkit-transition: all 0.45s;
+  transition: all 0.45s;
+}
+
+.map-box img:hover {
+  -webkit-transform: scale(0.9, 0.9);
+          transform: scale(0.9, 0.9);
+}
+
+.map-box:hover {
+  -webkit-box-shadow: 0px 0px 15px 5px #e9e9e9;
+          box-shadow: 0px 0px 15px 5px #e9e9e9;
+}
+
+.map-box-content {
+  border: thin solid #dddddd;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  padding: 18px;
+  position: relative;
+  min-height: 310px;
+}
+
+.about-link {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0px 18px 18px 0px;
+}
+
+.about-link a {
+  color: #f79664;
+  cursor: pointer;
+}
+
+.map-launch {
+  text-align: center;
+}
+
+.map-launch a {
+  display: block;
+  padding: 8px;
+  text-transform: uppercase;
+  color: #2baab1;
+  background: #f4f7fa;
+  border-bottom: thin solid #dddddd;
+  border-left: thin solid #dddddd;
+  border-right: thin solid #dddddd;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  -webkit-transition: background 0.15s;
+  transition: background 0.15s;
+}
+
+.map-launch a:hover {
+  background: #dddddd;
+  text-decoration: none;
+}
+
+/* ==========================================================================
+   Video Section on homepage
+========================================================================== */
+/*Video and training info section on homepage*/
+#video-section {
+  padding: 60px 0px;
+  background: #f4f7fa;
+  border-top: thin solid #dddddd;
+}
+
+.video-section {
+  padding: 0px 150px;
+}
+
+/*Video gallery*/
+.vid-container {
+  position: relative;
+  padding-bottom: 52%;
+  height: 0;
+}
+
+.vid-container iframe,
+.vid-container object,
+.vid-container embed {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/* ==========================================================================
    Footer Styles
 ========================================================================== */
 footer {
   padding: 40px 0px 0px;
-  background: #333;
-  color: #fff;
+  background: #333333;
+  color: #ffffff;
 }
 
 footer a {
-  color: white;
+  color: #ffffff;
   font-weight: 700;
 }
 
 footer a:hover {
-  color: white;
+  color: #ffffff;
   text-decoration: underline;
 }
 
@@ -1036,7 +956,7 @@ footer p {
 }
 
 footer h4 {
-  color: #aaa;
+  color: #aaaaaa;
   margin-bottom: 20px;
 }
 
@@ -1064,7 +984,7 @@ footer h4 {
 
 .footer-links a {
   font-weight: 400;
-  color: #fff;
+  color: #ffffff;
 }
 
 .subscribeForm .form-group {
@@ -1085,7 +1005,7 @@ footer h4 {
 }
 
 .copyrightTerms {
-  background: #000;
+  background: #000000;
   text-align: center;
   padding: 15px 0px;
 }
@@ -1099,7 +1019,7 @@ footer h4 {
   height: 50px;
   width: 60px;
   font-size: 20px;
-  color: white;
+  color: #ffffff;
   border: none;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
@@ -1113,137 +1033,76 @@ footer h4 {
 }
 
 /* ==========================================================================
-   Navigation Bar
+   Buttons Styles
 ========================================================================== */
-/*Home header with black bar*/
-#homeBarHeader {
-  background-color: #171717;
-  border-top: 5px solid #384045;
-  min-height: 50px;
-  padding: 20px 0px 0px;
-  position: relative;
-  text-align: left;
-}
-
-#homeBarHeader h2 {
-  color: #FFF;
-  display: inline-block;
-  font-weight: 200;
-  min-height: 37px;
-  font-size: 2.6em;
-  line-height: 46px;
-  padding: 0 0 17px;
-  margin-bottom: 0px;
-}
-
-.navbar-default {
-  background: white;
-  padding: 10px 0px;
-  margin-bottom: 0px;
-}
-
-.navbar-brand {
-  height: 100%;
-  width: 100%;
-  max-width: 350px;
-}
-
-.navbar-brand > img {
-  margin: auto;
-}
-
-#magNavbar {
-  overflow: unset;
-}
-
-#magNavbar .navbar-nav {
-  margin-top: 16.039px;
-  position: relative;
-}
-
-#magNavbar .nav > li > a {
-  padding: 10px 13px;
-  font-size: 12px;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #2baab1;
-  margin: 2px;
-}
-
-#magNavbar .nav > li > a:hover {
-  background: #2baab1;
-  color: white;
-  border-radius: 4px;
-}
-
-#magNavbar .navbar-nav > li.active > a {
-  background: #2baab1;
-  color: white;
-  border-radius: 4px;
-}
-
-#magNavbar .nav > li.shareButton > button:hover {
-  background: #2baab1;
-  color: white;
-}
-
-#magNavbar .nav > li.shareButton > button.active {
-  background: white;
-  color: #2baab1;
-}
-
-/* ==========================================================================
-   Header Styles
-   ========================================================================== */
-.img-wrapper {
-  display: block;
-  overflow: hidden;
-  position: relative;
-  border-radius: 4px;
-  margin-bottom: 15px;
-}
-
-.img-wrapper:after {
-  content: "";
-  background: rgba(36, 27, 28, 0.9);
-  -webkit-transition: all .3s;
-  transition: all .3s;
-  border-radius: 4px;
-  bottom: -4px;
-  color: #FFF;
-  left: -4px;
-  position: absolute;
-  right: -4px;
-  top: -4px;
-  display: block;
-  filter: alpha(opacity=0);
-  opacity: 0.65;
-  z-index: 1;
-}
-
-.linkImageOverlay:hover .img-wrapper:after {
-  opacity: 0;
-}
-
-.overlayTitle {
-  position: absolute;
-  color: white;
-  z-index: 3;
-  top: 42%;
-  bottom: 50%;
-  width: 100%;
-  left: 0;
-  height: 50%;
+.more {
   text-align: center;
-  font-size: 25px;
-  font-weight: 400;
+}
+
+.button-group a {
+  margin: 15px 12px;
+  cursor: pointer;
+}
+
+.btn-white {
+  display: inline-block;
+  padding: 5px 20px;
+  border: 4px solid #ffffff;
+  color: #ffffff;
+  border-radius: 5px;
+  -webkit-transition: all 0.15s;
+  transition: all 0.15s;
+}
+
+.btn-white:hover {
+  background: #ffffff;
+  color: #333333;
+  text-decoration: none;
+}
+
+.btn-one {
+  display: inline-block;
+  background: #f79664;
+  color: #ffffff;
+  padding: 5px 20px;
+  border: 4px solid #f79664;
+  border-radius: 5px;
+  -webkit-transition: all 0.15s;
+  transition: all 0.15s;
+}
+
+.btn-one:hover {
+  text-decoration: none;
+  border: 4px solid #f47534;
+  background: #f47534;
+  color: #ffffff;
+}
+
+.btn-one:focus {
+  color: #ffffff;
+}
+
+.btn-two {
+  display: inline-block;
+  padding: 5px 20px;
+  border: 4px solid #f79664;
+  color: #f79664;
+  border-radius: 5px;
+  -webkit-transition: all 0.15s;
+  transition: all 0.15s;
+}
+
+.btn-two:hover {
+  background: #f79664;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 /* ==========================================================================
    Modals Styles
 ========================================================================== */
 .modal-header {
-  background-color: #BCE2E6;
+  background-color: #baebee;
 }
 
 .modal-title {
@@ -1252,7 +1111,7 @@ footer h4 {
 }
 
 .modal-content {
-  color: #333;
+  color: #333333;
 }
 
 .modal-content h1,
@@ -1260,11 +1119,11 @@ footer h4 {
 .modal-content h3,
 .modal-content h4,
 .modal-content h5 {
-  color: #333;
+  color: #333333;
 }
 
 .modal-content p {
-  color: #333;
+  color: #333333;
 }
 
 .modal-content .btn {
@@ -1324,13 +1183,13 @@ footer h4 {
   position: absolute;
   bottom: -90px;
   right: 0;
-  background: white;
+  background: #ffffff;
   padding: 10px 20px;
-  border: thin solid #ccc;
+  border: thin solid #cccccc;
   border-radius: 4px;
 }
 
-#shareBox.active {
+#shareBox:active {
   display: inline-block;
 }
 
@@ -1360,27 +1219,27 @@ footer h4 {
 
 #EMshareButton {
   background: #efbe00;
-  color: white;
+  color: #ffffff;
 }
 
 #FBshareButton {
   background: #3B5998;
-  color: white;
+  color: #ffffff;
 }
 
 #TWshareButton {
   background: #1DA1F2;
-  color: white;
+  color: #ffffff;
 }
 
 #INshareButton {
   background: #0077B5;
-  color: white;
+  color: #ffffff;
 }
 
 #GPlusShareButton {
   background: #DB4437;
-  color: white;
+  color: #ffffff;
 }
 
 .shareLinks em {
@@ -1393,10 +1252,10 @@ footer h4 {
   display: inline-flex;
   width: 32px;
   height: 32px;
-  background: white;
+  background: #ffffff;
   border-radius: 50%;
   text-align: center;
-  color: #333;
+  color: #333333;
   margin-right: 10px;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
@@ -1408,17 +1267,17 @@ footer h4 {
 
 .facebook:hover {
   background: #3B5998;
-  color: white;
+  color: #ffffff;
 }
 
 .twitter:hover {
   background: #1DA1F2;
-  color: white;
+  color: #ffffff;
 }
 
 .youtube:hover {
   background: #bb0000;
-  color: white;
+  color: #ffffff;
 }
 
 .social-media em {
@@ -1444,15 +1303,8 @@ footer h4 {
   background-size: cover;
 }
 
-#trHeader {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../images/img_using-computer-2.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/img_using-computer-2.jpg");
-  background-position: bottom;
-  background-size: cover;
-}
-
 .headerText {
-  color: white;
+  color: #ffffff;
   margin: auto;
   text-align: center;
   width: 60%;
@@ -1473,7 +1325,7 @@ footer h4 {
 
 .in-page-nav {
   padding: 30px 0px 20px;
-  border-bottom: thin solid #ddd;
+  border-bottom: thin solid #dddddd;
 }
 
 .in-page-nav ul {
@@ -1491,7 +1343,7 @@ footer h4 {
 
 .in-page-nav a {
   display: inline-block;
-  color: #333;
+  color: #222222;
   padding: 0px 3px 10px;
   font-size: 16px;
 }
@@ -1553,7 +1405,7 @@ footer h4 {
 }
 
 #releaseHistory section {
-  border-bottom: thin solid #e2e2e2;
+  border-bottom: thin solid #dddddd;
   padding-bottom: 20px;
   margin-bottom: 20px;
 }
@@ -1569,6 +1421,13 @@ footer h4 {
 /* ==========================================================================
    Training Page
 ========================================================================== */
+#trHeader {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../images/img_using-computer-2.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/img_using-computer-2.jpg");
+  background-position: bottom;
+  background-size: cover;
+}
+
 #trainingTutorials {
   margin-bottom: 70px;
 }
@@ -1577,17 +1436,13 @@ footer h4 {
   margin: 20px 0px 20px;
 }
 
-#trainingTutorials h4:first-of-type {
-  margin: 10px 0px;
-}
-
 .trainingSchedule {
   margin-bottom: 35px;
 }
 
 .trainingSchedule h4 {
-  border-bottom: thin solid #ddd;
-  padding: 0px 10px 10px;
+  border-bottom: thin solid #dddddd;
+  padding: 0px 0px 10px 0px;
 }
 
 .scheduleList {
@@ -1605,126 +1460,125 @@ footer h4 {
   margin: 5px 2.5px;
 }
 
-.scheduleList li > a {
+.scheduleList li a {
   display: block;
-  background: #eee;
+  background: #f4f7fa;
   padding: 15px 0px;
 }
 
-.scheduleList li > a:hover {
-  background: #BCE2E6;
+.scheduleList li a:hover {
+  background: #01777D;
+  color: #ffffff;
 }
 
-/* ==========================================================================
-   Video Section on homepage
-========================================================================== */
-/*Video and training info section on homepage*/
-#videoAndTraining {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(40, 155, 161, 0.9)), to(rgba(40, 155, 161, 0.9))), url("../images/img_az-map-lg.JPG");
-  background: linear-gradient(rgba(40, 155, 161, 0.9), rgba(40, 155, 161, 0.9)), url("../images/img_az-map-lg.JPG");
-  background-size: cover;
-  background-position: center;
-  color: white;
-  position: relative;
-  padding: 60px 15px;
+/********************************************************
+ Media Queries
+*********************************************************/
+/*==========  Mobile First Method  ==========*/
+/* Small Devices, Phones */
+@media screen and (max-width: 767px) {
+  #shareBox {
+    right: auto;
+    left: 0;
+  }
 }
 
-#videoAndTraining p {
-  font-size: 16px;
+@media screen and (max-width: 650px) {
+  .carousel-content h2,
+  .headerText h2 {
+    font-size: 33px;
+  }
+  .carousel-content p {
+    font-size: 16px;
+  }
 }
 
-.button-bottom {
-  margin-top: 35px;
+@media screen and (max-width: 548px) {
+  .innerPageHeader {
+    height: 50vh;
+  }
 }
 
-#video-section {
-  padding: 60px 0px;
-  background: #f4f7fa;
-  border-top: thin solid #ddd;
+@media screen and (max-width: 420px) {
+  .navbar-brand > img {
+    max-width: 220px;
+  }
+  .navbar-brand {
+    width: auto;
+  }
+  .carousel-content h2,
+  .headerText h2 {
+    font-size: 28px;
+  }
+  .carousel-content p {
+    font-size: 14px;
+  }
+  .carousel-image {
+    height: 60vh;
+  }
 }
 
-/*Video gallery*/
-.vid-container {
-  position: relative;
-  padding-bottom: 52%;
-  height: 0;
+@media screen and (max-height: 700) {
+  .carousel-image {
+    height: 75vh;
+  }
 }
 
-.vid-container iframe,
-.vid-container object,
-.vid-container embed {
-  position: absolute;
-  width: 100%;
-  height: 100%;
+@media screen and (max-height: 670px) {
+  .carousel-image {
+    height: 40vh;
+  }
+  .innerPageHeader {
+    height: 60vh;
+  }
 }
 
-.video-section {
-  padding: 0px 150px;
+@media screen and (max-height: 570px) {
+  .carousel-image {
+    height: 40vh;
+    min-height: 560px;
+  }
 }
 
-.text-on-video {
-  font-weight: bold;
-  font-style: italic;
-  font-size: 11px;
+/********************************************************
+ Media Queries
+*********************************************************/
+/*==========  Mobile First Method  ==========*/
+/* Medium Devices, Desktops */
+@media screen and (max-width: 925px) {
+  .carousel-content h2,
+  .headerText h2 {
+    font-size: 35px;
+  }
+  .carousel-content p {
+    font-size: 20px;
+  }
 }
 
-.play-button {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  width: 68px;
-  height: 48px;
-  margin-left: -34px;
-  margin-top: -24px;
-  -webkit-transition: opacity 0.25s cubic-bezier(0, 0, 0.2, 1);
-  transition: opacity 0.25s cubic-bezier(0, 0, 0.2, 1);
-  z-index: 63;
-  outline: 0;
-  border: none;
-  background: url("https://s.ytimg.com/yts/img/large_play_button_ringo-vfljWXIdx.png") center center/100% no-repeat;
+@media screen and (max-width: 840px) {
+  .button-group a {
+    margin: 5px;
+    cursor: pointer;
+  }
+  .carousel-content {
+    width: 65%;
+  }
+  .headerText {
+    width: 75%;
+  }
 }
 
-#current-vid button {
-  background: url("https://s.ytimg.com/yts/img/large_play_button_hover_ringo-vfl7vEehF.png") center center/100% no-repeat;
-}
-
-.vid-description {
-  display: none;
-}
-
-.custom-list {
-  list-style: none;
-  padding: 0px;
-}
-
-.custom-list em {
-  padding: 0px 15px 0px 25px;
-}
-
-/* ==========================================================================
-   Custom Styles
-   ========================================================================== */
-body {
-  font-family: 'Open Sans', sans-serif;
-}
-
-a {
-  font-weight: 600;
-  color: #2baab1;
-}
-
-a:hover {
-  color: #01777D;
-  text-decoration: none;
-}
-
-a:focus {
-  color: #01777D;
-}
-
-hr {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  border-top: 1px solid #e2e2e2;
+/********************************************************
+ Media Queries
+*********************************************************/
+/*==========  Mobile First Method  ==========*/
+/* Large Devices, Wide Screens */
+@media screen and (max-width: 1260px) {
+  .carousel-image {
+    height: 60vh;
+  }
+  .innerPageHeader {
+    height: 40vh;
+  }
 }
 /*# sourceMappingURL=main.css.map */

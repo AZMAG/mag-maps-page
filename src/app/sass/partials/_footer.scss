@@ -4,15 +4,15 @@
 
 footer {
     padding: 40px 0px 0px;
-    background: #333;
-    color: #fff;
+    background: $background-alt3;
+    color: $text-white;
 
     a {
-        color: white;
+        color: $text-white;
         font-weight: 700;
 
         &:hover {
-            color: white;
+            color: $text-white;
             text-decoration: underline;
         }
     }
@@ -22,7 +22,7 @@ footer {
     }
 
     h4 {
-        color: #aaa;
+        color: $text-alt2;
         margin-bottom: 20px;
     }
 }
@@ -50,7 +50,7 @@ footer {
 
     a {
         font-weight: 400;
-        color: #fff;
+        color: $text-white;
     }
 
 }
@@ -65,15 +65,15 @@ footer {
 }
 
 .form_button {
-    background: #f79664;
+    background: $form-button;
     outline: none;
     padding: 8px 20px;
     border-radius: 4px;
-    border: 1px solid #f79664;
+    border: 1px solid $form-button;
 }
 
 .copyrightTerms {
-    background: #000;
+    background: $background-alt2;
     text-align: center;
     padding: 15px 0px;
 
@@ -83,11 +83,11 @@ footer {
 }
 
 .scrollTop {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba($background-alt2, 0.7);
     height: 50px;
     width: 60px;
     font-size: 20px;
-    color: white;
+    color: $text-white;
     border: none;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;

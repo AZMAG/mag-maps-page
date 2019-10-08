@@ -1,18 +1,22 @@
 /* ==========================================================================
    Partials Base
 ========================================================================== */
-@import "map-section";
-@import "mediaQ_sm";
-@import "mediaQ_md";
-@import "mediaQ_lg";
-@import "buttons";
-@import "carousel";
-@import "footer";
+@import "primary";
 @import "navbar";
 @import "header";
+@import "carousel";
+@import "map-section";
+@import "video-section";
+@import "footer";
+@import "buttons";
+
 @import "modals";
 @import "socialMedia";
 @import "releasePage";
 @import "trainingPage";
-@import "video-section";
+
+
+@import "mediaQ_sm";
+@import "mediaQ_md";
+@import "mediaQ_lg";
 

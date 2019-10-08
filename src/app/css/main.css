@@ -116,7 +116,7 @@ textarea {
 
 /*General*/
 
-/* body {
+body {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -138,11 +138,11 @@ hr {
     margin-top: 50px;
     margin-bottom: 50px;
     border-top: 1px solid #e2e2e2;
-} */
+}
 
 .image {}
 
-/* .img-wrapper {
+.img-wrapper {
     display: block;
     overflow: hidden;
     position: relative;
@@ -185,9 +185,9 @@ hr {
     text-align: center;
     font-size: 25px;
     font-weight: 400;
-} */
+}
 
-/* .scrollTop {
+.scrollTop {
     background: rgba(0, 0, 0, 0.7);
     height: 50px;
     width: 60px;
@@ -202,12 +202,12 @@ hr {
     right: 20px;
     opacity: 0;
     transition: opacity 0.35s;
-} */
+}
 
 
 /*Navbar styles*/
 
-/* .navbar-default {
+.navbar-default {
     background: white;
     padding: 10px 0px;
     margin-bottom: 0px;
@@ -256,9 +256,9 @@ hr {
 #magNavbar .nav>li.shareButton>button:hover {
     background: #2baab1;
     color: white;
-} */
+}
 
-/* .shareButton button {
+.shareButton button {
     font-size: 30px;
     padding: 5px 13px 3px 13px;
     background: none;
@@ -294,9 +294,9 @@ hr {
     height: 33px;
     width: 33px;
     display: inline-flex;
-} */
+}
 
-/* .shareLinks a:hover {
+.shareLinks a:hover {
     opacity: 0.8;
 }
 
@@ -329,21 +329,21 @@ hr {
 #INshareButton {
     background: #0077B5;
     color: white;
-} */
+}
 
-/* #GPlusShareButton {
+#GPlusShareButton {
     background: #DB4437;
     color: white;
 }
 
 .shareLinks em {
     margin: auto;
-} */
+}
 
 
 /*Home header with black bar*/
 
-/* #homeBarHeader {
+#homeBarHeader {
     background-color: #171717;
     border-top: 5px solid #384045;
     min-height: 50px;
@@ -361,12 +361,12 @@ hr {
     line-height: 46px;
     padding: 0 0 17px;
     margin-bottom: 0px;
-} */
+}
 
 
 /*Carousel Styles*/
 
-/* #slide-0 {
+#slide-0 {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/carousel/main_state.jpg');
     background-position: center;
     background-size: cover;
@@ -480,12 +480,12 @@ hr {
 
 .carousel-content .button-group {
     font-size: 16px;
-} */
+}
 
 
 /*Video and training info section on homepage*/
 
-/* #videoAndTraining {
+#videoAndTraining {
     background: linear-gradient(rgba(40, 155, 161, 0.9), rgba(40, 155, 161, 0.9)), url('../images/img_az-map-lg.JPG');
     background-size: cover;
     background-position: center;
@@ -500,12 +500,12 @@ hr {
 
 .button-bottom {
     margin-top: 35px;
-} */
+}
 
 
 /*Map list section*/
 
-/* #maps-section {
+#maps-section {
     margin: 80px 0px;
 }
 
@@ -591,21 +591,21 @@ hr {
     font-size: 20px;
     font-weight: bold;
     color: red;
-} */
+}
 
 
 /*homepage video section*/
 
-/* #video-section {
+#video-section {
     padding: 60px 0px;
     background: #f4f7fa;
     border-top: thin solid #ddd;
-} */
+}
 
 
 /*Video gallery*/
 
-/* .vid-container {
+.vid-container {
     position: relative;
     padding-bottom: 52%;
     height: 0;
@@ -627,9 +627,9 @@ hr {
     font-weight: bold;
     font-style: italic;
     font-size: 11px;
-} */
+}
 
-/* .play-button {
+.play-button {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -661,11 +661,11 @@ hr {
 
 .custom-list em {
     padding: 0px 15px 0px 25px;
-} */
+}
 
 
 /*Buttons*/
-/*
+
 .more {
     text-align: center;
 }
@@ -724,7 +724,7 @@ hr {
     background: #f79664;
     color: #fff;
     text-decoration: none;
-} */
+}
 
 
 /*End buttons*/
@@ -732,7 +732,7 @@ hr {
 
 /*Modal styles*/
 
-/* .modal-header {
+.modal-header {
     background-color: #BCE2E6;
 }
 
@@ -761,15 +761,15 @@ hr {
     float: left;
     padding: 0px 20px 20px 0px;
     max-height: 130px
-} */
+}
 
-/* .modal-body {
+.modal-body {
     min-height: 118px;
     /* margin: 20px 0px; */
     /* padding: 25px; */
-/* } */
+ }
 
-/* .modal-body p {
+.modal-body p {
     font-size: 16px;
 }
 
@@ -794,12 +794,12 @@ hr {
 
 .modal-anchor {
     cursor: pointer;
-} */
+}
 
 
 /*Inner pages*/
 
-/* .innerPageHeader {
+.innerPageHeader {
     height: 35vh;
     position: relative;
     display: flex;
@@ -930,8 +930,8 @@ hr {
 
 .indent-section {
     margin-left: 30px;
-} */
-/*
+}
+
 #trainingTutorials {
     margin-bottom: 70px;
 }
@@ -976,12 +976,12 @@ hr {
 
 .scheduleList li>a:hover {
     background: #BCE2E6;
-} */
+}
 
 
 /*Footer section*/
 
-/* footer {
+footer {
     padding: 40px 0px 0px;
     ;
     background: #333;
@@ -1015,9 +1015,9 @@ footer .container {}
 
 .footer-body {
     margin-bottom: 40px;
-} */
+}
 
-/* .social-media a {
+.social-media a {
     display: inline-flex;
     width: 32px;
     height: 32px;
@@ -1051,9 +1051,9 @@ footer .container {}
 .social-media em {
     margin: auto;
     font-size: 17px;
-} */
+}
 
-/* .subscribeForm .form-group {
+.subscribeForm .form-group {
     width: 60%;
 }
 
@@ -1078,9 +1078,9 @@ footer .container {}
 
 .copyrightTerms p {
     font-size: 11px;
-} */
+}
 
-/* .footer-links {
+.footer-links {
     margin-bottom: 20px;
 }
 
@@ -1097,12 +1097,12 @@ footer .container {}
 .footer-links a {
     font-weight: 400;
     color: #fff;
-} */
+}
 
 
 /*Styles for mobile devices*/
 
-/* @media screen and (max-width:1460px) {}
+@media screen and (max-width:1460px) {}
 
 @media screen and (max-width: 1260px) {
     .carousel-image {
@@ -1111,9 +1111,9 @@ footer .container {}
     .innerPageHeader {
         height: 40vh;
     }
-} */
+}
 
-/* @media screen and (max-width: 925px) {
+@media screen and (max-width: 925px) {
     .carousel-content h2,
     .headerText h2 {
         font-size: 35px;
@@ -1134,9 +1134,9 @@ footer .container {}
     .headerText {
         width: 75%;
     }
-} */
+}
 
-/* @media screen and (max-width:767px) {
+@media screen and (max-width:767px) {
     #shareBox {
         right: auto;
         left: 0;
@@ -1198,7 +1198,7 @@ footer .container {}
         height: 40vh;
         min-height: 560px;
     }
-} */
+}
 
 
 /* ==========================================================================

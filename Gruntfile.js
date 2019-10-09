@@ -2,6 +2,8 @@ module.exports = function(grunt) {
 
     "use strict";
 
+     const sass = require('node-sass');
+
     require("matchdep").filterDev("grunt-*").forEach(grunt.loadNpmTasks);
 
     grunt.initConfig({
@@ -116,7 +118,7 @@ module.exports = function(grunt) {
                 files: {
                     "dist/index.html": "dist/index.html",
                     "dist/releaseHistory.html": "dist/releaseHistory.html",
-                    "dist/trainings.html": "dist/trainings.html",
+                    "dist/trainings.html": "dist/trainings.html"
                 }
             },
             htmlmin2: {
@@ -141,7 +143,7 @@ module.exports = function(grunt) {
                 src: ["dist/app/js/*.js", "!dist/app/js/master.min.js"]
             },
             cleancss: {
-                src: ["dist/app/css/*.css", "!dist/app/css/main.min.css"]
+                src: ["dist/app/css/*.css", "!dist/app/css/master.min.css"]
             },
             cleansass: {
                 src: ["dist/app/sass/"]
@@ -225,17 +227,12 @@ module.exports = function(grunt) {
 
     // the default task can be run just by typing "grunt" on the command line
     grunt.registerTask("default", []);
-
     grunt.registerTask("update", ["replace"]);
 
-    // grunt.registerTask("test", ["htmlhint", "jshint"]);
+    grunt.registerTask("buildCSS", ["sass", "cssmin", "clean:cleancss", "clean:cleansass"]);
+    grunt.registerTask("buildJS", ["uglify", "clean:cleanjs"]);
 
-    grunt.registerTask("testcss", ["clean:build", "copy", "cssmin", "concat"]);
-
-    // grunt.registerTask("test", ["toggleComments"]);
-
-    // grunt.registerTask("build", ["replace", "uglify", "cssmin", "concat"]);
-    grunt.registerTask("build", ["clean:build", "replace", "copy", "sass", "cssmin", "toggleComments", "uglify", "clean:cleanjs", "clean:cleancss", "clean:cleansass", "htmlmin", ]);
+    grunt.registerTask("build", ["clean:build", "replace", "copy", "toggleComments", "htmlmin", "buildJS", "buildCSS"]);
 
 };
 

@@ -30,9 +30,10 @@ And constructed with the following guidelines:
 
 ***************************************************
 
-## Version 5.0.17 | 2019-10-07
+## Version 5.0.17 | 2019-10-09
 
 * Changed Employment Logo
+* Added SASS
 
 ## Version 5.0.16 | 2019-07-08
 ## Version 5.0.15 | 2019-06-05

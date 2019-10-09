@@ -1,7 +1,7 @@
 {
   "name": "MAGmappingPage",
   "version": "5.0.17",
-  "date": "2019-10-07",
+  "date": "2019-10-09",
   "copyright": "2019",
   "description": "MAG Main Map Page",
   "keywords": [
@@ -21,7 +21,8 @@
     "url": "https://github.com/AZMAG/map-MAGmappingPage/"
   },
   "author": "MAG Regional Analytics (https://www.azmag.gov/)",
-  "contributors": [{
+  "contributors": [
+    {
       "name": "Vern Wolfley",
       "email": "vwolfley@azmag.gov"
     },
@@ -36,37 +37,42 @@
   ],
   "private": true,
   "dependencies": {
-    "jshint": "^2.9.7"
+    "add-to-homescreen": "^3.2.6",
+    "html5-boilerplate": "^7.2.0",
+    "jshint": "^2.10.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.2.2",
-    "@babel/preset-env": "^7.2.3",
-    "grunt": "^1.0.3",
+    "@babel/core": "^7.6.3",
+    "@babel/preset-env": "^7.6.3",
+    "grunt": "^1.0.4",
     "grunt-babel": "^8.0.0",
     "grunt-comment-toggler": "^0.2.2",
     "grunt-contrib-clean": "^2.0.0",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-cssmin": "^3.0.0",
-    "grunt-contrib-htmlmin": "^3.0.0",
-    "grunt-contrib-jshint": "^2.0.0",
-    "grunt-contrib-uglify": "^4.0.0",
+    "grunt-contrib-htmlmin": "^3.1.0",
+    "grunt-contrib-jshint": "^2.1.0",
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-sass": "^3.1.0",
     "grunt-text-replace": "^0.4.0",
     "grunt-version-check": "^0.3.8",
     "jshint-stylish": "^2.2.1",
     "jshint-stylish-ex": ">=0.2.0",
-    "lodash": ">=4.17.11",
+    "lodash": "^4.17.15",
     "matchdep": "^2.0.0",
+    "node-normalize-scss": "^8.0.0",
+    "node-sass": "^4.12.0",
     "normalize.css": ">=8.0.1"
   },
   "engines": {
-    "node": ">=10.14.2",
-    "npm": ">=6.4.1"
+    "node": ">=10.16.3",
+    "npm": ">=6.12.0"
   },
   "browserslist": [
     "> 1%",
     "last 2 versions",
-    "not ie <= 8"
+    "not ie <= 9"
   ],
   "license": "MIT"
 }

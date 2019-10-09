@@ -1,0 +1,27 @@
+/* ==========================================================================
+   Custom Styles
+   ========================================================================== */
+
+body {
+    font-family: $base-font-family;
+}
+
+a {
+    font-weight: 600;
+    color: $main-color;
+
+    &:hover {
+        color: $main-color-hover;
+        text-decoration: none;
+    }
+
+    &:focus {
+        color: $main-color-hover;
+    }
+}
+
+hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-top: 1px solid $border-gray;
+}

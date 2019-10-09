@@ -1,0 +1,54 @@
+/* ==========================================================================
+   Training Page
+========================================================================== */
+
+#trHeader {
+    background: linear-gradient(rgba($background-alt2, 0.6), rgba($background-alt2, 0.6)),
+    url('../images/img_using-computer-2.jpg');
+    background-position: bottom;
+    background-size: cover;
+}
+
+#trainingTutorials {
+    margin-bottom: 70px;
+
+    h4 {
+        margin: 20px 0px 20px;
+    }
+}
+
+.trainingSchedule {
+    margin-bottom: 35px;
+
+    h4 {
+        border-bottom: thin solid $border-alt;
+        padding: 0px 0px 10px 0px;
+    }
+}
+
+.scheduleList {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+
+    li {
+        display: inline-block;
+        height: 70px;
+        width: 70px;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 5px 2.5px;
+
+        a {
+            display: block;
+            background: $background-alt1;
+            padding: 15px 0px;
+
+            &:hover {
+                background: $main-color-hover;
+                color: $text-white;
+            }
+        }
+    }
+}
+

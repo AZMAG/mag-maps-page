@@ -8,7 +8,6 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i");
 html {
   line-height: 1.15;
   /* 1 */
@@ -593,7 +592,6 @@ textarea {
 /* ==========================================================================
    Typography
 ========================================================================== */
-/*Import font from Google fonts*/
 /* ==========================================================================
    Colors
 ========================================================================== */
@@ -676,9 +674,6 @@ hr {
   color: #2baab1;
 }
 
-/* ==========================================================================
-   Header Styles
-   ========================================================================== */
 /* ==========================================================================
    Carousel Styles
 ========================================================================== */
@@ -1000,8 +995,15 @@ footer h4 {
   background: #f79664;
   outline: none;
   padding: 8px 20px;
-  border-radius: 4px;
+  border-radius: 5px;
   border: 1px solid #f79664;
+}
+
+.form_button:hover {
+  text-decoration: none;
+  border: 1px solid #f47534;
+  background: #f47534;
+  color: #ffffff;
 }
 
 .copyrightTerms {

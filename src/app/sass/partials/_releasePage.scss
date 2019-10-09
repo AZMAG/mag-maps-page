@@ -9,7 +9,8 @@
 }
 
 #rhHeader {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/img_map-state.JPG');
+    background: linear-gradient(rgba($background-alt2, 0.6), rgba($background-alt2, 0.6)),
+    url('../images/img_map-state.JPG');
     background-position: center;
     background-size: cover;
 }

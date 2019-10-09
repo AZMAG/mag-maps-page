@@ -68,8 +68,15 @@ footer {
     background: $form-button;
     outline: none;
     padding: 8px 20px;
-    border-radius: 4px;
+    border-radius: 5px;
     border: 1px solid $form-button;
+
+    &:hover {
+        text-decoration: none;
+        border: 1px solid darken($form-button, 10%);
+        background: darken($form-button, 10%);
+        color: $text-white;
+    }
 }
 
 .copyrightTerms {

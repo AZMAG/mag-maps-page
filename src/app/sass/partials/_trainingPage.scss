@@ -3,7 +3,8 @@
 ========================================================================== */
 
 #trHeader {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/img_using-computer-2.jpg');
+    background: linear-gradient(rgba($background-alt2, 0.6), rgba($background-alt2, 0.6)),
+    url('../images/img_using-computer-2.jpg');
     background-position: bottom;
     background-size: cover;
 }

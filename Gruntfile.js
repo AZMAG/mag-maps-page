@@ -38,7 +38,7 @@ module.exports = function(grunt) {
                 jshintrc: true,
                 reporter: require("jshint-stylish")
             },
-            target: ["Gruntfile.js", "src/js/*.js"],
+            target: ["Gruntfile.js", "src/app/js/*.js"],
         },
 
         babel: {
@@ -49,9 +49,9 @@ module.exports = function(grunt) {
             dist: {
                 files: [{
                     expand: true,
-                    cwd: "src/js",
+                    cwd: "src/app/js",
                     src: ["*.js"],
-                    dest: "dist/js"
+                    dest: "dist/app/js"
                 }]
             }
         },
@@ -66,34 +66,46 @@ module.exports = function(grunt) {
             task0: {
                 name: "main.min.js",
                 files: [{
-                    src: "dist/js/main.js",
-                    dest: "dist/js/master.min.js"
+                    src: "dist/app/js/main.js",
+                    dest: "dist/app/js/master.min.js"
                 }]
             },
         },
 
-        cssmin: {
-            target: {
-                files: [{
-                    expand: true,
-                    cwd: "dist/css",
-                    src: ["*.css", "!*.min.css"],
-                    dest: "dist/css",
-                    ext: ".min.css"
-                }]
+        sass: {
+            options: {
+                implementation: sass,
+                sourceMap: true
+            },
+            dist: {
+                files: {
+                    'dist/app/css/master.css': 'src/app/sass/main.scss'
+                }
             }
         },
 
-        concat: {
-            css: {
-                options: {
-                    stripBanners: true,
-                    banner: "<%= bannercss %>\n"
-                },
-                src: ["dist/css/normalize.min.css", "dist/css/main.min.css"],
-                dest: "dist/css/main-concat.min.css"
+        cssmin: {
+            options: {
+                mergeIntoShorthands: false,
+                roundingPrecision: -1
+            },
+            target: {
+                files: {
+                    'dist/app/css/master.min.css': 'dist/app/css/master.css'
+                }
             }
         },
+
+        // concat: {
+        //     css: {
+        //         options: {
+        //             stripBanners: true,
+        //             banner: "<%= bannercss %>\n"
+        //         },
+        //         src: ["dist/css/normalize.min.css", "dist/css/main.min.css"],
+        //         dest: "dist/css/main-concat.min.css"
+        //     }
+        // },
 
         htmlmin: {
             htmlmin1: {
@@ -114,9 +126,9 @@ module.exports = function(grunt) {
                 },
                 files: [{
                     expand: true,
-                    cwd: "dist/views",
+                    cwd: "dist/app/views",
                     src: ["*.html"],
-                    dest: "dist/views"
+                    dest: "dist/app/views"
                 }]
             }
         },
@@ -126,10 +138,13 @@ module.exports = function(grunt) {
                 src: ["dist/"]
             },
             cleanjs: {
-                src: ["dist/js/*.js", "!dist/js/master.min.js"]
+                src: ["dist/app/js/*.js", "!dist/app/js/master.min.js"]
             },
             cleancss: {
-                src: ["dist/css/*.css", "!dist/css/main-concat.min.css"]
+                src: ["dist/app/css/*.css", "!dist/app/css/main.min.css"]
+            },
+            cleansass: {
+                src: ["dist/app/sass/"]
             }
         },
 
@@ -152,7 +167,7 @@ module.exports = function(grunt) {
                     "dist/index.html": "src/index.html",
                     "dist/releaseHistory.html": "src/releaseHistory.html",
                     "dist/trainings.html": "src/trainings.html",
-                    "dist/js/main.js": "src/js/main.js"
+                    "dist/app/js/main.js": "src/app/js/main.js"
                 }
             }
         },
@@ -161,7 +176,7 @@ module.exports = function(grunt) {
             update_Meta: {
                 // source files array
                 // RegExp Expression
-                src: ["src/index.html", "src/trainings.html", "src/releaseHistory.html", "src/js/main.js", "src/humans.txt", "README.md", "LICENSE", "src/LICENSE"],
+                src: ["src/index.html", "src/trainings.html", "src/releaseHistory.html", "src/app/js/main.js", "src/humans.txt", "README.md", "LICENSE", "src/LICENSE"],
                 overwrite: true, // overwrite matched source files
                 replacements: [{
                     // html pages
@@ -220,7 +235,7 @@ module.exports = function(grunt) {
     // grunt.registerTask("test", ["toggleComments"]);
 
     // grunt.registerTask("build", ["replace", "uglify", "cssmin", "concat"]);
-    grunt.registerTask("build", ["clean:build", "replace", "copy", "toggleComments", "uglify", "cssmin", "concat", "clean:cleanjs", "clean:cleancss", "htmlmin", ]);
+    grunt.registerTask("build", ["clean:build", "replace", "copy", "sass", "cssmin", "toggleComments", "uglify", "clean:cleanjs", "clean:cleancss", "clean:cleansass", "htmlmin", ]);
 
 };
 

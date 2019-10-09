@@ -1,0 +1,133 @@
+/* ==========================================================================
+   Release Page
+========================================================================== */
+
+.innerPageHeader {
+    height: 35vh;
+    position: relative;
+    display: flex;
+}
+
+#rhHeader {
+    background: linear-gradient(rgba($background-alt2, 0.6), rgba($background-alt2, 0.6)),
+    url('../images/img_map-state.JPG');
+    background-position: center;
+    background-size: cover;
+}
+
+.headerText {
+    color: $text-white;
+    margin: auto;
+    text-align: center;
+    width: 60%;
+
+    h2 {
+        font-weight: 800;
+        font-size: 40px;
+    }
+}
+
+.page-content {
+    margin: 40px 0px;
+
+    h3 {
+        margin-bottom: 20px;
+    }
+}
+
+.in-page-nav {
+    padding: 30px 0px 20px;
+    border-bottom: thin solid $border-alt;
+
+    ul {
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+        text-align: center;
+
+        li {
+            display: inline-block;
+            margin: 0px 5px;
+            height: 36px;
+        }
+    }
+
+    a {
+        display: inline-block;
+        color: $html-color;
+        padding: 0px 3px 10px;
+        font-size: 16px;
+
+        &:hover {
+            color: $main-color;
+        }
+
+        &:focus {
+            border-bottom: 4px solid $main-color;
+            text-decoration: none;
+        }
+    }
+
+    a.active {
+        border-bottom: 4px solid $main-color;
+        pointer-events: none;
+    }
+}
+
+.indicator {
+    display: inline-block;
+    padding: 6px 10px;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+
+    &:after {
+        left: -11px;
+        right: auto;
+        border-left-width: 11px;
+        border-right-width: 0;
+        content: "";
+        position: absolute;
+        top: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 11.5px;
+    }
+}
+
+.indicator-new {
+    background: $flag-new;
+
+    &:after {
+        border-color: $flag-new transparent;
+    }
+}
+
+.indicator-fixed {
+    background: $flag-fixed;
+
+    &:after {
+        border-color: $flag-fixed transparent;
+    }
+}
+
+#releaseHistory {
+    h4 {
+        color: $main-color;
+    }
+
+    section {
+        border-bottom: thin solid $border-alt;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+
+        &:last-of-type {
+            border-bottom: none;
+        }
+    }
+}
+
+.indent-section {
+    margin-left: 30px;
+}

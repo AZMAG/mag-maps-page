@@ -30,6 +30,11 @@ And constructed with the following guidelines:
 
 ***************************************************
 
+## Version 5.0.18 | 2019-11-01
+
+* Removed Heat Relief from map page
+* Renamed Arizona Employment to Arizona Employer
+
 ## Version 5.0.17 | 2019-10-09
 
 * Changed Employment Logo

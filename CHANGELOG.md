@@ -34,6 +34,7 @@ And constructed with the following guidelines:
 
 * Removed Heat Relief from map page
 * Renamed Arizona Employment to Arizona Employer
+* Added redirect URL to AZ Employer
 
 ## Version 5.0.17 | 2019-10-09
 

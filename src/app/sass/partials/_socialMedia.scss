@@ -51,6 +51,10 @@
         display: inline-block;
         margin: 0px -2px;
     }
+
+    em {
+        margin: auto;
+    }
 }
 
 #EMshareButton {
@@ -78,10 +82,6 @@
     color: $text-white;
 }
 
-.shareLinks em {
-    margin: auto;
-}
-
 .social-media {
     a {
         display: inline-flex;
@@ -97,6 +97,11 @@
         &:hover {
             text-decoration: none;
         }
+    }
+
+    em {
+        margin: auto;
+        font-size: 17px;
     }
 }
 
@@ -115,7 +120,15 @@
     color: $text-white;
 }
 
-.social-media em {
-    margin: auto;
-    font-size: 17px;
+.embed:hover {
+    background: $share;
+    color: $text-white;
+}
+
+.share-embed {
+    height: 120px;
+}
+
+.embed-row {
+    padding: 30px 15px 30px 15px;
 }

@@ -1219,6 +1219,10 @@ footer h4 {
   margin: 0px -2px;
 }
 
+.shareLinks em {
+  margin: auto;
+}
+
 #EMshareButton {
   background: #efbe00;
   color: #ffffff;
@@ -1244,10 +1248,6 @@ footer h4 {
   color: #ffffff;
 }
 
-.shareLinks em {
-  margin: auto;
-}
-
 .social-media a {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -1267,6 +1267,11 @@ footer h4 {
   text-decoration: none;
 }
 
+.social-media em {
+  margin: auto;
+  font-size: 17px;
+}
+
 .facebook:hover {
   background: #3B5998;
   color: #ffffff;
@@ -1282,9 +1287,17 @@ footer h4 {
   color: #ffffff;
 }
 
-.social-media em {
-  margin: auto;
-  font-size: 17px;
+.embed:hover {
+  background: #8fc33b;
+  color: #ffffff;
+}
+
+.share-embed {
+  height: 120px;
+}
+
+.embed-row {
+  padding: 30px 15px 30px 15px;
 }
 
 /* ==========================================================================

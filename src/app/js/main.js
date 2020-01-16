@@ -17,6 +17,7 @@ $(document).ready(function () {
     var employLink = '<a href="https://geo.azmag.gov/maps/azemployer/" target="_blank" title="Arizona Employer"><img src="https://maps.azmag.gov/app/images/share/Employment-share-icon.png" alt="MAG Employer Icon" height="120"></a>';
     var bikeLink = '<a href="https://geo.azmag.gov/maps/bikemap/" target="_blank" title="MAG Bikeways"><img src="https://maps.azmag.gov/app/images/share/bikeways-share-icon.png" alt="MAG Bikemap Icon" height="120"></a>';
     var radLink = '<a href="https://rad.azmag.gov/" target="_blank" title="MAG RAD"><img src="https://maps.azmag.gov/app/images/share/RAD-share-icon.png" alt="MAG RAD Icon" height="120"></a>';
+    var mapLITLink = '<a href="http://readonarizona.org/data-tools/maplit/" target="_blank" title="MAG MapLIT"><img src="https://maps.azmag.gov/app/images/share/MapLIT_smaller.png" alt="MAG MapLIT icon" height="120"></a>';
 
 
     //*** Load page sections
@@ -61,6 +62,7 @@ $(document).ready(function () {
             $("#copy3")[0].setAttribute('value', demoLink);
             $("#copy4")[0].setAttribute('value', bikeLink);
             $("#copy5")[0].setAttribute('value', radLink);
+            $("#copy6")[0].setAttribute('value', mapLITLink);
         });
 
     });

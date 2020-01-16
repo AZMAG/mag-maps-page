@@ -30,6 +30,11 @@ And constructed with the following guidelines:
 
 ***************************************************
 
+## Version 5.1.0 | 2020-01-16
+
+* Update training dates for 2020
+* added new share links feature
+
 ## Version 5.0.18 | 2019-11-01
 
 * Removed Heat Relief from map page

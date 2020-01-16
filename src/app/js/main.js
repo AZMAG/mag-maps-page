@@ -50,9 +50,9 @@ $(document).ready(function () {
         //*** privacy binding
         $("#privacyModal").load("app/views/modal-privacy.html");
         //*** version binding
-        $(".version").html("v5.0.18 | 2019-11-01");
+        $(".version").html("v5.1.0 | 2020-01-16");
         //*** copy write binding
-        $(".copyright").html("2019");
+        $(".copyright").html("2020");
 
         //*** embed binding
         $("#embedModal").load("app/views/modal-embed.html", function () {
@@ -233,10 +233,4 @@ $(document).on('click', '.track', function (e) {
     // <!-- endcomments -->
 });
 
-$(document).ready(function () {
 
-    if (window.location.href.indexOf('#embedModal') != -1) {
-        $('#embedModal').modal('show');
-    }
-
-});

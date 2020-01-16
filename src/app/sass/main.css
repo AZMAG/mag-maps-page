@@ -1294,10 +1294,16 @@ footer h4 {
 
 .share-embed {
   height: 120px;
+  padding-bottom: 5px;
 }
 
 .embed-row {
+  text-align: center;
   padding: 30px 15px 30px 15px;
+}
+
+.btn-mag {
+  background-color: #baebee;
 }
 
 /* ==========================================================================

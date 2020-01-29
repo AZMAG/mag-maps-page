@@ -1,8 +1,8 @@
-module.exports = function(grunt) {
+module.exports = function (grunt) {
 
     "use strict";
 
-     const sass = require('node-sass');
+    const sass = require('node-sass');
 
     require("matchdep").filterDev("grunt-*").forEach(grunt.loadNpmTasks);
 
@@ -188,6 +188,16 @@ module.exports = function(grunt) {
                     // html pages
                     from: /(<meta name="version" content=")([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))(">)/g,
                     to: '<meta name="version" content="' + "<%= pkg.version %>" + '">',
+                }, {
+                    // html pages CSS
+                    //<!-- <link rel="stylesheet" type="text/css" href="app/css/master.min.css?v=5.1.0"> -->
+                    from: /(<!-- <link rel="stylesheet" type="text\/css" href="app\/css\/master.min.css\?v=)([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))("> -->)/g,
+                    to: '<!-- <link rel="stylesheet" type="text/css" href="app/css/master.min.css?v=' + "<%= pkg.version %>" + '"> -->',
+                }, {
+                    // html pages JS
+                    //<!-- <script src="app/js/master.min.js?v=5.1.0"></script> -->
+                    from: /(<!-- <script src="app\/js\/master.min.js\?v=)([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))("><\/script> -->)/g,
+                    to: '<!-- <script src="app/js/master.min.js?v=' + "<%= pkg.version %>" + '"></script> -->',
                 }, {
                     // humans.txt
                     from: /(Version\: )([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))/g,

@@ -31,9 +31,9 @@ And constructed with the following guidelines:
 2. **MINOR** version when you add functionality in a backwards-compatible manner **bumps the minor** resets patch
 3. **PATCH** version when you make backwards-compatible bug fixes and misc changes **bumps only the patch**
 
-### version | 5.1.2 ###
+### version | 5.1.3 ###
 
-* #### Updated | 2020-01-16 ####
+* #### Updated | 2020-01-29 ####
 
 * #### Created | 2014-10-21 ####
 
@@ -50,6 +50,15 @@ And constructed with the following guidelines:
 A detailed list of the changes and fixes in each version update can be found in the `CHANGELOG.md`.
 
 * [CHANGELOG](CHANGELOG.md)
+
+## Technologies
+
+* Bootstrap v3.3.7
+* Modernizr v3.5.0
+* Font-Awesome v4.7
+* jQuery v3.3.1
+* Google Analytics
+* Grunt v1.0.4
 
 ## Process
 

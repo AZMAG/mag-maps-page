@@ -30,6 +30,11 @@ And constructed with the following guidelines:
 
 ***************************************************
 
+## Version 5.1.3 | 2020-01-29
+
+* Changed intro to training page.
+* Added Cache reset using querystring parameters to training and history page
+
 ## Version 5.1.2 | 2020-01-16
 
 * Changed style for embedModal

@@ -8,13 +8,23 @@
  * ========================================================================
  */
 
-$(document).ready(function() {
+$(document).ready(function () {
     "use strict";
+
+    // Links for social sharing
+    var mapsLink = '<a href="https://maps.azmag.gov/" target="_blank" title="MAG Maps"><img src="https://maps.azmag.gov/app/images/share/MAG-maps-share-icon.png" alt="MAG Maps Icon" height="120"></a>';
+    var demoLink = '<a href="https://geo.azmag.gov/maps/azdemographics/" target="_blank" title="Arizona Demographics"><img src="https://maps.azmag.gov/app/images/share/demographics-share-icon.png" alt="MAG Demographics Icon" height="120"></a>';
+    var employLink = '<a href="https://geo.azmag.gov/maps/azemployer/" target="_blank" title="Arizona Employer"><img src="https://maps.azmag.gov/app/images/share/Employment-share-icon.png" alt="MAG Employer Icon" height="120"></a>';
+    var bikeLink = '<a href="https://geo.azmag.gov/maps/bikemap/" target="_blank" title="MAG Bikeways"><img src="https://maps.azmag.gov/app/images/share/bikeways-share-icon.png" alt="MAG Bikemap Icon" height="120"></a>';
+    var radLink = '<a href="https://rad.azmag.gov/" target="_blank" title="MAG RAD"><img src="https://maps.azmag.gov/app/images/share/RAD-share-icon.png" alt="MAG RAD Icon" height="120"></a>';
+    var mapLITLink = '<a href="http://readonarizona.org/data-tools/maplit/" target="_blank" title="MAG MapLIT"><img src="https://maps.azmag.gov/app/images/share/MapLIT_smaller.png" alt="MAG MapLIT icon" height="120"></a>';
+
+
     //*** Load page sections
 
     //Load nav bar then run function that adds active to nav link
-    $("#navbar-section").load("app/views/section-navbar.html", function() {
-        $("#magNavbar .nav li a").each(function() {
+    $("#navbar-section").load("app/views/section-navbar.html", function () {
+        $("#magNavbar .nav li a").each(function () {
             if ($(this).prop("href") === window.location.href) {
                 $(this).parent("li").addClass("active");
             }
@@ -35,15 +45,26 @@ $(document).ready(function() {
     $("#carousel-section").load("app/views/section-carousel.html");
     $("#maps-section").load("app/views/section-maps.html");
     $("#video-section").load("app/views/section-video.html");
-    $(".footer-section").load("app/views/section-footer.html", function() {
+    $(".footer-section").load("app/views/section-footer.html", function () {
         //*** terms binding
         $("#termsModal").load("app/views/modal-terms.html");
         //*** privacy binding
         $("#privacyModal").load("app/views/modal-privacy.html");
         //*** version binding
-        $(".version").html("v5.0.18 | 2019-11-01");
+        $(".version").html("v5.1.3 | 2020-01-29");
         //*** copy write binding
-        $(".copyright").html("2019");
+        $(".copyright").html("2020");
+
+        //*** embed binding
+        $("#embedModal").load("app/views/modal-embed.html", function () {
+            $("#copy1")[0].setAttribute('value', mapsLink);
+            $("#copy2")[0].setAttribute('value', employLink);
+            $("#copy3")[0].setAttribute('value', demoLink);
+            $("#copy4")[0].setAttribute('value', bikeLink);
+            $("#copy5")[0].setAttribute('value', radLink);
+            $("#copy6")[0].setAttribute('value', mapLITLink);
+        });
+
     });
     $("#pastUpdates").load("app/views/section-pastUpdates.html");
     $("#mostRecent").load("app/views/section-recentUpdates.html");
@@ -64,7 +85,14 @@ $(document).ready(function() {
     $("#schoolsDataCenter").load("app/views/modal-schoolsDataCenter.html");
     $("#urbanAreas").load("app/views/modal-urbanAreas.html");
     $("#heatRelief").load("app/views/modal-heatRelief.html");
+
+
+
+
+
+
 });
+
 
 /*
  ***********************************
@@ -73,7 +101,7 @@ $(document).ready(function() {
  */
 
 // twitter widget js loading
-! function(d, s, id) {
+! function (d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0],
         p = /^http:/.test(d.location) ? "http" : "https";
     if (!d.getElementById(id)) {
@@ -85,12 +113,12 @@ $(document).ready(function() {
 }(document, "script", "twitter-wjs");
 
 //LinkedIn
-$(document).on('click', '#INshareButton', function() {
+$(document).on('click', '#INshareButton', function () {
     window.open("https://www.linkedin.com/shareArticle?url=http://maps.azmag.gov/", "shareLinkedIn", 'width=650, height=700');
 });
 
 // google +1
-(function() {
+(function () {
     var po = document.createElement("script");
     po.type = "text/javascript";
     po.async = true;
@@ -99,21 +127,21 @@ $(document).on('click', '#INshareButton', function() {
     s.parentNode.insertBefore(po, s);
 })();
 
-$(document).on('click', '#GPlusShareButton', function() {
+$(document).on('click', '#GPlusShareButton', function () {
     window.open("//plus.google.com/share?url=http%3A%2F%2Fmaps.azmag.gov%2F", 'shareGooglePlus', 'width=400, height=700');
 });
 
 // facebook
 //share dialog - use on('click') for it to work afte loading html
-$(document).on('click', '#FBshareButton', function() {
+$(document).on('click', '#FBshareButton', function () {
     FB.ui({
         method: 'share',
         mobile_iframe: true,
         href: 'https://maps.azmag.gov/',
-    }, function(response) {});
+    }, function (response) {});
 });
 
-window.fbAsyncInit = function() {
+window.fbAsyncInit = function () {
     FB.init({
         appId: "929950963769905",
         cookie: true,
@@ -122,9 +150,11 @@ window.fbAsyncInit = function() {
     });
 };
 
-(function(d, s, id) {
+(function (d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) { return; }
+    if (d.getElementById(id)) {
+        return;
+    }
     js = d.createElement(s);
     js.id = id;
     js.src = "https://connect.facebook.net/en_US/sdk.js";
@@ -132,7 +162,7 @@ window.fbAsyncInit = function() {
 }(document, 'script', 'facebook-jssdk'));
 
 
-$(document).on('click', '.shareButton button', function(e) {
+$(document).on('click', '.shareButton button', function (e) {
 
     e.preventDefault();
     $(this).toggleClass('active');
@@ -143,7 +173,7 @@ $(document).on('click', '.shareButton button', function(e) {
     }
 });
 
-$('body').mouseup(function(e) {
+$('body').mouseup(function (e) {
     var parentTarget = $(e.target).parents('#shareBox');
 
     if (e.target.id !== 'shareBox' && parentTarget.length < 1 && $(e.target).hasClass('shareButton') == false) {
@@ -163,7 +193,7 @@ function openNewWindow(obj) {
 }
 
 //collapse one at a time
-$(".toggle-links").click(function() {
+$(".toggle-links").click(function () {
     "use strict";
     $(".collapseGroup .collapse").collapse("hide");
     var showTarget = $(this).attr("href");
@@ -176,7 +206,7 @@ $(".toggle-links").click(function() {
     }
 });
 
-$(window).scroll(function() {
+$(window).scroll(function () {
     "use strict";
     if ($(document).scrollTop() > 20) {
         $(".scrollTop").css("opacity", "1");
@@ -186,7 +216,7 @@ $(window).scroll(function() {
 
 });
 
-$(".scrollTop").click(function() {
+$(".scrollTop").click(function () {
     "use strict";
     window.scroll({
         top: 0,
@@ -197,10 +227,12 @@ $(".scrollTop").click(function() {
 // ------------------------------
 // GOOGLE ANALYTICS CTA TRACKING
 // -----------------------------
-$(document).on('click', '.track', function(e) {
+$(document).on('click', '.track', function (e) {
     var text = $(this).text(); // Grab the text from the button
     // console.log(text);
     // <!-- comments:uncomment // -->
     // ga('send', 'event', 'Button', 'Click', text);
     // <!-- endcomments -->
 });
+
+

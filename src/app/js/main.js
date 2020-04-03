@@ -85,6 +85,7 @@ $(document).ready(function () {
     $("#schoolsDataCenter").load("app/views/modal-schoolsDataCenter.html");
     $("#urbanAreas").load("app/views/modal-urbanAreas.html");
     $("#heatRelief").load("app/views/modal-heatRelief.html");
+    $("#healthcare").load("app/views/modal-healthcare.html");
 
 
 
@@ -234,5 +235,3 @@ $(document).on('click', '.track', function (e) {
     // ga('send', 'event', 'Button', 'Click', text);
     // <!-- endcomments -->
 });
-
-

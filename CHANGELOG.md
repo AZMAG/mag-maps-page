@@ -30,6 +30,9 @@ And constructed with the following guidelines:
 
 ***************************************************
 
+## Version 5.2.0 | 2020-04-02
+
+
 ## Version 5.1.3 | 2020-01-29
 
 * Changed intro to training page.
@@ -471,4 +474,3 @@ And constructed with the following guidelines:
 * [main_victimsvc.jpg](iStock_000009765670Medium.jpg)
 * [main_stateDemo.jpg](iStock_000002918761XLarge.jpg & iStock_000012946900XLarge.jpg)
 * [main_mapLit.jpg](iStock_000022638300_Bookcase_LRG.jpg)
-

@@ -685,90 +685,97 @@ hr {
 }
 
 #slide-1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/carousel/main_healthcare.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/carousel/main_healthcare.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#slide-2 {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/carousel/main_demographic.jpg");
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/carousel/main_demographic.jpg");
   background-position: center;
   background-size: cover;
 }
 
-#slide-2 {
+#slide-3 {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("../images/carousel/main_employment.jpg");
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/carousel/main_employment.jpg");
   background-position: center;
   background-size: cover;
 }
 
-#slide-3 {
+#slide-4 {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/carousel/main_mapLit.jpg");
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/carousel/main_mapLit.jpg");
   background-position: center;
   background-size: cover;
 }
 
-#slide-4 {
+#slide-5 {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/carousel/main_schools-data-center.jpg");
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/carousel/main_schools-data-center.jpg");
   background-position: center;
   background-size: cover;
 }
 
-#slide-5 {
+#slide-6 {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("../images/carousel/main_recreation.jpg");
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/carousel/main_recreation.jpg");
   background-position: bottom;
   background-size: cover;
 }
 
-#slide-6 {
+#slide-7 {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("../images/carousel/cyclists-carousel-image.jpg");
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/carousel/cyclists-carousel-image.jpg");
   background-position: top;
   background-size: cover;
 }
 
-#slide-7 {
+#slide-8 {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/carousel/south-mountain-carousel-img.jpg");
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/carousel/south-mountain-carousel-img.jpg");
   background-position: center;
   background-size: cover;
 }
 
-#slide-8 {
+#slide-9 {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("../images/carousel/main_projections.jpg");
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/carousel/main_projections.jpg");
   background-position: center;
   background-size: cover;
 }
 
-#slide-9 {
+#slide-10 {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("../images/carousel/main_landmarks.jpg");
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/carousel/main_landmarks.jpg");
   background-position: bottom;
   background-size: cover;
 }
 
-#slide-10 {
+#slide-11 {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("../images/carousel/main_atp.jpg");
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/carousel/main_atp.jpg");
   background-position: top;
   background-size: cover;
 }
 
-#slide-11 {
+#slide-12 {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("../images/carousel/main_tip.png");
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/carousel/main_tip.png");
   background-position: center;
   background-size: cover;
 }
 
-#slide-12 {
+#slide-13 {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("../images/carousel/main_urban.jpg");
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/carousel/main_urban.jpg");
   background-position: center;
   background-size: cover;
 }
 
-#slide-13 {
+#slide-14 {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("../images/carousel/hrn-banner-revised.jpg");
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/carousel/hrn-banner-revised.jpg");
   background-position: center;
@@ -1474,7 +1481,6 @@ footer h4 {
 
 .scheduleList li {
   display: inline-block;
-  height: 70px;
   width: 70px;
   text-align: center;
   text-transform: uppercase;
@@ -1490,6 +1496,36 @@ footer h4 {
 .scheduleList li a:hover {
   background: #01777D;
   color: #ffffff;
+}
+
+.scheduleList li.cancel {
+  border: 1px solid #bb0000;
+  color: #bb0000;
+}
+
+.scheduleList li.cancel a {
+  text-decoration: line-through;
+  -webkit-text-decoration-color: #bb0000;
+          text-decoration-color: #bb0000;
+  color: #bb0000;
+}
+
+.scheduleList li.cancel a:hover {
+  background: #ff2222;
+  color: #ffffff;
+  cursor: not-allowed;
+}
+
+.redInk {
+  color: #bb0000;
+  border-style: groove;
+  border-color: #bb0000;
+  border-width: medium;
+  padding: 15px 25px 15px 25px;
+}
+
+.redInk h4 {
+  font-weight: 700;
 }
 
 /********************************************************

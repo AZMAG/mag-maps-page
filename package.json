@@ -1,7 +1,7 @@
 {
   "name": "MAGmappingPage",
-  "version": "5.1.3",
-  "date": "2020-01-29",
+  "version": "5.2.0",
+  "date": "2020-04-02",
   "copyright": "2020",
   "description": "MAG Main Map Page",
   "keywords": [
@@ -21,8 +21,7 @@
     "url": "https://github.com/AZMAG/map-MAGmappingPage/"
   },
   "author": "MAG Regional Analytics (https://www.azmag.gov/)",
-  "contributors": [
-    {
+  "contributors": [{
       "name": "Vern Wolfley",
       "email": "vwolfley@azmag.gov"
     },

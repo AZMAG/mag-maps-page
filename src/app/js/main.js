@@ -51,7 +51,7 @@ $(document).ready(function () {
         //*** privacy binding
         $("#privacyModal").load("app/views/modal-privacy.html");
         //*** version binding
-        $(".version").html("v5.1.3 | 2020-01-29");
+        $(".version").html("v5.2.0 | 2020-04-02");
         //*** copy write binding
         $(".copyright").html("2020");
 
@@ -85,6 +85,7 @@ $(document).ready(function () {
     $("#schoolsDataCenter").load("app/views/modal-schoolsDataCenter.html");
     $("#urbanAreas").load("app/views/modal-urbanAreas.html");
     $("#heatRelief").load("app/views/modal-heatRelief.html");
+    $("#healthcare").load("app/views/modal-healthcare.html");
 
 
 
@@ -234,5 +235,3 @@ $(document).on('click', '.track', function (e) {
     // ga('send', 'event', 'Button', 'Click', text);
     // <!-- endcomments -->
 });
-
-

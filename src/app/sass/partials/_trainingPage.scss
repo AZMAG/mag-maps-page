@@ -4,7 +4,7 @@
 
 #trHeader {
     background: linear-gradient(rgba($background-alt2, 0.6), rgba($background-alt2, 0.6)),
-    url('../images/img_using-computer-2.jpg');
+        url('../images/img_using-computer-2.jpg');
     background-position: bottom;
     background-size: cover;
 }
@@ -33,7 +33,7 @@
 
     li {
         display: inline-block;
-        height: 70px;
+        // height: 70px;
         width: 70px;
         text-align: center;
         text-transform: uppercase;
@@ -49,6 +49,35 @@
                 color: $text-white;
             }
         }
+
+        &.cancel {
+            border: 1px solid $youtube;
+            color: $youtube;
+
+            a {
+                text-decoration: line-through;
+                text-decoration-color: $youtube;
+                color: $youtube;
+
+                &:hover {
+                    background: lighten($youtube, 20%);
+                    color: $text-white;
+                    cursor: not-allowed;
+                }
+            }
+        }
     }
+
 }
 
+.redInk {
+    color: $youtube;
+    border-style: groove;
+    border-color: $youtube;
+    border-width: medium;
+    padding: 15px 25px 15px 25px;
+
+    h4 {
+        font-weight: 700;
+    }
+}

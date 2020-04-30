@@ -79,7 +79,7 @@ module.exports = function (grunt) {
                 implementation: sass,
                 sourceMap: true
             },
-            dist: {
+            release: {
                 files: {
                     'dist/css/master.css': 'src/sass/main.scss'
                 }
@@ -88,12 +88,30 @@ module.exports = function (grunt) {
 
         cssmin: {
             options: {
+                specialComments: "all",
+                processImport: false,
+                roundingPrecision: -1,
                 mergeIntoShorthands: false,
-                roundingPrecision: -1
+                advanced: false,
             },
-            target: {
+            release: {
                 files: {
                     'dist/css/master.min.css': 'dist/css/master.css'
+                }
+            }
+        },
+
+        postcss: {
+            options: {
+                map: false,
+                processors: [
+                    require('pixrem')(),
+                    require('postcss-preset-env')()
+                ]
+            },
+            release: {
+                files: {
+                    'dist/css/master1.min.css': 'dist/css/master.min.css'
                 }
             }
         },

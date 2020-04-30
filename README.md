@@ -31,9 +31,9 @@ And constructed with the following guidelines:
 2. **MINOR** version when you add functionality in a backwards-compatible manner **bumps the minor** resets patch
 3. **PATCH** version when you make backwards-compatible bug fixes and misc changes **bumps only the patch**
 
-### version | 5.2.1 ###
+### version | 5.3.0 ###
 
-* #### Updated | 2020-04-03 ####
+* #### Updated | 2020-04-30 ####
 
 * #### Created | 2014-10-21 ####
 

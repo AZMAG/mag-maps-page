@@ -4,6 +4,7 @@ module.exports = function (grunt) {
 
     const sass = require('node-sass');
 
+    require('load-grunt-tasks')(grunt);
     require("matchdep").filterDev("grunt-*").forEach(grunt.loadNpmTasks);
 
     grunt.initConfig({
@@ -40,7 +41,7 @@ module.exports = function (grunt) {
                 jshintrc: true,
                 reporter: require("jshint-stylish")
             },
-            target: ["Gruntfile.js", "src/app/js/*.js"],
+            target: ["Gruntfile.js", "src/js/*.js"],
         },
 
         babel: {
@@ -51,9 +52,9 @@ module.exports = function (grunt) {
             dist: {
                 files: [{
                     expand: true,
-                    cwd: "src/app/js",
+                    cwd: "src/js",
                     src: ["*.js"],
-                    dest: "dist/app/js"
+                    dest: "dist/js"
                 }]
             }
         },
@@ -68,35 +69,54 @@ module.exports = function (grunt) {
             task0: {
                 name: "main.min.js",
                 files: [{
-                    src: "dist/app/js/main.js",
-                    dest: "dist/app/js/master.min.js"
+                    src: "dist/js/main.js",
+                    dest: "dist/js/master.min.js"
                 }]
             },
         },
+
 
         sass: {
             options: {
                 implementation: sass,
                 sourceMap: true
             },
-            dist: {
+            release: {
                 files: {
-                    'dist/app/css/master.css': 'src/app/sass/main.scss'
+                    'dist/css/master.css': 'src/sass/main.scss'
                 }
             }
         },
 
         cssmin: {
             options: {
+                specialComments: "all",
+                processImport: false,
+                roundingPrecision: -1,
                 mergeIntoShorthands: false,
-                roundingPrecision: -1
+                advanced: false,
             },
-            target: {
+            release: {
                 files: {
-                    'dist/app/css/master.min.css': 'dist/app/css/master.css'
+                    'dist/css/master.min.css': 'dist/css/master.css'
                 }
             }
         },
+
+        // postcss: {
+        //     options: {
+        //         map: false,
+        //         processors: [
+        //             require('pixrem')(),
+        //             require('postcss-preset-env')()
+        //         ]
+        //     },
+        //     release: {
+        //         files: {
+        //             'dist/css/master1.min.css': 'dist/css/master.min.css'
+        //         }
+        //     }
+        // },
 
         // concat: {
         //     css: {
@@ -128,9 +148,9 @@ module.exports = function (grunt) {
                 },
                 files: [{
                     expand: true,
-                    cwd: "dist/app/views",
+                    cwd: "dist/views",
                     src: ["*.html"],
-                    dest: "dist/app/views"
+                    dest: "dist/views"
                 }]
             }
         },
@@ -140,13 +160,13 @@ module.exports = function (grunt) {
                 src: ["dist/"]
             },
             cleanjs: {
-                src: ["dist/app/js/*.js", "!dist/app/js/master.min.js"]
+                src: ["dist/js/*.js", "!dist/js/master.min.js"]
             },
             cleancss: {
-                src: ["dist/app/css/*.css", "!dist/app/css/master.min.css"]
+                src: ["dist/css/*.css", "!dist/css/master.min.css"]
             },
             cleansass: {
-                src: ["dist/app/sass/"]
+                src: ["dist/sass/"]
             }
         },
 
@@ -169,7 +189,7 @@ module.exports = function (grunt) {
                     "dist/index.html": "src/index.html",
                     "dist/releaseHistory.html": "src/releaseHistory.html",
                     "dist/trainings.html": "src/trainings.html",
-                    "dist/app/js/main.js": "src/app/js/main.js"
+                    "dist/js/main.js": "src/js/main.js"
                 }
             }
         },
@@ -178,7 +198,7 @@ module.exports = function (grunt) {
             update_Meta: {
                 // source files array
                 // RegExp Expression
-                src: ["src/index.html", "src/trainings.html", "src/releaseHistory.html", "src/app/js/main.js", "src/humans.txt", "README.md", "LICENSE", "src/LICENSE"],
+                src: ["src/index.html", "src/trainings.html", "src/releaseHistory.html", "src/js/main.js", "src/humans.txt", "README.md", "LICENSE", "src/LICENSE"],
                 overwrite: true, // overwrite matched source files
                 replacements: [{
                     // html pages
@@ -190,14 +210,14 @@ module.exports = function (grunt) {
                     to: '<meta name="version" content="' + "<%= pkg.version %>" + '">',
                 }, {
                     // html pages CSS
-                    //<!-- <link rel="stylesheet" type="text/css" href="app/css/master.min.css?v=5.1.0"> -->
+                    //<!-- <link rel="stylesheet" type="text/css" href="css/master.min.css?v=5.1.0"> -->
                     from: /(<!-- <link rel="stylesheet" type="text\/css" href="app\/css\/master.min.css\?v=)([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))("> -->)/g,
-                    to: '<!-- <link rel="stylesheet" type="text/css" href="app/css/master.min.css?v=' + "<%= pkg.version %>" + '"> -->',
+                    to: '<!-- <link rel="stylesheet" type="text/css" href="css/master.min.css?v=' + "<%= pkg.version %>" + '"> -->',
                 }, {
                     // html pages JS
-                    //<!-- <script src="app/js/master.min.js?v=5.1.0"></script> -->
+                    //<!-- <script src="js/master.min.js?v=5.1.0"></script> -->
                     from: /(<!-- <script src="app\/js\/master.min.js\?v=)([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))("><\/script> -->)/g,
-                    to: '<!-- <script src="app/js/master.min.js?v=' + "<%= pkg.version %>" + '"></script> -->',
+                    to: '<!-- <script src="js/master.min.js?v=' + "<%= pkg.version %>" + '"></script> -->',
                 }, {
                     // humans.txt
                     from: /(Version\: )([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))/g,

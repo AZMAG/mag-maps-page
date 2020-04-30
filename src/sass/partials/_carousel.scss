@@ -133,11 +133,15 @@
     }
 
     p {
-        font-size: 20px;
+        // font-size: 20px;
     }
 
     .button-group {
         font-size: 16px;
     }
 
+}
+
+.carousel-indicators {
+    bottom: 5px !important;
 }

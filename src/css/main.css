@@ -809,12 +809,12 @@ hr {
   font-size: 40px;
 }
 
-.carousel-content p {
-  font-size: 20px;
-}
-
 .carousel-content .button-group {
   font-size: 16px;
+}
+
+.carousel-indicators {
+  bottom: 5px !important;
 }
 
 /* ==========================================================================

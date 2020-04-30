@@ -12,18 +12,18 @@ $(document).ready(function () {
     "use strict";
 
     // Links for social sharing
-    var mapsLink = '<a href="https://maps.azmag.gov/" target="_blank" title="MAG Maps"><img src="https://maps.azmag.gov/app/images/share/MAG-maps-share-icon.png" alt="MAG Maps Icon" height="120"></a>';
-    var demoLink = '<a href="https://geo.azmag.gov/maps/azdemographics/" target="_blank" title="Arizona Demographics"><img src="https://maps.azmag.gov/app/images/share/demographics-share-icon.png" alt="MAG Demographics Icon" height="120"></a>';
-    var employLink = '<a href="https://geo.azmag.gov/maps/azemployer/" target="_blank" title="Arizona Employer"><img src="https://maps.azmag.gov/app/images/share/Employment-share-icon.png" alt="MAG Employer Icon" height="120"></a>';
-    var bikeLink = '<a href="https://geo.azmag.gov/maps/bikemap/" target="_blank" title="MAG Bikeways"><img src="https://maps.azmag.gov/app/images/share/bikeways-share-icon.png" alt="MAG Bikemap Icon" height="120"></a>';
-    var radLink = '<a href="https://rad.azmag.gov/" target="_blank" title="MAG RAD"><img src="https://maps.azmag.gov/app/images/share/RAD-share-icon.png" alt="MAG RAD Icon" height="120"></a>';
-    var mapLITLink = '<a href="http://readonarizona.org/data-tools/maplit/" target="_blank" title="MAG MapLIT"><img src="https://maps.azmag.gov/app/images/share/MapLIT_smaller.png" alt="MAG MapLIT icon" height="120"></a>';
+    var mapsLink = '<a href="https://maps.azmag.gov/" target="_blank" title="MAG Maps"><img src="https://maps.azmag.gov/images/share/MAG-maps-share-icon.png" alt="MAG Maps Icon" height="120"></a>';
+    var demoLink = '<a href="https://geo.azmag.gov/maps/azdemographics/" target="_blank" title="Arizona Demographics"><img src="https://maps.azmag.gov/images/share/demographics-share-icon.png" alt="MAG Demographics Icon" height="120"></a>';
+    var employLink = '<a href="https://geo.azmag.gov/maps/azemployer/" target="_blank" title="Arizona Employer"><img src="https://maps.azmag.gov/images/share/Employment-share-icon.png" alt="MAG Employer Icon" height="120"></a>';
+    var bikeLink = '<a href="https://geo.azmag.gov/maps/bikemap/" target="_blank" title="MAG Bikeways"><img src="https://maps.azmag.gov/images/share/bikeways-share-icon.png" alt="MAG Bikemap Icon" height="120"></a>';
+    var radLink = '<a href="https://rad.azmag.gov/" target="_blank" title="MAG RAD"><img src="https://maps.azmag.gov/images/share/RAD-share-icon.png" alt="MAG RAD Icon" height="120"></a>';
+    var mapLITLink = '<a href="http://readonarizona.org/data-tools/maplit/" target="_blank" title="MAG MapLIT"><img src="https://maps.azmag.gov/images/share/MapLIT_smaller.png" alt="MAG MapLIT icon" height="120"></a>';
 
 
     //*** Load page sections
 
     //Load nav bar then run function that adds active to nav link
-    $("#navbar-section").load("app/views/section-navbar.html", function () {
+    $("#navbar-section").load("views/section-navbar.html", function () {
         $("#magNavbar .nav li a").each(function () {
             if ($(this).prop("href") === window.location.href) {
                 $(this).parent("li").addClass("active");
@@ -42,21 +42,21 @@ $(document).ready(function () {
         $('#TWshareButton').attr('href', twitterHref);
     });
 
-    $("#carousel-section").load("app/views/section-carousel.html");
-    $("#maps-section").load("app/views/section-maps.html");
-    $("#video-section").load("app/views/section-video.html");
-    $(".footer-section").load("app/views/section-footer.html", function () {
+    $("#carousel-section").load("views/section-carousel.html");
+    $("#maps-section").load("views/section-maps.html");
+    $("#video-section").load("views/section-video.html");
+    $(".footer-section").load("views/section-footer.html", function () {
         //*** terms binding
-        $("#termsModal").load("app/views/modal-terms.html");
+        $("#termsModal").load("views/modal-terms.html");
         //*** privacy binding
-        $("#privacyModal").load("app/views/modal-privacy.html");
+        $("#privacyModal").load("views/modal-privacy.html");
         //*** version binding
-        $(".version").html("v5.2.1 | 2020-04-03");
+        $(".version").html("v5.3.0 | 2020-04-30");
         //*** copy write binding
         $(".copyright").html("2020");
 
         //*** embed binding
-        $("#embedModal").load("app/views/modal-embed.html", function () {
+        $("#embedModal").load("views/modal-embed.html", function () {
             $("#copy1")[0].setAttribute('value', mapsLink);
             $("#copy2")[0].setAttribute('value', employLink);
             $("#copy3")[0].setAttribute('value', demoLink);
@@ -66,26 +66,26 @@ $(document).ready(function () {
         });
 
     });
-    $("#pastUpdates").load("app/views/section-pastUpdates.html");
-    $("#mostRecent").load("app/views/section-recentUpdates.html");
+    $("#pastUpdates").load("views/section-pastUpdates.html");
+    $("#mostRecent").load("views/section-recentUpdates.html");
 
     //*** Modals ***
-    $("#stateDemographics").load("app/views/modal-stateDemographics.html");
-    $("#rad").load("app/views/modal-rad.html");
-    $("#readOnAZ").load("app/views/modal-readOnAZ.html");
-    $("#employment").load("app/views/modal-employment.html");
-    $("#stateEmployment").load("app/views/modal-stateEmployment.html");
-    $("#bikeways").load("app/views/modal-bikeways.html");
-    $("#landUse").load("app/views/modal-landUse.html");
-    $("#projections").load("app/views/modal-projections.html");
-    $("#neighborhood").load("app/views/modal-neighborhood.html");
-    // $("#spineStudy").load("app/views/modal-spineStudy.html");
-    $("#atp").load("app/views/modal-atp.html");
-    $("#tip").load("app/views/modal-tip.html");
-    $("#schoolsDataCenter").load("app/views/modal-schoolsDataCenter.html");
-    $("#urbanAreas").load("app/views/modal-urbanAreas.html");
-    $("#heatRelief").load("app/views/modal-heatRelief.html");
-    $("#healthcare").load("app/views/modal-healthcare.html");
+    $("#stateDemographics").load("views/modal-stateDemographics.html");
+    $("#rad").load("views/modal-rad.html");
+    $("#readOnAZ").load("views/modal-readOnAZ.html");
+    $("#employment").load("views/modal-employment.html");
+    $("#stateEmployment").load("views/modal-stateEmployment.html");
+    $("#bikeways").load("views/modal-bikeways.html");
+    $("#landUse").load("views/modal-landUse.html");
+    $("#projections").load("views/modal-projections.html");
+    $("#neighborhood").load("views/modal-neighborhood.html");
+    // $("#spineStudy").load("views/modal-spineStudy.html");
+    $("#atp").load("views/modal-atp.html");
+    $("#tip").load("views/modal-tip.html");
+    $("#schoolsDataCenter").load("views/modal-schoolsDataCenter.html");
+    $("#urbanAreas").load("views/modal-urbanAreas.html");
+    $("#heatRelief").load("views/modal-heatRelief.html");
+    $("#healthcare").load("views/modal-healthcare.html");
 
 
 

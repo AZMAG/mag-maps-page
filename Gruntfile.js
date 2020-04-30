@@ -4,6 +4,7 @@ module.exports = function (grunt) {
 
     const sass = require('node-sass');
 
+    require('load-grunt-tasks')(grunt);
     require("matchdep").filterDev("grunt-*").forEach(grunt.loadNpmTasks);
 
     grunt.initConfig({
@@ -74,6 +75,7 @@ module.exports = function (grunt) {
             },
         },
 
+
         sass: {
             options: {
                 implementation: sass,
@@ -101,20 +103,20 @@ module.exports = function (grunt) {
             }
         },
 
-        postcss: {
-            options: {
-                map: false,
-                processors: [
-                    require('pixrem')(),
-                    require('postcss-preset-env')()
-                ]
-            },
-            release: {
-                files: {
-                    'dist/css/master1.min.css': 'dist/css/master.min.css'
-                }
-            }
-        },
+        // postcss: {
+        //     options: {
+        //         map: false,
+        //         processors: [
+        //             require('pixrem')(),
+        //             require('postcss-preset-env')()
+        //         ]
+        //     },
+        //     release: {
+        //         files: {
+        //             'dist/css/master1.min.css': 'dist/css/master.min.css'
+        //         }
+        //     }
+        // },
 
         // concat: {
         //     css: {

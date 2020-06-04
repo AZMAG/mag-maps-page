@@ -211,12 +211,12 @@ module.exports = function (grunt) {
                 }, {
                     // html pages CSS
                     //<!-- <link rel="stylesheet" type="text/css" href="css/master.min.css?v=5.1.0"> -->
-                    from: /(<!-- <link rel="stylesheet" type="text\/css" href="app\/css\/master.min.css\?v=)([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))("> -->)/g,
+                    from: /(<!-- <link rel="stylesheet" type="text\/css" href="css\/master.min.css\?v=)([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))("> -->)/g,
                     to: '<!-- <link rel="stylesheet" type="text/css" href="css/master.min.css?v=' + "<%= pkg.version %>" + '"> -->',
                 }, {
                     // html pages JS
                     //<!-- <script src="js/master.min.js?v=5.1.0"></script> -->
-                    from: /(<!-- <script src="app\/js\/master.min.js\?v=)([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))("><\/script> -->)/g,
+                    from: /(<!-- <script src="js\/master.min.js\?v=)([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))("><\/script> -->)/g,
                     to: '<!-- <script src="js/master.min.js?v=' + "<%= pkg.version %>" + '"></script> -->',
                 }, {
                     // humans.txt

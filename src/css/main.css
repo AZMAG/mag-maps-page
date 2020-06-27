@@ -1107,6 +1107,16 @@ footer h4 {
   text-decoration: none;
 }
 
+.trainingBtn {
+  border: 4px solid #2baab1;
+  color: #01777D;
+}
+
+.trainingBtn:hover {
+  background: #2baab1;
+  color: #ffffff;
+}
+
 /* ==========================================================================
    Modals Styles
 ========================================================================== */
@@ -1638,4 +1648,3 @@ footer h4 {
     height: 40vh;
   }
 }
-/*# sourceMappingURL=main.css.map */

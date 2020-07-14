@@ -4,7 +4,7 @@ module.exports = function (grunt) {
 
     const fileHash = '<%= pkg.version %>' + '.' + '<%= grunt.template.today("yyyymmddHHMM") %>';
     const jsFilePath = `dist/js/main.${fileHash}.js`;
-    const jsName = `js/main.js?v=${fileHash}`;
+    const jsName = `js/master.min.js?v=${fileHash}`;
     const cssName = `css/master.min.css?v=${fileHash}`;
 
     const sass = require('node-sass');

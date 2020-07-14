@@ -16,7 +16,7 @@ $(document).ready(function () {
     var demoLink = '<a href="https://geo.azmag.gov/maps/azdemographics/" target="_blank" title="Arizona Demographics"><img src="https://maps.azmag.gov/images/share/demographics-share-icon.png" alt="MAG Demographics Icon" height="120"></a>';
     var employLink = '<a href="https://geo.azmag.gov/maps/azemployer/" target="_blank" title="Arizona Employer"><img src="https://maps.azmag.gov/images/share/Employment-share-icon.png" alt="MAG Employer Icon" height="120"></a>';
     var bikeLink = '<a href="https://geo.azmag.gov/maps/bikemap/" target="_blank" title="MAG Bikeways"><img src="https://maps.azmag.gov/images/share/bikeways-share-icon.png" alt="MAG Bikemap Icon" height="120"></a>';
-    var radLink = '<a href="https://recreation.azmag.gov/" target="_blank" title="MAG RAD"><img src="https://maps.azmag.gov/images/share/RAD-share-icon.png" alt="MAG RAD Icon" height="120"></a>';
+    var recLink = '<a href="https://recreation.azmag.gov/" target="_blank" title="MAG Recreation"><img src="https://maps.azmag.gov/images/share/RAD-share-icon.png" alt="MAG Recreation Icon" height="120"></a>';
     var mapLITLink = '<a href="http://readonarizona.org/data-tools/maplit/" target="_blank" title="MAG MapLIT"><img src="https://maps.azmag.gov/images/share/MapLIT_smaller.png" alt="MAG MapLIT icon" height="120"></a>';
 
 
@@ -61,7 +61,7 @@ $(document).ready(function () {
             $("#copy2")[0].setAttribute('value', employLink);
             $("#copy3")[0].setAttribute('value', demoLink);
             $("#copy4")[0].setAttribute('value', bikeLink);
-            $("#copy5")[0].setAttribute('value', radLink);
+            $("#copy5")[0].setAttribute('value', recLink);
             $("#copy6")[0].setAttribute('value', mapLITLink);
         });
 
@@ -71,7 +71,7 @@ $(document).ready(function () {
 
     //*** Modals ***
     $("#stateDemographics").load("views/modal-stateDemographics.html");
-    $("#rad").load("views/modal-rad.html");
+    $("#recreation").load("views/modal-recreation.html");
     $("#readOnAZ").load("views/modal-readOnAZ.html");
     $("#employment").load("views/modal-employment.html");
     $("#stateEmployment").load("views/modal-stateEmployment.html");

@@ -2,6 +2,11 @@ module.exports = function (grunt) {
 
     "use strict";
 
+    const fileHash = '<%= pkg.version %>' + '.' + '<%= grunt.template.today("yyyymmddHHMM") %>';
+    const jsFilePath = `dist/js/main.${fileHash}.js`;
+    const jsName = `js/main.js?v=${fileHash}`;
+    const cssName = `css/master.min.css?v=${fileHash}`;
+
     const sass = require('node-sass');
 
     require('load-grunt-tasks')(grunt);
@@ -163,7 +168,9 @@ module.exports = function (grunt) {
                 src: ["dist/js/*.js", "!dist/js/master.min.js"]
             },
             cleancss: {
-                src: ["dist/css/*.css", "!dist/css/master.min.css"]
+                src: ["dist/css/*.css", "!dist/css/master.min.css",
+                "dist/css/*.css.map", "!dist/css/master.css.map"
+                ]
             },
             cleansass: {
                 src: ["dist/sass/"]
@@ -209,16 +216,20 @@ module.exports = function (grunt) {
                     from: /(<meta name="version" content=")([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))(">)/g,
                     to: '<meta name="version" content="' + "<%= pkg.version %>" + '">',
                 }, {
+                     // html pages - build-info
+                    from: /(<meta name="build-info" content=")([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))(?:\.)(\d{12})(">)/g,
+                    to: '<meta name="build-info" content="' + '<%= pkg.version %>' + '.' + '<%= grunt.template.today("yyyymmddHHMM") %>' + '">',
+                }, {
                     // html pages CSS
                     //<!-- <link rel="stylesheet" type="text/css" href="css/master.min.css?v=5.1.0"> -->
-                    from: /(<!-- <link rel="stylesheet" type="text\/css" href="css\/master.min.css\?v=)([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))("> -->)/g,
-                    to: '<!-- <link rel="stylesheet" type="text/css" href="css/master.min.css?v=' + "<%= pkg.version %>" + '"> -->',
-                }, {
+                //     from: /(<!-- <link rel="stylesheet" type="text\/css" href="css\/master.min.css\?v=)([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))("> -->)/g,
+                //     to: '<!-- <link rel="stylesheet" type="text/css" href="css/master.min.css?v=' + "<%= pkg.version %>" + '"> -->',
+                // }, {
                     // html pages JS
                     //<!-- <script src="js/master.min.js?v=5.1.0"></script> -->
-                    from: /(<!-- <script src="js\/master.min.js\?v=)([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))("><\/script> -->)/g,
-                    to: '<!-- <script src="js/master.min.js?v=' + "<%= pkg.version %>" + '"></script> -->',
-                }, {
+                //     from: /(<!-- <script src="js\/master.min.js\?v=)([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))("><\/script> -->)/g,
+                //     to: '<!-- <script src="js/master.min.js?v=' + "<%= pkg.version %>" + '"></script> -->',
+                // }, {
                     // humans.txt
                     from: /(Version\: )([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))/g,
                     to: "Version: " + "<%= pkg.version %>",
@@ -247,10 +258,19 @@ module.exports = function (grunt) {
                     from: /(Copyright \(c\) )([0-9]{4})/g,
                     to: "Copyright (c) " + "<%= pkg.copyright %>",
                 }]
+            },
+            release: {
+                src: ["dist/index.html"],
+                overwrite: true,
+                replacements: [{
+                    from: "js/main.js",
+                    to: jsName,
+                }, {
+                    from: "css/main.css",
+                    to: cssName,
+                }]
             }
         }
-
-
     });
 
     // this would be run by typing "grunt test" on the command line
@@ -262,7 +282,7 @@ module.exports = function (grunt) {
     grunt.registerTask("buildCSS", ["sass", "cssmin", "clean:cleancss", "clean:cleansass"]);
     grunt.registerTask("buildJS", ["uglify", "clean:cleanjs"]);
 
-    grunt.registerTask("build", ["clean:build", "replace", "copy", "toggleComments", "htmlmin", "buildJS", "buildCSS"]);
+    grunt.registerTask("build", ["clean:build", "replace:update_Meta", "copy", "toggleComments", "replace:release", "htmlmin", "buildJS", "buildCSS"]);
 
 };
 

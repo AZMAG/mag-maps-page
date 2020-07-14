@@ -64,7 +64,7 @@
 # SITE
     Site name: MAG Mapping Home Page
     Site URL:  https://maps.azmag.gov/
-    Version: 5.3.6
+    Version: 5.3.7
     Last updated: 2020-07-14
     Creation Date: 2014-01-21
     Language: English

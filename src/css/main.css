@@ -1265,6 +1265,11 @@ footer h4 {
   color: #ffffff;
 }
 
+#embedShareButton {
+  background: #8fc33b;
+  color: #ffffff;
+}
+
 .social-media a {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -1648,3 +1653,4 @@ footer h4 {
     height: 40vh;
   }
 }
+/*# sourceMappingURL=main.css.map */

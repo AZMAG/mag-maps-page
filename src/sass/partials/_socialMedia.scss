@@ -82,6 +82,11 @@
     color: $text-white;
 }
 
+#embedShareButton {
+    background: $share;
+    color: $text-white;
+}
+
 .social-media {
     a {
         display: inline-flex;

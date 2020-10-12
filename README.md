@@ -3,8 +3,8 @@
 # MAG Mapping Home Page #
 
 [![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=my-website)](http://maps.azmag.gov/)
-[![GitHub version](https://badge.fury.io/gh/AZMAG%2Fmap-MAGmappingPage.svg)](https://badge.fury.io/gh/AZMAG%2Fmap-MAGmappingPage)
-[![GitHub issues](https://img.shields.io/github/issues/AZMAG/map-MAGmappingPage.svg)](https://github.com/AZMAG/map-MAGmappingPage/issues)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/AZMAG/map-MAGmappingPage)
+[![GitHub issues](https://img.shields.io/github/issues/AZMAG/map-MAGmappingPage)](https://github.com/AZMAG/map-MAGmappingPage/issues)
 [![dependencies](https://david-dm.org/AZMAG/map-MAGmappingPage.png)](https://david-dm.org/AZMAG/map-MAGmappingPage)
 [![devDependency Status](https://david-dm.org/AZMAG/map-MAGmappingPage/dev-status.png)](https://david-dm.org/AZMAG/map-MAGmappingPage)
 [![Semver](http://img.shields.io/SemVer/2.0.0.png)](http://semver.org/spec/v4.4.7.html)
@@ -17,9 +17,15 @@ This JavaScript web-page was developed by MAG staff for MAG member agencies and 
 
 ## Keywords
 
-`Maricopa County` `Pinal County` `State` `Arizona` `MAG` `maps` `ESRI` `#MAGmaps`
+`planning` `regional` `Maricopa County` `Pinal County` `State` `Arizona` `MAG` `MPO` `COG` `maps` `ESRI` `#MAGmaps`
 
 ## Version
+
+### version | 5.4.1 ###
+
+* #### Updated | 2020-10-12 ####
+
+* #### Created | 2014-10-21 ####
 
 Releases will be numbered with the following format:
 
@@ -30,12 +36,6 @@ And constructed with the following guidelines:
 1. **MAJOR** version when you make incompatible API changes **bumps the major** resets minor and patch
 2. **MINOR** version when you add functionality in a backwards-compatible manner **bumps the minor** resets patch
 3. **PATCH** version when you make backwards-compatible bug fixes and misc changes **bumps only the patch**
-
-### version | 5.4.0 ###
-
-* #### Updated | 2020-08-09 ####
-
-* #### Created | 2014-10-21 ####
 
 ## Credits
 

@@ -3,7 +3,7 @@
 # MAG Mapping Home Page #
 
 [![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=my-website)](http://maps.azmag.gov/)
-[![GitHub version](https://badge.fury.io/gh/AZMAG%2Fmap-MAGmappingPage.svg)](https://badge.fury.io/gh/AZMAG%2Fmap-MAGmappingPage)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/AZMAG/map-MAGmappingPage)
 [![GitHub issues](https://img.shields.io/github/issues/AZMAG/map-MAGmappingPage)](https://github.com/AZMAG/map-MAGmappingPage/issues)
 [![dependencies](https://david-dm.org/AZMAG/map-MAGmappingPage.png)](https://david-dm.org/AZMAG/map-MAGmappingPage)
 [![devDependency Status](https://david-dm.org/AZMAG/map-MAGmappingPage/dev-status.png)](https://david-dm.org/AZMAG/map-MAGmappingPage)

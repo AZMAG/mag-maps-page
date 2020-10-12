@@ -17,9 +17,15 @@ This JavaScript web-page was developed by MAG staff for MAG member agencies and 
 
 ## Keywords
 
-`Maricopa County` `Pinal County` `State` `Arizona` `MAG` `maps` `ESRI` `#MAGmaps`
+`planning` `regional` `Maricopa County` `Pinal County` `State` `Arizona` `MAG` `MPO` `COG` `maps` `ESRI` `#MAGmaps`
 
 ## Version
+
+### version | 5.4.1 ###
+
+* #### Updated | 2020-10-12 ####
+
+* #### Created | 2014-10-21 ####
 
 Releases will be numbered with the following format:
 
@@ -30,12 +36,6 @@ And constructed with the following guidelines:
 1. **MAJOR** version when you make incompatible API changes **bumps the major** resets minor and patch
 2. **MINOR** version when you add functionality in a backwards-compatible manner **bumps the minor** resets patch
 3. **PATCH** version when you make backwards-compatible bug fixes and misc changes **bumps only the patch**
-
-### version | 5.4.0 ###
-
-* #### Updated | 2020-08-09 ####
-
-* #### Created | 2014-10-21 ####
 
 ## Credits
 

@@ -51,7 +51,7 @@ $(document).ready(function () {
         //*** privacy binding
         $("#privacyModal").load("views/modal-privacy.html");
         //*** version binding
-        $(".version").html("v5.4.1 | 2020-10-12");
+        $(".version").html("v5.4.2 | 2020-12-09");
         //*** copy write binding
         $(".copyright").html("2020");
 
@@ -86,10 +86,7 @@ $(document).ready(function () {
     $("#urbanAreas").load("views/modal-urbanAreas.html");
     $("#heatRelief").load("views/modal-heatRelief.html");
     $("#healthcare").load("views/modal-healthcare.html");
-
-
-
-
+    $("#realEstate").load("views/modal-realEstate.html");
 
 
 });

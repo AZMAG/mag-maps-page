@@ -86,10 +86,7 @@ $(document).ready(function () {
     $("#urbanAreas").load("views/modal-urbanAreas.html");
     $("#heatRelief").load("views/modal-heatRelief.html");
     $("#healthcare").load("views/modal-healthcare.html");
-
-
-
-
+    $("#realEstate").load("views/modal-realEstate.html");
 
 
 });

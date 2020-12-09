@@ -51,7 +51,7 @@ $(document).ready(function () {
         //*** privacy binding
         $("#privacyModal").load("views/modal-privacy.html");
         //*** version binding
-        $(".version").html("v5.4.2 | 2020-12-09");
+        $(".version").html("v5.4.3 | 2020-12-09");
         //*** copy write binding
         $(".copyright").html("2020");
 
@@ -78,7 +78,7 @@ $(document).ready(function () {
     $("#bikeways").load("views/modal-bikeways.html");
     $("#landUse").load("views/modal-landUse.html");
     $("#projections").load("views/modal-projections.html");
-    $("#neighborhood").load("views/modal-neighborhood.html");
+    // $("#neighborhood").load("views/modal-neighborhood.html");
     // $("#spineStudy").load("views/modal-spineStudy.html");
     $("#atp").load("views/modal-atp.html");
     $("#tip").load("views/modal-tip.html");

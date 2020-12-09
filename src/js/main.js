@@ -78,7 +78,7 @@ $(document).ready(function () {
     $("#bikeways").load("views/modal-bikeways.html");
     $("#landUse").load("views/modal-landUse.html");
     $("#projections").load("views/modal-projections.html");
-    $("#neighborhood").load("views/modal-neighborhood.html");
+    // $("#neighborhood").load("views/modal-neighborhood.html");
     // $("#spineStudy").load("views/modal-spineStudy.html");
     $("#atp").load("views/modal-atp.html");
     $("#tip").load("views/modal-tip.html");

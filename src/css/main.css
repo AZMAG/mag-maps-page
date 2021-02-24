@@ -1475,8 +1475,28 @@ footer h4 {
   margin-bottom: 70px;
 }
 
+#trainingTutorials h2 {
+  margin: 5px 0 10px;
+  font-size: 36px;
+  font-weight: 700;
+}
+
 #trainingTutorials h4 {
-  margin: 20px 0px 20px;
+  margin: 20px 0 20px;
+}
+
+#trainingTutorials hr {
+  margin: 1px 0 5px;
+}
+
+#trainingTutorials .hlt {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+#trainingTutorials .bold {
+  font-size: 22px;
+  font-weight: 600;
 }
 
 .trainingSchedule {
@@ -1541,6 +1561,10 @@ footer h4 {
 
 .redInk h4 {
   font-weight: 700;
+}
+
+ul li {
+  margin: 10px 0 10px;
 }
 
 /********************************************************
@@ -1653,4 +1677,3 @@ footer h4 {
     height: 40vh;
   }
 }
-/*# sourceMappingURL=main.css.map */

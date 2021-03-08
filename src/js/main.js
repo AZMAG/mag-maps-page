@@ -51,7 +51,7 @@ $(document).ready(function () {
         //*** privacy binding
         $("#privacyModal").load("views/modal-privacy.html");
         //*** version binding
-        $(".version").html("v5.4.4 | 2021-02-24");
+        $(".version").html("v5.4.5 | 2021-03-08");
         //*** copy write binding
         $(".copyright").html("2021");
 

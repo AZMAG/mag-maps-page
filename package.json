@@ -1,7 +1,7 @@
 {
   "name": "mag-mapping-page",
-  "version": "5.4.7",
-  "date": "2021-05-01",
+  "version": "5.4.8",
+  "date": "2021-06-14",
   "copyright": "2021",
   "description": "MAG Main Map Page",
   "keywords": [
@@ -42,14 +42,14 @@
   "dependencies": {
     "add-to-homescreen": "^3.2.6",
     "bootstrap": "3.4.1",
-    "grunt-cli": "^1.3.2",
+    "grunt-cli": "^1.4.3",
     "html5-boilerplate": "^8.0.0",
     "jquery": "^3.5.1"
   },
   "devDependencies": {
     "@babel/core": "^7.13.8",
     "@babel/preset-env": "^7.13.9",
-    "grunt": "^1.3.0",
+    "grunt": "^1.4.1",
     "grunt-babel": "^8.0.0",
     "grunt-comment-toggler": "^0.2.2",
     "grunt-contrib-clean": "^2.0.0",

@@ -1,13 +1,13 @@
 ![](http://geo.azmag.gov/maps/readonaz/app/resources/img/maglogo_black.png)
 
-# MAG Mapping Home Page #
+# MAG Mapping Page
 
 [![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=my-website)](http://maps.azmag.gov/)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/AZMAG/map-MAGmappingPage)
 [![GitHub issues](https://img.shields.io/github/issues/AZMAG/map-MAGmappingPage)](https://github.com/AZMAG/map-MAGmappingPage/issues)
 [![dependencies](https://david-dm.org/AZMAG/map-MAGmappingPage.png)](https://david-dm.org/AZMAG/map-MAGmappingPage)
 [![devDependency Status](https://david-dm.org/AZMAG/map-MAGmappingPage/dev-status.png)](https://david-dm.org/AZMAG/map-MAGmappingPage)
-[![Semver](http://img.shields.io/SemVer/2.0.0.png)](http://semver.org/spec/v4.4.7.html)
+[![Semver](http://img.shields.io/SemVer/2.0.0.png)](http://semver.org/)
 [![Built with Grunt](http://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
@@ -17,15 +17,15 @@ This JavaScript web-page was developed by MAG staff for MAG member agencies and 
 
 ## Keywords
 
-`planning` `regional` `Maricopa County` `Pinal County` `State` `Arizona` `MAG` `MPO` `COG` `maps` `ESRI` `#MAGmaps`
+`planning` `regional` `Maricopa County` `Pinal County` `State` `Arizona` `MAG` `MPO` `COG` `maps` `GIS` `ESRI` `#MAGmaps`
 
 ## Version
 
-### version | 5.4.7 ###
+### version | 5.4.7
 
-* #### Updated | 2021-05-01 ####
+- #### Updated | 2021-05-01
 
-* #### Created | 2014-10-21 ####
+- #### Created | 2014-10-21
 
 Releases will be numbered with the following format:
 
@@ -37,53 +37,63 @@ And constructed with the following guidelines:
 2. **MINOR** version when you add functionality in a backwards-compatible manner **bumps the minor** resets patch
 3. **PATCH** version when you make backwards-compatible bug fixes and misc changes **bumps only the patch**
 
-## Credits
+## Site URL
 
-`Maricopa Association of Governments (MAG) and the MAG member agencies`
+- [MAG Mapping](https://maps.azmag.gov/)
 
-## Site URL's
+## Available Scripts
 
-* [MAG Mapping](https://maps.azmag.gov/)
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+## Technologies
+
+- Bootstrap v3.3.7
+- Modernizr v3.5.0
+- Font-Awesome v4.7
+- jQuery v3.3.1
+- Google Analytics
+- Grunt v1.0.4
+
+## Dependencies
+
+- [git-labelmaker](https://github.com/himynameisdave/git-labelmaker?utm_source=hashnode.com)
 
 ## Documentation
 
 A detailed list of the changes and fixes in each version update can be found in the `CHANGELOG.md`.
 
-* [CHANGELOG](CHANGELOG.md)
+- [CHANGELOG](CHANGELOG.md)
 
-## Technologies
+## Credits
 
-* Bootstrap v3.3.7
-* Modernizr v3.5.0
-* Font-Awesome v4.7
-* jQuery v3.3.1
-* Google Analytics
-* Grunt v1.0.4
-
-## Process
-
-## Resources
-
-## Dependencies
-
-* [git-labelmaker](https://github.com/himynameisdave/git-labelmaker?utm_source=hashnode.com)
-
-#### ***Reference Example Sites***
+`Maricopa Association of Governments (MAG) and the MAG member agencies`
 
 ## Legal Disclaimer
 
-The Maricopa Association of Governments provides the data within these pages as a public resource of general information for use "as is." The TMaricopa Association of Governments GIS (Geographic Information System) departments provides this information with the understanding that it is not guaranteed to be accurate, correct or complete and any conclusions drawn from such information are the sole responsibility of the user. Further, the Maricopa Association of Governments GIS departments makes no warranty, representation or guaranty as to the content, sequence, accuracy, timeliness or completeness of any of the spatial or database information provided herein. While every effort has been made to ensure the content, sequence, accuracy, timeliness or completeness of materials presented within these pages, the Maricopa Association of Governments GIS Departments assumes no responsibility for errors or omissions, and explicitly disclaims any representations and warranties, including, without limitation, the implied warranties of merchantability and fitness for a particular purpose. The Maricopa Association of Governments GIS Departments shall assume no liability for:
-
-    1. Any errors, omissions, or inaccuracies in the information provided, regardless of how caused; or
-    2. Any decision made or action taken or not taken by viewer in reliance upon any information or data furnished hereunder.
-
-Availability of the Maricopa Association of Governments Map Server is not guaranteed. Applications, servers, and network connections may be unavailable at any time for maintenance or unscheduled outages. Outages may be of long duration. Users are cautioned to create dependencies on these services for critical needs.
-
-THE FOREGOING WARRANTY IS EXCLUSIVE AND IN LIEU OF ALL OTHER WARRANTIES OF MERCHANTABILITY, FITNESS FOR PARTICULAR PURPOSE AND/OR ANY OTHER TYPE WHETHER EXPRESSED OR IMPLIED. In no event shall Maricopa Association of Governments become liable to users of these data, or any other party, for any loss or direct, indirect, special, incidental or consequential damages, including, but not limited to, time, money or goodwill, arising from the use or modification of the data.
-
-To assist the Maricopa Association of Governments in the maintenance and/or correction of the data, users should provide the Maricopa Association of Governments GIS Departments with information concerning errors or discrepancies found in using the data. Please use the e-mail contact address at the bottom of the affected web page.
-
-Please acknowledge the Maricopa Association of Governments (MAG) GIS as the source when Map Server data is used in the preparation of reports, papers, publications, maps, or other products.
+- [Disclaimer](LEGAL_DISCLAIMER)
 
 ## Copyright and Licensing
 
@@ -91,4 +101,4 @@ Code released under the MIT license.
 
 A copy of the license is available in the repository's `LICENSE` file.
 
-* [LICENSE](LICENSE)
+- [LICENSE](LICENSE)

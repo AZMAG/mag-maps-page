@@ -1,0 +1,48 @@
+/* ==========================================================================
+   Colors
+========================================================================== */
+.navbar-default {
+  background: #ffffff;
+  padding: 10px 0px;
+  margin-bottom: 0px;
+}
+
+#magNavbar {
+  overflow: unset;
+}
+
+#magNavbar .navbar-nav {
+  margin-top: 16.039px;
+  position: relative;
+}
+
+#magNavbar .navbar-nav > li.active > a {
+  background: #2baab1;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+#magNavbar .nav > li > a {
+  padding: 10px 13px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #2baab1;
+  margin: 2px;
+}
+
+#magNavbar .nav > li > a:hover {
+  background: #2baab1;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+#magNavbar .nav > li.shareButton > button:hover {
+  background: #2baab1;
+  color: #ffffff;
+}
+
+#magNavbar .nav > li.shareButton > button.active {
+  background: #ffffff;
+  color: #2baab1;
+}

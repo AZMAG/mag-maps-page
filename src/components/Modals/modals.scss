@@ -1,0 +1,66 @@
+@import "../../styles/colors";
+
+.modal-header {
+  background-color: lighten($main-color, 40%);
+}
+
+.modal-title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.modal-content {
+  color: $text-alt1;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    color: $text-alt1;
+  }
+
+  p {
+    color: $text-alt1;
+  }
+
+  .btn {
+    padding: 7.45px 20px;
+  }
+
+  .button-group {
+    a {
+      margin: 0px 7px;
+    }
+  }
+}
+
+.modal-icon {
+  float: left;
+  padding: 0px 20px 20px 0px;
+  max-height: 130px;
+}
+
+.modal-body {
+  min-height: 118px;
+  padding: 25px;
+
+  p {
+    font-size: 16px;
+  }
+
+  h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 0px 20px;
+  }
+
+  .lead {
+    margin-bottom: 50px;
+    font-size: 18px;
+  }
+}
+
+.modal-anchor {
+  cursor: pointer;
+}

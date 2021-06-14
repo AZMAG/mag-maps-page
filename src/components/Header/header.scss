@@ -1,0 +1,59 @@
+@import "../../styles/colors";
+
+.navbar-default {
+  background: $background-main;
+  padding: 10px 0px;
+  margin-bottom: 0px;
+}
+
+#magNavbar {
+  overflow: unset;
+
+  .navbar-nav {
+    margin-top: 16.039px;
+    position: relative;
+
+    & > li {
+      &.active {
+        & > a {
+          background: $main-color;
+          color: $text-white;
+          border-radius: 4px;
+        }
+      }
+    }
+  }
+
+  .nav {
+    & > li {
+      & > a {
+        padding: 10px 13px;
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: $main-color;
+        margin: 2px;
+
+        &:hover {
+          background: $main-color;
+          color: $text-white;
+          border-radius: 4px;
+        }
+      }
+
+      &.shareButton {
+        & > button {
+          &:hover {
+            background: $main-color;
+            color: $text-white;
+          }
+
+          &.active {
+            background: $background-main;
+            color: $main-color;
+          }
+        }
+      }
+    }
+  }
+}

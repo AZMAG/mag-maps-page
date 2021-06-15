@@ -21,9 +21,9 @@ This JavaScript web-page was developed by MAG staff for MAG member agencies and 
 
 ## Version
 
-### version | 5.4.7 ###
+### version | 5.4.8 ###
 
-* #### Updated | 2021-05-01 ####
+* #### Updated | 2021-06-14 ####
 
 * #### Created | 2014-10-21 ####
 

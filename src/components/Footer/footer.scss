@@ -53,7 +53,11 @@ footer {
     color: $text-white;
   }
 }
-
+.subscribeForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 .subscribeForm .form-group {
   width: 60%;
 }
@@ -229,23 +233,4 @@ footer {
 .youtube:hover {
   background: $youtube;
   color: $text-white;
-}
-
-.embed:hover {
-  background: $share;
-  color: $text-white;
-}
-
-.share-embed {
-  height: 120px;
-  padding-bottom: 5px;
-}
-
-.embed-row {
-  text-align: center;
-  padding: 30px 15px 30px 15px;
-}
-
-.btn-mag {
-  background-color: lighten($main-color, 40%);
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import { Container, Navbar, Button } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faShareAlt,
@@ -15,10 +16,10 @@ import "./header.css";
 
 function Header() {
   return (
-    <nav className="navbar navbar-default">
-      <div className="container-fluid container">
+    <Navbar>
+      <Container>
         <div className="navbar-header">
-          <button
+          <Button
             type="button"
             className="navbar-toggle"
             data-toggle="collapse"
@@ -27,14 +28,14 @@ function Header() {
             <span className="icon-bar"></span>
             <span className="icon-bar"></span>
             <span className="icon-bar"></span>
-          </button>
-          <a className="navbar-brand" href="https://www.azmag.gov/">
+          </Button>
+          <Navbar.Brand href="https://www.azmag.gov/">
             <img
               className="img-responsive"
               src="images/logos/MAG-logo.png"
               alt="MAG Logo"
             />
-          </a>
+          </Navbar.Brand>
         </div>
         <div className="collapse navbar-collapse" id="magNavbar">
           <ul className="nav navbar-nav navbar-right">
@@ -65,9 +66,9 @@ function Header() {
               </a>
             </li>
             <li className="navLink shareButton track">
-              <button data-target="#shareBox">
+              <Button data-target="#shareBox">
                 <FontAwesomeIcon icon={faShareAlt} />
-              </button>
+              </Button>
             </li>
             <div id="shareBox">
               <h5>Share this page!</h5>
@@ -83,23 +84,24 @@ function Header() {
                     </a>
                   </li>
                   <li>
-                    <a id="FBshareButton" title="Share on Facebook">
+                    <a id="FBshareButton" href="/#" title="Share on Facebook">
                       <FontAwesomeIcon icon={faFacebookF} />
                     </a>
                   </li>
                   <li>
-                    <a id="TWshareButton" title="Share on Twitter">
+                    <a id="TWshareButton" href="/#" title="Share on Twitter">
                       <FontAwesomeIcon icon={faTwitter} />
                     </a>
                   </li>
                   <li>
-                    <a id="INshareButton" title="Share on LinkedIn">
+                    <a id="INshareButton" href="/#" title="Share on LinkedIn">
                       <FontAwesomeIcon icon={faLinkedinIn} />
                     </a>
                   </li>
                   <li>
                     <a
                       id="embedShareButton"
+                      href="/#"
                       data-toggle="modal"
                       data-target="#embedModal"
                       title="Embed in your site"
@@ -112,8 +114,8 @@ function Header() {
             </div>
           </ul>
         </div>
-      </div>
-    </nav>
+      </Container>
+    </Navbar>
   );
 }
 

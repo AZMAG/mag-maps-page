@@ -1,4 +1,5 @@
 import React from "react";
+import { Container, Row, Button } from "react-bootstrap";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -14,6 +15,7 @@ import {
 
 import Privacy from "../Modals/privacy";
 import Terms from "../Modals/terms";
+import Embed from "../Modals/Embed/embed";
 
 import "./footer.css";
 
@@ -22,9 +24,9 @@ import { version, date, copyright } from "../../../package.json";
 function Footer() {
   return (
     <footer>
-      <container>
+      <Container>
         <div className="footer-body">
-          <div className="row">
+          <Row>
             <div className="col-md-4">
               <h4>Contact</h4>
               <p>
@@ -50,7 +52,8 @@ function Footer() {
                   &nbsp;
                   <a
                     href="https://www.azmag.gov/Contact/4788?"
-                    // onClick="openNewWindow(this); return false"
+                    rel="noopener noreferrer"
+                    target="_blank"
                   >
                     Jason Howard, GIS Manager
                   </a>
@@ -89,9 +92,9 @@ function Footer() {
                     required
                   />
                 </div>
-                <button type="submit" name="commit" className="form_button">
+                <Button type="submit" name="commit" className="form_button">
                   Subscribe
-                </button>
+                </Button>
               </form>
             </div>
             <div className="col-md-3">
@@ -130,19 +133,10 @@ function Footer() {
                     <FontAwesomeIcon icon={faYoutube} />
                   </em>
                 </a>
-                <a
-                  className="embed modal-anchor track"
-                  data-toggle="modal"
-                  data-target="#embedModal"
-                  title="Embed in your site"
-                >
-                  <em>
-                    <FontAwesomeIcon icon={faCode} />
-                  </em>
-                </a>
+                <Embed />
               </p>
             </div>
-          </div>
+          </Row>
         </div>
         <div className="footer-links">
           <ul>
@@ -193,7 +187,7 @@ function Footer() {
             </span>
           </p>
         </div>
-      </container>
+      </Container>
     </footer>
   );
 }

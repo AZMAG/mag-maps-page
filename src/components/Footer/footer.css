@@ -55,6 +55,19 @@ footer h4 {
   color: #ffffff;
 }
 
+.subscribeForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .subscribeForm .form-group {
   width: 60%;
 }
@@ -231,21 +244,6 @@ footer h4 {
 .youtube:hover {
   background: #bb0000;
   color: #ffffff;
-}
-
-.embed:hover {
-  background: #8fc33b;
-  color: #ffffff;
-}
-
-.share-embed {
-  height: 120px;
-  padding-bottom: 5px;
-}
-
-.embed-row {
-  text-align: center;
-  padding: 30px 15px 30px 15px;
 }
 
 .btn-mag {

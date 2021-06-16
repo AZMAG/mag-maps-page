@@ -4,6 +4,7 @@ import Modal from "react-bootstrap/Modal";
 
 import "./modals.css";
 
+import { copyright } from "../../../package.json";
 function Terms() {
   const [show, setShow] = useState(false);
 
@@ -12,9 +13,11 @@ function Terms() {
 
   return (
     <span>
-      <a onClick={handleShow}>Terms</a>
+      <a href="/#" onClick={handleShow}>
+        Terms
+      </a>
 
-      <Modal show={show} onHide={handleClose}>
+      <Modal size="lg" show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>Terms</Modal.Title>
         </Modal.Header>
@@ -242,7 +245,16 @@ function Terms() {
             TERMS OF USE, YOUR SOLE AND EXCLUSIVE REMEDY IS TO DISCONTINUE USING
             THE MAG MAPPING CENTER WEB SITE.
           </p>
-          <p>SERVICE CONTACT : no-reply@azmag.gov</p>
+          <p>
+            SERVICE CONTACT:&nbsp;
+            <a
+              href="mailto: no-reply@azmag.gov"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              no-reply@azmag.gov
+            </a>
+          </p>
           <h4>Termination/Access Restriction</h4>
           <p>
             MAG Mapping Center reserves the right, in its sole discretion, to
@@ -288,9 +300,9 @@ function Terms() {
           </p>
           <h4>Copyright and Trademark Notices</h4>
           <p>
-            All contents of the MAG Mapping Center Web Site are: Copyright 2019
-            by Maricopa Association of Governments and/or its suppliers. All
-            rights reserved.
+            All contents of the MAG Mapping Center Web Site are: Copyright&nbsp;
+            {copyright}&nbsp;by Maricopa Association of Governments and/or its
+            suppliers. All rights reserved.
           </p>
           <h4>Trademarks</h4>
           <p>

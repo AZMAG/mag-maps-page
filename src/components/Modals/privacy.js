@@ -12,9 +12,11 @@ function Privacy() {
 
   return (
     <span>
-      <a onClick={handleShow}>Privacy</a>
+      <a href="/#" onClick={handleShow}>
+        Privacy
+      </a>
 
-      <Modal show={show} onHide={handleClose}>
+      <Modal size="lg" show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>Privacy</Modal.Title>
         </Modal.Header>
@@ -157,9 +159,16 @@ function Privacy() {
           <p>
             MAG Mapping Center welcomes your comments regarding this Statement
             of Privacy. If you believe that MAG Mapping Center has not adhered
-            to this Statement, please contact MAG Mapping Center at
-            no-reply@azmag.gov. We will use commercially reasonable efforts to
-            promptly determine and remedy the problem.
+            to this Statement, please contact MAG Mapping Center at&nbsp;
+            <a
+              href="mailto: no-reply@azmag.gov"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              no-reply@azmag.gov.
+            </a>
+            &nbsp;We will use commercially reasonable efforts to promptly
+            determine and remedy the problem.
           </p>
         </Modal.Body>
 

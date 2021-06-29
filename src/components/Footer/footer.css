@@ -36,70 +36,89 @@ footer h4 {
   margin-bottom: 40px;
 }
 
-.footer-links {
-  margin-bottom: 20px;
-}
-
-.footer-links ul {
-  list-style: none;
-  text-align: center;
-}
-
-.footer-links ul li {
-  display: inline;
-  margin: 0px 7px;
-}
-
-.footer-links a {
-  font-weight: 400;
-  color: #ffffff;
-}
-
-.subscribeForm {
+.footer-body .col1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.footer-body .col2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  text-align: center;
 }
 
-.subscribeForm .form-group {
-  width: 60%;
+.footer-body .col3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
-.subscribeForm .form-group input {
-  width: 100%;
-  margin-top: -3px;
+.footer-body #email {
+  border-radius: 5px 0 0 5px;
 }
 
-.form_button {
+.footer-body .form_button {
   background: #f79664;
   outline: none;
-  padding: 8px 20px;
   border-radius: 5px;
   border: 1px solid #f79664;
 }
 
-.form_button:hover {
+.footer-body .form_button:hover {
   text-decoration: none;
   border: 1px solid #f47534;
   background: #f47534;
   color: #ffffff;
 }
 
-.copyrightTerms {
-  background: #000000;
-  text-align: center;
-  padding: 15px 0px;
+.footer-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
 }
 
-.copyrightTerms p {
+.footer-links .nav-link {
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.footer-links .nav-link:hover {
+  background: #f4f7fa;
+  color: #333333;
+  border-radius: 4px;
+}
+
+.footer-copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #000000;
   font-size: 11px;
+  padding: 15px 0px;
 }
 
 .scrollTop {
@@ -123,32 +142,6 @@ footer h4 {
 /* ==========================================================================
    Social Media
 ========================================================================== */
-.shareButton button {
-  font-size: 30px;
-  padding: 5px 13px 3px 13px;
-  background: none;
-  outline: none;
-  border: none;
-  border-radius: 4px;
-  color: #2baab1;
-}
-
-#shareBox {
-  display: none;
-  z-index: 2;
-  position: absolute;
-  bottom: -90px;
-  right: 0;
-  background: #ffffff;
-  padding: 10px 20px;
-  border: thin solid #cccccc;
-  border-radius: 4px;
-}
-
-#shareBox:active {
-  display: inline-block;
-}
-
 .shareLinks a {
   cursor: pointer;
   height: 33px;
@@ -244,8 +237,4 @@ footer h4 {
 .youtube:hover {
   background: #bb0000;
   color: #ffffff;
-}
-
-.btn-mag {
-  background-color: #baebee;
 }

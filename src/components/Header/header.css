@@ -1,48 +1,52 @@
 /* ==========================================================================
    Colors
 ========================================================================== */
-.navbar-default {
-  background: #ffffff;
-  padding: 10px 0px;
-  margin-bottom: 0px;
-}
-
 #magNavbar {
-  overflow: unset;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 #magNavbar .navbar-nav {
-  margin-top: 16.039px;
-  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-#magNavbar .navbar-nav > li.active > a {
-  background: #2baab1;
-  color: #ffffff;
-  border-radius: 4px;
-}
-
-#magNavbar .nav > li > a {
-  padding: 10px 13px;
-  font-size: 12px;
+#magNavbar .navbar-nav .nav-link {
   font-weight: 700;
   text-transform: uppercase;
   color: #2baab1;
-  margin: 2px;
 }
 
-#magNavbar .nav > li > a:hover {
+#magNavbar .navbar-nav .nav-link:hover {
   background: #2baab1;
   color: #ffffff;
   border-radius: 4px;
 }
 
-#magNavbar .nav > li.shareButton > button:hover {
+#magNavbar .navbar-nav .nav-link.shareButton > button {
+  padding: 1px 8px 1px 8px;
+  background: none;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  color: #2baab1;
+}
+
+#magNavbar .navbar-nav .nav-link.shareButton > button:hover {
   background: #2baab1;
   color: #ffffff;
 }
 
-#magNavbar .nav > li.shareButton > button.active {
+#magNavbar .navbar-nav .nav-link.shareButton > button.active {
   background: #ffffff;
   color: #2baab1;
 }

@@ -33,63 +33,61 @@ footer {
 
 .footer-body {
   margin-bottom: 40px;
+  .col1 {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .col2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .col3 {
+    display: flex;
+    justify-content: flex-end;
+  }
+  #email {
+    border-radius: 5px 0 0 5px;
+  }
+  .form_button {
+    background: $form-button;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid $form-button;
+
+    &:hover {
+      text-decoration: none;
+      border: 1px solid darken($form-button, 10%);
+      background: darken($form-button, 10%);
+      color: $text-white;
+    }
+  }
 }
 
 .footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 20px;
-
-  ul {
-    list-style: none;
-    text-align: center;
-
-    li {
-      display: inline;
-      margin: 0px 7px;
-    }
-  }
-
-  a {
+  .nav-link {
     font-weight: 400;
     color: $text-white;
+
+    &:hover {
+      background: $background-alt1;
+      color: $text-alt1;
+      border-radius: 4px;
+    }
   }
 }
-.subscribeForm {
+
+.footer-copyright {
   display: flex;
-  flex-direction: row;
   justify-content: center;
-}
-.subscribeForm .form-group {
-  width: 60%;
-}
-
-.subscribeForm .form-group input {
-  width: 100%;
-  margin-top: -3px;
-}
-
-.form_button {
-  background: $form-button;
-  outline: none;
-  padding: 8px 20px;
-  border-radius: 5px;
-  border: 1px solid $form-button;
-
-  &:hover {
-    text-decoration: none;
-    border: 1px solid darken($form-button, 10%);
-    background: darken($form-button, 10%);
-    color: $text-white;
-  }
-}
-
-.copyrightTerms {
+  align-items: center;
   background: $background-alt2;
-  text-align: center;
+  font-size: 11px;
   padding: 15px 0px;
-
-  p {
-    font-size: 11px;
-  }
 }
 
 .scrollTop {
@@ -112,32 +110,6 @@ footer {
 /* ==========================================================================
    Social Media
 ========================================================================== */
-
-.shareButton button {
-  font-size: 30px;
-  padding: 5px 13px 3px 13px;
-  background: none;
-  outline: none;
-  border: none;
-  border-radius: 4px;
-  color: $main-color;
-}
-
-#shareBox {
-  display: none;
-  z-index: 2;
-  position: absolute;
-  bottom: -90px;
-  right: 0;
-  background: $background-main;
-  padding: 10px 20px;
-  border: thin solid $border-gray;
-  border-radius: 4px;
-
-  &:active {
-    display: inline-block;
-  }
-}
 
 .shareLinks {
   a {

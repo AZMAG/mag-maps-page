@@ -1,0 +1,17 @@
+@import "../../../styles/colors";
+
+#shareBox {
+  display: none;
+  z-index: 2;
+  position: absolute;
+  bottom: -90px;
+  right: 0;
+  background: $background-main;
+  padding: 10px 20px;
+  border: thin solid $border-gray;
+  border-radius: 4px;
+
+  &:active {
+    display: inline-block;
+  }
+}

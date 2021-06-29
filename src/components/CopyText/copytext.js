@@ -1,41 +1,35 @@
-import React from "react";
+import React, { useState } from "react";
 
 function CopyText() {
+  const [state, setState] = useState({
+    copySuccess: false,
+  });
 
-  constructor(props) {
-    super(props);
+  let textArea;
 
-    this.state = {
-      copySuccess: false,
-    };
-  };
-
-  copyCodeToClipboard = () => {
-    const el = this.textArea;
+  const copyCodeToClipboard = () => {
+    const el = textArea;
     el.select();
     document.execCommand("copy");
-    this.setState({ copySuccess: true });
+    setState({ copySuccess: true });
   };
 
-    return (
+  return (
+    <div>
       <div>
-        <div>
-          <textarea
-            ref={(textarea) => (this.textArea = textarea)}
-            value="Example copy for the textarea."
-          />
-        </div>
-        <div>
-          <button onClick={() => this.copyCodeToClipboard()}>
-            Copy to Clipboard
-          </button>
-          {this.state.copySuccess ? (
-            <div style={{ color: "green" }}>Success!</div>
-          ) : null}
-        </div>
+        <textarea
+          ref={(textarea) => (textArea = textarea)}
+          value="Example copy for the textarea."
+        />
       </div>
-    );
-  }
-
+      <div>
+        <button onClick={() => copyCodeToClipboard()}>Copy to Clipboard</button>
+        {state.copySuccess ? (
+          <div style={{ color: "green" }}>Success!</div>
+        ) : null}
+      </div>
+    </div>
+  );
+}
 
 export default CopyText;

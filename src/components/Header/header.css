@@ -1,7 +1,7 @@
 /* ==========================================================================
    Colors
 ========================================================================== */
-#magNavbar {
+.magNavbar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -14,25 +14,25 @@
           justify-content: flex-end;
 }
 
-#magNavbar .navbar-nav {
+.magNavbar .navbar-nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-#magNavbar .navbar-nav .nav-link {
+.magNavbar .navbar-nav .nav-link {
   font-weight: 700;
   text-transform: uppercase;
   color: #2baab1;
 }
 
-#magNavbar .navbar-nav .nav-link:hover {
+.magNavbar .navbar-nav .nav-link:hover {
   background: #2baab1;
   color: #ffffff;
   border-radius: 4px;
 }
 
-#magNavbar .navbar-nav .nav-link.shareButton > button {
+.magNavbar .navbar-nav .nav-link.shareButton > button {
   padding: 1px 8px 1px 8px;
   background: none;
   outline: none;
@@ -41,12 +41,12 @@
   color: #2baab1;
 }
 
-#magNavbar .navbar-nav .nav-link.shareButton > button:hover {
+.magNavbar .navbar-nav .nav-link.shareButton > button:hover {
   background: #2baab1;
   color: #ffffff;
 }
 
-#magNavbar .navbar-nav .nav-link.shareButton > button.active {
+.magNavbar .navbar-nav .nav-link.shareButton > button.active {
   background: #ffffff;
   color: #2baab1;
 }

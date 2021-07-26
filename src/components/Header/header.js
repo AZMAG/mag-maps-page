@@ -7,7 +7,7 @@ import "./header.css";
 
 function Header() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar collapseOnSelect expand="lg" bg="light">
       <Container>
         <Navbar.Brand href="https://www.azmag.gov/">
           <img
@@ -17,7 +17,7 @@ function Header() {
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="magNavbar">
+        <Navbar.Collapse id="basic-navbar-nav" className="magNavbar">
           <Nav>
             <Nav.Link href="index.html">Maps Home</Nav.Link>
             <Nav.Link href="trainings.html">Trainings</Nav.Link>

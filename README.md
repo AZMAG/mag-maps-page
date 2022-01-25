@@ -1,12 +1,10 @@
 ![](http://geo.azmag.gov/maps/readonaz/app/resources/img/maglogo_black.png)
 
-# MAG Mapping Home Page #
+# MAG Mapping Home Page
 
 [![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=my-website)](http://maps.azmag.gov/)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/AZMAG/map-MAGmappingPage)
 [![GitHub issues](https://img.shields.io/github/issues/AZMAG/map-MAGmappingPage)](https://github.com/AZMAG/map-MAGmappingPage/issues)
-[![dependencies](https://david-dm.org/AZMAG/map-MAGmappingPage.png)](https://david-dm.org/AZMAG/map-MAGmappingPage)
-[![devDependency Status](https://david-dm.org/AZMAG/map-MAGmappingPage/dev-status.png)](https://david-dm.org/AZMAG/map-MAGmappingPage)
 [![Semver](http://img.shields.io/SemVer/2.0.0.png)](http://semver.org/spec/v4.4.7.html)
 [![Built with Grunt](http://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
@@ -15,17 +13,17 @@ The Maricopa Association of Governments (MAG) mapping home page is the portal to
 
 This JavaScript web-page was developed by MAG staff for MAG member agencies and the public.
 
-## Keywords
+## :key: Keywords
 
 `planning` `regional` `Maricopa County` `Pinal County` `State` `Arizona` `MAG` `MPO` `COG` `maps` `ESRI` `#MAGmaps`
 
 ## Version
 
-### version | 5.4.9 ###
+### version | 5.4.10
 
-* #### Updated | 2021-10-01 ####
+-   #### Updated | 2022-01-25
 
-* #### Created | 2014-10-21 ####
+-   #### Created | 2014-10-21
 
 Releases will be numbered with the following format:
 
@@ -37,40 +35,45 @@ And constructed with the following guidelines:
 2. **MINOR** version when you add functionality in a backwards-compatible manner **bumps the minor** resets patch
 3. **PATCH** version when you make backwards-compatible bug fixes and misc changes **bumps only the patch**
 
-## Credits
+## :star: Credits
 
 `Maricopa Association of Governments (MAG) and the MAG member agencies`
 
-## Site URL's
+## :computer: Site URL's
 
-* [MAG Mapping](https://maps.azmag.gov/)
+-   [MAG Mapping](https://maps.azmag.gov/)
 
 ## Documentation
 
 A detailed list of the changes and fixes in each version update can be found in the `CHANGELOG.md`.
 
-* [CHANGELOG](CHANGELOG.md)
+-   [CHANGELOG](CHANGELOG.md)
 
 ## Technologies
 
-* Bootstrap v3.3.7
-* Modernizr v3.5.0
-* Font-Awesome v4.7
-* jQuery v3.3.1
-* Google Analytics
-* Grunt v1.0.4
+A list of technologies used within the project:
 
-## Process
-
-## Resources
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript"><img src="https://github.com/get-icon/geticon/raw/master/icons/javascript.svg" alt="JavaScript" width="31px" height="31px"></a>
+<a href="https://jquery.com/" title="jQuery"><img src="https://github.com/get-icon/geticon/raw/master/icons/jquery-icon.svg" alt="jQuery" width="31px" height="31px"></a>
+<a href="https://www.w3.org/TR/html5/" title="HTML5"><img src="https://github.com/get-icon/geticon/raw/master/icons/html-5.svg" alt="HTML5" width="31px" height="31px"></a>
+<a href="https://www.w3.org/TR/CSS/" title="CSS3"><img src="https://github.com/get-icon/geticon/raw/master/icons/css-3.svg" alt="CSS3" width="31px" height="31px"></a>
+<a href="https://getbootstrap.com/" title="Bootstrap"><img src="https://github.com/get-icon/geticon/raw/master/icons/bootstrap.svg" alt="Bootstrap" width="31px" height="31px"></a>
+<a href="https://fontawesome.com/" title="Font-Awesome"><img src="https://github.com/get-icon/geticon/raw/master/icons/font-awesome.svg" alt="Font-Awesome" width="31px" height="31px"></a>
+<a href="https://sass-lang.com/" title="Sass"><img src="https://github.com/get-icon/geticon/raw/master/icons/sass.svg" alt="Sass" width="31px" height="31px"></a>
+<a href="https://github.com/sass/node-sass" title="Node-Sass"><img src="https://github.com/get-icon/geticon/raw/master/icons/node-sass.svg" alt="Node-Sass" width="31px" height="31px"></a>
+<a href="https://modernizr.com/" title="Modernizr"><img src="https://github.com/get-icon/geticon/raw/master/icons/modernizr.svg" alt="Modernizr" width="31px" height="31px"></a>
+<a href="https://eslint.org/" title="ESLint"><img src="https://github.com/get-icon/geticon/raw/master/icons/eslint.svg" alt="ESLint" width="31px" height="31px"></a>
+<a href="https://prettier.io/" title="Prettier"><img src="https://github.com/get-icon/geticon/raw/master/icons/prettier.svg" alt="Prettier" width="31px" height="31px"></a>
+<a href="https://nodejs.org/en/" title="Grunt"><img src="https://github.com/get-icon/geticon/blob/master/icons/nodejs-icon.svg" alt="nodejs" width="31px" height="31px"></a>
+<a href="https://gruntjs.com/" title="Grunt"><img src="https://github.com/get-icon/geticon/raw/master/icons/grunt.svg" alt="grunt" width="31px" height="31px"></a><a href="https://fontawesome.com/" title="Font-Awesome"><img src="https://github.com/get-icon/geticon/raw/master/icons/font-awesome.svg" alt="Font-Awesome" width="31px" height="31px"></a>
 
 ## Dependencies
 
-* [git-labelmaker](https://github.com/himynameisdave/git-labelmaker?utm_source=hashnode.com)
+-   [git-labelmaker](https://github.com/himynameisdave/git-labelmaker?utm_source=hashnode.com)
 
-#### ***Reference Example Sites***
+#### **_Reference Example Sites_**
 
-## Legal Disclaimer
+## :zap: Legal Disclaimer
 
 The Maricopa Association of Governments provides the data within these pages as a public resource of general information for use "as is." The TMaricopa Association of Governments GIS (Geographic Information System) departments provides this information with the understanding that it is not guaranteed to be accurate, correct or complete and any conclusions drawn from such information are the sole responsibility of the user. Further, the Maricopa Association of Governments GIS departments makes no warranty, representation or guaranty as to the content, sequence, accuracy, timeliness or completeness of any of the spatial or database information provided herein. While every effort has been made to ensure the content, sequence, accuracy, timeliness or completeness of materials presented within these pages, the Maricopa Association of Governments GIS Departments assumes no responsibility for errors or omissions, and explicitly disclaims any representations and warranties, including, without limitation, the implied warranties of merchantability and fitness for a particular purpose. The Maricopa Association of Governments GIS Departments shall assume no liability for:
 
@@ -85,10 +88,12 @@ To assist the Maricopa Association of Governments in the maintenance and/or corr
 
 Please acknowledge the Maricopa Association of Governments (MAG) GIS as the source when Map Server data is used in the preparation of reports, papers, publications, maps, or other products.
 
-## Copyright and Licensing
+## :warning: Copyright and Licensing
 
 Code released under the MIT license.
 
 A copy of the license is available in the repository's `LICENSE` file.
 
-* [LICENSE](LICENSE)
+-   [LICENSE](LICENSE)
+
+[(Back to top)](#MAG-Mapping-Home-Page)

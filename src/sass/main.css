@@ -675,6 +675,14 @@ hr {
 }
 
 /* ==========================================================================
+   Header Styles
+   ========================================================================== */
+.navbar-header .img-responsive {
+  height: 46px;
+  width: 300px;
+}
+
+/* ==========================================================================
    Carousel Styles
 ========================================================================== */
 #slide-0 {
@@ -842,15 +850,16 @@ hr {
   margin-bottom: 18px;
 }
 
-.map-box img {
-  max-height: 110px;
+.map-box .img-responsive {
+  height: 110px;
+  width: 110px;
   display: block;
   margin: auto;
   -webkit-transition: all 0.45s;
   transition: all 0.45s;
 }
 
-.map-box img:hover {
+.map-box .img-responsive:hover {
   -webkit-transform: scale(0.9, 0.9);
           transform: scale(0.9, 0.9);
 }

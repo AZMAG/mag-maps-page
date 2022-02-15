@@ -5,80 +5,79 @@
 /*Map list section*/
 
 #maps-section {
-    margin: 80px 0px;
+  margin: 80px 0px;
 }
 
 .map-box {
-    transition: box-shadow 0.35s;
-    margin-bottom: 20px;
+  transition: box-shadow 0.35s;
+  margin-bottom: 20px;
 
-    h3 {
-        text-align: center;
-    }
+  h3 {
+    text-align: center;
+  }
 
-    p {
-        text-align: center;
-        margin-bottom: 18px;
-    }
+  p {
+    text-align: center;
+    margin-bottom: 18px;
+  }
 
-    img {
-        max-height: 110px;
-        display: block;
-        margin: auto;
-        transition: all 0.45s;
-
-        &:hover {
-            transform: scale(0.9, 0.9);
-        }
-    }
+  .img-responsive {
+    height: 110px;
+    width: 110px;
+    display: block;
+    margin: auto;
+    transition: all 0.45s;
 
     &:hover {
-        box-shadow: 0px 0px 15px 5px $box-shadow;
+      transform: scale(0.9, 0.9);
     }
+  }
+
+  &:hover {
+    box-shadow: 0px 0px 15px 5px $box-shadow;
+  }
 }
 
 .map-box-content {
-    border: thin solid $border-alt;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-    padding: 18px;
-    position: relative;
-    min-height: 310px;
+  border: thin solid $border-alt;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  padding: 18px;
+  position: relative;
+  min-height: 310px;
 }
 
 .about-link {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    margin: 0px 18px 18px 0px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0px 18px 18px 0px;
 
-    a {
-        color: $form-button;
-        cursor: pointer;
-    }
+  a {
+    color: $form-button;
+    cursor: pointer;
+  }
 }
 
 .map-launch {
-    text-align: center;
+  text-align: center;
 
-    a {
-        display: block;
-        padding: 8px;
-        text-transform: uppercase;
-        color: $main-color;
-        background: $background-alt1;
-        border-bottom: thin solid $border-alt;
-        border-left: thin solid $border-alt;
-        border-right: thin solid $border-alt;
-        border-bottom-left-radius: 4px;
-        border-bottom-right-radius: 4px;
-        transition: background 0.15s;
+  a {
+    display: block;
+    padding: 8px;
+    text-transform: uppercase;
+    color: $main-color;
+    background: $background-alt1;
+    border-bottom: thin solid $border-alt;
+    border-left: thin solid $border-alt;
+    border-right: thin solid $border-alt;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    transition: background 0.15s;
 
-        &:hover {
-            background: $border-alt;
-            text-decoration: none;
-        }
+    &:hover {
+      background: $border-alt;
+      text-decoration: none;
     }
-
-
+  }
 }

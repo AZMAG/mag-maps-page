@@ -1,7 +1,7 @@
 {
   "name": "mag-mapping-page",
-  "version": "5.4.10",
-  "date": "2022-01-25",
+  "version": "5.4.13",
+  "date": "2022-02-15",
   "copyright": "2022",
   "description": "MAG Main Map Page",
   "keywords": [
@@ -32,10 +32,6 @@
     {
       "name": "Jack Fairfield",
       "email": "jfairfield@azmag.gov"
-    },
-    {
-      "name": "Merari Garcia",
-      "email": "mgarcia@azmag.gov"
     }
   ],
   "private": true,

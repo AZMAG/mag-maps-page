@@ -65,7 +65,7 @@ $(document).ready(function () {
         //*** privacy binding
         $("#privacyModal").load("views/modal-privacy.html");
         //*** version binding
-        $(".version").html("v5.4.15 | 2022-04-21");
+        $(".version").html("v5.4.16 | 2022-05-02");
         //*** copy write binding
         $(".copyright").html("2022");
 
@@ -97,7 +97,7 @@ $(document).ready(function () {
     $("#tip").load("views/modal-tip.html");
     $("#schoolsDataCenter").load("views/modal-schoolsDataCenter.html");
     $("#urbanAreas").load("views/modal-urbanAreas.html");
-    // $("#heatRelief").load("views/modal-heatRelief.html");
+    $("#heatRelief").load("views/modal-heatRelief.html");
     // $("#healthcare").load("views/modal-healthcare.html");
     $("#realEstate").load("views/modal-realEstate.html");
     $("#lukeafb").load("views/modal-luke.html");

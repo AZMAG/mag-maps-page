@@ -160,12 +160,15 @@
   background-size: cover;
 }
 
-// #slide-14 {
-//     background: linear-gradient(rgba($background-alt2, 0.2), rgba($background-alt2, 0.2)),
-//         url('../images/carousel/hrn-banner-revised.jpg');
-//     background-position: center;
-//     background-size: cover;
-// }
+#slide-15 {
+  background: linear-gradient(
+      rgba($background-alt2, 0.2),
+      rgba($background-alt2, 0.2)
+    ),
+    url("../images/carousel/hrn-banner-revised.jpg");
+  background-position: center;
+  background-size: cover;
+}
 
 .carousel-image {
   width: 100%;

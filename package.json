@@ -1,7 +1,7 @@
 {
   "name": "mag-mapping-page",
-  "version": "5.4.16",
-  "date": "2022-05-02",
+  "version": "5.4.17",
+  "date": "2022-06-13",
   "copyright": "2022",
   "description": "MAG Main Map Page",
   "keywords": [
@@ -41,12 +41,12 @@
     "grunt-cli": "^1.4.3",
     "html5-boilerplate": "^8.0.0",
     "jquery": "^3.6.0",
-    "npm-check-updates": "^12.5.9"
+    "npm-check-updates": "^13.1.5"
   },
   "devDependencies": {
-    "@babel/core": "^7.17.9",
-    "@babel/preset-env": "^7.16.11",
-    "grunt": "^1.5.2",
+    "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "grunt": "^1.5.3",
     "grunt-babel": "^8.0.0",
     "grunt-comment-toggler": "^0.2.2",
     "grunt-contrib-clean": "^2.0.1",
@@ -69,7 +69,7 @@
     "node-sass": "^7.0.1",
     "normalize.css": ">=8.0.1",
     "pixrem": "^5.0.0",
-    "postcss-preset-env": "^7.4.3"
+    "postcss-preset-env": "^7.7.1"
   },
   "engines": {
     "node": ">=16.2.0",

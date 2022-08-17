@@ -19,9 +19,9 @@ This JavaScript web-page was developed by MAG staff for MAG member agencies and 
 
 ## Version
 
-### version | 5.4.17
+### version | 5.5.0
 
--   #### Updated | 2022-06-13
+-   #### Updated | 2022-08-17
 
 -   #### Created | 2014-10-21
 

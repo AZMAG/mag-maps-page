@@ -65,7 +65,7 @@
     "lodash": "^4.17.21",
     "matchdep": "^2.0.0",
     "node-normalize-scss": "^8.1.2",
-    "node-sass": "^7.0.1",
+    "node-sass": "^7.0.3",
     "normalize.css": ">=8.0.1",
     "pixrem": "^5.0.0",
     "postcss-preset-env": "^7.8.0",

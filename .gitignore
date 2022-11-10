@@ -3,10 +3,15 @@
 # Useful .gitignore templates: https://github.com/github/gitignore
 #
 # dependencies
+package-lock.json
 /node_modules
 /.pnp
 .pnp.js
 bower_components
+
+
+# licenses
+kendo-ui-license.txt
 
 # testing
 /coverage
@@ -25,6 +30,9 @@ dist/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# assets
+public/assets
 
 # Windows image file caches
 Thumbs.db

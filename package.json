@@ -1,7 +1,7 @@
 {
   "name": "mag-mapping-page",
-  "version": "5.5.2",
-  "date": "2022-11-10",
+  "version": "5.5.3",
+  "date": "2022-12-30",
   "copyright": "2022",
   "description": "MAG Main Map Page",
   "keywords": [
@@ -67,9 +67,9 @@
     "node-normalize-scss": "^8.1.2",
     "node-sass": "^7.0.3",
     "normalize.css": ">=8.0.1",
+    "npm-check-updates": "^16.0.5",
     "pixrem": "^5.0.0",
-    "postcss-preset-env": "^7.8.0",
-    "npm-check-updates": "^16.0.5"
+    "postcss-preset-env": "^7.8.0"
   },
   "engines": {
     "node": ">=16.2.0",

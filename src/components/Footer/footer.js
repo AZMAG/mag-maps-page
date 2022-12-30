@@ -1,27 +1,15 @@
 import React from "react";
-import {
-  Container,
-  Row,
-  Col,
-  Nav,
-  InputGroup,
-  FormControl,
-  Button,
-} from "react-bootstrap";
+import { Container, Row, Col, Nav, InputGroup, FormControl, Button } from "react-bootstrap";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhoneAlt, faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import {
-  faFacebookF,
-  faTwitter,
-  faYoutube,
-} from "@fortawesome/free-brands-svg-icons";
+import { faFacebookF, faTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons";
 
 import Privacy from "../Modals/privacy";
 import Terms from "../Modals/terms";
 import Embed from "../Modals/Embed/embed";
 
-import "./footer.css";
+// import "./footer.css";
 
 import { version, date, copyright } from "../../../package.json";
 
@@ -34,11 +22,7 @@ function Footer() {
             <div>
               <h4>Contact</h4>
               <p>
-                <a
-                  href="https://www.azmag.gov/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
+                <a href="https://www.azmag.gov/" rel="noopener noreferrer" target="_blank">
                   Maricopa Association of Governments
                 </a>
                 <br />
@@ -83,12 +67,7 @@ function Footer() {
                     name="authenticity_token"
                     value="/5yaZ/1ZgA9i/fRDmNHSwpF9Tmu1hW2wjk39z5MUYyADQvi3BzUGMU232OVdSC0m930iW9T/WeVTcUufD3th3Q=="
                   />
-                  <FormControl
-                    type="hidden"
-                    name="topic_id"
-                    id="topic_id"
-                    value="AZMAG_224"
-                  />
+                  <FormControl type="hidden" name="topic_id" id="topic_id" value="AZMAG_224" />
                   <FormControl
                     type="email"
                     name="email"
@@ -98,12 +77,7 @@ function Footer() {
                     required
                   />
                   <InputGroup.Append>
-                    <Button
-                      type="submit"
-                      name="commit"
-                      className="form_button"
-                      size="sm"
-                    >
+                    <Button type="submit" name="commit" className="form_button" size="sm">
                       Subscribe
                     </Button>
                   </InputGroup.Append>
@@ -159,9 +133,7 @@ function Footer() {
           <Col md={12}>
             <Nav>
               <Nav.Item>
-                <Nav.Link href="http://www.azmag.gov/About-Us/About-MAG">
-                  About
-                </Nav.Link>
+                <Nav.Link href="http://www.azmag.gov/About-Us/About-MAG">About</Nav.Link>
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link href="releaseHistory.html">Release History</Nav.Link>
@@ -170,9 +142,7 @@ function Footer() {
                 <Nav.Link href="trainings.html">Trainings</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link href="http://geodata-azmag.opendata.arcgis.com/">
-                  Open Data
-                </Nav.Link>
+                <Nav.Link href="http://geodata-azmag.opendata.arcgis.com/">Open Data</Nav.Link>
               </Nav.Item>
             </Nav>
           </Col>
@@ -183,11 +153,7 @@ function Footer() {
           <Col md={12}>
             <div>
               Copyright&nbsp;&copy;&nbsp;{copyright}&nbsp;
-              <a
-                href="https://www.azmag.gov/"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
+              <a href="https://www.azmag.gov/" rel="noopener noreferrer" target="_blank">
                 Maricopa Association of Governments
               </a>
               <span>

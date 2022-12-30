@@ -2,7 +2,7 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 
-import "./trainingHero.css";
+// import "./trainingHero.css";
 
 function TrainingHero() {
   return (
@@ -26,13 +26,10 @@ function TrainingHero() {
             <div>
               <h2>Trainings and Tutorials</h2>
               <p>
-                Learn how to access demographic and employer data for your
-                community, the region, and throughout the state of Arizona.
+                Learn how to access demographic and employer data for your community, the region,
+                and throughout the state of Arizona.
               </p>
-              <p>
-                Training is available throughout the year so be sure to reserve
-                a spot today!
-              </p>
+              <p>Training is available throughout the year so be sure to reserve a spot today!</p>
               <Button className="btn-one form_button" href="trainings.html">
                 Sign Up for Training
               </Button>

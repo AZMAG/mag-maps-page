@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 
-import "./modals.css";
+// import "./modals.css";
 
 function Modal_Healthcare() {
   const [show, setShow] = useState(false);
@@ -35,9 +35,9 @@ function Modal_Healthcare() {
               src="images/viewer-icons/icon_mag_health.png"
               alt="MAG Healthcare Logo"
             />
-            The Arizona Health Assets Map Viewer is one of the Maricopa
-            Association of Governments interactive mapping and analysis sites,
-            showing selected statewide health assets and population data.
+            The Arizona Health Assets Map Viewer is one of the Maricopa Association of Governments
+            interactive mapping and analysis sites, showing selected statewide health assets and
+            population data.
           </p>
         </Modal.Body>
         <Modal.Footer>

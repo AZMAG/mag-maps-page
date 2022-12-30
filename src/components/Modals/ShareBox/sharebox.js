@@ -8,7 +8,7 @@ import { faShareAlt } from "@fortawesome/free-solid-svg-icons";
 //   faLinkedinIn,
 // } from "@fortawesome/free-brands-svg-icons";
 
-import "./sharebox.css";
+// import "./sharebox.css";
 
 function ShareBox() {
   const [show, setShow] = useState(true);

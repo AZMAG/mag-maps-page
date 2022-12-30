@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Carousel, Button } from "react-bootstrap";
 
-import "./carousel.css";
+// import "./carousel.css";
 
 import Modal_Healthcare from "../../components/Modals/modal-healthcare";
 
@@ -20,9 +20,9 @@ function CarouselSec() {
         <Carousel.Caption className="carousel-content">
           <h1>Explore the MAG Interactive Map Viewers</h1>
           <p>
-            Learn how to access demographic and employer data for your
-            community, the region, and throughout the state of Arizona. Training
-            is available throughout the year so be sure to reserve a spot today!
+            Learn how to access demographic and employer data for your community, the region, and
+            throughout the state of Arizona. Training is available throughout the year so be sure to
+            reserve a spot today!
           </p>
           <Button className="btn-orange" variant="primary" size="sm">
             Sign Up for Training
@@ -41,10 +41,9 @@ function CarouselSec() {
         <Carousel.Caption className="carousel-content">
           <h1>Arizona Health Assets</h1>
           <p>
-            The Arizona Health Asset Map Viewer is one of the Maricopa
-            Association of Governments interactive mapping and analysis sites,
-            showing selected population data, healthcare facilities, and
-            COVID-19 info for the entire State of Arizona.
+            The Arizona Health Asset Map Viewer is one of the Maricopa Association of Governments
+            interactive mapping and analysis sites, showing selected population data, healthcare
+            facilities, and COVID-19 info for the entire State of Arizona.
           </p>
           <div className="button-group">
             {Modal_Healthcare}
@@ -66,10 +65,9 @@ function CarouselSec() {
         <Carousel.Caption className="carousel-content">
           <h1>Arizona Demographics</h1>
           <p>
-            The Arizona Demographics Map Viewer is one of the Maricopa
-            Association of Governments interactive mapping and analysis sites,
-            showing selected population and housing data for the entire State of
-            Arizona.
+            The Arizona Demographics Map Viewer is one of the Maricopa Association of Governments
+            interactive mapping and analysis sites, showing selected population and housing data for
+            the entire State of Arizona.
           </p>
           <div className="button-group">
             <Button className="btn-white" variant="outline-primary" size="sm">
@@ -94,9 +92,8 @@ function CarouselSec() {
         <Carousel.Caption className="carousel-content">
           <h1>Arizona Employer</h1>
           <p>
-            The Arizona Employer Map Viewer is one of the Maricopa Association
-            of Governments interactive mapping and analysis sites, showing
-            selected statewide employer data.
+            The Arizona Employer Map Viewer is one of the Maricopa Association of Governments
+            interactive mapping and analysis sites, showing selected statewide employer data.
           </p>
           <div className="button-group">
             <Button className="btn-white" variant="outline-primary" size="sm">
@@ -120,10 +117,9 @@ function CarouselSec() {
         <Carousel.Caption className="carousel-content">
           <h1>Read On Arizona MapLIT</h1>
           <p>
-            Maricopa Association of Governments is part of Read On Arizona's
-            collaborative partnership that created MapLIT, and interactive
-            mapping tool as a "one stop" resource to identify key data sets
-            (census, school, health, family engagement) that impact early
+            Maricopa Association of Governments is part of Read On Arizona's collaborative
+            partnership that created MapLIT, and interactive mapping tool as a "one stop" resource
+            to identify key data sets (census, school, health, family engagement) that impact early
             literacy outcomes in communities.
           </p>
           <div className="button-group">
@@ -148,12 +144,11 @@ function CarouselSec() {
         <Carousel.Caption className="carousel-content">
           <h1>Read On Arizona Schools Data Center</h1>
           <p>
-            Maricopa Association of Governments is part of Read On Arizona's
-            collaborative partnership that created the Arizona Schools Data
-            Center. The Arizona Schools Data Center is a tool to help users
-            model and analyze school-level data, measure progress, and drive
-            decisions that improve educational outcomes towards achievement of
-            the Arizona Progress Meter goals.
+            Maricopa Association of Governments is part of Read On Arizona's collaborative
+            partnership that created the Arizona Schools Data Center. The Arizona Schools Data
+            Center is a tool to help users model and analyze school-level data, measure progress,
+            and drive decisions that improve educational outcomes towards achievement of the Arizona
+            Progress Meter goals.
           </p>
           <div className="button-group">
             <Button className="btn-white" variant="outline-primary" size="sm">
@@ -177,9 +172,9 @@ function CarouselSec() {
         <Carousel.Caption className="carousel-content">
           <h1>Recreation</h1>
           <p>
-            The Recreation viewer is one of the Maricopa Association of
-            Governments interactive mapping sites, showing public parks and
-            recreational opportunities that exist in the region.
+            The Recreation viewer is one of the Maricopa Association of Governments interactive
+            mapping sites, showing public parks and recreational opportunities that exist in the
+            region.
           </p>
           <div className="button-group">
             <Button className="btn-white" variant="outline-primary" size="sm">
@@ -203,9 +198,8 @@ function CarouselSec() {
         <Carousel.Caption className="carousel-content">
           <h1>Bikeways</h1>
           <p>
-            The Bikeways Map Viewer is one of the Maricopa Association of
-            Governments interactive mapping sites, showing locally-designated
-            bicycle facilities data.
+            The Bikeways Map Viewer is one of the Maricopa Association of Governments interactive
+            mapping sites, showing locally-designated bicycle facilities data.
           </p>
           <div className="button-group">
             <Button className="btn-white" variant="outline-primary" size="sm">
@@ -229,9 +223,8 @@ function CarouselSec() {
         <Carousel.Caption className="carousel-content">
           <h1>Land Use Explorer</h1>
           <p>
-            The Land Use Map Viewer is one of the Maricopa Association of
-            Governments interactive mapping and analysis sites, showing land use
-            data.
+            The Land Use Map Viewer is one of the Maricopa Association of Governments interactive
+            mapping and analysis sites, showing land use data.
           </p>
           <div className="button-group">
             <Button className="btn-white" variant="outline-primary" size="sm">
@@ -255,9 +248,8 @@ function CarouselSec() {
         <Carousel.Caption className="carousel-content">
           <h1>Projections</h1>
           <p>
-            The Projections Map Viewer is one of the Maricopa Association of
-            Governments interactive mapping and analysis sites, showing
-            socioeconomic projections data.
+            The Projections Map Viewer is one of the Maricopa Association of Governments interactive
+            mapping and analysis sites, showing socioeconomic projections data.
           </p>
           <div className="button-group">
             <Button className="btn-white" variant="outline-primary" size="sm">
@@ -281,10 +273,9 @@ function CarouselSec() {
         <Carousel.Caption className="carousel-content">
           <h1>Active Transportation Plan</h1>
           <p>
-            The MAG Regional Active Transportation Plan will serve as a guide
-            for investing in, improving, expanding and connecting the MAG
-            region’s bicycle and pedestrian network, along with the network
-            connections to the region’s transit system.
+            The MAG Regional Active Transportation Plan will serve as a guide for investing in,
+            improving, expanding and connecting the MAG region’s bicycle and pedestrian network,
+            along with the network connections to the region’s transit system.
           </p>
           <div className="button-group">
             <Button className="btn-white" variant="outline-primary" size="sm">
@@ -308,10 +299,9 @@ function CarouselSec() {
         <Carousel.Caption className="carousel-content">
           <h1>Transportation Improvement Program</h1>
           <p>
-            The MAG Transportation Improvement Program (TIP) is a five year
-            schedule of specific projects to be constructed across the region.
-            Explore capital improvement programs for transportation projects in
-            the region.
+            The MAG Transportation Improvement Program (TIP) is a five year schedule of specific
+            projects to be constructed across the region. Explore capital improvement programs for
+            transportation projects in the region.
           </p>
           <div className="button-group">
             <Button className="btn-white" variant="outline-primary" size="sm">
@@ -335,9 +325,9 @@ function CarouselSec() {
         <Carousel.Caption className="carousel-content">
           <h1>Urban Areas Explorer</h1>
           <p>
-            The MAG Urban Areas Explorer is one of the Maricopa Association of
-            Governments interactive mapping sites showing the differences
-            between the 2000 and the 2010 Urban Areas boundaries in Arizona.
+            The MAG Urban Areas Explorer is one of the Maricopa Association of Governments
+            interactive mapping sites showing the differences between the 2000 and the 2010 Urban
+            Areas boundaries in Arizona.
           </p>
           <div className="button-group">
             <Button className="btn-white" variant="outline-primary" size="sm">
@@ -360,9 +350,7 @@ function CarouselSec() {
         </Container>
         <Carousel.Caption className="carousel-content">
           <h1>Phoenix Residential Real Estate</h1>
-          <p>
-            Explore the Phoenix Metro Residential Real Estate Map Viewer data.
-          </p>
+          <p>Explore the Phoenix Metro Residential Real Estate Map Viewer data.</p>
           <div className="button-group">
             <Button className="btn-white" variant="outline-primary" size="sm">
               About the Viewer
@@ -385,8 +373,8 @@ function CarouselSec() {
         <Carousel.Caption className="carousel-content">
           <h1>Heat Relief Regional Network</h1>
           <p>
-            The MAG Heat Relief Map is a resource to help prevent heat-related
-            and heat caused deaths among vulnerable populations.
+            The MAG Heat Relief Map is a resource to help prevent heat-related and heat caused
+            deaths among vulnerable populations.
           </p>
           <div className="button-group">
             <Button className="btn-white" variant="outline-primary" size="sm">

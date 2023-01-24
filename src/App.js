@@ -1,13 +1,24 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+// import ReactGA from "react-ga"
 import Header from "./components/Layout/header/Header";
+import Main from "./components/Layout/main/Main";
+import Footer from "./components/Layout/footer/Footer";
 
-function App() {
-  return (
-    <div className="App">
-      <Header></Header>
-    </div>
-  );
+export default function App() {
+    //   const TRACKING_ID = "UA-29422512-1";
+    //   ReactGA.initialize(TRACKING_ID, {
+    //     debug: true,
+    //     titleCase: false,
+    //     gaOptions: {},
+    //   });
+    return (
+        <div
+            tag="appMain"
+            className="flex h-full w-full flex-col overflow-y-auto overflow-x-hidden"
+        >
+            <Header />
+            <Main />
+            <Footer />
+        </div>
+    );
 }
-
-export default App;

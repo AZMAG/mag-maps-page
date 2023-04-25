@@ -36,39 +36,36 @@
   "bugs": "https://github.com/flaviocopes/package/issues",
   "private": true,
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.2.0",
-    "@fortawesome/free-brands-svg-icons": "^6.2.0",
-    "@fortawesome/free-regular-svg-icons": "^6.2.0",
-    "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-brands-svg-icons": "^6.4.0",
+    "@fortawesome/free-regular-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/react-fontawesome": "^ 0.2.0",
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^14.4.3",
-    "bootstrap": "^5.2.2",
-    "node-sass": "^8.0.0",
     "react": "^18.2.0",
-    "react-bootstrap": "^2.6.0",
     "react-dom": "^18.2.0",
-    "react-ga": "^3.3.1",
-    "react-scripts": "^5.0.1",
-    "replace-in-file": "^6.3.5"
+    "react-ga4": "^2.1.0"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.13",
-    "css": "^3.0.0",
-    "eslint-config-prettier": "^8.5.0",
-    "postcss": "^8.4.18",
-    "prettier": "^2.7.1",
+    "@vitejs/plugin-react": "^4.0.0",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.38.0",
+    "eslint-config-prettier": "^8.8.0",
+    "mag-prettier-config": "^1.1.1",
+    "postcss": "^8.4.22",
+    "prettier": "^2.8.7",
     "prettier-plugin-tailwindcss": "^0.1.13",
-    "tailwindcss": "^3.2.3"
+    "replace-in-file": "^6.3.5",
+    "tailwindcss": "^3.3.1",
+    "vite": "^4.3.1",
+    "vite-plugin-svgr": "^2.4.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "lint": "",
-    "eject": "react-scripts eject"
+    "dev": "vite",
+    "build": "vite replace build",
+    "preview": "vite preview",
+    "replace": "node replaceScripts"
   },
+  "prettier": "mag-prettier-config",
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -88,9 +85,9 @@
   },
   "browserslist": {
     "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
     ],
     "development": [
       "last 1 chrome version",

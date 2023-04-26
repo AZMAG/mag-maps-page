@@ -1,7 +1,8 @@
-import React from "react"
+import React, { useRef } from "react"
 import Header from "./components/Layout/header/Header"
-import Main from "./components/Layout/main/Main"
+import Body from "./components/Layout/body/Body"
 import Footer from "./components/Layout/footer/Footer"
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop"
 
 export default function App() {
   //   const TRACKING_ID = "UA-29422512-1";
@@ -10,11 +11,16 @@ export default function App() {
   //     titleCase: false,
   //     gaOptions: {},
   //   });
+  const containerRef = useRef()
   return (
-    <div tag="appMain" className="flex h-full w-full flex-col overflow-y-auto overflow-x-hidden">
+    <div
+      tag="appMain"
+      className="flex h-screen w-screen flex-col overflow-x-hidden"
+      ref={containerRef}>
       <Header />
-      <Main />
+      <Body />
       <Footer />
+      <ScrollToTop containerRef={containerRef} />
     </div>
   )
 }

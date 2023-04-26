@@ -38,9 +38,9 @@ export default function TrainingHero() {
           <iframe
             className="h-56 w-96 lg:h-80 lg:w-[34rem]"
             src="https://www.youtube.com/embed/NJxUMxsuFTk"
-            frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen=""
+            rel="noreferrer"
+            allowFullScreen=""
             title="speed up your search video"></iframe>
         </div>
       </div>

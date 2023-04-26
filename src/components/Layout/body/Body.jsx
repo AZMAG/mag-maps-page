@@ -2,9 +2,9 @@ import MainHero from "../heros/mainHero"
 import Cards from "../cards/Cards"
 import TrainingHero from "../heros/trainingHero"
 
-export default function Main() {
+export default function Body() {
   return (
-    <div tag="main" className="flex h-full w-full grow flex-col">
+    <div tag="main-body" className="flex grow flex-col">
       <MainHero />
       <Cards />
       <TrainingHero />

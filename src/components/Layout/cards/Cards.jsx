@@ -6,19 +6,20 @@ export default function Cards() {
   return (
     <section className="container mx-auto my-14 grid grid-cols-4 gap-6 px-8">
       {info.map((info, index) => (
-        <div className="flex flex-col rounded-lg border border-slate-200 bg-white shadow">
+        <div
+          key={index}
+          className="group flex transform flex-col rounded-lg border border-slate-200 bg-white shadow-md transition duration-500 hover:scale-105 hover:shadow-2xl">
           <div className="flex justify-center px-5 pt-5">
-            <a key={index} href={info.link} target="_blank" rel="noreferrer">
+            <a href={info.link} target="_blank" rel="noreferrer">
               <img
                 className="h-16 w-16 rounded-t-lg md:h-20 md:w-20 lg:h-28 lg:w-28"
-                key={index}
                 src={info.icon}
                 alt={info.viewer}
               />
             </a>
           </div>
           <div className="p-5">
-            <a key={index} href={info.link} target="_blank" rel="noreferrer">
+            <a href={info.link} target="_blank" rel="noreferrer">
               <h5 className="mb-2 text-lg font-bold tracking-tight text-slate-900 lg:text-2xl">
                 {info.viewer}
               </h5>
@@ -27,7 +28,6 @@ export default function Cards() {
           </div>
           <div className="mt-auto px-5 pb-5">
             <a
-              key={index}
               href={info.link}
               target="_blank"
               rel="noreferrer"

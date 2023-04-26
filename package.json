@@ -17,6 +17,7 @@
     "ESRI",
     "#MAGmaps"
   ],
+  "type": "module",
   "homepage": "https://maps.azmag.gov/",
   "author": "MAG Regional Analytics (https://www.azmag.gov/)",
   "contributors": [
@@ -43,7 +44,8 @@
     "@fortawesome/react-fontawesome": "^ 0.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-ga4": "^2.1.0"
+    "react-ga4": "^2.1.0",
+    "react-router-dom": "^6.10.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.0",

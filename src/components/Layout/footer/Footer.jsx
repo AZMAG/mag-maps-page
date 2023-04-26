@@ -53,7 +53,7 @@ export default function Footer() {
             className="flex flex-row"
             id="GD-snippet-form"
             action="https://public.govdelivery.com/accounts/AZMAG/subscribers/qualify"
-            accept-charset="UTF-8"
+            acceptCharset="UTF-8"
             method="post">
             <input name="utf8" type="hidden" value="&#x2713;" />
             <input
@@ -63,7 +63,7 @@ export default function Footer() {
             />
             <input type="hidden" name="topic_id" id="topic_id" value="AZMAG_224" />
             <div className="relative grow">
-              <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
+              <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
                 <svg
                   aria-hidden="true"
                   className="h-5 w-5 text-gray-500"

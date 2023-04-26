@@ -1,16 +1,12 @@
 import React, { useRef } from "react"
 import Header from "./components/Layout/header/Header"
-import Body from "./components/Layout/body/Body"
+import Home from "./components/Layout/pages/Home"
+import Trainings from "./components/Layout/pages/Trainings"
 import Footer from "./components/Layout/footer/Footer"
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop"
+import { Route, Routes } from "react-router-dom"
 
 export default function App() {
-  //   const TRACKING_ID = "UA-29422512-1";
-  //   ReactGA.initialize(TRACKING_ID, {
-  //     debug: true,
-  //     titleCase: false,
-  //     gaOptions: {},
-  //   });
   const containerRef = useRef()
   return (
     <div
@@ -18,7 +14,10 @@ export default function App() {
       className="flex h-screen w-screen flex-col overflow-x-hidden"
       ref={containerRef}>
       <Header />
-      <Body />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/trainings" element={<Trainings />} />
+      </Routes>
       <Footer />
       <ScrollToTop containerRef={containerRef} />
     </div>

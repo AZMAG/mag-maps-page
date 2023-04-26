@@ -1,7 +1,11 @@
 import React from "react"
+import { NavLink, useMatch } from "react-router-dom"
 import magLogo from "../../../images/mag-logo-black.png"
+import NavLinks from "./Links"
 
 export default function Header() {
+  const links = NavLinks()
+
   return (
     <header className="sticky top-0 z-10 flex h-24 w-full bg-slate-50 text-slate-800">
       <section className="container mx-auto flex items-center justify-between p-4">
@@ -23,42 +27,22 @@ export default function Header() {
           </button>
           <nav id="nav-menu" className="hidden space-x-8 text-xl md:block" aria-label="nav-menu">
             <ul className="flex flex-col justify-center p-4 md:mt-0 md:flex-row md:space-x-8 md:text-sm md:font-medium">
-              <li>
-                <a
-                  href="https://maps.azmag.gov/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="block rounded p-0 py-2 text-slate-800 hover:text-cyan-800 hover:underline hover:decoration-current hover:decoration-2">
-                  Maps Home
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://azmag.gov/Programs/Maps-and-Data/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="block rounded p-0 py-2 text-slate-800 hover:text-cyan-800 hover:underline hover:decoration-current hover:decoration-2">
-                  MAG Data
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://geodata-azmag.opendata.arcgis.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="block rounded p-0 py-2 text-slate-800 hover:text-cyan-800 hover:underline hover:decoration-current hover:decoration-2">
-                  Open GIS Portal
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://azmag.gov/About-Us/Divisions/Regional-Analytics-Division/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="block rounded p-0 py-2 text-slate-800 hover:text-cyan-800 hover:underline hover:decoration-current hover:decoration-2">
-                  RAD Info
-                </a>
-              </li>
+              {links.map((link, index) => {
+                const match = useMatch(link.link)
+                return (
+                  <li>
+                    <NavLink
+                      key={index}
+                      to={link.link}
+                      target={link.internal ? "_self" : "_blank"}
+                      rel="noreferrer"
+                      activeClass="text-cyan-800 underline decoration-current decoration-2"
+                      className="block rounded p-0 py-2 text-slate-800 hover:text-cyan-800 hover:underline hover:decoration-current hover:decoration-2">
+                      {link.name}
+                    </NavLink>
+                  </li>
+                )
+              })}
             </ul>
           </nav>
         </div>
@@ -67,37 +51,18 @@ export default function Header() {
         id="mobile-menu"
         className="top-68 justify-content-center animate-open-menu absolute hidden w-full origin-top flex-col bg-black text-5xl">
         <nav className="flex min-h-screen flex-col items-center py-8" aria-label="mobile">
-          <a
-            href="https://maps.azmag.gov/"
-            target="_blank"
-            rel="noreferrer"
-            className="block rounded p-0 py-2 text-slate-800 hover:text-cyan-800 hover:underline hover:decoration-current hover:decoration-2">
-            Maps Home
-          </a>
-
-          <a
-            href="https://azmag.gov/Programs/Maps-and-Data/"
-            target="_blank"
-            rel="noreferrer"
-            className="block rounded p-0 py-2 text-slate-800 hover:text-cyan-800 hover:underline hover:decoration-current hover:decoration-2">
-            MAG Data
-          </a>
-
-          <a
-            href="https://geodata-azmag.opendata.arcgis.com/"
-            target="_blank"
-            rel="noreferrer"
-            className="block rounded p-0 py-2 text-slate-800 hover:text-cyan-800 hover:underline hover:decoration-current hover:decoration-2">
-            Open GIS Portal
-          </a>
-
-          <a
-            href="https://azmag.gov/About-Us/Divisions/Regional-Analytics-Division/"
-            target="_blank"
-            rel="noreferrer"
-            className="block rounded p-0 py-2 text-slate-800 hover:text-cyan-800 hover:underline hover:decoration-current hover:decoration-2">
-            RAD Info
-          </a>
+          {links.map((link, index) => {
+            return (
+              <a
+                key={index}
+                href={link.link}
+                target="_blank"
+                rel="noreferrer"
+                className="block rounded p-0 py-2 text-slate-800 hover:text-cyan-800 hover:underline hover:decoration-current hover:decoration-2">
+                {link.name}
+              </a>
+            )
+          })}
         </nav>
       </section>
     </header>

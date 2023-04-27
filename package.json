@@ -17,7 +17,6 @@
     "ESRI",
     "#MAGmaps"
   ],
-  "type": "module",
   "homepage": "https://maps.azmag.gov/",
   "author": "MAG Regional Analytics (https://www.azmag.gov/)",
   "contributors": [

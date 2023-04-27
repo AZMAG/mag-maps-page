@@ -1,25 +1,37 @@
+import DateInfo from "../../../config/trainingDatesInfo"
+
 export default function TrainingDates() {
+  const info = DateInfo()
+  const inActive =
+    "flex w-20 flex-col items-center justify-center rounded-l-lg bg-cyan-800/50 text-slate-100"
+  const active =
+    "flex w-20 flex-col items-center justify-center rounded-l-lg bg-cyan-800 text-slate-100"
   return (
-    <section tag="trainings-dates" className="container mx-auto my-10 flex justify-center px-4">
-      <div className="grid grid-cols-2 gap-8">
-        <div className="flex flex-col rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 md:max-w-xl md:flex-row">
-          <h1 className="text-3xl font-bold">19</h1>
-          <h2 className="text-xl font-semibold">January</h2>
-          <div class="flex flex-col justify-start p-6">
-            <h5 className="mb-2 text-xl font-medium text-neutral-800 dark:text-neutral-50">
-              Workshop
-            </h5>
-          </div>
-        </div>
-        <div className="flex flex-col rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 md:max-w-xl md:flex-row">
-          <h1 className="">19</h1>
-          <h2 className="">January</h2>
-          <div class="flex flex-col justify-start p-6">
-            <h5 className="mb-2 text-xl font-medium text-neutral-800 dark:text-neutral-50">
-              Workshop
-            </h5>
-          </div>
-        </div>
+    <section
+      tag="trainings-dates"
+      className="container mx-auto flex flex-col bg-slate-50 px-4 py-10">
+      <div className="mb-8 flex justify-center">
+        <h1 className="text-3xl font-bold leading-none tracking-tight text-slate-800">
+          Workshops for 2023 are scheduled for:
+        </h1>
+      </div>
+
+      <div className="mx-48 grid grid-cols-2 justify-items-center gap-8">
+        {info.map((item, index) => {
+          return (
+            <div
+              key={index}
+              className="flex h-32 w-96 transform rounded-lg bg-white drop-shadow-lg transition duration-500 hover:scale-105 hover:shadow-2xl">
+              <div className={item.status ? inActive : active}>
+                <h1 className="text-3xl font-bold">{item.date}</h1>
+                <h2 className="text-xl font-semibold">{item.month}</h2>
+              </div>
+              <div className="flex grow flex-col justify-center p-6">
+                <h5 className="mb-2 text-xl font-medium text-neutral-800">{item.description}</h5>
+              </div>
+            </div>
+          )
+        })}
       </div>
     </section>
   )

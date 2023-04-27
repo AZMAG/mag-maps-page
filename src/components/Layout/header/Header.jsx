@@ -36,7 +36,6 @@ export default function Header() {
                       to={link.link}
                       target={link.internal ? "_self" : "_blank"}
                       rel="noreferrer"
-                      activeClass="text-cyan-800 underline decoration-current decoration-2"
                       className="block rounded p-0 py-2 text-slate-800 hover:text-cyan-800 hover:underline hover:decoration-current hover:decoration-2">
                       {link.name}
                     </NavLink>

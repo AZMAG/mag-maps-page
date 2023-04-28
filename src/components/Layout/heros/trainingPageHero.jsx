@@ -4,9 +4,9 @@ import DocConfig from "../../../config/docConfig"
 export default function TrainingPageHero() {
   return (
     <section className="from bg-gradient-to-t from-cyan-800 to-slate-200">
-      <div className="mx-auto grid max-w-screen-xl px-4 py-8 lg:grid-cols-12 lg:gap-8 lg:py-16 xl:gap-0">
-        <div className="mr-auto place-self-center lg:col-span-7">
-          <h1 className="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight text-slate-800 md:text-5xl xl:text-6xl">
+      <div className="mx-auto grid max-w-screen-xl grid-cols-12 px-4 py-8 lg:gap-8 lg:py-16 xl:gap-0">
+        <div className="mr-auto place-self-center col-span-7">
+          <h1 className="mb-4 max-w-2xl text-2xl font-extrabold leading-none tracking-tight text-slate-800 md:text-3xl lg:text-5xl xl:text-6xl">
             Trainings and Tutorials
           </h1>
           <p className="mb-6 max-w-2xl font-light text-slate-100 md:text-lg lg:mb-8 lg:text-xl">
@@ -34,8 +34,8 @@ export default function TrainingPageHero() {
             Sign up for Training
           </a>
         </div>
-        <div className="hidden items-center justify-center lg:col-span-5 lg:mt-0 lg:flex">
-          <img src={TrainingPicComputer} className="h-60" alt="training on computer" />
+        <div className="col-span-5 mt-0 flex items-center justify-center">
+          <img src={TrainingPicComputer} className="h-32 lg:h-60" alt="training on computer" />
         </div>
       </div>
     </section>

@@ -12,7 +12,8 @@ export default function Footer() {
     <footer
       tag="footer"
       className="flex flex-col flex-wrap items-center justify-center space-x-6 bg-slate-200 pt-9 text-center text-cyan-800">
-      <section className="container mx-auto flex flex-row justify-between px-4">
+      <section className="container mx-auto flex flex-row flex-wrap lg:justify-between space-y-10 lg:space-y-0 px-4 justify-center items-center">
+        {/* <div className=""> */}
         <div tag="contact-info" className="text-left text-sm">
           <h3 className="mb-2 mt-0 text-lg font-semibold leading-tight">Contact</h3>
           <a
@@ -108,6 +109,7 @@ export default function Footer() {
             )
           })}
         </div>
+        {/* </div> */}
       </section>
       <section className="container mx-auto my-11 flex flex-row justify-center px-4 text-center text-xs">
         <div className="flex gap-1">

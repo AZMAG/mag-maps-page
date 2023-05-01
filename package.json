@@ -1,7 +1,7 @@
 {
   "name": "mag-mapping-page",
   "version": "6.0.0",
-  "date": "2023-04-25",
+  "date": "2023-04-28",
   "copyright": "2023",
   "description": "MAG Main Map Page",
   "keywords": [
@@ -33,6 +33,7 @@
     "url": "https://github.com/AZMAG/map-MAGmappingPage/"
   },
   "bugs": "https://github.com/flaviocopes/package/issues",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
@@ -61,7 +62,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "vite replace build",
+    "build": "vite build",
     "preview": "vite preview",
     "replace": "node replaceScripts"
   },

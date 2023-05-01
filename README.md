@@ -50,11 +50,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
@@ -81,26 +76,7 @@ A list of technologies used within the project:
 
 ## Dependencies
 
-- [git-labelmaker](https://github.com/himynameisdave/git-labelmaker?utm_source=hashnode.com)## Technologies
-
-A list of technologies used within the project:
-
-- [ArcGIS API for JavaScript](https://developers.arcgis.com/javascript/latest/)
-- [React Bootstrap](https://react-bootstrap.github.io/)
-
-<a href="https://reactjs.org/" title="React"><img src="https://github.com/get-icon/geticon/raw/master/icons/react.svg" alt="React" width="31px" height="31px"></a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript"><img src="https://github.com/get-icon/geticon/raw/master/icons/javascript.svg" alt="JavaScript" width="31px" height="31px"></a>
-<a href="https://www.w3.org/TR/html5/" title="HTML5"><img src="https://github.com/get-icon/geticon/raw/master/icons/html-5.svg" alt="HTML5" width="31px" height="31px"></a>
-<a href="https://www.w3.org/TR/CSS/" title="CSS3"><img src="https://github.com/get-icon/geticon/raw/master/icons/css-3.svg" alt="CSS3" width="31px" height="31px"></a>
-<a href="https://sass-lang.com/" title="Sass"><img src="https://github.com/get-icon/geticon/raw/master/icons/sass.svg" alt="Sass" width="31px" height="31px"></a>
-<a href="https://github.com/sass/node-sass" title="Node-Sass"><img src="https://github.com/get-icon/geticon/raw/master/icons/node-sass.svg" alt="Node-Sass" width="31px" height="31px"></a>
-<a href="https://getbootstrap.com/" title="Bootstrap"><img src="https://github.com/get-icon/geticon/raw/master/icons/bootstrap.svg" alt="Bootstrap" width="31px" height="31px"></a>
-<a href="https://www.telerik.com/kendo-react-ui/components/" title="KendoReact"><img src="https://github.com/get-icon/geticon/raw/master/icons/progress.svg" alt="KendoReact" width="31px" height="31px"></a>
-<a href="https://fontawesome.com/" title="Font-Awesome"><img src="https://github.com/get-icon/geticon/raw/master/icons/font-awesome.svg" alt="Font-Awesome" width="31px" height="31px"></a>
-<a href="https://eslint.org/" title="ESLint"><img src="https://github.com/get-icon/geticon/raw/master/icons/eslint.svg" alt="ESLint" width="31px" height="31px"></a>
-<a href="https://prettier.io/" title="Prettier"><img src="https://github.com/get-icon/geticon/raw/master/icons/prettier.svg" alt="Prettier" width="31px" height="31px"></a>
-<a href="https://www.npmjs.com/" title="npm"><img src="https://github.com/get-icon/geticon/raw/master/icons/npm.svg" alt="npm" width="31px" height="31px"></a>
-<a href="https://code.visualstudio.com/" title="vscode"><img src="https://github.com/get-icon/geticon/raw/master/icons/visual-studio-code.svg" alt="vscode" width="31px" height="31px"></a>
+- [git-labelmaker](https://github.com/himynameisdave/git-labelmaker?utm_source=hashnode.com)
 
 ## :star: Credits
 

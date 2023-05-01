@@ -15,8 +15,8 @@ export default function App() {
       ref={containerRef}>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} exact />
-        <Route path="/trainings" element={<Trainings />} exact />
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/trainings" element={<Trainings />} />
       </Routes>
       <Footer />
       <ScrollToTop containerRef={containerRef} />

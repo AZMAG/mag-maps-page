@@ -15,16 +15,13 @@ The Maricopa Association of Governments (MAG) mapping home page is the portal to
 
 This JavaScript web-page was developed by MAG staff for MAG member agencies and the public.
 
-## Keywords
+## :key: Keywords
 
 `planning` `regional` `Maricopa County` `Pinal County` `State` `Arizona` `MAG` `MPO` `COG` `maps` `GIS` `ESRI` `#MAGmaps`
 
-## Version
+### Version | 6.1.0
 
-### version | 5.4.7
-
-- #### Updated | 2021-05-01
-
+- #### Updated | 2023-05-01
 - #### Created | 2014-10-21
 
 Releases will be numbered with the following format:
@@ -70,35 +67,53 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Technologies
 
-- Bootstrap v3.3.7
-- Modernizr v3.5.0
-- Font-Awesome v4.7
-- jQuery v3.3.1
-- Google Analytics
-- Grunt v1.0.4
+A list of technologies used within the project:
+
+<a href="https://reactjs.org/" title="React"><img src="https://github.com/get-icon/geticon/raw/master/icons/react.svg" alt="React" width="31px" height="31px"></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript"><img src="https://github.com/get-icon/geticon/raw/master/icons/javascript.svg" alt="JavaScript" width="31px" height="31px"></a>
+<a href="https://www.w3.org/TR/html5/" title="HTML5"><img src="https://github.com/get-icon/geticon/raw/master/icons/html-5.svg" alt="HTML5" width="31px" height="31px"></a>
+<a href="https://www.w3.org/TR/CSS/" title="CSS3"><img src="https://github.com/get-icon/geticon/raw/master/icons/css-3.svg" alt="CSS3" width="31px" height="31px"></a>
+<a href="https://fontawesome.com/" title="Font-Awesome"><img src="https://github.com/get-icon/geticon/raw/master/icons/font-awesome.svg" alt="Font-Awesome" width="31px" height="31px"></a>
+<a href="https://eslint.org/" title="ESLint"><img src="https://github.com/get-icon/geticon/raw/master/icons/eslint.svg" alt="ESLint" width="31px" height="31px"></a>
+<a href="https://prettier.io/" title="Prettier"><img src="https://github.com/get-icon/geticon/raw/master/icons/prettier.svg" alt="Prettier" width="31px" height="31px"></a>
+<a href="https://www.npmjs.com/" title="npm"><img src="https://github.com/get-icon/geticon/raw/master/icons/npm.svg" alt="npm" width="31px" height="31px"></a>
+<a href="https://code.visualstudio.com/" title="vscode"><img src="https://github.com/get-icon/geticon/raw/master/icons/visual-studio-code.svg" alt="vscode" width="31px" height="31px"></a>
 
 ## Dependencies
 
-- [git-labelmaker](https://github.com/himynameisdave/git-labelmaker?utm_source=hashnode.com)
+- [git-labelmaker](https://github.com/himynameisdave/git-labelmaker?utm_source=hashnode.com)## Technologies
 
-## Documentation
+A list of technologies used within the project:
 
-A detailed list of the changes and fixes in each version update can be found in the `CHANGELOG.md`.
+- [ArcGIS API for JavaScript](https://developers.arcgis.com/javascript/latest/)
+- [React Bootstrap](https://react-bootstrap.github.io/)
 
-- [CHANGELOG](CHANGELOG.md)
+<a href="https://reactjs.org/" title="React"><img src="https://github.com/get-icon/geticon/raw/master/icons/react.svg" alt="React" width="31px" height="31px"></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript"><img src="https://github.com/get-icon/geticon/raw/master/icons/javascript.svg" alt="JavaScript" width="31px" height="31px"></a>
+<a href="https://www.w3.org/TR/html5/" title="HTML5"><img src="https://github.com/get-icon/geticon/raw/master/icons/html-5.svg" alt="HTML5" width="31px" height="31px"></a>
+<a href="https://www.w3.org/TR/CSS/" title="CSS3"><img src="https://github.com/get-icon/geticon/raw/master/icons/css-3.svg" alt="CSS3" width="31px" height="31px"></a>
+<a href="https://sass-lang.com/" title="Sass"><img src="https://github.com/get-icon/geticon/raw/master/icons/sass.svg" alt="Sass" width="31px" height="31px"></a>
+<a href="https://github.com/sass/node-sass" title="Node-Sass"><img src="https://github.com/get-icon/geticon/raw/master/icons/node-sass.svg" alt="Node-Sass" width="31px" height="31px"></a>
+<a href="https://getbootstrap.com/" title="Bootstrap"><img src="https://github.com/get-icon/geticon/raw/master/icons/bootstrap.svg" alt="Bootstrap" width="31px" height="31px"></a>
+<a href="https://www.telerik.com/kendo-react-ui/components/" title="KendoReact"><img src="https://github.com/get-icon/geticon/raw/master/icons/progress.svg" alt="KendoReact" width="31px" height="31px"></a>
+<a href="https://fontawesome.com/" title="Font-Awesome"><img src="https://github.com/get-icon/geticon/raw/master/icons/font-awesome.svg" alt="Font-Awesome" width="31px" height="31px"></a>
+<a href="https://eslint.org/" title="ESLint"><img src="https://github.com/get-icon/geticon/raw/master/icons/eslint.svg" alt="ESLint" width="31px" height="31px"></a>
+<a href="https://prettier.io/" title="Prettier"><img src="https://github.com/get-icon/geticon/raw/master/icons/prettier.svg" alt="Prettier" width="31px" height="31px"></a>
+<a href="https://www.npmjs.com/" title="npm"><img src="https://github.com/get-icon/geticon/raw/master/icons/npm.svg" alt="npm" width="31px" height="31px"></a>
+<a href="https://code.visualstudio.com/" title="vscode"><img src="https://github.com/get-icon/geticon/raw/master/icons/visual-studio-code.svg" alt="vscode" width="31px" height="31px"></a>
 
-## Credits
+## :star: Credits
 
 `Maricopa Association of Governments (MAG) and the MAG member agencies`
 
-## Legal Disclaimer
+## :zap: Disclaimer
 
 - [Disclaimer](LEGAL_DISCLAIMER)
 
-## Copyright and Licensing
+## :warning: Licensing
 
-Code released under the MIT license.
+Copyright 2023 Maricopa Association of Governments (MAG)
 
-A copy of the license is available in the repository's `LICENSE` file.
+This project is licensed under the MIT license.
 
 - [LICENSE](LICENSE)

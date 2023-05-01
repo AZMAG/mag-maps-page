@@ -1,7 +1,7 @@
 {
   "name": "mag-mapping-page",
-  "version": "6.0.0",
-  "date": "2023-04-28",
+  "version": "6.1.0",
+  "date": "2023-05-01",
   "copyright": "2023",
   "description": "MAG Main Map Page",
   "keywords": [
@@ -17,7 +17,8 @@
     "ESRI",
     "#MAGmaps"
   ],
-  "author": "MAG Regional Analytics (https://www.azmag.gov/)",
+  "type": "module",
+  "author": "MAG Regional Analytics (https://azmag.gov/About-Us/Divisions/Regional-Analytics-Division)",
   "contributors": [
     {
       "name": "Vern Wolfley",
@@ -32,7 +33,7 @@
     "type": "git",
     "url": "https://github.com/AZMAG/map-MAGmappingPage/"
   },
-  "bugs": "https://github.com/flaviocopes/package/issues",
+  "bugs": "https://github.com/AZMAG/map-MAGmappingPage/issues",
   "homepage": ".",
   "private": true,
   "dependencies": {

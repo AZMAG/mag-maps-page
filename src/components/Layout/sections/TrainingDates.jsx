@@ -7,7 +7,7 @@ export default function TrainingDates() {
   const active =
     "flex w-20 flex-col items-center justify-center rounded-l-lg bg-cyan-800 text-slate-100"
   return (
-    <section tag="trainings-dates" className="flex flex-col bg-slate-50 px-4 py-10">
+    <section tag="trainings-dates" className="flex flex-col bg-slate-100 px-4 py-10">
       <div className="container mx-auto px-4 mb-8 flex justify-center ">
         <h1 className="text-2xl font-bold leading-none tracking-tight text-slate-800 md:text-3xl">
           Workshops for 2023 are scheduled for:

@@ -16,12 +16,6 @@
         Twitter:
         From: Tempe, AZ
 
-        Name:  Scott Bridwell
-        Role: GIS Modeler/Developer
-        Contact:
-        Twitter:
-        From: Chandler, AZ
-
         Name:  Jason Howard
         Role: GIS Program Manager
         Contact:
@@ -34,20 +28,8 @@
         Twitter:
         From: Phoenix, AZ
 
-        Name:  Matt Nielsen
-        Role: Graphics Specialist II
-        Contact:
-        Twitter:
-        From: Phoenix, AZ
-
         Name:  Gordon Tyus
         Role: Senior Graphics/Specifications Specialist
-        Contact:
-        Twitter:
-        From: Phoenix, AZ
-
-        Name:  Merari Garcia
-        Role: Web Specialist II
         Contact:
         Twitter:
         From: Phoenix, AZ
@@ -58,15 +40,15 @@
 
 # TECHNOLOGY COLOPHON
 
-    Standards: HTML5, CSS3
-    Components: ESRI Javascript API, HTML5BoilerPlate, Normalize.css, jQuery, Modernizr,  Bootstrap, Grunt
+    Standards: HTML5, CSS3, JavaScript
+    Components: React, Font-Awesome, Tailwindcss
 
 # SITE
     Site name: MAG Mapping Home Page
     Site URL:  https://maps.azmag.gov/
-    Version: 5.4.7
-    Last updated: 2021-05-01
-    Creation Date: 2014-01-21
+    Version: 6.1.0
+    Last updated: 2023-05-01
+    Creation Date: 2014-10-21
     Language: English
     Doctype: HTML5
-    IDE: Sublime Text
+    IDE: VS Code

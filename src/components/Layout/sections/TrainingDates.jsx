@@ -19,13 +19,14 @@ export default function TrainingDates() {
           return (
             <div
               key={index}
-              className="flex lg:h-32 lg:w-96 w-72 h-24 transform rounded-lg bg-white drop-shadow-lg transition duration-500 hover:scale-105 hover:shadow-2xl">
+              className="flex h-24 w-72 transform rounded-lg bg-white drop-shadow-lg transition duration-500 hover:scale-105 hover:shadow-2xl lg:h-32 lg:w-96">
               <div className={item.status ? inActive : active}>
                 <h1 className="text-3xl font-bold">{item.date}</h1>
                 <h2 className="text-xl font-semibold">{item.month}</h2>
               </div>
               <div className="flex grow flex-col justify-center p-6">
-                <h5 className="mb-2 text-xl font-medium text-neutral-800">{item.description}</h5>
+                <h5 className="text-xl font-semibold text-cyan-800">{item.description}</h5>
+                <h4 className="text-lg font-medium text-cyan-800">9:00 a.m. to 12:00 p.m.</h4>
               </div>
             </div>
           )

@@ -1,7 +1,7 @@
 {
   "name": "mag-mapping-page",
-  "version": "6.1.0",
-  "date": "2023-05-01",
+  "version": "6.1.1",
+  "date": "2023-05-04",
   "copyright": "2023",
   "description": "MAG Main Map Page",
   "keywords": [
@@ -63,7 +63,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npm run replace && vite build",
     "preview": "vite preview",
     "replace": "node replaceScripts"
   },

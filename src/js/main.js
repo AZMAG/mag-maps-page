@@ -93,7 +93,7 @@ $(document).ready(function () {
         //*** privacy binding
         $("#privacyModal").load("views/modal-privacy.html");
         //*** version binding
-        $(".version").html("v5.5.4 | 2023-01-13");
+        $(".version").html("v5.6.0 | 2023-05-05");
         //*** copy write binding
         $(".copyright").html("2023");
 
@@ -113,7 +113,7 @@ $(document).ready(function () {
         //*** privacy binding
         $("#privacyModal").load("./../views/modal-privacy.html");
         //*** version binding
-        $(".version").html("v5.5.4 | 2023-01-13");
+        $(".version").html("v5.6.0 | 2023-05-05");
         //*** copy write binding
         $(".copyright").html("2023");
 

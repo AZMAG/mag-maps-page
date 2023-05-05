@@ -9,7 +9,7 @@
  */
 
 $(document).ready(function () {
-    "use strict";
+    ("use strict");
 
     // Links for social sharing
     var mapsLink =
@@ -29,6 +29,34 @@ $(document).ready(function () {
 
     //Load nav bar then run function that adds active to nav link
     $("#navbar-section").load("views/section-navbar.html", function () {
+        $("#magNavbar .nav li a").each(function () {
+            if ($(this).prop("href") === window.location.href) {
+                $(this).parent("li").addClass("active");
+            }
+        });
+
+        /*twitter share button href*/
+        var baseUrl = "https://twitter.com/intent/tweet";
+        var text = "MAG%20%7C%20Mapping%20Center";
+        var thisPageUrl = "https://maps.azmag.gov/";
+        var hashTag = "MAGmaps";
+        var via = "MAGregion";
+
+        var twitterHref =
+            baseUrl +
+            "?text=" +
+            text +
+            "&url=" +
+            thisPageUrl +
+            "&hashtag=" +
+            hashTag +
+            "&via=" +
+            via;
+
+        $("#TWshareButton").attr("href", twitterHref);
+    });
+    //Load nav bar then run function that adds active to nav link
+    $("#navbar-section-trainings").load("./../views/section-navbar-trainings.html", function () {
         $("#magNavbar .nav li a").each(function () {
             if ($(this).prop("href") === window.location.href) {
                 $(this).parent("li").addClass("active");

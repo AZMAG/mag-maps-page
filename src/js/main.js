@@ -107,6 +107,26 @@ $(document).ready(function () {
             $("#copy6")[0].setAttribute("value", mapLITLink);
         });
     });
+    $(".footer-section-trainings").load("./../views/section-footer-trainings.html", function () {
+        //*** terms binding
+        $("#termsModal").load("./../views/modal-terms.html");
+        //*** privacy binding
+        $("#privacyModal").load("./../views/modal-privacy.html");
+        //*** version binding
+        $(".version").html("v5.5.4 | 2023-01-13");
+        //*** copy write binding
+        $(".copyright").html("2023");
+
+        //*** embed binding
+        $("#embedModal").load("./../views/modal-embed-trainings.html", function () {
+            $("#copy1")[0].setAttribute("value", mapsLink);
+            $("#copy2")[0].setAttribute("value", employLink);
+            $("#copy3")[0].setAttribute("value", demoLink);
+            $("#copy4")[0].setAttribute("value", bikeLink);
+            $("#copy5")[0].setAttribute("value", recLink);
+            $("#copy6")[0].setAttribute("value", mapLITLink);
+        });
+    });
     $("#pastUpdates").load("views/section-pastUpdates.html");
     $("#mostRecent").load("views/section-recentUpdates.html");
 

@@ -9,7 +9,7 @@
  */
 
 $(document).ready(function () {
-    "use strict";
+    ("use strict");
 
     // Links for social sharing
     var mapsLink =
@@ -55,6 +55,34 @@ $(document).ready(function () {
 
         $("#TWshareButton").attr("href", twitterHref);
     });
+    //Load nav bar then run function that adds active to nav link
+    $("#navbar-section-trainings").load("./../views/section-navbar-trainings.html", function () {
+        $("#magNavbar .nav li a").each(function () {
+            if ($(this).prop("href") === window.location.href) {
+                $(this).parent("li").addClass("active");
+            }
+        });
+
+        /*twitter share button href*/
+        var baseUrl = "https://twitter.com/intent/tweet";
+        var text = "MAG%20%7C%20Mapping%20Center";
+        var thisPageUrl = "https://maps.azmag.gov/";
+        var hashTag = "MAGmaps";
+        var via = "MAGregion";
+
+        var twitterHref =
+            baseUrl +
+            "?text=" +
+            text +
+            "&url=" +
+            thisPageUrl +
+            "&hashtag=" +
+            hashTag +
+            "&via=" +
+            via;
+
+        $("#TWshareButton").attr("href", twitterHref);
+    });
 
     $("#carousel-section").load("views/section-carousel.html");
     $("#maps-section").load("views/section-maps.html");
@@ -65,12 +93,32 @@ $(document).ready(function () {
         //*** privacy binding
         $("#privacyModal").load("views/modal-privacy.html");
         //*** version binding
-        $(".version").html("v5.5.4 | 2023-01-13");
+        $(".version").html("v5.6.0 | 2023-05-05");
         //*** copy write binding
         $(".copyright").html("2023");
 
         //*** embed binding
         $("#embedModal").load("views/modal-embed.html", function () {
+            $("#copy1")[0].setAttribute("value", mapsLink);
+            $("#copy2")[0].setAttribute("value", employLink);
+            $("#copy3")[0].setAttribute("value", demoLink);
+            $("#copy4")[0].setAttribute("value", bikeLink);
+            $("#copy5")[0].setAttribute("value", recLink);
+            $("#copy6")[0].setAttribute("value", mapLITLink);
+        });
+    });
+    $(".footer-section-trainings").load("./../views/section-footer-trainings.html", function () {
+        //*** terms binding
+        $("#termsModal").load("./../views/modal-terms.html");
+        //*** privacy binding
+        $("#privacyModal").load("./../views/modal-privacy.html");
+        //*** version binding
+        $(".version").html("v5.6.0 | 2023-05-05");
+        //*** copy write binding
+        $(".copyright").html("2023");
+
+        //*** embed binding
+        $("#embedModal").load("./../views/modal-embed-trainings.html", function () {
             $("#copy1")[0].setAttribute("value", mapsLink);
             $("#copy2")[0].setAttribute("value", employLink);
             $("#copy3")[0].setAttribute("value", demoLink);

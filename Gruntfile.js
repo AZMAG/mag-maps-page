@@ -143,7 +143,7 @@ module.exports = function (grunt) {
                 files: {
                     "dist/index.html": "dist/index.html",
                     "dist/releaseHistory.html": "dist/releaseHistory.html",
-                    "dist/trainings.html": "dist/trainings.html"
+                    "dist/trainings/index.html": "dist/trainings/index.html"
                 }
             },
             htmlmin2: {
@@ -195,7 +195,7 @@ module.exports = function (grunt) {
                 files: {
                     "dist/index.html": "src/index.html",
                     "dist/releaseHistory.html": "src/releaseHistory.html",
-                    "dist/trainings.html": "src/trainings.html",
+                    "dist/trainings/index.html": "src/trainings/index.html",
                     "dist/js/main.js": "src/js/main.js"
                 }
             }
@@ -205,7 +205,7 @@ module.exports = function (grunt) {
             update_Meta: {
                 // source files array
                 // RegExp Expression
-                src: ["src/index.html", "src/trainings.html", "src/releaseHistory.html", "src/js/main.js", "src/humans.txt", "README.md", "LICENSE", "src/LICENSE"],
+                src: ["src/index.html", "src/trainings/index.html", "src/releaseHistory.html", "src/js/main.js", "src/humans.txt", "README.md", "LICENSE", "src/LICENSE"],
                 overwrite: true, // overwrite matched source files
                 replacements: [{
                     // html pages

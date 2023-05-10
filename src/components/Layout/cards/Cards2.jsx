@@ -11,15 +11,15 @@ export default function Cards() {
           className="group flex transform flex-col rounded-lg border border-slate-200 bg-white shadow-md transition duration-150 hover:scale-105 hover:shadow-2xl">
           <div
             role="tooltip"
-            class="pointer-events-none absolute inset-x-0 z-10 rounded-lg bg-cyan-800/80 px-3 py-3 text-center text-sm text-slate-200 opacity-0 transition duration-150 ease-in-out group-hover:opacity-100">
+            className="pointer-events-none absolute inset-x-0 z-10 rounded-lg bg-cyan-800/80 px-3 py-3 text-center text-sm text-slate-200 opacity-0 transition duration-150 ease-in-out group-hover:opacity-100">
             {info.text}
             {/* <svg
-              class="absolute left-0 top-full h-2 w-full text-cyan-800"
+              className="absolute left-0 top-full h-2 w-full text-cyan-800"
               x="0px"
               y="0px"
               viewBox="0 0 255 255"
               xml:space="preserve">
-              <polygon class="fill-current" points="0,0 127.5,127.5 255,0" />
+              <polygon className="fill-current" points="0,0 127.5,127.5 255,0" />
             </svg> */}
           </div>
 

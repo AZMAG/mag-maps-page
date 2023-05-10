@@ -21,6 +21,7 @@ export default function CardInfo() {
       icon: ArizonaDemographics,
       link: "https://geo.azmag.gov/maps/azdemographics/",
       text: "View selected population and housing data for the entire State of Arizona.",
+      tags: ["statewide", "demographics", "census", "ACS"],
     },
     {
       sort: 2,
@@ -29,6 +30,7 @@ export default function CardInfo() {
       icon: ArizonaEmployer,
       link: "https://geo.azmag.gov/maps/azemployer/",
       text: "View selected employer data for the entire State of Arizona.",
+      tags: ["statewide", "employment", "NAICS"],
     },
     {
       sort: 3,
@@ -37,6 +39,7 @@ export default function CardInfo() {
       icon: ReadOnMapLIT,
       link: "http://geo.azmag.gov/maps/readonaz/",
       text: "A resource to identify key data sets that impact early literacy outcomes.",
+      tags: ["statewide", "education", "literacy", "schools"],
     },
     {
       sort: 4,
@@ -45,6 +48,7 @@ export default function CardInfo() {
       icon: ReadOnSchools,
       link: "https://geo.azmag.gov/schoolsdatacenter/",
       text: "A tool to help analyze data and drive decisions to improve educational outcomes.",
+      tags: ["statewide", "education", "schools"],
     },
     {
       sort: 5,
@@ -53,6 +57,7 @@ export default function CardInfo() {
       icon: Recreation,
       link: "https://recreation.azmag.gov/",
       text: "A resource to help find parks, trails, and other recreational facilities.",
+      tags: ["parks", "recreation", "bikeways", "regional"],
     },
     {
       sort: 6,
@@ -61,6 +66,7 @@ export default function CardInfo() {
       icon: Bikeways,
       link: "https://geo.azmag.gov/maps/bikemap/",
       text: "Find existing, locally-designated bicycle facilities in the region.",
+      tags: ["bikeways", "regional"],
     },
     {
       sort: 7,
@@ -69,6 +75,7 @@ export default function CardInfo() {
       icon: LandUseExplorer,
       link: "https://geo.azmag.gov/maps/landuse/",
       text: "View land use and development data for all of Maricopa and Pinal County.",
+      tags: ["landuse", "regional"],
     },
     {
       sort: 8,
@@ -77,6 +84,7 @@ export default function CardInfo() {
       icon: Projections,
       link: "https://geo.azmag.gov/maps/projections/",
       text: "View selected socioeconomic projection data for all of Maricopa and Pinal County.",
+      tags: ["regional"],
     },
     {
       sort: 13,
@@ -85,6 +93,7 @@ export default function CardInfo() {
       icon: HeatReliefLogo,
       link: "https://hrn.azmag.gov/",
       text: "A resource to help prevent heat-related and heat caused deaths among vulnerable populations.",
+      tags: ["regional"],
     },
     {
       sort: 9,
@@ -93,6 +102,7 @@ export default function CardInfo() {
       icon: Luke56FW,
       link: "https://geo.azmag.gov/maps/lukeafb/",
       text: "Workforce, transportation, education and recreation in the West Valley.",
+      tags: ["regional", "transportation"],
     },
     {
       sort: 10,
@@ -101,6 +111,7 @@ export default function CardInfo() {
       icon: ATP,
       link: "https://geo.azmag.gov/ActiveMap/",
       text: "View the interactive comments map for the MAG Active Transportation Plan.",
+      tags: ["regional", "transportation"],
     },
     {
       sort: 11,
@@ -109,6 +120,7 @@ export default function CardInfo() {
       icon: TIP,
       link: "https://geo.azmag.gov/maps/tip/",
       text: "Explore capital improvement programs for transportation projects in the region.",
+      tags: ["regional", "transportation"],
     },
     {
       sort: 12,
@@ -117,6 +129,7 @@ export default function CardInfo() {
       icon: Urban,
       link: "https://arcg.is/18bWXq",
       text: "Explore the differences in Arizona urban area boundaries between 2000 and 2010.",
+      tags: ["urban", "census", "ACS"],
     },
   ]
   return cardInfo

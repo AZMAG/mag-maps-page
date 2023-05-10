@@ -1,9 +1,14 @@
-import React from "react"
+import React, { useState } from "react"
 import { NavLink, useMatch } from "react-router-dom"
 import magLogo from "../../../images/mag-logo-black.png"
 import NavLinks from "./Links"
 
 export default function Header() {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+
+  const toggleMobileMenu = () => {
+    setMobileMenuOpen(!mobileMenuOpen)
+  }
   const links = NavLinks()
 
   return (
@@ -22,11 +27,15 @@ export default function Header() {
         <div className="flex">
           <button
             id="hamburger-button"
-            className="relative h-8 w-8 cursor-pointer text-3xl md:hidden">
+            className="relative h-8 w-8 cursor-pointer text-3xl md:hidden"
+            onClick={toggleMobileMenu}>
             <div className="absolute top-4 -mt-0.5 h-1 w-8 rounded bg-slate-800 transition-all duration-500 before:absolute before:h-1 before:w-8 before:-translate-x-4 before:-translate-y-3 before:rounded before:bg-slate-800 before:transition-all before:duration-500 before:content-[''] after:absolute after:h-1 after:w-8 after:-translate-x-4 after:translate-y-3 after:rounded after:bg-slate-800 after:transition-all after:duration-500 after:content-['']"></div>
           </button>
-          <nav id="nav-menu" className="hidden space-x-8 text-xl md:block" aria-label="nav-menu">
-            <ul className="flex justify-center items-center p-2 mt-0 flex-row space-x-6 text-sm font-medium">
+          <nav
+            id="nav-menu"
+            className={`${mobileMenuOpen ? "" : "hidden"} space-x-8 text-xl md:block`}
+            aria-label="nav-menu">
+            <ul className="mt-0 flex flex-row items-center justify-center space-x-6 p-2 text-sm font-medium">
               {links.map((link, index) => {
                 const match = useMatch(link.link)
                 return (
@@ -48,8 +57,10 @@ export default function Header() {
       </section>
       <section
         id="mobile-menu"
-        className="top-68 justify-content-center animate-open-menu absolute hidden w-full origin-top flex-col bg-black text-5xl">
-        <nav className="flex min-h-screen flex-col items-center py-8" aria-label="mobile">
+        className={`${
+          mobileMenuOpen ? "animate-open-menu" : ""
+        } top-68 justify-content-center absolute hidden w-full origin-top flex-col bg-black text-5xl`}>
+        <nav className="flex min-h-screen flex-col items-center py-8" aria-label="mobile-menu">
           {links.map((link, index) => {
             return (
               <NavLink

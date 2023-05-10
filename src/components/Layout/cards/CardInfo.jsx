@@ -16,6 +16,7 @@ export default function CardInfo() {
   const cardInfo = [
     {
       sort: 1,
+      active: true,
       viewer: "Arizona Demographics",
       icon: ArizonaDemographics,
       link: "https://geo.azmag.gov/maps/azdemographics/",
@@ -23,6 +24,7 @@ export default function CardInfo() {
     },
     {
       sort: 2,
+      active: true,
       viewer: "Arizona Employer",
       icon: ArizonaEmployer,
       link: "https://geo.azmag.gov/maps/azemployer/",
@@ -30,6 +32,7 @@ export default function CardInfo() {
     },
     {
       sort: 3,
+      active: true,
       viewer: "Read On Arizona MapLIT",
       icon: ReadOnMapLIT,
       link: "http://geo.azmag.gov/maps/readonaz/",
@@ -37,6 +40,7 @@ export default function CardInfo() {
     },
     {
       sort: 4,
+      active: true,
       viewer: "Read On Arizona Schools Data Center",
       icon: ReadOnSchools,
       link: "https://geo.azmag.gov/schoolsdatacenter/",
@@ -44,13 +48,15 @@ export default function CardInfo() {
     },
     {
       sort: 5,
-      viewer: "Recreation",
+      active: true,
+      viewer: "Parks and Recreation",
       icon: Recreation,
       link: "https://recreation.azmag.gov/",
       text: "A resource to help find parks, trails, and other recreational facilities.",
     },
     {
       sort: 6,
+      active: true,
       viewer: "Bikeways",
       icon: Bikeways,
       link: "https://geo.azmag.gov/maps/bikemap/",
@@ -58,6 +64,7 @@ export default function CardInfo() {
     },
     {
       sort: 7,
+      active: true,
       viewer: "Land Use Explorer",
       icon: LandUseExplorer,
       link: "https://geo.azmag.gov/maps/landuse/",
@@ -65,13 +72,15 @@ export default function CardInfo() {
     },
     {
       sort: 8,
-      viewer: "Projections",
+      active: true,
+      viewer: "Long-Range Projections",
       icon: Projections,
       link: "https://geo.azmag.gov/maps/projections/",
       text: "View selected socioeconomic projection data for all of Maricopa and Pinal County.",
     },
     {
       sort: 9,
+      active: true,
       viewer: "Luke Air Force Base Mission Critical",
       icon: Luke56FW,
       link: "https://geo.azmag.gov/maps/lukeafb/",
@@ -79,6 +88,7 @@ export default function CardInfo() {
     },
     {
       sort: 10,
+      active: true,
       viewer: "Active Transportation Plan",
       icon: ATP,
       link: "https://geo.azmag.gov/ActiveMap/",
@@ -86,6 +96,7 @@ export default function CardInfo() {
     },
     {
       sort: 11,
+      active: true,
       viewer: "Transportation Improvement Program",
       icon: TIP,
       link: "https://geo.azmag.gov/maps/tip/",
@@ -93,6 +104,7 @@ export default function CardInfo() {
     },
     {
       sort: 12,
+      active: false,
       viewer: "Urban Areas Explorer",
       icon: Urban,
       link: "https://arcg.is/18bWXq",
@@ -100,6 +112,7 @@ export default function CardInfo() {
     },
     {
       sort: 13,
+      active: true,
       viewer: "Heat Relief Network",
       icon: HeatReliefLogo,
       link: "https://hrn.azmag.gov/",

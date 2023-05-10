@@ -9,7 +9,7 @@ export default function MainHero() {
             <div className="mb-4 w-40 bg-fuchsia-900 px-4 py-2 font-bold text-fuchsia-100">
               In The Spotlight
             </div>
-            <h1 className="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight text-slate-800 md:text-5xl xl:text-6xl">
+            <h1 className="xl:text-5xlfont-extrabold mb-4 max-w-2xl text-3 xl leading-none tracking-tight text-slate-800 md:text-4xl ">
               Heat Relief Network
             </h1>
             <p className="mb-6 max-w-2xl font-light text-slate-600 md:text-lg lg:mb-8 lg:text-xl">
@@ -34,11 +34,11 @@ export default function MainHero() {
               href="https://hrn.azmag.gov/"
               target="_blank"
               rel="noreferrer"
-              className="inline-flex items-center justify-center rounded-lg border border-cyan-900 bg-cyan-800 px-5 py-3 text-center text-base font-medium text-slate-200 hover:bg-cyan-800/75 ">
+              className="inline-flex items-center justify-center rounded-lg border border-cyan-900 bg-cyan-800 px-5 py-2 text-center text-base font-medium text-slate-200 hover:bg-cyan-800/75 ">
               Launch Viewer
             </a>
           </div>
-          <div className="hidden items-center justify-center lg:col-span-5 lg:mt-0 lg:flex">
+          <div className="items-center justify-center lg:col-span-5 lg:mt-0 lg:flex">
             <img src={HeatReliefLogo} className="h-60" alt="heat-relief-logo" />
           </div>
         </div>

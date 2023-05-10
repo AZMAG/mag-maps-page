@@ -1,4 +1,5 @@
 import DateInfo from "../../../config/trainingDatesInfo"
+import DocConfig from "../../../config/docConfig"
 
 export default function TrainingDates() {
   const info = DateInfo()
@@ -17,18 +18,20 @@ export default function TrainingDates() {
       <div className="mx-auto grid grid-flow-row md:grid-cols-2 lg:grid-cols-2 grid-col-1 justify-items-center gap-8">
         {info.map((item, index) => {
           return (
-            <div
-              key={index}
-              className="flex h-24 w-72 transform rounded-lg bg-white drop-shadow-lg transition duration-500 hover:scale-105 hover:shadow-2xl lg:h-32 lg:w-96">
-              <div className={item.status ? inActive : active}>
-                <h1 className="text-3xl font-bold">{item.date}</h1>
-                <h2 className="text-xl font-semibold">{item.month}</h2>
+            <a className="" href={DocConfig.trainingLink} target="_blank" rel="noreferrer">
+              <div
+                key={index}
+                className="flex h-24 w-72 transform rounded-lg bg-white drop-shadow-lg transition duration-500 hover:scale-105 hover:shadow-2xl lg:h-32 lg:w-96">
+                <div className={item.status ? inActive : active}>
+                  <h1 className="text-3xl font-bold">{item.date}</h1>
+                  <h2 className="text-xl font-semibold">{item.month}</h2>
+                </div>
+                <div className="flex grow flex-col justify-center p-6">
+                  <h5 className="text-xl font-semibold text-cyan-800">{item.description}</h5>
+                  <h4 className="text-lg font-medium text-cyan-800">9:00 a.m. to 12:00 p.m.</h4>
+                </div>
               </div>
-              <div className="flex grow flex-col justify-center p-6">
-                <h5 className="text-xl font-semibold text-cyan-800">{item.description}</h5>
-                <h4 className="text-lg font-medium text-cyan-800">9:00 a.m. to 12:00 p.m.</h4>
-              </div>
-            </div>
+            </a>
           )
         })}
       </div>

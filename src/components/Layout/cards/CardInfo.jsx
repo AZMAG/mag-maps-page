@@ -79,6 +79,14 @@ export default function CardInfo() {
       text: "View selected socioeconomic projection data for all of Maricopa and Pinal County.",
     },
     {
+      sort: 13,
+      active: true,
+      viewer: "Heat Relief Network",
+      icon: HeatReliefLogo,
+      link: "https://hrn.azmag.gov/",
+      text: "A resource to help prevent heat-related and heat caused deaths among vulnerable populations.",
+    },
+    {
       sort: 9,
       active: true,
       viewer: "Luke Air Force Base Mission Critical",
@@ -109,14 +117,6 @@ export default function CardInfo() {
       icon: Urban,
       link: "https://arcg.is/18bWXq",
       text: "Explore the differences in Arizona urban area boundaries between 2000 and 2010.",
-    },
-    {
-      sort: 13,
-      active: true,
-      viewer: "Heat Relief Network",
-      icon: HeatReliefLogo,
-      link: "https://hrn.azmag.gov/",
-      text: "A resource to help prevent heat-related and heat caused deaths among vulnerable populations.",
     },
   ]
   return cardInfo

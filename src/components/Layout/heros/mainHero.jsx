@@ -8,7 +8,7 @@ export default function MainHero() {
           <div className="mb-4 w-40 bg-fuchsia-900 px-4 py-2 font-bold text-fuchsia-100">
             In The Spotlight
           </div>
-          <h1 className="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight text-slate-800 md:text-5xl xl:text-6xl ">
+          <h1 className="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight text-slate-800 md:text-5xl xl:text-6xl">
             Heat Relief Network
           </h1>
           <p className="mb-2 md:mb-6 max-w-2xl font-light text-slate-600 text-base md:text-lg lg:mb-8 lg:text-xl">

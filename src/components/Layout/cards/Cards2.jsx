@@ -28,7 +28,7 @@ export default function Cards() {
                 </h5>
               </a>
             </div>
-            <div className="flex flex-row flex-wrap p-4">
+            <div className="flex flex-row flex-wrap p-4 mt-auto">
               {i.tags.map((tag, index) => (
                 <span
                   key={index}

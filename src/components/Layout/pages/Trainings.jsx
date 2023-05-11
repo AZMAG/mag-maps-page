@@ -1,4 +1,5 @@
 import TrainingMainHero from "../heros/trainingPageHero"
+import TrainingHero from "../heros/trainingHero"
 import Dates from "../sections/TrainingDates"
 import TrainingSignUp from "../sections/TrainingSignUp"
 import TrainingsInfo from "../sections/TrainingsInfo"
@@ -8,7 +9,7 @@ export default function Trainings() {
     <div tag="trainings-body" className="flex grow flex-col">
       <TrainingMainHero />
       <Dates />
-      <TrainingSignUp />
+      <TrainingHero />
       <TrainingsInfo />
       <TrainingSignUp />
     </div>

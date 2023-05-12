@@ -10,6 +10,8 @@ let docConfig = {
 
   RADigestLink: "https://public.govdelivery.com/accounts/AZMAG/subscriber/new?topic_id=AZMAG_292",
 
+  RADigestArchived: "https://azmag.gov/Newsroom/RADigest",
+
   InfoGraphicLink:
     "https://azmag.gov/About-Us/Divisions/Regional-Analytics-Division/Infographics-Maps-and-Reports",
 }

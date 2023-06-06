@@ -39,9 +39,9 @@ export default function Header() {
               {links.map((link, index) => {
                 const match = useMatch(link.link)
                 return (
-                  <li className="text-center">
+                  <li key={index} className="text-center">
                     <NavLink
-                      key={index}
+                      id={link.id}
                       to={link.link}
                       target={link.internal ? "_self" : "_blank"}
                       rel="noreferrer"
@@ -64,6 +64,7 @@ export default function Header() {
           {links.map((link, index) => {
             return (
               <NavLink
+                id={link.id}
                 key={index}
                 href={link.link}
                 target="_blank"

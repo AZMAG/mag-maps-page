@@ -3,7 +3,7 @@ import DocConfig from "../../../config/docConfig"
 export default function TrainingHero() {
   return (
     <section className="from bg-gradient-to-t from-cyan-800 to-slate-200">
-      <div className="justify-center md:justify-between container mx-auto flex flex-wrap px-4 py-6 lg:py-12">
+      <div className="max-w-screen-xl container mx-auto flex flex-wrap justify-center px-4 py-6 md:justify-between lg:py-12">
         <div className="px-4 md:w-3/5">
           <h1 className="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight text-slate-800 md:text-5xl xl:text-6xl">
             Trainings and Tutorials
@@ -36,7 +36,7 @@ export default function TrainingHero() {
             Sign up for Training
           </a>
         </div>
-        <div className="flex items-center justify-center py-8 px-4 md:py-2 md:w-2/5 md:px-6 lg:px-12">
+        <div className="flex items-center justify-center px-4 py-8 md:w-2/5 md:px-6 md:py-2 lg:px-12">
           <iframe
             className="h-56 w-96 lg:h-80 lg:w-[34rem]"
             src="https://www.youtube.com/embed/NJxUMxsuFTk"

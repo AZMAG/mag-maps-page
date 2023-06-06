@@ -4,7 +4,7 @@ import CardInfo from "./CardInfo"
 export default function Cards() {
   const data = CardInfo()
   return (
-    <section className="container mx-auto my-8 grid cursor-pointer grid-cols-2 gap-6 px-12 md:grid-cols-3 md:px-6 lg:grid-cols-5 lg:px-4">
+    <section className="container mx-auto my-8 grid max-w-screen-xl cursor-pointer grid-cols-2 gap-6 px-12 md:grid-cols-3 md:px-6 lg:grid-cols-5 lg:px-4">
       {data.map((i, index) =>
         i.active ? (
           <div
@@ -28,11 +28,11 @@ export default function Cards() {
                 </h5>
               </a>
             </div>
-            <div className="flex flex-row flex-wrap p-4 mt-auto">
+            <div className="mt-auto flex flex-row flex-wrap p-4">
               {i.tags.map((tag, index) => (
                 <span
                   key={index}
-                  className="inline-flex items-center m-0.5 rounded-md bg-slate-50 px-2 py-1 text-xs font-medium text-slate-600 ring-1 ring-inset ring-gray-500/10">
+                  className="m-0.5 inline-flex items-center rounded-md bg-slate-50 px-2 py-1 text-xs font-medium text-slate-600 ring-1 ring-inset ring-gray-500/10">
                   {tag}
                 </span>
               ))}

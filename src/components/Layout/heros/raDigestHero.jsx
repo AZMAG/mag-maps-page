@@ -4,14 +4,14 @@ import DocConfig from "../../../config/docConfig"
 export default function MainHero() {
   return (
     <section className="">
-      <div className="max-w-4xl flex container mx-auto justify-center px-4 py-6 lg:py-12">
-        <div className="flex w-2/5 items-center justify-center px-4 md:px-6 lg:px-12">
+      <div className="justify-center flex-wrap flex container mx-auto px-4 py-6 lg:py-12">
+        <div className="flex items-center justify-center px-4 md:w-2/5 md:px-6 lg:px-12">
           <a className="" href={DocConfig.RADigestArchived} target="_blank" rel="noreferrer">
             <img src={RADigestLogo} className="h-32 md:h-40" alt="heat-relief-logo" />
           </a>
         </div>
 
-        <div className="flex flex-col">
+        <div className="flex flex-col md:w-2/5">
           <h1 className="mb-4 flex text-4xl font-extrabold leading-none tracking-tight text-slate-800 md:text-5xl xl:text-6xl">
             RADigest
           </h1>

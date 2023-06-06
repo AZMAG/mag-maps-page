@@ -3,8 +3,8 @@ import HeatReliefLogo from "../../../images/card-icons/icon-heat-relief-network.
 export default function MainHero() {
   return (
     <section className="from bg-gradient-to-l from-cyan-800 to-slate-200">
-      <div className="justify-between flex container mx-auto px-4 py-6 lg:py-12">
-        <div className="px-4 w-3/5">
+      <div className="justify-center md:justify-between flex container gap-y-4 md:gap-0 mx-auto max-w-screen-xl flex-wrap px-4 py-6 lg:py-12">
+        <div className="px-4 md:w-3/5 order-2 md:order-1">
           <div className="mb-4 w-40 bg-fuchsia-900 px-4 py-2 font-bold text-fuchsia-100">
             In The Spotlight
           </div>
@@ -37,7 +37,7 @@ export default function MainHero() {
             Launch Viewer
           </a>
         </div>
-        <div className="flex items-center justify-center w-2/5 px-4 md:px-6 lg:px-12">
+        <div className="flex items-center justify-center order-1 md:order-2 md:w-2/5 px-4 md:px-6 lg:px-12">
           <img src={HeatReliefLogo} className="h-32 md:h-40 lg:h-60" alt="heat-relief-logo" />
         </div>
       </div>

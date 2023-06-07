@@ -5,7 +5,7 @@ import App from "./App"
 import "./index.css"
 import DocConfig from "./config/docConfig"
 
-ReactGA.initialize(DocConfig.MEASUREMENT_ID, { debug: true })
+ReactGA.initialize(DocConfig.MEASUREMENT_ID, { debug: true, titleCase: false, gaOptions: {} })
 
 const root = ReactDOM.createRoot(document.getElementById("root"))
 root.render(

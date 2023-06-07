@@ -16,7 +16,7 @@ export default function MainHero() {
             stations, and water donation sites throughout the Valley with the goal of preventing
             heat-related illnesses and deaths among vulnerable populations.
           </p>
-          <div className="bg-primary-700 hover:bg-primary-800 focus:ring-primary-300 mr-3 inline-flex items-center justify-center rounded-lg px-5 py-3 text-center text-base font-medium text-slate-100">
+          <div className="bg-primary-700 hover:bg-primary-800 focus:ring-primary-300 mr-3 inline-flex items-center justify-center rounded-lg px-5 py-3 text-center font-medium text-slate-100">
             Get started
             <svg
               className="-mr-1 ml-2 h-5 w-5"

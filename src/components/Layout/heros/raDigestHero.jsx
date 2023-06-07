@@ -4,7 +4,7 @@ import DocConfig from "../../../config/docConfig"
 export default function MainHero() {
   return (
     <section className="">
-      <div className="justify-center flex-wrap flex container mx-auto px-4 py-6 lg:py-12">
+      <div className="justify-center flex-wrap flex container mx-auto px-4 py-4 lg:py-9">
         <div className="flex items-center justify-center px-4 md:w-2/5 md:px-6 lg:px-12">
           <a className="" href={DocConfig.RADigestArchived} target="_blank" rel="noreferrer">
             <img src={RADigestLogo} className="h-32 md:h-40" alt="heat-relief-logo" />
@@ -12,7 +12,7 @@ export default function MainHero() {
         </div>
 
         <div className="flex flex-col md:w-2/5">
-          <h1 className="mb-4 flex text-4xl font-extrabold leading-none tracking-tight text-slate-800 md:text-5xl xl:text-6xl">
+          <h1 className="mb-4 flex text-3xl font-extrabold leading-none tracking-tight text-slate-800 md:text-4xl xl:text-5xl">
             RADigest
           </h1>
           <p className="mb-3 flex text-base font-light text-slate-600 md:text-lg lg:text-xl">
@@ -37,7 +37,7 @@ export default function MainHero() {
               href={DocConfig.RADigestLink}
               target="_blank"
               rel="noreferrer"
-              className="inline-flex items-center justify-center rounded-lg border border-cyan-900 bg-cyan-800 px-5 py-2 text-center text-base font-medium text-slate-200 hover:bg-cyan-800/75 ">
+              className="inline-flex items-center justify-center rounded-lg border border-cyan-900 bg-cyan-800 px-5 py-2 text-center text-base font-medium text-slate-100 hover:bg-cyan-800/75 ">
               RADigest Archive
             </a>
           </div>

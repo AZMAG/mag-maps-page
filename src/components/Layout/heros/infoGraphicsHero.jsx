@@ -4,12 +4,12 @@ import { faChartColumn } from "@fortawesome/free-solid-svg-icons"
 
 export default function TrainingHero() {
   return (
-    <section className="from bg-gradient-to-r from-cyan-800 to-slate-200">
-      <div className="container mx-auto flex flex-row justify-around flex-wrap px-4 py-6 lg:py-12">
+    <section className="from bg-gradient-to-l from-cyan-800 to-slate-200">
+      <div className="container mx-auto flex flex-row justify-around flex-wrap px-4 py-4 lg:py-9">
         <div className="flex items-center justify-center px-8">
           <FontAwesomeIcon
             icon={faChartColumn}
-            className="text-7xl text-slate-100 lg:text-8xl xl:text-9xl"
+            className="text-7xl text-cyan-800 lg:text-8xl xl:text-9xl"
           />
         </div>
         <div className="flex flex-col justify-center">

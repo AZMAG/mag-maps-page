@@ -16,7 +16,7 @@ export default function TrainingDatesInfo() {
       date: "18",
       month: "May",
       description: "Workshop",
-      status: false,
+      status: true,
     },
     {
       date: "27",

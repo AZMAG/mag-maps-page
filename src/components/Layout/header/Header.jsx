@@ -20,9 +20,9 @@ export default function Header() {
             target="_blank"
             rel="noreferrer"
             className="flex items-center gap-x-5">
-            <img className="h-10" src={magLogo} alt="MAG Power Logo" />
+            <img className="h-7 md:h-8 lg:h-10" src={magLogo} alt="MAG Power Logo" />
           </a>
-          <h1 className="text-xl font-medium lg:text-3xl">MAG Interactive Maps</h1>
+          <h1 className="text-sm md:text-lg font-medium lg:text-3xl">MAG Interactive Maps</h1>
         </div>
         <div className="flex">
           <button
@@ -35,7 +35,7 @@ export default function Header() {
             id="nav-menu"
             className={`${mobileMenuOpen ? "" : "hidden"} space-x-8 text-xl md:block`}
             aria-label="nav-menu">
-            <ul className="mt-0 flex flex-row items-center justify-center space-x-6 p-2 text-sm font-medium">
+            <ul className="mt-0 flex flex-row items-center justify-center md:space-x-2 lg:space-x-6 p-2 text-sm font-medium">
               {links.map((link, index) => {
                 const match = useMatch(link.link)
                 return (

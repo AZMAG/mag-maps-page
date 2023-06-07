@@ -11,8 +11,8 @@ import DocConfig from "../../../config/docConfig"
 export default function TrainingInfo() {
   return (
     <section tag="training-info" className="bg-slate-100">
-      <div className="container mx-auto flex flex-col px-4">
-        <section className="mx-auto grid max-w-screen-xl grid-cols-12 gap-2 px-4 py-8 lg:grid-cols-12 lg:gap-8 lg:py-16 xl:gap-0">
+      <div className="container mx-auto flex flex-col flex-wrap px-4">
+        <section className="grid-flow-row max-w-screen-xl mx-auto grid grid-cols-12 gap-2 px-4 py-8 lg:grid-cols-12 lg:gap-8 lg:py-16 xl:gap-0">
           <div className="col-span-7 mr-auto place-self-center">
             <h3 className="mb-4 text-lg font-bold leading-none tracking-tight text-slate-800 md:text-2xl lg:text-3xl">
               MAG Maps & Data Workshops

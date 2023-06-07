@@ -4,8 +4,8 @@ import DocConfig from "../../../config/docConfig"
 export default function TrainingPageHero() {
   return (
     <section className="from bg-gradient-to-t from-cyan-800 to-slate-200">
-      <div className="container mx-auto flex justify-between px-4 py-6 lg:py-12">
-        <div className="w-3/5 px-4">
+      <div className="container mx-auto flex flex-wrap justify-center gap-y-4 px-4 py-6 md:justify-between md:gap-0 lg:py-12">
+        <div className="order-2 px-4 md:order-1 md:w-3/5">
           <h1 className="mb-4 max-w-2xl text-2xl font-extrabold leading-none tracking-tight text-slate-800 md:text-3xl lg:text-5xl xl:text-6xl">
             Trainings and Tutorials
           </h1>
@@ -34,7 +34,7 @@ export default function TrainingPageHero() {
             Sign up for Training
           </a>
         </div>
-        <div className="flex w-2/5 items-center justify-center px-4 md:px-6 lg:px-12">
+        <div className="order-1 flex items-center justify-center px-4 md:order-2 md:w-2/5 md:px-6 lg:px-12">
           <img src={TrainingPicComputer} className="h-32 lg:h-60" alt="training on computer" />
         </div>
       </div>

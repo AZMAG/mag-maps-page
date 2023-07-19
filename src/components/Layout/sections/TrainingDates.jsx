@@ -15,7 +15,7 @@ export default function TrainingDates() {
     <section tag="trainings-dates" className="flex flex-col bg-slate-100 px-4 py-10">
       <div className="container mx-auto mb-8 flex justify-center px-4 ">
         <h1 className="text-2xl font-bold leading-none tracking-tight text-slate-800 md:text-3xl">
-          Workshops for 2023 are scheduled for:
+          Live trainings for 2023 are scheduled for:
         </h1>
       </div>
 
@@ -36,9 +36,7 @@ export default function TrainingDates() {
                 </div>
                 <div className={item.status ? inActive2 : active2}>
                   <h5 className="text-xl font-semibold ">{item.description}</h5>
-                  <h4 className="text-sm font-medium lg:text-lg">
-                    9:00 a.m. to 12:00 p.m.
-                  </h4>
+                  <h4 className="text-sm font-medium lg:text-lg">Virtual or in-person</h4>
                 </div>
               </div>
             </a>

@@ -52,6 +52,7 @@ export default function Footer() {
               className="flex flex-row"
               id="GD-snippet-form"
               action="https://public.govdelivery.com/accounts/AZMAG/subscribers/qualify"
+              target="_blank"
               acceptCharset="UTF-8"
               method="post">
               <input name="utf8" type="hidden" value="&#x2713;" />

@@ -14,9 +14,9 @@ export default function TrainingInfo() {
       <div className="container mx-auto flex flex-col flex-wrap px-4">
         <section className="grid-flow-row max-w-screen-xl mx-auto grid grid-cols-12 gap-2 px-4 py-8 lg:grid-cols-12 lg:gap-8 lg:py-16 xl:gap-0">
           <div className="col-span-7 mr-auto place-self-center">
-            <h3 className="mb-4 text-lg font-bold leading-none tracking-tight text-slate-800 md:text-2xl lg:text-3xl">
+            <h1 className="mb-4 text-lg font-bold leading-none tracking-tight text-slate-800 md:text-2xl lg:text-3xl">
               MAG Maps & Data Workshops
-            </h3>
+            </h1>
             <p className="mb-3 text-sm text-slate-800 md:text-base lg:text-lg">
               Training provided in a hybrid learning setting. Choose whether you would like to
               attend in person or via Zoom. Our training highlights two of our most popular map
@@ -33,9 +33,9 @@ export default function TrainingInfo() {
             <img src={Training2} className="h-32 lg:h-60" alt="" />
           </div>
           <div className="col-span-7 mr-auto place-self-center">
-            <h3 className="mb-4 text-lg font-bold leading-none tracking-tight text-slate-800 md:text-2xl lg:text-3xl">
+            <h1 className="mb-4 text-lg font-bold leading-none tracking-tight text-slate-800 md:text-2xl lg:text-3xl">
               Participants choose the learning environment they are most comfortable in
-            </h3>
+            </h1>
             <p className="mb-3 text-sm text-slate-800 md:text-base lg:text-lg">
               This three-hour workshop will be held in person in our MAG Regional Conference Center
               while also being livestreamed via Zoom to our online participants. We’ll cover a
@@ -59,9 +59,9 @@ export default function TrainingInfo() {
         </section>
         <section className="mx-auto grid max-w-screen-xl grid-cols-12 gap-2 px-4 py-8 lg:grid-cols-12 lg:gap-8 lg:py-16 xl:gap-0">
           <div className="col-span-7 mr-auto place-self-center">
-            <h3 className="mb-4 text-lg font-bold leading-none tracking-tight text-slate-800 md:text-2xl lg:text-3xl">
+            <h1 className="mb-4 text-lg font-bold leading-none tracking-tight text-slate-800 md:text-2xl lg:text-3xl">
               Select a date that fits your schedule
-            </h3>
+            </h1>
             <p className="mb-3 text-sm text-slate-800 md:text-base lg:text-lg">
               Click on the Link and enroll in the session of your choice.
             </p>
@@ -100,9 +100,9 @@ export default function TrainingInfo() {
             <img src={Training4} className="h-32 lg:h-60" alt="" />
           </div>
           <div className="col-span-6 mr-auto place-self-center lg:col-span-7">
-            <h3 className="mb-4 text-lg font-bold leading-none tracking-tight text-slate-800 md:text-2xl lg:text-3xl">
+            <h1 className="mb-4 text-lg font-bold leading-none tracking-tight text-slate-800 md:text-2xl lg:text-3xl">
               Select the learning environment that best suits you
-            </h3>
+            </h1>
             <p className="mb-3 text-sm text-slate-800 md:text-base lg:text-lg">
               Only those who sign up for the online training will be given access to the Zoom link.
               Online class registrants will receive an email confirmation with a personalized link
@@ -124,9 +124,9 @@ export default function TrainingInfo() {
         </section>
         <section className="mx-auto grid max-w-screen-xl grid-cols-12 gap-2 px-4 py-8 lg:grid-cols-12 lg:gap-8 lg:py-16 xl:gap-0">
           <div className="col-span-7 mr-auto place-self-center">
-            <h3 className="mb-4 text-lg font-bold leading-none tracking-tight text-slate-800 md:text-2xl lg:text-3xl">
+            <h1 className="mb-4 text-lg font-bold leading-none tracking-tight text-slate-800 md:text-2xl lg:text-3xl">
               Come and explore MAG data resources
-            </h3>
+            </h1>
             <p className="mb-3 text-sm text-slate-800 md:text-base lg:text-lg">
               Learn how to use the MAG map viewers to conduct searches for demographic and employer
               data, and discover other maps and data gems offered at MAG.
@@ -141,9 +141,9 @@ export default function TrainingInfo() {
             <img src={Training6} className="h-32 lg:h-60" alt="" />
           </div>
           <div className="col-span-7 mr-auto place-self-center">
-            <h3 className="mb-4 text-lg font-bold leading-none tracking-tight text-slate-800 md:text-2xl lg:text-3xl">
+            <h1 className="mb-4 text-lg font-bold leading-none tracking-tight text-slate-800 md:text-2xl lg:text-3xl">
               Training is free and open to the public
-            </h3>
+            </h1>
             <p className="mb-3 text-sm text-slate-800 md:text-base lg:text-lg">
               Training is especially helpful to anyone involved in community assessment, economic
               development, grant writing, market research, and planning, but our participants come

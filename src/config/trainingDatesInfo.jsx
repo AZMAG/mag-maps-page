@@ -3,37 +3,37 @@ export default function TrainingDatesInfo() {
     {
       date: "19",
       month: "Jan",
-      description: "Workshop",
+      description: "Live training",
       status: true,
     },
     {
       date: "22",
       month: "Mar",
-      description: "Workshop",
+      description: "Live training",
       status: true,
     },
     {
       date: "18",
       month: "May",
-      description: "Workshop",
+      description: "Live training",
       status: true,
     },
     {
       date: "27",
       month: "July",
-      description: "Workshop",
+      description: "Live training",
       status: false,
     },
     {
       date: "27",
       month: "Sept",
-      description: "Workshop",
+      description: "Live training",
       status: false,
     },
     {
       date: "16",
       month: "Nov",
-      description: "Workshop",
+      description: "Live training",
       status: false,
     },
   ]

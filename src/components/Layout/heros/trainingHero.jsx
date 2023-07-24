@@ -1,11 +1,12 @@
 import DocConfig from "../../../config/docConfig"
+import RADTrainingPhoto from "../../../images/pics/RAD_Training_1.jpg"
 
 export default function TrainingHero() {
   return (
     <section className="from bg-gradient-to-b from-cyan-800 to-slate-200">
-      <div className="container mx-auto flex max-w-screen-xl flex-wrap justify-center px-4 py-4 md:justify-between lg:py-9">
+      <div className="container mx-auto flex max-w-screen-xl flex-wrap justify-center px-4 py-4 md:justify-between lg:py-8">
         <div className="px-4 md:w-3/5">
-          <h1 className="mb-4 max-w-2xl text-3xl font-extrabold leading-none tracking-tight text-slate-800 md:text-4xl xl:text-5xl">
+          <h1 className="mb-4 max-w-2xl text-2xl font-extrabold leading-none tracking-tight text-slate-800 md:text-3xl xl:text-4xl">
             Trainings
           </h1>
           <p className="mb-2 max-w-2xl text-slate-100 md:text-lg lg:mb-8 lg:text-xl">
@@ -37,13 +38,14 @@ export default function TrainingHero() {
           </a>
         </div>
         <div className="flex items-center justify-center px-4 py-8 md:w-2/5 md:px-6 md:py-2 lg:px-12">
-          <iframe
+          <img src={RADTrainingPhoto} className="h-40 md:h-52" alt="training-photo" />
+          {/* <iframe
             className="h-56 w-96 lg:h-80 lg:w-[34rem]"
             src="https://www.youtube.com/embed/NJxUMxsuFTk"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             rel="noreferrer"
             allowFullScreen=""
-            title="speed up your search video"></iframe>
+            title="speed up your search video"></iframe> */}
         </div>
       </div>
     </section>

@@ -5,6 +5,7 @@ import Cards3 from "../cards/Cards3"
 import TrainingHero from "../heros/trainingHero"
 import RADigestHero from "../heros/raDigestHero"
 import InfoGraphicHero from "../heros/infoGraphicsHero"
+import Testimonial from "../heros/testimonialHero"
 
 export default function Home() {
   return (
@@ -12,8 +13,9 @@ export default function Home() {
       <MainHero />
       <Cards3 />
       <TrainingHero />
-      <RADigestHero />
+      <Testimonial />
       <InfoGraphicHero />
+      <RADigestHero />
     </div>
   )
 }

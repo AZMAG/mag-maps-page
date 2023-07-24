@@ -1,18 +1,19 @@
 import RADigestLogo from "../../../images/RADigest-icon.png"
+import RADigestImage from "../../../images/pics/RAD_Digest.png"
 import DocConfig from "../../../config/docConfig"
 
-export default function MainHero() {
+export default function RADigestHero() {
   return (
     <section className="">
-      <div className="justify-center flex-wrap flex container mx-auto px-4 py-4 lg:py-9">
+      <div className="container mx-auto flex flex-wrap justify-center px-4 py-4 lg:py-8">
         <div className="flex items-center justify-center px-4 md:w-2/5 md:px-6 lg:px-12">
           <a className="" href={DocConfig.RADigestArchived} target="_blank" rel="noreferrer">
-            <img src={RADigestLogo} className="h-32 md:h-40" alt="heat-relief-logo" />
+            <img src={RADigestImage} className="h-32 md:h-40" alt="heat-relief-logo" />
           </a>
         </div>
 
         <div className="flex flex-col md:w-2/5">
-          <h1 className="mb-4 flex text-3xl font-extrabold leading-none tracking-tight text-slate-800 md:text-4xl xl:text-5xl">
+          <h1 className="mb-4 max-w-2xl text-2xl font-extrabold leading-none tracking-tight text-slate-800 md:text-3xl xl:text-4xl">
             RADigest
           </h1>
           <p className="mb-3 flex text-base font-light text-slate-600 md:text-lg lg:text-xl">

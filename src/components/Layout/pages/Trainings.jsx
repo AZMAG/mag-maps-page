@@ -3,6 +3,7 @@ import TrainingHero from "../heros/trainingHero"
 import Dates from "../sections/TrainingDates"
 import TrainingSignUp from "../sections/TrainingSignUp"
 import TrainingsInfo from "../sections/TrainingsInfo"
+import Testimonial from "../heros/testimonialHero"
 
 export default function Trainings() {
   return (
@@ -12,6 +13,7 @@ export default function Trainings() {
       <TrainingHero />
       <TrainingsInfo />
       <TrainingSignUp />
+      <Testimonial />
     </div>
   )
 }

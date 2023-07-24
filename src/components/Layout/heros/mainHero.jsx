@@ -3,12 +3,12 @@ import HeatReliefLogo from "../../../images/card-icons/icon-heat-relief-network.
 export default function MainHero() {
   return (
     <section className="from bg-gradient-to-r from-cyan-800 to-slate-200">
-      <div className="container mx-auto flex max-w-screen-xl flex-wrap justify-center gap-y-4 px-4 py-4 md:justify-between md:gap-0 lg:py-9">
+      <div className="container mx-auto flex max-w-screen-xl flex-wrap justify-center gap-y-4 px-4 py-4 md:justify-between md:gap-0 lg:py-8">
         <div className="order-2 px-4 lg:px-0 md:order-1 md:w-3/5">
           <div className="mb-4 w-40 bg-fuchsia-900 px-4 py-2 font-bold text-fuchsia-100">
             In The Spotlight
           </div>
-          <h1 className="mb-4 max-w-2xl text-3xl font-extrabold leading-none tracking-tight text-slate-800 md:text-4xl xl:text-5xl">
+          <h1 className="mb-4 max-w-2xl text-2xl font-extrabold leading-none tracking-tight text-slate-800 md:text-3xl xl:text-4xl">
             Heat Relief Network
           </h1>
           <p className="mb-2 max-w-2xl text-base text-slate-100 md:mb-6 md:text-lg lg:mb-8 lg:text-xl">

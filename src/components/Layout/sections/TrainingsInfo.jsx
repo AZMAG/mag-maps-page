@@ -15,7 +15,7 @@ export default function TrainingInfo() {
         <section className="grid-flow-row max-w-screen-xl mx-auto grid grid-cols-12 gap-2 px-4 py-8 lg:grid-cols-12 lg:gap-8 lg:py-16 xl:gap-0">
           <div className="col-span-7 mr-auto place-self-center">
             <h1 className="mb-4 text-lg font-bold leading-none tracking-tight text-slate-800 md:text-2xl lg:text-3xl">
-              MAG Maps & Data Workshops
+              MAG Maps & Data Trainings
             </h1>
             <p className="mb-3 text-sm text-slate-800 md:text-base lg:text-lg">
               Training provided in a hybrid learning setting. Choose whether you would like to
@@ -37,7 +37,7 @@ export default function TrainingInfo() {
               Participants choose the learning environment they are most comfortable in
             </h1>
             <p className="mb-3 text-sm text-slate-800 md:text-base lg:text-lg">
-              This three-hour workshop will be held in person in our MAG Regional Conference Center
+              This three-hour training will be held in person in our MAG Regional Conference Center
               while also being livestreamed via Zoom to our online participants. We’ll cover a
               variety of topics in the following segments:
             </p>
@@ -66,7 +66,7 @@ export default function TrainingInfo() {
               Click on the Link and enroll in the session of your choice.
             </p>
             <p className="mb-3 text-sm text-slate-800 md:text-base lg:text-lg">
-              All workshops run from 9:00 a.m. to 12:00 p.m.
+              All trainings run from 9:00 a.m. to 12:00 p.m.
             </p>
             <div className="my-6 flex flex-row justify-center">
               <div className="bg-primary-700 hover:bg-primary-800 focus:ring-primary-300 mr-3 inline-flex items-center justify-center rounded-lg px-5 py-3 text-center text-sm font-medium text-slate-800 lg:text-base">
@@ -128,7 +128,7 @@ export default function TrainingInfo() {
               Come and explore MAG data resources
             </h1>
             <p className="mb-3 text-sm text-slate-800 md:text-base lg:text-lg">
-              Learn how to use the MAG map viewers to conduct searches for demographic and employer
+              Learn how to use the MAG map applications to conduct searches for demographic and employer
               data, and discover other maps and data gems offered at MAG.
             </p>
           </div>

@@ -17,8 +17,8 @@ export default function RADigestHero() {
             RADigest
           </h1>
           <p className="mb-3 flex text-base font-light text-slate-600 md:text-lg lg:text-xl">
-            The RADigest is a quarterly newsletter that highlights the latest data and map viewer
-            updates from the Regional Analytics Division.
+            The RADigest is a quarterly e-newsletter highlighting the latest updates and additions
+            to the data and maps tools from the Regional Analytics Division.
           </p>
           <div className="flex flex-row">
             <div className="bg-primary-700 hover:bg-primary-800 focus:ring-primary-300 mr-3 inline-flex items-center justify-center rounded-lg px-5 py-3 text-center text-base font-medium text-cyan-800">

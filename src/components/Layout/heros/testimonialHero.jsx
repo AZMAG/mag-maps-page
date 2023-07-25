@@ -1,6 +1,16 @@
-
+import Quotes from "../../../config/quotes"
 
 export default function TestimonialHero() {
+
+  function getRandomQuote() {
+    let quote = Quotes[Math.floor(Math.random() * Quotes.length)]
+    console.log(quote)
+    return quote
+  }
+//   let quote1 = getRandomQuote()
+//   let quote2 = getRandomQuote()
+//   let quote3 = getRandomQuote()
+
   return (
     <section className="">
       <div className="container mx-auto flex flex-col justify-center px-4 py-4 lg:py-8">

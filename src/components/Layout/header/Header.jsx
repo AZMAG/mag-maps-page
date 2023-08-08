@@ -35,7 +35,7 @@ export default function Header() {
           </button>
           <nav
             id="nav-menu"
-            className={`${mobileMenuOpen ? "" : "hidden"} space-x-8 text-xl md:block`}
+            className="hidden space-x-6 text-xl md:block"
             aria-label="nav-menu">
             <ul className="mt-0 flex flex-row items-center justify-center p-2 text-sm font-semibold md:space-x-2 lg:space-x-6">
               {links.map((link, index) => {
@@ -60,8 +60,8 @@ export default function Header() {
       <section
         id="mobile-menu"
         className={`${
-          mobileMenuOpen ? "animate-open-menu" : ""
-        } fixed hidden w-48 top-0 mt-24 right-0 flex-col bg-cyan-800 text-lg text-slate-50`}>
+          mobileMenuOpen ? "animate-open-menu" : "hidden"
+        } fixed w-48 top-0 mt-16 right-4 flex-col bg-cyan-800 text-lg text-slate-50 md:hidden`}>
         <nav className="flex flex-col px-4 py-6" aria-label="mobile-menu">
           {links.map((link, index) => {
             return (

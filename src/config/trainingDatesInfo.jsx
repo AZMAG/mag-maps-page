@@ -22,7 +22,7 @@ export default function TrainingDatesInfo() {
       date: "27",
       month: "July",
       description: "Live training",
-      status: false,
+      status: true,
     },
     {
       date: "27",

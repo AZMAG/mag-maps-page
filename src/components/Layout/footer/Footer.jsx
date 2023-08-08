@@ -10,8 +10,8 @@ export default function Footer() {
   const social = SocialMedia()
   return (
     <footer tag="footer" className="bg-slate-200 text-cyan-800">
-      <div className="flex flex-col flex-wrap items-center justify-center space-x-6 pt-9 text-center">
-        <section className="container mx-auto flex flex-row flex-wrap items-center justify-center space-y-10 px-4 lg:justify-between lg:space-y-0">
+      <div className="flex flex-col flex-wrap container mx-auto pt-9">
+        <section className="grid grid-cols-1 justify-items-center gap-16 md:grid-cols-3 mx-8">
           <div tag="contact-info" className="text-left text-sm">
             <h3 className="mb-2 mt-0 text-lg font-semibold leading-tight">Contact</h3>
             <a
@@ -43,7 +43,7 @@ export default function Footer() {
               </a>
             </span>
           </div>
-          <div className="">
+          <div className="text-center">
             <h3 className="mb-2 mt-0 text-lg font-semibold leading-tight">Subscribe for Updates</h3>
             <p className="mb-1 text-sm">
               Subscribe to get notified of new features and page updates.

@@ -61,8 +61,8 @@ export default function Header() {
         id="mobile-menu"
         className={`${
           mobileMenuOpen ? "animate-open-menu" : ""
-        } top-68 justify-content-center absolute hidden w-full origin-top flex-col bg-black text-5xl`}>
-        <nav className="flex min-h-screen flex-col items-center py-8" aria-label="mobile-menu">
+        } fixed hidden w-48 top-0 mt-24 right-0 flex-col bg-cyan-800 text-lg text-slate-50`}>
+        <nav className="flex flex-col px-4 py-6" aria-label="mobile-menu">
           {links.map((link, index) => {
             return (
               <NavLink
@@ -71,7 +71,7 @@ export default function Header() {
                 href={link.link}
                 target="_blank"
                 rel="noreferrer"
-                className="block rounded p-0 py-2 hover:text-cyan-800 hover:underline hover:decoration-fuchsia-900">
+                className="block rounded p-0 py-2 hover:text-slate-400 hover:underline hover:decoration-fuchsia-900">
                 {link.name}
               </NavLink>
             )

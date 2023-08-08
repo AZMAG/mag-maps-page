@@ -19,7 +19,7 @@ export default function TestimonialHero() {
             Testimonials
           </h1>
         </div>
-        <section className="flex flex-row justify-center gap-x-8">
+        <section className="grid grid-cols-1 justify-items-center gap-4 md:grid-cols-3">
           <div className="max-w-sm rounded-lg border border-gray-200 bg-white p-6 shadow">
             <figure className="mx-auto max-w-screen-md">
               <svg

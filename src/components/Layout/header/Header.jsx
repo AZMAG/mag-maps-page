@@ -68,8 +68,8 @@ export default function Header() {
               <NavLink
                 id={link.id}
                 key={index}
-                href={link.link}
-                target="_blank"
+                to={link.link}
+                target={link.internal ? "_self" : "_blank"}
                 rel="noreferrer"
                 className="block rounded p-0 py-2 hover:text-slate-400 hover:underline hover:decoration-fuchsia-900">
                 {link.name}

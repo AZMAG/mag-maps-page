@@ -9,9 +9,9 @@ import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom"
 export default function App() {
   const containerRef = useRef()
   const isProduction = import.meta.env.PROD
-  const basename = isProduction ? "/maps/test/map" : ""
+//   const basename = isProduction ? "/maps/test/map" : ""
   return (
-    <BrowserRouter basename={basename}>
+    <BrowserRouter >
       <div
         tag="appMain"
         className="flex h-screen w-screen flex-col overflow-x-hidden"

@@ -2,52 +2,43 @@ import React from "react"
 import CardInfo from "./CardInfo"
 
 export default function Cards() {
-  const info = CardInfo()
+  const data = CardInfo()
+  const statewide =
+    "m-0.5 inline-flex items-center rounded-md bg-fuchsia-900 px-2 py-1 text-xs font-medium text-slate-100 ring-1 ring-inset ring-gray-500/10"
+  const regional =
+    "m-0.5 inline-flex items-center rounded-md bg-cyan-800 px-2 py-1 text-xs font-medium text-slate-100 ring-1 ring-inset ring-gray-500/10"
+
   return (
-    <section className="container mx-auto my-14 grid grid-cols-4 gap-6 px-8">
-      {info.map((info, index) => (
-        <div
-          key={index}
-          className="group flex transform flex-col rounded-lg border border-slate-200 bg-white shadow-md transition duration-500 hover:scale-105 hover:shadow-2xl">
-          <div className="flex justify-center px-5 pt-5">
-            <a href={info.link} target="_blank" rel="noreferrer">
-              <img
-                className="h-16 w-16 rounded-t-lg md:h-20 md:w-20 lg:h-28 lg:w-28"
-                src={info.icon}
-                alt={info.viewer}
-              />
+    <section className="container mx-auto my-8 grid max-w-screen-xl cursor-pointer grid-cols-2 gap-6 px-12 md:grid-cols-3 md:px-6 lg:grid-cols-5 lg:px-4">
+      {data.map((i, index) =>
+        i.active ? (
+          <div
+            key={index}
+            className="group flex transform flex-col rounded-lg border border-slate-200 bg-white shadow-md transition duration-150 hover:scale-105 hover:shadow-2xl">
+            <a href={i.link} target="_blank" rel="noreferrer">
+              <div
+                role="tooltip"
+                className="pointer-events-none absolute inset-x-0 z-10 rounded-lg bg-cyan-800/80 px-3 py-3 text-center text-sm text-slate-200 opacity-0 transition duration-150 ease-in-out group-hover:opacity-100">
+                {i.text}
+              </div>
+
+              <div className="flex flex-row justify-end">
+                <span key={index} className={i.type == "statewide" ? statewide : regional}>
+                  {i.type}
+                </span>
+              </div>
+              <div className="flex justify-center px-3 pt-3">
+                <img className="h-14 rounded-t-lg md:h-16 lg:h-20" src={i.icon} alt={i.viewer} />
+              </div>
+              <div className="p-2">
+                <h5 className="text-center text-sm font-bold tracking-tight text-cyan-800 lg:text-lg">
+                  {i.viewer}
+                </h5>
+              </div>
             </a>
           </div>
-          <div className="p-5">
-            <a href={info.link} target="_blank" rel="noreferrer">
-              <h5 className="mb-2 text-lg font-bold tracking-tight text-slate-900 lg:text-2xl">
-                {info.viewer}
-              </h5>
-            </a>
-            <p className="mb-3 font-normal text-slate-700">{info.text}</p>
-          </div>
-          <div className="mt-auto px-5 pb-5">
-            <a
-              href={info.link}
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex items-center rounded-lg bg-cyan-800 px-3 py-2 text-center text-sm font-medium text-slate-200 hover:bg-cyan-800/75">
-              Launch Viewer
-              <svg
-                aria-hidden="true"
-                className="-mr-1 ml-2 h-4 w-4"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg">
-                <path
-                  fillRule="evenodd"
-                  d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                  clipRule="evenodd"></path>
-              </svg>
-            </a>
-          </div>
-        </div>
-      ))}
+        ) : null,
+      )}
     </section>
   )
 }

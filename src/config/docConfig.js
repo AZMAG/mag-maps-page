@@ -1,5 +1,5 @@
 let docConfig = {
-  version: "v6.1.4",
+  version: "v6.1.5",
   date: "2023-08-09",
   copyright: "2023",
   magLink: "https://www.azmag.gov/",

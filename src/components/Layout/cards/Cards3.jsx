@@ -15,29 +15,27 @@ export default function Cards() {
           <div
             key={index}
             className="group flex transform flex-col rounded-lg border border-slate-200 bg-white shadow-md transition duration-150 hover:scale-105 hover:shadow-2xl">
-            <div
-              role="tooltip"
-              className="pointer-events-none absolute inset-x-0 z-10 rounded-lg bg-cyan-800/80 px-3 py-3 text-center text-sm text-slate-200 opacity-0 transition duration-150 ease-in-out group-hover:opacity-100">
-              {i.text}
-            </div>
+            <a href={i.link} target="_blank" rel="noreferrer">
+              <div
+                role="tooltip"
+                className="pointer-events-none absolute inset-x-0 z-10 rounded-lg bg-cyan-800/80 px-3 py-3 text-center text-sm text-slate-200 opacity-0 transition duration-150 ease-in-out group-hover:opacity-100">
+                {i.text}
+              </div>
 
-            <div className="flex flex-row justify-end">
-              <span key={index} className={i.type == "statewide" ? statewide : regional}>
-                {i.type}
-              </span>
-            </div>
-            <div className="flex justify-center px-3 pt-3">
-              <a href={i.link} target="_blank" rel="noreferrer">
+              <div className="flex flex-row justify-end">
+                <span key={index} className={i.type == "statewide" ? statewide : regional}>
+                  {i.type}
+                </span>
+              </div>
+              <div className="flex justify-center px-3 pt-3">
                 <img className="h-14 rounded-t-lg md:h-16 lg:h-20" src={i.icon} alt={i.viewer} />
-              </a>
-            </div>
-            <div className="p-2">
-              <a href={i.link} target="_blank" rel="noreferrer">
+              </div>
+              <div className="p-2">
                 <h5 className="text-center text-sm font-bold tracking-tight text-cyan-800 lg:text-lg">
                   {i.viewer}
                 </h5>
-              </a>
-            </div>
+              </div>
+            </a>
           </div>
         ) : null,
       )}

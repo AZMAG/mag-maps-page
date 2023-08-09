@@ -12,7 +12,7 @@ export default function RADigestHero() {
           </a>
         </div>
 
-        <div className="flex flex-col md:w-2/5">
+        <div className="flex flex-col p-4 md:w-2/5">
           <h1 className="mb-4 max-w-2xl text-2xl font-extrabold leading-none tracking-tight text-slate-800 md:text-3xl xl:text-4xl">
             RADigest
           </h1>

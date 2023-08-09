@@ -16,7 +16,7 @@ export default function TrainingHero() {
           <p className="mb-2 max-w-2xl text-slate-100 md:text-lg lg:mb-8 lg:text-xl">
             Training is available throughout the year so be sure to reserve a spot today!
           </p>
-          <div className="bg-primary-700 hover:bg-primary-800 focus:ring-primary-300 mr-3 inline-flex items-center justify-center rounded-lg px-5 py-3 text-center font-medium text-slate-800">
+          <div className="bg-primary-700 hover:bg-primary-800 focus:ring-primary-300 mr-3 inline-flex items-center justify-center rounded-lg px-5 py-3 text-center font-medium text-slate-100">
             Get started
             <svg
               className="-mr-1 ml-2 h-5 w-5"

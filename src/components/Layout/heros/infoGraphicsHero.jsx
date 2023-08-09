@@ -12,7 +12,7 @@ export default function InfoGraphicsHero() {
             className="text-7xl text-cyan-800 lg:text-8xl xl:text-9xl"
           />
         </div>
-        <div className="flex flex-col justify-center">
+        <div className="flex flex-col justify-center p-4">
           <h1 className="mb-4 max-w-2xl text-2xl font-extrabold leading-none tracking-tight text-slate-800 md:text-3xl xl:text-4xl">
             Infographics, Maps, and Reports
           </h1>

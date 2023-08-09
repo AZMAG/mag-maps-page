@@ -1,7 +1,7 @@
 {
-  "name": "mag-mapping-page",
-  "version": "5.6.1",
-  "date": "2023-05-24",
+  "name": "mag-maps-page",
+  "version": "6.1.4",
+  "date": "2023-08-09",
   "copyright": "2023",
   "description": "MAG Main Map Page",
   "keywords": [
@@ -17,13 +17,8 @@
     "ESRI",
     "#MAGmaps"
   ],
-  "main": "src/main.js",
-  "homepage": "https://maps.azmag.gov/",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/AZMAG/map-MAGmappingPage/"
-  },
-  "author": "MAG Regional Analytics (https://www.azmag.gov/)",
+  "type": "module",
+  "author": "MAG Regional Analytics (https://azmag.gov/About-Us/Divisions/Regional-Analytics-Division)",
   "contributors": [
     {
       "name": "Vern Wolfley",
@@ -34,51 +29,77 @@
       "email": "jfairfield@azmag.gov"
     }
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AZMAG/map-MAGmappingPage/"
+  },
+  "bugs": "https://github.com/AZMAG/map-MAGmappingPage/issues",
+  "homepage": ".",
   "private": true,
   "dependencies": {
-    "add-to-homescreen": "^3.2.6",
-    "bootstrap": "5.2.0",
-    "grunt-cli": "^1.4.3",
-    "html5-boilerplate": "^8.0.0",
-    "jquery": "^3.6.0"
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-brands-svg-icons": "^6.4.0",
+    "@fortawesome/free-regular-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^ 0.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-ga4": "^2.1.0",
+    "react-router-dom": "^6.10.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.18.10",
-    "@babel/preset-env": "^7.18.10",
-    "grunt": "^1.5.3",
-    "grunt-babel": "^8.0.0",
-    "grunt-comment-toggler": "^0.2.2",
-    "grunt-contrib-clean": "^2.0.1",
-    "grunt-contrib-concat": "^2.1.0",
-    "grunt-contrib-copy": "^1.0.0",
-    "grunt-contrib-cssmin": "^4.0.0",
-    "grunt-contrib-htmlmin": "^3.1.0",
-    "grunt-contrib-jshint": "^3.2.0",
-    "grunt-contrib-sass": "^2.0.0",
-    "grunt-contrib-uglify": "^5.2.2",
-    "grunt-postcss": "^0.9.0",
-    "grunt-sass": "^3.1.0",
-    "grunt-text-replace": "^0.4.0",
-    "jshint-stylish": "^2.2.1",
-    "jshint-stylish-ex": ">=0.2.0",
-    "load-grunt-tasks": "^5.1.0",
-    "lodash": "^4.17.21",
-    "matchdep": "^2.0.0",
-    "node-normalize-scss": "^8.1.2",
-    "node-sass": "^9.0.0",
-    "normalize.css": ">=8.0.1",
-    "npm-check-updates": "^16.0.5",
-    "pixrem": "^5.0.0",
-    "postcss-preset-env": "^7.8.0"
+    "@vitejs/plugin-react": "^4.0.0",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.38.0",
+    "eslint-config-prettier": "^8.8.0",
+    "mag-prettier-config": "^1.1.1",
+    "postcss": "^8.4.23",
+    "prettier": "^2.8.7",
+    "prettier-plugin-tailwindcss": "^0.1.13",
+    "replace-in-file": "^6.3.5",
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.3.3",
+    "vite-plugin-svgr": "^2.4.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run replace && vite build",
+    "preview": "vite preview",
+    "replace": "node replaceScripts"
+  },
+  "prettier": "mag-prettier-config",
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest",
+      "prettier"
+    ],
+    "env": {
+      "browser": true,
+      "node": true,
+      "es6": true
+    }
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  },
+  "browserslist": {
+    "production": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "engines": {
     "node": ">=16.2.0",
     "npm": ">=7.14.0"
   },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 9"
-  ],
   "license": "MIT"
 }

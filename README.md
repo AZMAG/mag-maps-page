@@ -8,7 +8,6 @@
 [![dependencies](https://david-dm.org/AZMAG/mag-maps-page.png)](https://david-dm.org/AZMAG/mag-maps-page)
 [![devDependency Status](https://david-dm.org/AZMAG/mag-maps-page/dev-status.png)](https://david-dm.org/AZMAG/mag-maps-page)
 [![Semver](http://img.shields.io/SemVer/2.0.0.png)](http://semver.org/spec/v4.4.7.html)
-[![Built with Grunt](http://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 The Maricopa Association of Governments (MAG) mapping home page is the portal to MAG's interactive mapping and analysis sites.
@@ -56,6 +55,19 @@ In the project directory, you can run:
 ## Technologies
 
 A list of technologies used within the project:
+- [ArcGIS API for JavaScript](https://developers.arcgis.com/javascript/latest/)
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript"><img src="https://github.com/get-icon/geticon/raw/master/icons/javascript.svg" alt="JavaScript" width="31px" height="31px"></a>
+<a href="https://www.w3.org/TR/html5/" title="HTML5"><img src="https://github.com/get-icon/geticon/raw/master/icons/html-5.svg" alt="HTML5" width="31px" height="31px"></a>
+<a href="https://www.w3.org/TR/CSS/" title="CSS3"><img src="https://github.com/get-icon/geticon/raw/master/icons/css-3.svg" alt="CSS3" width="31px" height="31px"></a>
+<a href="https://reactjs.org/" title="React"><img src="https://github.com/get-icon/geticon/raw/master/icons/react.svg" alt="React" width="31px" height="31px"></a>
+<a href="https://tailwindcss.com/" title="Tailwind CSS"><img src="https://github.com/get-icon/geticon/raw/master/icons/tailwindcss-icon.svg" alt="Tailwind CSS" width="31px" height="31px"></a>
+<a href="https://fontawesome.com/" title="Font-Awesome"><img src="https://github.com/get-icon/geticon/raw/master/icons/font-awesome.svg" alt="Font-Awesome" width="31px" height="31px"></a>
+<a href="https://eslint.org/" title="ESLint"><img src="https://github.com/get-icon/geticon/raw/master/icons/eslint.svg" alt="ESLint" width="31px" height="31px"></a>
+<a href="https://prettier.io/" title="Prettier"><img src="https://github.com/get-icon/geticon/raw/master/icons/prettier.svg" alt="Prettier" width="31px" height="31px"></a>
+<a href="https://www.npmjs.com/" title="npm"><img src="https://github.com/get-icon/geticon/raw/master/icons/npm.svg" alt="npm" width="31px" height="31px"></a>
+<a href="https://vitejs.dev/" title="Vite"><img src="https://github.com/get-icon/geticon/raw/master/icons/vite.svg" alt="Vite" width="31px" height="31px"></a>
+<a href="https://code.visualstudio.com/" title="vscode"><img src="https://github.com/get-icon/geticon/raw/master/icons/visual-studio-code.svg" alt="vscode" width="31px" height="31px"></a>
 
 ## Process
 
@@ -67,8 +79,6 @@ A list of technologies used within the project:
 
 #### ***Reference Example Sites***
 
-## Legal Disclaimer
-
 ## :zap: Disclaimer
 
 - [Disclaimer](LEGAL_DISCLAIMER)
@@ -76,15 +86,9 @@ A list of technologies used within the project:
 ## :warning: Licensing
 
 Copyright 2023 Maricopa Association of Governments (MAG)
-
-This project is licensed under the MIT license.
-
 Please acknowledge the Maricopa Association of Governments (MAG) GIS as the source when Map Server data is used in the preparation of reports, papers, publications, maps, or other products.
 
-## Copyright and Licensing
-
-Code released under the MIT license.
-
-A copy of the license is available in the repository's `LICENSE` file.
-
+This project is licensed under the MIT license.
 * [LICENSE](LICENSE)
+
+[Back to top](#map-readon-maplit-v2)

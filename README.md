@@ -1,12 +1,12 @@
-![](http://geo.azmag.gov/maps/readonaz/app/resources/img/maglogo_black.png)
+<img src="https://geo.azmag.gov/maps/images/mag-logos/MAG-logo-color-horizontal.png" height="50">
 
 # MAG Mapping Home Page #
 
 [![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=my-website)](http://maps.azmag.gov/)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/AZMAG/map-MAGmappingPage)
-[![GitHub issues](https://img.shields.io/github/issues/AZMAG/map-MAGmappingPage)](https://github.com/AZMAG/map-MAGmappingPage/issues)
-[![dependencies](https://david-dm.org/AZMAG/map-MAGmappingPage.png)](https://david-dm.org/AZMAG/map-MAGmappingPage)
-[![devDependency Status](https://david-dm.org/AZMAG/map-MAGmappingPage/dev-status.png)](https://david-dm.org/AZMAG/map-MAGmappingPage)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/AZMAG/mag-maps-page)
+[![GitHub issues](https://img.shields.io/github/issues/AZMAG/mag-maps-page)](https://github.com/AZMAG/mag-maps-page/issues)
+[![dependencies](https://david-dm.org/AZMAG/mag-maps-page.png)](https://david-dm.org/AZMAG/mag-maps-page)
+[![devDependency Status](https://david-dm.org/AZMAG/mag-maps-page/dev-status.png)](https://david-dm.org/AZMAG/mag-maps-page)
 [![Semver](http://img.shields.io/SemVer/2.0.0.png)](http://semver.org/spec/v4.4.7.html)
 [![Built with Grunt](http://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)

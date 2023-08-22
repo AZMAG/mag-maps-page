@@ -34,24 +34,22 @@ And constructed with the following guidelines:
 2. **MINOR** version when you add functionality in a backwards-compatible manner **bumps the minor** resets patch
 3. **PATCH** version when you make backwards-compatible bug fixes and misc changes **bumps only the patch**
 
-## Credits
+## :star: Credits
 
-In the project directory, you can run:
+- [Maricopa Association of Governments (MAG) and the MAG member agencies](https://www.azmag.gov/)
 
 ## Site URL's
 
 * [MAG Mapping](https://maps.azmag.gov/)
 
+
+### `npm run preview`
 - Builds the app for production to the dist folder.
 - It correctly bundles React in production mode and optimizes the build for the best performance.
 - Your app is ready to be deployed!
-### `npm run preview`
-
 - Boots up a local static web server that serves the files from build. It's an easy way to check if the production build looks OK in your local environment.
-
-* [CHANGELOG](CHANGELOG.md)
-
 - Replaces the version number, copyright, and build date in the package.json file in the rest of the documents.
+
 ## Technologies
 
 A list of technologies used within the project:

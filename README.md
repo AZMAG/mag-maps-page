@@ -2,10 +2,10 @@
 
 # mag-maps-page
 
-[![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=my-website)](http://maps.azmag.gov/)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/AZMAG/mag-maps-page)
+[![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=website)](http://maps.azmag.gov/)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/AZMAG/mag-maps-page)](https://github.com/AZMAG/mag-maps-page/releases)
 [![GitHub issues](https://img.shields.io/github/issues/AZMAG/mag-maps-page)](https://github.com/AZMAG/mag-maps-page/issues)
-![semver](https://img.shields.io/badge/semver-2.0.0-blue?style=flat-square)
+[![semver](https://img.shields.io/badge/semver-2.0.0-blue?style=flat-square)](https://semver.org/)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 The Maricopa Association of Governments (MAG) mapping home page is the portal to MAG's interactive mapping and analysis sites.

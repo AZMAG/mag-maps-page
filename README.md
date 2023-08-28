@@ -18,8 +18,6 @@ This JavaScript web-page was developed by MAG staff for MAG member agencies and 
 
 ### Version | 6.1.5
 
-### version | 5.4.7
-
 - #### Updated | 2023-08-09
 - #### Created | 2014-10-21
 
@@ -35,7 +33,7 @@ And constructed with the following guidelines:
 
 ## :computer: Site URL
 
-- [MAG Interactive Maps](https://maps.azmag.gov/)
+- [maps.azmag.gov](https://maps.azmag.gov/)
 
 ## Available Scripts
 

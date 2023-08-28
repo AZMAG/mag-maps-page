@@ -31,9 +31,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/AZMAG/map-MAGmappingPage/"
+    "url": "https://github.com/AZMAG/mag-maps-page/"
   },
-  "bugs": "https://github.com/AZMAG/map-MAGmappingPage/issues",
+  "bugs": "https://github.com/AZMAG/mag-maps-page/issues",
   "homepage": ".",
   "private": true,
   "dependencies": {

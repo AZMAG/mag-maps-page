@@ -1,4 +1,4 @@
-![](http://geo.azmag.gov/maps/readonaz/app/resources/img/maglogo_black.png)
+<img src="https://geo.azmag.gov/maps/images/mag-logos/MAG-logo-color-horizontal.png" height="50">
 
 # mag-maps-page
 
@@ -21,7 +21,6 @@ This JavaScript web-page was developed by MAG staff for MAG member agencies and 
 ### version | 5.4.7
 
 - #### Updated | 2023-08-09
-
 - #### Created | 2014-10-21
 
 Releases will be numbered with the following format:

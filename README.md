@@ -5,7 +5,7 @@
 [![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=my-website)](http://maps.azmag.gov/)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/AZMAG/mag-maps-page)
 [![GitHub issues](https://img.shields.io/github/issues/AZMAG/mag-maps-page)](https://github.com/AZMAG/mag-maps-page/issues)
-[![Semver](http://img.shields.io/SemVer/2.0.0.png)](http://semver.org/spec/v4.4.7.html)
+![semver](https://img.shields.io/badge/semver-2.0.0-blue?style=flat-square)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 The Maricopa Association of Governments (MAG) mapping home page is the portal to MAG's interactive mapping and analysis sites.
@@ -36,7 +36,7 @@ And constructed with the following guidelines:
 - [maps.azmag.gov](https://maps.azmag.gov/)
 
 ## Available Scripts
-
+![semver](https://img.shields.io/badge/semver-2.0.0-blue?style=flat-square)
 In the project directory, you can run:
 
 ### `npm run dev`

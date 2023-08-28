@@ -36,7 +36,7 @@ And constructed with the following guidelines:
 - [maps.azmag.gov](https://maps.azmag.gov/)
 
 ## Available Scripts
-![semver](https://img.shields.io/badge/semver-2.0.0-blue?style=flat-square)
+
 In the project directory, you can run:
 
 ### `npm run dev`

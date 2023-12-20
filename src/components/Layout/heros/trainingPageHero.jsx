@@ -1,5 +1,5 @@
 import TrainingPicComputer from "../../../images/pics/pic-training-computer.jpg"
-import DocConfig from "../../../config/docConfig"
+import TrainingButton from "../../buttons/trainingButton"
 
 export default function TrainingPageHero() {
   return (
@@ -26,13 +26,7 @@ export default function TrainingPageHero() {
                 clipRule="evenodd"></path>
             </svg>
           </div>
-          <a
-            href={DocConfig.trainingLink}
-            target="_blank"
-            rel="noreferrer"
-            className="inline-flex items-center justify-center rounded-lg border border-fuchsia-900 bg-fuchsia-900 px-5 py-3 text-center text-base font-medium text-slate-100 hover:bg-fuchsia-900/75 ">
-            Sign up for Training
-          </a>
+          <TrainingButton />
         </div>
         <div className="order-1 flex items-center justify-center px-4 md:order-2 md:w-2/5 md:px-6 lg:px-12">
           <img src={TrainingPicComputer} className="h-32 lg:h-60" alt="training on computer" />

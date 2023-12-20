@@ -1,4 +1,4 @@
-import DocConfig from "../../../config/docConfig"
+import TrainingButton from "../../buttons/trainingButton"
 
 export default function TrainingSignUp() {
   return (
@@ -22,13 +22,7 @@ export default function TrainingSignUp() {
                   clipRule="evenodd"></path>
               </svg>
             </div>
-            <a
-              href={DocConfig.trainingLink}
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex items-center justify-center rounded-lg border border-fuchsia-900 bg-fuchsia-900 px-5 py-3 text-center text-base font-medium text-slate-100 hover:bg-fuchsia-900/75 ">
-              Sign up for Training
-            </a>
+            <TrainingButton />
           </div>
         </div>
       </div>

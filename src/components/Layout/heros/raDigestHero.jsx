@@ -1,6 +1,7 @@
 import RADigestLogo from "../../../images/RADigest-icon.png"
 import RADigestImage from "../../../images/pics/RAD_Digest.png"
 import DocConfig from "../../../config/docConfig"
+import RaDigestButton from "../../buttons/raDigestButton"
 
 export default function RADigestHero() {
   return (
@@ -34,13 +35,7 @@ export default function RADigestHero() {
                   clipRule="evenodd"></path>
               </svg>
             </div>
-            <a
-              href={DocConfig.RADigestLink}
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex items-center justify-center rounded-lg border border-cyan-900 bg-cyan-800 px-5 py-2 text-center text-base font-medium text-slate-100 hover:bg-cyan-800/75 ">
-              RADigest Archive
-            </a>
+            <RaDigestButton />
           </div>
         </div>
       </div>

@@ -1,40 +1,40 @@
 export default function TrainingDatesInfo() {
   const datesInfo = [
     {
-      date: "19",
-      month: "Jan",
+      date: "22",
+      month: "Feb",
       description: "Live training",
       status: true,
     },
     {
-      date: "22",
+      date: "28",
       month: "Mar",
       description: "Live training",
       status: true,
     },
     {
-      date: "18",
-      month: "May",
+      date: "25",
+      month: "Apr",
       description: "Live training",
       status: true,
     },
     {
-      date: "27",
-      month: "July",
+      date: "22",
+      month: "Aug",
       description: "Live training",
       status: true,
     },
     {
-      date: "27",
+      date: "19",
       month: "Sept",
       description: "Live training",
-      status: false,
+      status: true,
     },
     {
-      date: "16",
-      month: "Nov",
+      date: "24",
+      month: "Oct",
       description: "Live training",
-      status: false,
+      status: true,
     },
   ]
   return datesInfo

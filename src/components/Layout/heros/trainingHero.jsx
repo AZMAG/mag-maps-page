@@ -1,5 +1,5 @@
-import DocConfig from "../../../config/docConfig"
 import RADTrainingPhoto from "../../../images/pics/RAD_Training_1.jpg"
+import TrainingButton from "../../buttons/trainingButton"
 
 export default function TrainingHero() {
   return (
@@ -29,13 +29,8 @@ export default function TrainingHero() {
                 clipRule="evenodd"></path>
             </svg>
           </div>
-          <a
-            href={DocConfig.trainingLink}
-            target="_blank"
-            rel="noreferrer"
-            className="inline-flex items-center justify-center rounded-lg border border-fuchsia-900 bg-fuchsia-900 px-5 py-3 text-center text-base font-medium text-slate-100 hover:bg-fuchsia-900/75 ">
-            Sign up for Training
-          </a>
+            <TrainingButton />
+
         </div>
         <div className="flex items-center justify-center px-4 py-8 md:w-2/5 md:px-6 md:py-2 lg:px-12">
           <img src={RADTrainingPhoto} className="h-40 md:h-52" alt="training-photo" />

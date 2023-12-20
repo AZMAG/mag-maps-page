@@ -1,6 +1,6 @@
-import DocConfig from "../../../config/docConfig"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faChartColumn } from "@fortawesome/free-solid-svg-icons"
+import InfographicButton from "../../buttons/infographicsButton"
 
 export default function InfoGraphicsHero() {
   return (
@@ -34,13 +34,7 @@ export default function InfoGraphicsHero() {
                   clipRule="evenodd"></path>
               </svg>
             </div>
-            <a
-              href={DocConfig.InfoGraphicLink}
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex items-center justify-center rounded-lg border border-fuchsia-900 bg-fuchsia-900 px-5 py-3 text-center text-base font-medium text-slate-100 hover:bg-fuchsia-900/75 ">
-              See infographics
-            </a>
+            <InfographicButton />
           </div>
         </div>
       </div>

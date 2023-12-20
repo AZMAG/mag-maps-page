@@ -6,7 +6,7 @@ import Training3 from "../../../images/pics/pic-training-time.jpg"
 import Training4 from "../../../images/pics/pic-training-office.jpg"
 import Training5 from "../../../images/pics/pic-training-map.jpg"
 import Training6 from "../../../images/pics/pic-training-open.jpg"
-import DocConfig from "../../../config/docConfig"
+import TrainingButton from "../../buttons/trainingButton"
 
 export default function TrainingInfo() {
   return (
@@ -83,13 +83,8 @@ export default function TrainingInfo() {
                   clipRule="evenodd"></path>
               </svg>
             </div>
-            <a
-              href={DocConfig.trainingLink}
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex items-center justify-center rounded-lg border border-fuchsia-900 bg-fuchsia-900 px-5 py-3 text-center text-sm font-medium text-slate-100 hover:bg-fuchsia-900/75 lg:text-base ">
-              Sign up for Training
-            </a>
+            <TrainingButton />
+
           </div>
         </div>
         <div className="order-1 flex basis-2/5 items-center justify-center md:order-2">

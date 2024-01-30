@@ -6,7 +6,7 @@ let docConfig = {
   MEASUREMENT_ID: "G-B129P7KDMQ",
   mainURL: "",
 
-  trainingLink: "https://www.eventbrite.com/cc/2023-mag-maps-and-data-99739",
+//   trainingLink: "https://www.eventbrite.com/cc/2023-mag-maps-and-data-99739",
 
   RADigestLink: "https://public.govdelivery.com/accounts/AZMAG/subscriber/new?topic_id=AZMAG_292",
 

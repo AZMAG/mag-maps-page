@@ -1,12 +1,12 @@
 let docConfig = {
-  version: "v6.2.1",
-  date: "2024-12-20",
+  version: "v6.3.0",
+  date: "2024-01-30",
   copyright: "2024",
   magLink: "https://www.azmag.gov/",
   MEASUREMENT_ID: "G-B129P7KDMQ",
   mainURL: "",
 
-  trainingLink: "https://www.eventbrite.com/cc/2023-mag-maps-and-data-99739",
+//   trainingLink: "https://www.eventbrite.com/cc/2023-mag-maps-and-data-99739",
 
   RADigestLink: "https://public.govdelivery.com/accounts/AZMAG/subscriber/new?topic_id=AZMAG_292",
 

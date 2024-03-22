@@ -81,7 +81,7 @@ export default function CardInfo() {
       icon: LandUseExplorer,
       link: "https://geo.azmag.gov/maps/landuse/",
       text: "View land use and development data for all of Maricopa and Pinal counties.",
-      tags: ["landuse", "regional"],
+      tags: ["land use", "regional"],
       type: "regional",
     },
     {
@@ -91,7 +91,7 @@ export default function CardInfo() {
       icon: Projections,
       link: "https://geo.azmag.gov/maps/projections/",
       text: "View selected socioeconomic projection data for all of Maricopa and Pinal counties.",
-      tags: ["regional"],
+      tags: ["regional", "projections", "demographics", "census", "ACS"],
       type: "regional",
     },
     {
@@ -101,7 +101,7 @@ export default function CardInfo() {
       icon: HeatReliefLogo,
       link: "https://hrn.azmag.gov/",
       text: "A resource to help prevent heat-related and heat caused deaths among vulnerable populations.",
-      tags: ["regional"],
+      tags: ["regional", "heat", "health", "safety"],
       type: "regional",
     },
     {
@@ -111,7 +111,7 @@ export default function CardInfo() {
       icon: Luke56FW,
       link: "https://geo.azmag.gov/maps/lukeafb/",
       text: "Workforce, transportation, education and recreation in the West Valley.",
-      tags: ["regional", "transportation"],
+      tags: ["regional", "transportation", "economic development"],
       type: "regional",
     },
     {
@@ -136,12 +136,12 @@ export default function CardInfo() {
     },
     {
       sort: 12,
-      active: false,
+      active: true,
       viewer: "Urban Areas Explorer",
       icon: Urban,
-      link: "https://arcg.is/18bWXq",
-      text: "Explore the differences in Arizona urban area boundaries between 2000 and 2010.",
-      tags: ["urban", "census", "ACS"],
+      link: "https://bit.ly/AZUrbanAreas",
+      text: "View urban areas for the state of Arizona from Census years 2020 and 2010, as well as current FHWA smoothed urbanized areas.",
+      tags: ["urban", "census", "ACS", "boundaries"],
       type: "statewide",
     },
   ]

@@ -26,7 +26,7 @@ export default function TrainingDates() {
 
       <div className="grid-col-1 mx-auto grid grid-flow-row justify-items-center gap-8 md:grid-cols-2 lg:grid-cols-2">
         {info.map((item, index) => {
-          console.log(item)
+        //   console.log(item)
           return (
             <a
               key={index}

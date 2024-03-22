@@ -1,6 +1,6 @@
 let docConfig = {
-  version: "v6.3.0",
-  date: "2024-01-30",
+  version: "v6.3.1",
+  date: "2024-03-22",
   copyright: "2024",
   magLink: "https://www.azmag.gov/",
   MEASUREMENT_ID: "G-B129P7KDMQ",

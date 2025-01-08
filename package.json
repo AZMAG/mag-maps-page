@@ -3,7 +3,7 @@
   "version": "6.3.1",
   "date": "2024-03-22",
   "created": "2014-10-21",
-  "copyright": "2024",
+  "copyright": "2025",
   "description": "MAG Main Map Page",
   "keywords": [
     "MAG",
@@ -19,17 +19,7 @@
     "#MAGmaps"
   ],
   "type": "module",
-  "author": "MAG Regional Analytics (https://azmag.gov/About-Us/Divisions/Regional-Analytics-Division)",
-  "contributors": [
-    {
-      "name": "Vern Wolfley",
-      "email": "vwolfley@azmag.gov"
-    },
-    {
-      "name": "Jack Fairfield",
-      "email": "jfairfield@azmag.gov"
-    }
-  ],
+  "author": "MAG Information Technology",
   "repository": {
     "type": "git",
     "url": "https://github.com/AZMAG/mag-maps-page/"
@@ -64,11 +54,16 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "npm run replace && vite build",
+    "build": "npm run replace && vite build && explorer dist",
     "preview": "vite preview",
     "replace": "node replaceScripts"
   },
-  "prettier": "mag-prettier-config",
+  "prettier": {
+    "extends": "mag-prettier-config",
+    "plugins": [
+      "prettier-plugin-tailwindcss"
+    ]
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -98,9 +93,15 @@
       "last 1 safari version"
     ]
   },
-  "engines": {
-    "node": ">=16.2.0",
-    "npm": ">=7.14.0"
-  },
+  "contributors": [
+    {
+      "name": "Vern Wolfley",
+      "email": "vwolfley@azmag.gov"
+    },
+    {
+      "name": "Jack Fairfield",
+      "email": "jfairfield@azmag.gov"
+    }
+  ],
   "license": "MIT"
 }

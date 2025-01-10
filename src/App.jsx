@@ -5,6 +5,7 @@ import Trainings from "./components/Layout/pages/Trainings"
 import Footer from "./components/Layout/footer/Footer"
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop"
 import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom"
+import ReactGA from "react-ga4";
 import DocConfig from "./config/docConfig";
 
 

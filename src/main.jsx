@@ -1,15 +1,10 @@
-import React from "react"
-import ReactDOM from "react-dom/client"
-import ReactGA from "react-ga4"
-import App from "./App"
-import "./index.css"
-import DocConfig from "./config/docConfig"
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import "./index.css";
 
-ReactGA.initialize(DocConfig.MEASUREMENT_ID, { debug: true, titleCase: false, gaOptions: {} })
-
-const root = ReactDOM.createRoot(document.getElementById("root"))
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+ReactDOM.createRoot(document.getElementById("root")).render(
+    <React.StrictMode>
+        <App />
+    </React.StrictMode>,
+);

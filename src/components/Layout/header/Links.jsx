@@ -24,12 +24,12 @@ export default function NavLinks() {
       link: "https://geodata-azmag.opendata.arcgis.com/",
       internal: false,
     },
-    {
-      id: "rad-info",
-      name: "RAD Info",
-      link: "https://azmag.gov/About-Us/Divisions/Regional-Analytics-Division/",
-      internal: false,
-    },
+    // {
+    //   id: "rad-info",
+    //   name: "RAD Info",
+    //   link: "https://azmag.gov/About-Us/Divisions/Regional-Analytics-Division/",
+    //   internal: false,
+    // },
   ]
   return navLinks
 }

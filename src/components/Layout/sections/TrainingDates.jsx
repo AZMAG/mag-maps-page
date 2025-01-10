@@ -15,7 +15,7 @@ export default function TrainingDates() {
     <section id="training-dates" className="flex flex-col bg-slate-100 px-4 py-10">
       <div className="container mx-auto mb-8 flex flex-col justify-center px-4 text-center">
         <h1 className="text-2xl font-bold leading-none tracking-tight text-slate-800 md:text-3xl">
-          Live trainings for 2024 are scheduled for:
+          Live trainings for 2025 are scheduled for:
         </h1>
         <p className="text-sm text-slate-800 md:text-base lg:text-lg">
           Click on the link and enroll in the session of your choice. All workshops run from 9:00

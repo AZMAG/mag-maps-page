@@ -4,7 +4,7 @@ export default function TestimonialHero() {
 
   function getRandomQuote() {
     let quote = Quotes[Math.floor(Math.random() * Quotes.length)]
-    console.log(quote)
+    // console.log(quote)
     return quote
   }
 //   let quote1 = getRandomQuote()

@@ -1,7 +1,7 @@
 import MainHero from "../heros/mainHero"
 import Cards from "../cards/Cards"
 import TrainingHero from "../heros/trainingHero"
-import RADigestHero from "../heros/raDigestHero"
+// import RADigestHero from "../heros/raDigestHero"
 import InfoGraphicHero from "../heros/infoGraphicsHero"
 import Testimonial from "../heros/testimonialHero"
 
@@ -13,7 +13,7 @@ export default function Home() {
       <TrainingHero />
       <Testimonial />
       <InfoGraphicHero />
-      <RADigestHero />
+      {/* <RADigestHero /> */}
     </div>
   )
 }

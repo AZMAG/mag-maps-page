@@ -1,106 +1,107 @@
 {
-  "name": "mag-maps-page",
-  "version": "6.3.1",
-  "date": "2024-03-22",
-  "created": "2014-10-21",
-  "copyright": "2024",
-  "description": "MAG Main Map Page",
-  "keywords": [
-    "MAG",
-    "region",
-    "planning",
-    "MPO",
-    "COG",
-    "maps",
-    "mapping",
-    "state",
-    "Arizona",
-    "ESRI",
-    "#MAGmaps"
-  ],
-  "type": "module",
-  "author": "MAG Regional Analytics (https://azmag.gov/About-Us/Divisions/Regional-Analytics-Division)",
-  "contributors": [
-    {
-      "name": "Vern Wolfley",
-      "email": "vwolfley@azmag.gov"
+    "name": "mag-maps-page",
+    "version": "6.3.2",
+    "date": "2025-01-10",
+    "created": "2014-10-21",
+    "copyright": "2025",
+    "description": "MAG Main Map Page",
+    "keywords": [
+        "MAG",
+        "region",
+        "planning",
+        "MPO",
+        "COG",
+        "maps",
+        "mapping",
+        "state",
+        "Arizona",
+        "ESRI",
+        "#MAGmaps"
+    ],
+    "type": "module",
+    "author": "MAG Information Technology",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AZMAG/mag-maps-page/"
     },
-    {
-      "name": "Jack Fairfield",
-      "email": "jfairfield@azmag.gov"
-    }
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/AZMAG/mag-maps-page/"
-  },
-  "bugs": "https://github.com/AZMAG/mag-maps-page/issues",
-  "homepage": ".",
-  "private": true,
-  "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.4.0",
-    "@fortawesome/free-brands-svg-icons": "^6.4.0",
-    "@fortawesome/free-regular-svg-icons": "^6.4.0",
-    "@fortawesome/free-solid-svg-icons": "^6.4.0",
-    "@fortawesome/react-fontawesome": "^ 0.2.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-ga4": "^2.1.0",
-    "react-router-dom": "^6.10.0"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-react": "^4.0.0",
-    "autoprefixer": "^10.4.16",
-    "eslint": "^8.56.0",
-    "eslint-config-prettier": "^9.1.0",
-    "mag-prettier-config": "^1.1.1",
-    "postcss": "^8.4.23",
-    "prettier": "^3.1.1",
-    "prettier-plugin-tailwindcss": "^0.5.9",
-    "replace-in-file": "^7.0.2",
-    "tailwindcss": "^3.4.0",
-    "vite": "^5.0.10",
-    "vite-plugin-svgr": "^4.2.0"
-  },
-  "scripts": {
-    "dev": "vite",
-    "build": "npm run replace && vite build",
-    "preview": "vite preview",
-    "replace": "node replaceScripts"
-  },
-  "prettier": "mag-prettier-config",
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest",
-      "prettier"
+    "homepage": ".",
+    "private": true,
+    "scripts": {
+        "dev": "vite",
+        "build": "npm run replace && vite build && explorer dist",
+        "build-test": "npm run replace && vite build --mode staging && explorer dist",
+        "preview": "vite preview",
+        "replace": "node replaceScripts"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^6.4.0",
+        "@fortawesome/free-brands-svg-icons": "^6.4.0",
+        "@fortawesome/free-regular-svg-icons": "^6.4.0",
+        "@fortawesome/free-solid-svg-icons": "^6.4.0",
+        "@fortawesome/react-fontawesome": "^ 0.2.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-ga4": "^2.1.0",
+        "react-router-dom": "^6.10.0"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-react": "^4.0.0",
+        "autoprefixer": "^10.4.16",
+        "eslint": "^8.56.0",
+        "eslint-config-prettier": "^9.1.0",
+        "mag-prettier-config": "^1.1.1",
+        "postcss": "^8.4.23",
+        "prettier": "^3.1.1",
+        "prettier-plugin-tailwindcss": "^0.5.9",
+        "replace-in-file": "^7.0.2",
+        "tailwindcss": "^3.4.0",
+        "vite": "^5.0.10",
+        "vite-plugin-svgr": "^4.2.0"
+    },
+    "prettier": {
+        "extends": "mag-prettier-config",
+        "plugins": [
+            "prettier-plugin-tailwindcss"
+        ]
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest",
+            "prettier"
+        ],
+        "env": {
+            "browser": true,
+            "node": true,
+            "es6": true
+        }
+    },
+    "browser": {
+        "fs": false,
+        "path": false,
+        "os": false
+    },
+    "browserslist": {
+        "production": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "contributors": [
+        {
+            "name": "Vern Wolfley",
+            "email": "vwolfley@azmag.gov"
+        },
+        {
+            "name": "Jack Fairfield",
+            "email": "jfairfield@azmag.gov"
+        }
     ],
-    "env": {
-      "browser": true,
-      "node": true,
-      "es6": true
-    }
-  },
-  "browser": {
-    "fs": false,
-    "path": false,
-    "os": false
-  },
-  "browserslist": {
-    "production": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "engines": {
-    "node": ">=16.2.0",
-    "npm": ">=7.14.0"
-  },
-  "license": "MIT"
+    "license": "MIT"
 }

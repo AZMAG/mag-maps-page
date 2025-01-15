@@ -2,10 +2,15 @@
 
 [![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=website)](http://maps.azmag.gov/)
 [![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/AZMAG/mag-maps-page?&logo=github&style=flat-square)](https://github.com/AZMAG/mag-maps-page/releases)
+
 ![GitHub Release Date](https://img.shields.io/github/release-date/AZMAG/mag-maps-page?&logo=github&style=flat-square)
+
 ![GitHub last commit](https://img.shields.io/github/last-commit/AZMAG/mag-maps-page?&logo=github&style=flat-square)
+
 [![GitHub issues](https://img.shields.io/github/issues/AZMAG/mag-maps-page?&logo=github&style=flat-square)](https://github.com/AZMAG/mag-maps-page/issues)
+
 ![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/AZMAG/mag-maps-page?style=flat-square)
+
 [![semver](https://img.shields.io/badge/semver-2.0.0-blue?style=flat-square)](https://semver.org/)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
@@ -20,11 +25,10 @@ This JavaScript web-page was developed by MAG staff for MAG member agencies and 
 ### Version | 6.3.3
 
 -   #### Updated | 2025-01-15
+
 -   #### Created | 2014-10-21
 
-Releases will be numbered with the following format:
-
-**`<major>.<minor>.<patch>`**
+Releases will be numbered with the following format: **`<major>.<minor>.<patch>`**
 
 And constructed with the following guidelines:
 
@@ -36,6 +40,14 @@ And constructed with the following guidelines:
 
 -   [maps.azmag.gov](https://maps.azmag.gov/)
 
+## Development Instructions
+
+### :gear: Quickstart Instructions
+
+1. [Clone this repo](https://github.com/AZMAG/mag-maps-page) - `https://github.com/AZMAG/mag-maps-page`
+2. `cd` into the `mag-maps-page` folder.
+3. Install the dependencies with `npm install`.
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -44,7 +56,7 @@ In the project directory, you can run:
 
 -   Compiles raw source code into both "debug" and "production" versions.\
 -   Runs the app in the development mode.
--   Open http://localhost:3000 to view it in the browser.
+-   Open <http://localhost:3000> to view it in the browser.
 -   The page will reload if you make edits.
 -   You will also see any lint errors in the console.
 
@@ -57,6 +69,17 @@ In the project directory, you can run:
 ### `npm run replace`
 
 -   Replaces the version number, copyright, and build date in the package.json file in the rest of the documents.
+
+## Deployment Instructions
+
+### Production
+
+-   add files to the server here: `\\wwwroot\IMSSite\`
+-   [Published site](https://maps.azmag.gov/): `https://maps.azmag.gov/`
+
+### Services
+
+These are the services that are used in this map application.
 
 ## Technologies
 
@@ -74,17 +97,16 @@ A list of technologies used within the project:
 <a href="https://vitejs.dev/" title="Vite"><img src="https://github.com/get-icon/geticon/raw/master/icons/vite.svg" alt="Vite" width="31px" height="31px"></a>
 <a href="https://code.visualstudio.com/" title="vscode"><img src="https://github.com/get-icon/geticon/raw/master/icons/visual-studio-code.svg" alt="vscode" width="31px" height="31px"></a>
 
+## Credits
 
-## :zap: Disclaimer
-
--   [Disclaimer](LEGAL_DISCLAIMER)
+`Maricopa Association of Governments (MAG) and the MAG member agencies`
 
 ## :warning: Licensing
 
 Copyright &copy; 2025 Maricopa Association of Governments (MAG)
 
-All contents are licensed under the [MIT license].
+This project is licensed under the MIT license.
 
-[mit license]: LICENSE
+[MIT license]: LICENSE
 
 [Back to top](#mag-maps-page)

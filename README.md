@@ -1,5 +1,3 @@
-<img src="https://geo.azmag.gov/maps/images/mag-logos/MAG-logo-color-horizontal.png" height="50">
-
 # mag-maps-page
 
 [![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=website)](http://maps.azmag.gov/)
@@ -21,8 +19,8 @@ This JavaScript web-page was developed by MAG staff for MAG member agencies and 
 
 ### Version | 6.3.2
 
-- #### Updated | 2025-01-10
-- #### Created | 2014-10-21
+-   #### Updated | 2025-01-10
+-   #### Created | 2014-10-21
 
 Releases will be numbered with the following format:
 
@@ -36,7 +34,7 @@ And constructed with the following guidelines:
 
 ## :computer: Site URL
 
-- [maps.azmag.gov](https://maps.azmag.gov/)
+-   [maps.azmag.gov](https://maps.azmag.gov/)
 
 ## Available Scripts
 
@@ -44,21 +42,21 @@ In the project directory, you can run:
 
 ### `npm run dev`
 
-- Compiles raw source code into both "debug" and "production" versions.\
-- Runs the app in the development mode.
-- Open http://localhost:3000 to view it in the browser.
-- The page will reload if you make edits.
-- You will also see any lint errors in the console.
+-   Compiles raw source code into both "debug" and "production" versions.\
+-   Runs the app in the development mode.
+-   Open http://localhost:3000 to view it in the browser.
+-   The page will reload if you make edits.
+-   You will also see any lint errors in the console.
 
 ### `npm run build`
 
-- Builds the app for production to the dist folder.
-- It correctly bundles React in production mode and optimizes the build for the best performance.
-- Your app is ready to be deployed!
+-   Builds the app for production to the dist folder.
+-   It correctly bundles React in production mode and optimizes the build for the best performance.
+-   Your app is ready to be deployed!
 
 ### `npm run replace`
 
-- Replaces the version number, copyright, and build date in the package.json file in the rest of the documents.
+-   Replaces the version number, copyright, and build date in the package.json file in the rest of the documents.
 
 ## Technologies
 
@@ -76,17 +74,14 @@ A list of technologies used within the project:
 <a href="https://vitejs.dev/" title="Vite"><img src="https://github.com/get-icon/geticon/raw/master/icons/vite.svg" alt="Vite" width="31px" height="31px"></a>
 <a href="https://code.visualstudio.com/" title="vscode"><img src="https://github.com/get-icon/geticon/raw/master/icons/visual-studio-code.svg" alt="vscode" width="31px" height="31px"></a>
 
-## For Adding Labels to GitHub Issues
-
-- [git-labelmaker](https://github.com/himynameisdave/git-labelmaker?utm_source=hashnode.com)
 
 ## :zap: Disclaimer
 
-- [Disclaimer](LEGAL_DISCLAIMER)
+-   [Disclaimer](LEGAL_DISCLAIMER)
 
 ## :warning: Licensing
 
-Copyright &copy; 2023 Maricopa Association of Governments (MAG)
+Copyright &copy; 2025 Maricopa Association of Governments (MAG)
 
 All contents are licensed under the [MIT license].
 

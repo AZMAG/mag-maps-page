@@ -47,7 +47,7 @@ export default function CardInfo() {
       },
       {
           sort: 4,
-          active: true,
+          active: false,
           viewer: "Read On Arizona Schools Data Center",
           icon: ReadOnSchools,
           link: "https://readonarizona.org/data-tools/arizona-schools-data-center/",
@@ -107,7 +107,7 @@ export default function CardInfo() {
       },
       {
           sort: 9,
-          active: true,
+          active: false,
           viewer: "Luke Air Force Base Mission Critical",
           icon: Luke56FW,
           link: "https://geo.azmag.gov/maps/lukeafb/",

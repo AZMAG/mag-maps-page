@@ -1,6 +1,6 @@
 import HeatReliefLogo from "../../../images/card-icons/icon-heat-relief-network.png"
 
-export default function MainHero() {
+export default function HeatReliefHero() {
   return (
     <section className="from bg-gradient-to-r from-cyan-800 to-slate-200">
       <div className="container mx-auto flex max-w-screen-xl flex-wrap justify-center gap-y-4 px-4 py-4 md:justify-between md:gap-0 lg:py-8">

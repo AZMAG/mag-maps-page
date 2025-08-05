@@ -32,8 +32,8 @@ export default function CardInfo() {
           icon: ArizonaEmployer,
           link: "https://geo.azmag.gov/maps/azemployer/",
           text: "View selected employer data for Arizona.",
-          tags: ["statewide", "employment", "NAICS"],
-          type: "statewide",
+          tags: ["regional", "employment", "NAICS"],
+          type: "regional",
       },
       {
           sort: 3,

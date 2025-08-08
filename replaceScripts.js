@@ -1,5 +1,5 @@
 import { replaceInFile } from "replace-in-file";
-import pkg from "./package.json" assert { type: "json" };
+import pkg from "./package.json" with { type: "json" };
 
 // README
 const reVersion = new RegExp(

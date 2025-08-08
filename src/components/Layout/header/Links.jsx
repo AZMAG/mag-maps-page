@@ -6,12 +6,12 @@ export default function NavLinks() {
       link: "/",
       internal: true,
     },
-    {
-      id: "trainings",
-      name: "Trainings",
-      link: "/trainings",
-      internal: true,
-    },
+    // {
+    //   id: "trainings",
+    //   name: "Trainings",
+    //   link: "/trainings",
+    //   internal: true,
+    // },
     {
       id: "mag-data",
       name: "MAG Data",

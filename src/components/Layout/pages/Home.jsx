@@ -1,8 +1,8 @@
 import HeatReliefHero from "../heros/heatReliefHero"
 import Cards from "../cards/Cards"
-import TrainingHero from "../heros/trainingHero"
+// import TrainingHero from "../heros/trainingHero"
 import InfoGraphicHero from "../heros/infoGraphicsHero"
-import Testimonial from "../heros/testimonialHero"
+// import Testimonial from "../heros/testimonialHero"
 import BikeMapHero from "../heros/BikeMapHero"
 
 export default function Home() {
@@ -11,8 +11,8 @@ export default function Home() {
       {/* <HeatReliefHero /> */}
       <BikeMapHero />
       <Cards />
-      <TrainingHero />
-      <Testimonial />
+      {/* <TrainingHero /> */}
+      {/* <Testimonial /> */}
       <InfoGraphicHero />
     </div>
   )

@@ -19,9 +19,9 @@ This JavaScript web-page was developed by MAG staff for MAG member agencies and 
 
 ### Version | 6.4.0
 
--   #### Updated | 2025-03-24
+- #### Updated | 2025-03-24
 
--   #### Created | 2014-10-21
+- #### Created | 2014-10-21
 
 Releases will be numbered with the following format: **`<major>.<minor>.<patch>`**
 
@@ -33,7 +33,7 @@ And constructed with the following guidelines:
 
 ## :computer: Site URL
 
--   [maps.azmag.gov](https://maps.azmag.gov/)
+- [maps.azmag.gov](https://maps.azmag.gov/)
 
 ## Development Instructions
 
@@ -49,28 +49,28 @@ In the project directory, you can run:
 
 ### `npm run dev`
 
--   Compiles raw source code into both "debug" and "production" versions.\
--   Runs the app in the development mode.
--   Open <http://localhost:3000> to view it in the browser.
--   The page will reload if you make edits.
--   You will also see any lint errors in the console.
+- Compiles raw source code into both "debug" and "production" versions.\
+- Runs the app in the development mode.
+- Open <http://localhost:3000> to view it in the browser.
+- The page will reload if you make edits.
+- You will also see any lint errors in the console.
 
 ### `npm run build`
 
--   Builds the app for production to the dist folder.
--   It correctly bundles React in production mode and optimizes the build for the best performance.
--   Your app is ready to be deployed!
+- Builds the app for production to the dist folder.
+- It correctly bundles React in production mode and optimizes the build for the best performance.
+- Your app is ready to be deployed!
 
 ### `npm run replace`
 
--   Replaces the version number, copyright, and build date in the package.json file in the rest of the documents.
+- Replaces the version number, copyright, and build date in the package.json file in the rest of the documents.
 
 ## Deployment Instructions
 
 ### Production
 
--   add files to the server here: `\\wwwroot\IMSSite\`
--   [Published site](https://maps.azmag.gov/): `https://maps.azmag.gov/`
+- add files to the server here: `\\wwwroot\IMSSite\`
+- [Published site](https://maps.azmag.gov/): `https://maps.azmag.gov/`
 
 ### Services
 

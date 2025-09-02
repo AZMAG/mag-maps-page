@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import { NavLink, useMatch } from "react-router-dom"
-import magLogo from "../../../images/mag-logo-black.png"
+// import magLogo from "../../../images/mag-logo-black.png"
+import magLogo from "../../../images/mag-logo-teal-horiz.png"
 import NavLinks from "./Links"
 
 export default function Header() {

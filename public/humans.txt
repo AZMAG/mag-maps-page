@@ -4,44 +4,35 @@
 # TEAM
 
     Maricopa Association of Governments
-        Name:  Vern Wolfley
-        Role: GIS Analyst/Developer
-        Contact:
-        Twitter: @vernwolfley
-        From: Litchfield Park, AZ
-
-        Name:  Jack Fairfield
-        Role: Decision Support Analyst I
-        Contact:
-        Twitter:
-        From: Tempe, AZ
+       Name:  Vern Wolfley
+    	Role: Senior Software Developer
 
         Name:  Jason Howard
-        Role: GIS Program Manager
-        Contact:
-        Twitter:
-        From: Chandler, AZ
+    	Role: GIS Manager
 
-        Name:  Anubhav Bagley
-        Role: Information Services Manager
-        Contact:
-        Twitter:
-        From: Phoenix, AZ
-
-        Name:  Gordon Tyus
-        Role: Senior Graphics/Specifications Specialist
-        Contact:
-        Twitter:
-        From: Phoenix, AZ
-
+        Name:  Jack Fairfield
+        Role: GIS Engineer II
 
 # THANKS
 
+    Maricopa Association of Governments
+        Maggie Wong
+        Nicole Funicello
+        Gordon Tyus
 
 # TECHNOLOGY COLOPHON
 
-    Standards: HTML5, CSS3, JavaScript
-    Components: React, Font-Awesome, Tailwindcss
+   Standards:
+        - ES6
+        - JavaScript
+        - HTML5
+        - CSS3
+        - Tailwind CSS
+
+    Components:
+        - React
+        - Vite
+        - ArcGIS
 
 # SITE
     Site name: MAG Mapping Home Page

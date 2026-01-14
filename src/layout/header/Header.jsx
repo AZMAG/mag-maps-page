@@ -23,7 +23,7 @@ export default function Header() {
             className="flex items-center gap-x-5">
             <img className="h-7 md:h-8 lg:h-10" src={magLogo} alt="MAG Power Logo" />
           </a>
-          <h1 className="text-sm font-semibold leading-none tracking-tight md:text-lg lg:text-2xl">
+          <h1 className="text-sm font-bold leading-none tracking-tight md:text-lg lg:text-2xl text-slate-800">
             MAG Interactive Maps
           </h1>
         </div>

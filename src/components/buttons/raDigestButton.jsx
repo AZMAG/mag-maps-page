@@ -6,7 +6,7 @@ export default function RaDigestButton() {
     <>
       {active ? (
         <a
-          href={DocConfig.RADigestLink}
+          href={DocConfig.links.RADigestLink}
           target="_blank"
           rel="noreferrer"
           className="inline-flex items-center justify-center rounded-lg border border-cyan-900 bg-cyan-800 px-5 py-2 text-center text-base font-medium text-slate-100 hover:bg-cyan-800/75">

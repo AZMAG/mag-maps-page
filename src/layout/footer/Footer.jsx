@@ -15,7 +15,7 @@ export default function Footer() {
           <div tag="contact-info" className="text-left text-sm">
             <h3 className="mb-2 mt-0 text-lg font-semibold leading-tight">Contact</h3>
             <a
-              href="https://www.azmag.gov/"
+              href={DocConfig.links.magHome}
               rel="noopener noreferrer"
               target="_blank"
               className="font-semibold hover:text-cyan-800/75 hover:underline">
@@ -35,7 +35,7 @@ export default function Footer() {
               <FontAwesomeIcon icon={faEnvelope} />
               &nbsp;
               <a
-                href="https://www.azmag.gov/Contact/4788?"
+                href={DocConfig.contacts.email}
                 rel="noopener noreferrer"
                 target="_blank"
                 className="hover:text-cyan-800/75 hover:underline">
@@ -113,9 +113,9 @@ export default function Footer() {
           <div className="flex gap-1">
             <span>Copyright</span>
             <span>&copy;</span>
-            <span>{DocConfig.copyright}</span>
+            <span>{DocConfig.app.copyright}</span>
             <a
-              href={DocConfig.magLink}
+              href={DocConfig.links.magHome}
               className="font-medium hover:text-cyan-800/75 hover:underline"
               target="_blank"
               rel="noreferrer">
@@ -123,8 +123,8 @@ export default function Footer() {
             </a>
           </div>
           <ul className="flex list-none justify-center divide-x divide-cyan-800 md:order-2">
-            <li className="px-2">{DocConfig.version}</li>
-            <li className="px-2">{DocConfig.date}</li>
+            <li className="px-2">{DocConfig.app.appVersion}</li>
+            <li className="px-2">{DocConfig.app.releaseDate}</li>
             <li className="px-2">
               <PrivacyModal />
             </li>

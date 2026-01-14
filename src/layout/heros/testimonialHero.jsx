@@ -1,4 +1,4 @@
-import Quotes from "../../../config/quotes"
+import Quotes from "../../config/quotes"
 
 export default function TestimonialHero() {
 

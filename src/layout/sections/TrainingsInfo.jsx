@@ -6,7 +6,7 @@ import Training3 from "../../../images/pics/pic-training-time.jpg"
 import Training4 from "../../../images/pics/pic-training-office.jpg"
 import Training5 from "../../../images/pics/pic-training-map.jpg"
 import Training6 from "../../../images/pics/pic-training-open.jpg"
-import TrainingButton from "../../buttons/trainingButton"
+import TrainingButton from "../../components/Buttons/trainingButton"
 
 export default function TrainingInfo() {
   return (

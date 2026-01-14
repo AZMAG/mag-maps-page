@@ -1,5 +1,5 @@
-import DateInfo from "../../../config/trainingDatesInfo"
-import DocConfig from "../../../config/docConfig"
+import DateInfo from "../../config/trainingDatesInfo"
+import DocConfig from "../../config/docConfig"
 
 export default function TrainingDates() {
   const info = DateInfo()

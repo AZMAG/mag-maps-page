@@ -1,9 +1,9 @@
-import DocConfig from "../../../config/docConfig"
+import DocConfig from "../../config/docConfig"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons"
-import PrivacyModal from "../../Modals/privacy/PrivacyModal"
-import TermsModal from "../../Modals/terms/TermsModal"
-import LegalModal from "../../Modals/legal/LegalModal"
+import PrivacyModal from "../../components/Modals/privacy/PrivacyModal"
+import TermsModal from "../../components/Modals/terms/TermsModal"
+import LegalModal from "../../components/Modals/legal/LegalModal"
 import SocialMedia from "./SocialMedia"
 
 export default function Footer() {

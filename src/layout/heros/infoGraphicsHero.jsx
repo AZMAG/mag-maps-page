@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faChartColumn } from "@fortawesome/free-solid-svg-icons"
-import InfographicButton from "../../buttons/infographicsButton"
+import InfographicButton from "../../components/Buttons/infographicsButton"
 
 export default function InfoGraphicsHero() {
   return (

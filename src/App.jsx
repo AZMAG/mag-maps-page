@@ -1,7 +1,7 @@
 import { useRef } from "react"
-import Header from "./components/Layout/header/Header"
-import Home from "./components/Layout/pages/Home"
-import Footer from "./components/Layout/footer/Footer"
+import Header from "./layout/header/Header"
+import Home from "./pages/Home"
+import Footer from "./layout/footer/Footer"
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop"
 import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom"
 import ReactGA from "react-ga4";

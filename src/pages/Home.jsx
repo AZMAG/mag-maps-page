@@ -1,9 +1,9 @@
-import HeatReliefHero from "../heros/heatReliefHero"
-import Cards from "../cards/Cards"
+import HeatReliefHero from "../layout/heros/heatReliefHero"
+import Cards from "../layout/cards/Cards"
 // import TrainingHero from "../heros/trainingHero"
-import InfoGraphicHero from "../heros/infoGraphicsHero"
+import InfoGraphicHero from "../layout/heros/infoGraphicsHero"
 // import Testimonial from "../heros/testimonialHero"
-import BikeMapHero from "../heros/BikeMapHero"
+import BikeMapHero from "../layout/heros/BikeMapHero"
 
 export default function Home() {
   return (

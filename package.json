@@ -1,9 +1,9 @@
 {
   "name": "mag-maps-page",
-  "version": "6.5.1",
-  "date": "2025-09-02",
+  "version": "6.6.0",
+  "date": "2026-01-14",
   "created": "2014-10-21",
-  "copyright": "2025",
+  "copyright": "2026",
   "description": "MAG Main Map Page",
   "keywords": [
     "MAG",
@@ -14,9 +14,7 @@
     "maps",
     "mapping",
     "state",
-    "Arizona",
-    "ESRI",
-    "#MAGmaps"
+    "Arizona"
   ],
   "type": "module",
   "author": "Maricopa Association of Governments (MAG) (https://www.azmag.gov/)",

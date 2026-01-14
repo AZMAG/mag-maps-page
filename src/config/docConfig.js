@@ -3,7 +3,7 @@ const docConfig = {
         appVersion: "v6.5.1",
         releaseDate: "2025-09-02",
         created: "2014-10-21",
-        copyright: "2025",
+        copyright: "2026",
     },
     analytics: {
         measurementId: import.meta.env.VITE_GA_MEASUREMENT_ID,

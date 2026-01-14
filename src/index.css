@@ -1,16 +1,69 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 :root {
-  font-family: "Open Sans", sans-serif;
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    --mag-teal: #108284;
+    --mag-teal-dark: #055861;
+    --mag-teal-light: #29a2ab;
+    --mag-secondary: #6a1d87;
+    --mag-secondary-light: #a32cce;
+    --mag-blue: #18345d;
+    --mag-green: #73bc25;
+    --mag-red: #d82e19;
+    --mag-cyan: #00b3e4;
+
+    --heading-font: Raleway, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --paragraph-font: "Open Sans", "Segoe UI", Roboto, "Helvetica Neue", Arial,
+        sans-serif;
+
+    --base-font-size: 16px;
+    --base-line-height: 1.5;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
 }
-h1 {
-  font-family: "Raleway", sans-serif;
+
+@theme {
+    --color-magTeal: #108284;
+    --color-magBlue: #18345d;
+    --color-magGreen: #73bc25;
+    --color-magRed: #d82e19;
+    --color-magCyan: #00b3e4;
+    --color-high: #bd0026;
+    --color-medium: #fd8d3c;
+    --color-low: #fecc5c;
+
+    --color-magGreen-Dark: #5c961d;
+    --color-magBlue-light: #465c7d;
+
+    --color-primary: #2563eb; /* Tailwind blue-600 */
+    --color-success: #16a34a; /* Tailwind green-600 */
+    --color-warning: #f59e0b; /* Tailwind amber-600 */
+    --color-danger: #f43f5e; /* Tailwind rose-600 */
+    --color-info: #74d4ff; /* Tailwind sky-300 */
 }
-h2 {
-  font-family: "Montserrat", sans-serif;
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-size: var(--base-font-size);
+    line-height: var(--base-line-height);
+    font-family: var(--paragraph-font);
+    background-color: #fff;
+    color: #222;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+    line-height: 1.2;
 }

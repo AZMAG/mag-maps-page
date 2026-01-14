@@ -7,17 +7,17 @@ export default function InfographicButton() {
     <>
       {active ? (
         <a
-          href={DocConfig.InfoGraphicLink}
+          href={DocConfig.links.InfoGraphicLink}
           target="_blank"
           rel="noreferrer"
-          className="inline-flex items-center justify-center rounded-lg border border-fuchsia-900 bg-fuchsia-900 px-5 py-3 text-center text-base font-medium text-slate-100 hover:bg-fuchsia-900/75 ">
+          className="inline-flex items-center justify-center rounded-lg border cursor-pointer border-fuchsia-900 bg-fuchsia-900 px-5 py-3 text-center text-base font-medium text-slate-100 hover:bg-fuchsia-900/75 ">
           See infographics
         </a>
       ) : (
         <a
           target="_blank"
           rel="noreferrer"
-          className="inline-flex items-center justify-center rounded-lg border border-fuchsia-900 bg-fuchsia-900 px-5 py-3 text-center text-base font-medium text-slate-100 opacity-50 cursor-not-allowed">
+          className="inline-flex items-center justify-center rounded-lg border cursor-not-allowed border-fuchsia-900 bg-fuchsia-900 px-5 py-3 text-center text-base font-medium text-slate-100 opacity-50">
           See infographics
         </a>
       )}

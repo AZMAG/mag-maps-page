@@ -1,6 +1,6 @@
-import HeatReliefLogo from "../../../images/card-icons/icon-heat-relief-network.png";
-import BikeMapLogo from "../../../images/bike-icon_main.png";
-import BikePhoto from "../../../images/bike-hero-image.jpg";
+import HeatReliefLogo from "../../images/card-icons/icon-heat-relief-network.png";
+import BikeMapLogo from "../../images/bike-icon_main.png";
+import BikePhoto from "../../images/bike-hero-image.jpg";
 
 export default function BikeMapHero() {
   return (

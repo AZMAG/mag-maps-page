@@ -1,4 +1,4 @@
-import HeatReliefLogo from "../../../images/card-icons/icon-heat-relief-network.png"
+import HeatReliefLogo from "../../images/card-icons/icon-heat-relief-network.png"
 
 export default function HeatReliefHero() {
   return (

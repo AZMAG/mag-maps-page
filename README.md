@@ -17,9 +17,9 @@ This JavaScript web-page was developed by MAG staff for MAG member agencies and 
 
 `planning` `regional` `Maricopa County` `Pinal County` `State` `Arizona` `MAG` `MPO` `COG` `maps` `GIS` `ESRI` `#MAGmaps`
 
-### Version | 6.5.1
+### Version | 6.6.0
 
-- #### Updated | 2025-09-02
+- #### Updated | 2026-01-14
 
 - #### Created | 2014-10-21
 

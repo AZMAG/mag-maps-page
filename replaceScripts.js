@@ -46,6 +46,11 @@ const humans = {
 };
 
 // index.html
+const reIndexCopyright = new RegExp(
+    '(<meta name="copyright" content="Copyright )([0-9]{4})(" />)',
+);
+const newIndexCopyright = `<meta name="copyright" content="Copyright ${pkg.copyright}" />`;
+
 const reIndexVersion = new RegExp(
     '(<meta name="version" content=")([0-9]+)(?:.([0-9]+))(?:.([0-9]+))(" \\/>)',
 );
@@ -79,8 +84,20 @@ const newModified =
 
 const index = {
     files: "./index.html",
-    from: [reIndexVersion, reIndexDate, reIndexBuild, reModified],
-    to: [newIndexVersion, newIndexDate, newIndexBuild, newModified],
+    from: [
+        reIndexCopyright,
+        reIndexVersion,
+        reIndexDate,
+        reIndexBuild,
+        reModified,
+    ],
+    to: [
+        newIndexCopyright,
+        newIndexVersion,
+        newIndexDate,
+        newIndexBuild,
+        newModified,
+    ],
 };
 
 // DocConfig.js
@@ -89,8 +106,10 @@ const reVersionConfig = new RegExp(
 );
 const newVersionConfig = 'version: "v' + pkg.version + '"';
 
-const reDateConfig = new RegExp('(date: ")([0-9]{4}-[0-9]{2}-[0-9]{2})(")');
-const newDateConfig = 'date: "' + pkg.date + '"';
+const reDateConfig = new RegExp(
+    '(releaseDate: ")([0-9]{4}-[0-9]{2}-[0-9]{2})(")',
+);
+const newDateConfig = 'releaseDate: "' + pkg.date + '"';
 
 const reCopyrightConfig = new RegExp('(copyright: ")([0-9]{4})(")');
 const newCopyrightConfig = 'copyright: "' + pkg.copyright + '"';

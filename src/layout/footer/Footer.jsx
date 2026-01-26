@@ -123,7 +123,7 @@ export default function Footer() {
             </a>
           </div>
           <ul className="flex list-none justify-center divide-x divide-cyan-800 md:order-2">
-            <li className="px-2">{DocConfig.app.appVersion}</li>
+            <li className="px-2">{DocConfig.app.version}</li>
             <li className="px-2">{DocConfig.app.releaseDate}</li>
             <li className="px-2">
               <PrivacyModal />

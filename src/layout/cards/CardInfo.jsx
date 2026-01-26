@@ -141,7 +141,7 @@ export default function CardInfo() {
       active: true,
       viewer: "Transportation Improvement Program",
       icon: TIP,
-      link: "https://geo.azmag.gov/maps/tip/",
+      link: "https://geo.azmag.gov/maps/transportation/tip/",
       text: "Explore capital improvement programs for transportation projects in the region.",
       tags: ["regional", "transportation"],
       type: "regional",

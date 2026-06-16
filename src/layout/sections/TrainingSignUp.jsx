@@ -5,9 +5,9 @@ export default function TrainingSignUp() {
     <section tag="training-signup" className="bg-gradient-to-br from-cyan-800 to-slate-200">
       <div className="my-12 flex justify-center container mx-auto px-4">
         <div className="flex flex-col items-center">
-          <h1 className="text-3xl font-bold leading-none tracking-tight text-slate-800">
+          <h2 className="text-3xl font-bold leading-none tracking-tight text-slate-800">
             Register Now!
-          </h1>
+          </h2>
           <div className="flex flex-row justify-center my-6">
             <div className="bg-primary-700 hover:bg-primary-800 focus:ring-primary-300 mr-3 inline-flex items-center justify-center rounded-lg px-5 py-3 text-center text-base font-medium text-slate-100">
               Get started

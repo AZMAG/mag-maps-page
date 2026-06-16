@@ -24,12 +24,12 @@ export default function TrainingInfo() {
             being live streamed via Zoom to our online participants.
           </p>
 
-          <h5 className="mb-1 text-xl font-bold">In-person attendees</h5>
+          <h3 className="mb-1 text-xl font-bold">In-person attendees</h3>
           <p className="mb-3 text-sm md:text-base lg:text-lg">
             need to bring their own laptops. They will be given a printed copy of the hands-on
             exercises. Parking in our underground parking garage will be validated.
           </p>
-          <h5 className="mb-1 text-xl font-bold">Online registrants</h5>
+          <h3 className="mb-1 text-xl font-bold">Online registrants</h3>
           <p className="mb-3 text-sm md:text-base lg:text-lg">
             will be emailed the hands-on exercises prior to the beginning of the workshop.
           </p>

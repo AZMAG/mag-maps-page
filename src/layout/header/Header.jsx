@@ -20,8 +20,9 @@ export default function Header() {
             href="https://azmag.gov/"
             target="_blank"
             rel="noreferrer"
+            aria-label="Visit Maricopa Association of Governments home page (opens in a new tab)"
             className="flex items-center gap-x-5">
-            <img className="h-7 md:h-8 lg:h-10" src={magLogo} alt="MAG Power Logo" />
+            <img className="h-7 md:h-8 lg:h-10" src={magLogo} alt="Maricopa Association of Governments" />
           </a>
           <h1 className="text-sm font-bold leading-none tracking-tight md:text-lg lg:text-2xl">
             MAG Interactive Maps

@@ -8,8 +8,13 @@ export default function RADigestHero() {
     <section className="">
       <div className="container mx-auto flex flex-wrap justify-center px-4 py-4 lg:py-8">
         <div className="flex items-center justify-center px-4 md:w-2/5 md:px-6 lg:px-12">
-          <a className="" href={DocConfig.RADigestArchived} target="_blank" rel="noreferrer">
-            <img src={RADigestImage} className="h-32 md:h-40" alt="heat-relief-logo" />
+          <a
+            className=""
+            href={DocConfig.RADigestArchived}
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Open RADigest previous issues archive (opens in a new tab)">
+            <img src={RADigestImage} className="h-32 md:h-40" alt="RADigest archive preview" />
           </a>
         </div>
 

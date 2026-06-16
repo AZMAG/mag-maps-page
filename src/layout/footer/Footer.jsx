@@ -13,7 +13,7 @@ export default function Footer() {
       <div className="flex flex-col flex-wrap container mx-auto pt-9">
         <section className="grid grid-cols-1 justify-items-center gap-8 md:gap-10 lg:gap-16 md:grid-cols-3 mx-8">
           <div tag="contact-info" className="text-left text-sm">
-            <h3 className="mb-2 mt-0 text-lg font-semibold leading-tight">Contact</h3>
+            <p className="mb-2 mt-0 text-lg font-semibold leading-tight">Contact</p>
             <a
               href={DocConfig.links.magHome}
               rel="noopener noreferrer"
@@ -44,7 +44,7 @@ export default function Footer() {
             </span>
           </div>
           <div className="text-center">
-            <h3 className="mb-2 mt-0 text-lg font-semibold leading-tight">Subscribe for Updates</h3>
+            <h2 className="mb-2 mt-0 text-lg font-semibold leading-tight">Subscribe for Updates</h2>
             <p className="mb-1 text-sm">
               Subscribe to get notified of new features and page updates.
             </p>
@@ -100,9 +100,11 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   target="_blank"
                   title={item.name}
+                  aria-label={`Visit MAG on ${item.name} (opens in a new tab)`}
                   key={index}>
+                  <span className="sr-only">Visit MAG on {item.name}</span>
                   <em>
-                    <FontAwesomeIcon icon={item.icon} />
+                    <FontAwesomeIcon icon={item.icon} aria-hidden="true" />
                   </em>
                 </a>
               )

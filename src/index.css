@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
 @import "tailwindcss";
 
 :root {
@@ -12,8 +14,8 @@
     --mag-cyan: #00b3e4;
 
     --heading-font: Raleway, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    --paragraph-font: "Open Sans", "Segoe UI", Roboto, "Helvetica Neue", Arial,
-        sans-serif;
+    --paragraph-font:
+        "Open Sans", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 
     --base-font-size: 16px;
     --base-line-height: 1.5;
@@ -26,11 +28,14 @@
 }
 
 @theme {
-    --color-magTeal: #108284;
-    --color-magBlue: #18345d;
-    --color-magGreen: #73bc25;
-    --color-magRed: #d82e19;
-    --color-magCyan: #00b3e4;
+    --color-magBlue: #17345c;
+    --color-magGreen: #72bf44;
+    --color-magTeal: #008c9a;
+    --color-magRed: #db3328;
+    --color-magCyan: #1c9ad6;
+    --color-magDkGray: #616966;
+    --color-magLtGray: #bcc9c1;
+
     --color-high: #bd0026;
     --color-medium: #fd8d3c;
     --color-low: #fecc5c;

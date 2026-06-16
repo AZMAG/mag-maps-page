@@ -35,7 +35,6 @@ export default function App() {
 
   return (
     <div
-      tag="appMain"
       className="flex h-screen w-screen flex-col overflow-x-hidden scroll-smooth"
       ref={containerRef}
     >

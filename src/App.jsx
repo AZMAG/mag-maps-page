@@ -1,5 +1,5 @@
 import { useRef, useEffect } from "react";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter } from "react-router";
 import ReactGA from "react-ga4";
 import DocConfig from "./config/docConfig";
 import AppRoutes from "./routes/Routes";

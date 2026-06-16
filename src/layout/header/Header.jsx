@@ -13,7 +13,7 @@ export default function Header() {
   const links = NavLinks()
 
   return (
-    <header className="sticky top-0 z-10 flex h-24 w-full bg-slate-50 text-slate-800">
+    <header className="sticky top-0 z-10 flex h-24 w-full bg-slate-50 text-magBlue">
       <section className="container mx-auto flex items-center justify-between p-4">
         <div className="flex flex-row items-center gap-4">
           <a
@@ -23,7 +23,7 @@ export default function Header() {
             className="flex items-center gap-x-5">
             <img className="h-7 md:h-8 lg:h-10" src={magLogo} alt="MAG Power Logo" />
           </a>
-          <h1 className="text-sm font-bold leading-none tracking-tight md:text-lg lg:text-2xl text-slate-800">
+          <h1 className="text-sm font-bold leading-none tracking-tight md:text-lg lg:text-2xl">
             MAG Interactive Maps
           </h1>
         </div>

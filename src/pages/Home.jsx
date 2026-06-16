@@ -2,9 +2,9 @@ import Header from "../layout/header/Header";
 import Footer from "../layout/footer/Footer";
 
 import Cards from "../layout/cards/Cards";
-import InfoGraphicHero from "../layout/heros/infoGraphicsHero";
-import BikeMapHero from "../layout/heros/BikeMapHero";
-import HeatReliefHero from "../layout/heros/heatReliefHero";
+import InfoGraphicHero from "../layout/heroes/infoGraphicsHero";
+import BikeMapHero from "../layout/heroes/BikeMapHero";
+import HeatReliefHero from "../layout/heroes/heatReliefHero";
 
 export default function Home() {
   return (

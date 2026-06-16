@@ -45,8 +45,8 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.12",
-    "@tailwindcss/vite": "^4.1.12",
-    "@vitejs/plugin-react": "^5.1.2",
+    "@tailwindcss/vite": "^4.3.1",
+    "@vitejs/plugin-react": "^5.2.0",
     "autoprefixer": "^10.4.23",
     "eslint": "^9.39.2",
     "eslint-config-prettier": "^10.1.8",
@@ -56,7 +56,7 @@
     "prettier-plugin-tailwindcss": "^0.7.2",
     "replace-in-file": "^8.4.0",
     "tailwindcss": "^4.1.18",
-    "vite": "^7.3.2",
+    "vite": "^8.0.16",
     "vite-plugin-svgr": "^4.5.0"
   },
   "prettier": {

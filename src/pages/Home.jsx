@@ -10,13 +10,13 @@ export default function Home() {
   return (
     <>
       <Header />
-      <div tag="main-body" className="flex grow flex-col">
+      <main className="flex grow flex-col">
         <HeatReliefHero />
         {/* <BikeMapHero /> */}
         <Cards />
         <InfoGraphicHero />
 
-      </div>
+      </main>
       <Footer />
     </>
   );

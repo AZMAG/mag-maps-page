@@ -9,7 +9,7 @@ export default function Cards() {
     "m-0.5 inline-flex items-center rounded-md bg-cyan-800 px-2 py-1 text-xs font-medium text-slate-100 ring-1 ring-inset ring-gray-500/10"
 
   return (
-    <section className="container mx-auto my-8 grid max-w-screen-xl cursor-pointer grid-cols-2 gap-6 px-12 md:grid-cols-3 md:px-6 lg:grid-cols-5 lg:px-4">
+    <section className="container mx-auto my-8 grid max-w-7xl cursor-pointer grid-cols-2 gap-6 px-12 md:grid-cols-3 md:px-6 lg:grid-cols-5 lg:px-4">
       {data.map((i, index) =>
         i.active ? (
           <div
@@ -31,9 +31,9 @@ export default function Cards() {
                 <img className="h-14 rounded-t-lg md:h-16 lg:h-20" src={i.icon} alt={i.viewer} />
               </div>
               <div className="p-2">
-                <h5 className="text-center text-sm font-bold tracking-tight text-cyan-800 lg:text-lg">
+                <p className="text-center text-sm font-bold tracking-tight text-cyan-800 lg:text-lg">
                   {i.viewer}
-                </h5>
+                </p>
               </div>
             </a>
           </div>

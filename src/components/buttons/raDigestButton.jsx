@@ -13,12 +13,11 @@ export default function RaDigestButton() {
           RADigest Archive
         </a>
       ) : (
-        <a
-          target="_blank"
-          rel="noreferrer"
+        <span
+          aria-disabled="true"
           className="inline-flex items-center justify-center rounded-lg border border-cyan-900 bg-cyan-800 px-5 py-2 text-center text-base font-medium text-slate-100 hover:bg-cyan-800/75 opacity-50 cursor-not-allowed">
           RADigest Archive
-        </a>
+        </span>
       )}
     </>
   )

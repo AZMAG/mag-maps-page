@@ -1,5 +1,4 @@
 import DateInfo from "../../config/trainingDatesInfo"
-import DocConfig from "../../config/docConfig"
 
 export default function TrainingDates() {
   const info = DateInfo()
@@ -14,9 +13,9 @@ export default function TrainingDates() {
   return (
     <section id="training-dates" className="flex flex-col bg-slate-100 px-4 py-10">
       <div className="container mx-auto mb-8 flex flex-col justify-center px-4 text-center">
-        <h1 className="text-2xl font-bold leading-none tracking-tight text-slate-800 md:text-3xl">
+        <h2 className="text-2xl font-bold leading-none tracking-tight text-slate-800 md:text-3xl">
           Live trainings for 2025 are scheduled for:
-        </h1>
+        </h2>
         <p className="text-sm text-slate-800 md:text-base lg:text-lg">
           Click on the link and enroll in the session of your choice. All workshops run from 9:00
           a.m. to 12:00 p.m.
@@ -26,25 +25,35 @@ export default function TrainingDates() {
 
       <div className="grid-col-1 mx-auto grid grid-flow-row justify-items-center gap-8 md:grid-cols-2 lg:grid-cols-2">
         {info.map((item, index) => {
-        //   console.log(item)
+          //   console.log(item)
           return (
-            <a
-              key={index}
-              className=""
-              href={item.status ? item.link : null}
-              target="_blank"
-              rel="noreferrer">
-              <div className="flex h-24 w-72 transform rounded-lg bg-white drop-shadow-lg transition duration-500 hover:scale-105 hover:shadow-2xl lg:h-32 lg:w-96">
-                <div className={item.status ? active : inActive}>
-                  <h1 className="text-3xl font-bold">{item.date}</h1>
-                  <h2 className="text-xl font-semibold">{item.month}</h2>
+            item.status ? (
+              <a key={index} className="" href={item.link} target="_blank" rel="noreferrer">
+                <div className="flex h-24 w-72 transform rounded-lg bg-white drop-shadow-lg transition duration-500 hover:scale-105 hover:shadow-2xl lg:h-32 lg:w-96">
+                  <div className={active}>
+                    <p className="text-3xl font-bold">{item.date}</p>
+                    <p className="text-xl font-semibold">{item.month}</p>
+                  </div>
+                  <div className={active2}>
+                    <p className="text-xl font-semibold ">{item.description}</p>
+                    <p className="text-sm font-medium lg:text-lg">Virtual or in-person</p>
+                  </div>
                 </div>
-                <div className={item.status ? active2 : inActive2}>
-                  <h5 className="text-xl font-semibold ">{item.description}</h5>
-                  <h4 className="text-sm font-medium lg:text-lg">Virtual or in-person</h4>
+              </a>
+            ) : (
+              <div key={index} className="" aria-disabled="true">
+                <div className="flex h-24 w-72 rounded-lg bg-white drop-shadow-lg lg:h-32 lg:w-96">
+                  <div className={inActive}>
+                    <p className="text-3xl font-bold">{item.date}</p>
+                    <p className="text-xl font-semibold">{item.month}</p>
+                  </div>
+                  <div className={inActive2}>
+                    <p className="text-xl font-semibold ">{item.description}</p>
+                    <p className="text-sm font-medium lg:text-lg">Virtual or in-person</p>
+                  </div>
                 </div>
               </div>
-            </a>
+            )
           )
         })}
       </div>

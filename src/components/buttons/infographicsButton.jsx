@@ -14,12 +14,11 @@ export default function InfographicButton() {
           See infographics
         </a>
       ) : (
-        <a
-          target="_blank"
-          rel="noreferrer"
+        <span
+          aria-disabled="true"
           className="inline-flex items-center justify-center rounded-lg border cursor-not-allowed border-fuchsia-900 bg-fuchsia-900 px-5 py-3 text-center text-base font-medium text-slate-100 opacity-50">
           See infographics
-        </a>
+        </span>
       )}
     </>
   )

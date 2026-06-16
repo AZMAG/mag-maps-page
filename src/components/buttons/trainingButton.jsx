@@ -1,5 +1,3 @@
-import DocConfig from "../../config/docConfig"
-
 export default function TrainingButton() {
 
     const active = true
@@ -14,11 +12,11 @@ export default function TrainingButton() {
           Sign up for Training
         </a>
       ) : (
-        <a
-          rel="noreferrer"
+        <span
+          aria-disabled="true"
           className="inline-flex items-center justify-center rounded-lg border border-fuchsia-900 bg-fuchsia-900 px-5 py-3 text-center text-base font-medium text-slate-100 opacity-50 cursor-not-allowed">
           Sign up for Training
-        </a>
+        </span>
       )}
     </>
   )

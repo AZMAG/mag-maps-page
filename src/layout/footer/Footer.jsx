@@ -100,9 +100,11 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   target="_blank"
                   title={item.name}
+                  aria-label={`Visit MAG on ${item.name} (opens in a new tab)`}
                   key={index}>
+                  <span className="sr-only">Visit MAG on {item.name}</span>
                   <em>
-                    <FontAwesomeIcon icon={item.icon} />
+                    <FontAwesomeIcon icon={item.icon} aria-hidden="true" />
                   </em>
                 </a>
               )

@@ -1,7 +1,7 @@
 import RADigestLogo from "../../../images/RADigest-icon.png"
 import RADigestImage from "../../../images/pics/RAD_Digest.png"
 import DocConfig from "../../../config/docConfig"
-import RaDigestButton from "../../buttons/raDigestButton"
+import RaDigestButton from "../../components/buttons/RaDigestButton"
 
 export default function RADigestHero() {
   return (

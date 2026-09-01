@@ -1,9 +1,9 @@
-import HeatReliefLogo from "../../images/card-icons/icon-heat-relief-network.png"
+import HeatReliefLogo from "../../assets/images/card-icons/icon-heat-relief-network.png"
 
 export default function HeatReliefHero() {
   return (
-    <section className="from bg-gradient-to-r from-cyan-800 to-slate-200">
-      <div className="container mx-auto flex max-w-screen-xl flex-wrap justify-center gap-y-4 px-4 py-4 md:justify-between md:gap-0 lg:py-8">
+    <section className="from bg-linear-to-r from-cyan-800 to-slate-200">
+      <div className="container mx-auto flex max-w-7xl flex-wrap justify-center gap-y-4 px-4 py-4 md:justify-between md:gap-0 lg:py-8">
         <div className="order-2 px-4 lg:px-0 md:order-1 md:w-3/5">
           <div className="mb-4 w-40 bg-fuchsia-900 px-4 py-2 font-bold text-fuchsia-100">
             In The Spotlight

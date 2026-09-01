@@ -1,10 +1,10 @@
 import TrainingPicComputer from "../../../images/pics/pic-training-computer.jpg"
-import TrainingButton from "../../components/Buttons/trainingButton"
+import TrainingButton from "../../components/buttons/TrainingButton"
 
 export default function TrainingPageHero() {
   return (
-    <section className="from bg-gradient-to-t from-cyan-800 to-slate-200">
-      <div className="container mx-auto flex max-w-screen-xl flex-wrap justify-center gap-y-4 px-4 py-4 md:justify-between md:gap-0 lg:py-8">
+    <section className="from bg-linear-to-t from-cyan-800 to-slate-200">
+      <div className="container mx-auto flex max-w-7xl flex-wrap justify-center gap-y-4 px-4 py-4 md:justify-between md:gap-0 lg:py-8">
         <div className="order-2 px-4 md:order-1 md:w-3/5">
           <h1 className="mb-4 max-w-2xl text-2xl font-extrabold leading-none tracking-tight text-slate-800 md:text-3xl xl:text-4xl">
             Come and explore MAG data resources

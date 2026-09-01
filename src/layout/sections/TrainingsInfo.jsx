@@ -6,12 +6,12 @@ import Training3 from "../../../images/pics/pic-training-time.jpg"
 import Training4 from "../../../images/pics/pic-training-office.jpg"
 import Training5 from "../../../images/pics/pic-training-map.jpg"
 import Training6 from "../../../images/pics/pic-training-open.jpg"
-import TrainingButton from "../../components/Buttons/trainingButton"
+import TrainingButton from "../../components/buttons/TrainingButton"
 
 export default function TrainingInfo() {
   return (
     <section tag="training-info" className="bg-slate-100 text-slate-800">
-      <section className="container mx-auto flex max-w-screen-xl flex-col flex-wrap items-center justify-center px-4 py-4 md:flex-row lg:py-8">
+      <section className="container mx-auto flex max-w-7xl flex-col flex-wrap items-center justify-center px-4 py-4 md:flex-row lg:py-8">
         <div className="order-1 flex basis-2/5 items-center justify-center">
           <img src={Training1} className="h-32 lg:h-60" alt="" />
         </div>
@@ -36,7 +36,7 @@ export default function TrainingInfo() {
         </div>
       </section>
 
-      <section className="container mx-auto flex max-w-screen-xl flex-col flex-wrap items-center justify-center px-4 py-4 md:flex-row lg:py-8">
+      <section className="container mx-auto flex max-w-7xl flex-col flex-wrap items-center justify-center px-4 py-4 md:flex-row lg:py-8">
         <div className="order-2 flex basis-3/5 flex-col place-content-center p-4">
           <h2 className="mb-4 text-lg font-bold leading-none tracking-tight text-slate-800 md:text-2xl xl:text-3xl">
             Workshops are free and open to the public

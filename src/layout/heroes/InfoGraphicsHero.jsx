@@ -1,10 +1,10 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faChartColumn } from "@fortawesome/free-solid-svg-icons"
-import InfographicButton from "../../components/Buttons/infographicsButton"
+import InfographicButton from "../../components/buttons/InfographicsButton"
 
 export default function InfoGraphicsHero() {
   return (
-    <section className="from bg-gradient-to-l from-cyan-800 to-slate-200">
+    <section className="from bg-linear-to-l from-cyan-800 to-slate-200">
       <div className="container mx-auto flex flex-row flex-wrap justify-around px-4 py-4 lg:py-8">
         <div className="flex items-center justify-center px-8">
           <FontAwesomeIcon

@@ -1,5 +1,5 @@
 import TrainingPicComputer from "../../../images/pics/pic-training-computer.jpg"
-import TrainingButton from "../../components/Buttons/trainingButton"
+import TrainingButton from "../../components/buttons/TrainingButton"
 
 export default function TrainingPageHero() {
   return (

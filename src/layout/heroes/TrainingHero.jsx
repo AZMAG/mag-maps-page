@@ -1,5 +1,5 @@
 import RADTrainingPhoto from "../../../images/pics/RAD_Training_1.jpg"
-import TrainingButton from "../../components/Buttons/trainingButton"
+import TrainingButton from "../../components/buttons/TrainingButton"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons"
 

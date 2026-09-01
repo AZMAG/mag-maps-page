@@ -1,9 +1,9 @@
-import TrainingMainHero from "../layout/heroes/trainingPageHero"
-import TrainingHero from "../layout/heroes/trainingHero"
+import TrainingMainHero from "../layout/heroes/TrainingPageHero"
+import TrainingHero from "../layout/heroes/TrainingHero"
 import Dates from "../layout/sections/TrainingDates"
 import TrainingSignUp from "../layout/sections/TrainingSignUp"
 import TrainingsInfo from "../layout/sections/TrainingsInfo"
-import Testimonial from "../layout/heroes/testimonialHero"
+import Testimonial from "../layout/heroes/TestimonialHero"
 
 export default function Trainings() {
   return (

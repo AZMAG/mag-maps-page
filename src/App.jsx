@@ -3,7 +3,7 @@ import { BrowserRouter } from "react-router";
 import ReactGA from "react-ga4";
 import DocConfig from "./config/docConfig";
 import AppRoutes from "./routes/Routes";
-import ScrollToTop from "./components/ScrollToTop/scrollToTop";
+import ScrollToTop from "./components/scroll-to-top/ScrollToTop";
 
 export default function App() {
   const env = import.meta.env.MODE;

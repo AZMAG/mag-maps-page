@@ -1,4 +1,4 @@
-import TrainingButton from "../../components/Buttons/trainingButton"
+import TrainingButton from "../../components/buttons/TrainingButton"
 
 export default function TrainingSignUp() {
   return (

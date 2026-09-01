@@ -115,7 +115,7 @@ const reCopyrightConfig = new RegExp('(copyright: ")([0-9]{4})(")');
 const newCopyrightConfig = 'copyright: "' + pkg.copyright + '"';
 
 const docConfig = {
-    files: "./src/config/DocConfig.js",
+    files: "./src/config/docConfig.js",
     from: [reVersionConfig, reDateConfig, reCopyrightConfig],
     to: [newVersionConfig, newDateConfig, newCopyrightConfig],
 };

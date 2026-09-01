@@ -1,5 +1,5 @@
 import React from "react"
-import DocConfig from "../../../config/DocConfig"
+import DocConfig from "../../../config/docConfig"
 
 export default function TermsText() {
   let noReplyURL = "mailto:no-reply@azmag.gov"

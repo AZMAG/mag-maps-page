@@ -5,8 +5,8 @@ import { faLocationDot } from "@fortawesome/free-solid-svg-icons"
 
 export default function TrainingHero() {
   return (
-    <section className="from bg-gradient-to-b from-cyan-800 to-slate-200">
-      <div className="container mx-auto flex max-w-screen-xl flex-wrap justify-center px-4 py-4 md:justify-between lg:py-8">
+    <section className="from bg-linear-to-b from-cyan-800 to-slate-200">
+      <div className="container mx-auto flex max-w-7xl flex-wrap justify-center px-4 py-4 md:justify-between lg:py-8">
         <div className="px-4 md:w-3/5">
           <h1 className="mb-4 max-w-2xl text-2xl font-extrabold leading-none tracking-tight text-slate-800 md:text-3xl xl:text-4xl">
             MAG Maps & Data Workshops

@@ -2,7 +2,7 @@ import TrainingButton from "../../components/buttons/TrainingButton"
 
 export default function TrainingSignUp() {
   return (
-    <section tag="training-signup" className="bg-gradient-to-br from-cyan-800 to-slate-200">
+    <section tag="training-signup" className="bg-linear-to-br from-cyan-800 to-slate-200">
       <div className="my-12 flex justify-center container mx-auto px-4">
         <div className="flex flex-col items-center">
           <h2 className="text-3xl font-bold leading-none tracking-tight text-slate-800">

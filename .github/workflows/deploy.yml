@@ -1,0 +1,80 @@
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: Target environment
+        type: choice
+        options: [production, testing]
+        default: production
+
+# Prevent overlapping deploys from stomping on each other
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+    defaults:
+      run:
+        shell: cmd
+    env:
+      DEPLOY_ENV: ${{ github.event_name == 'workflow_dispatch' && inputs.environment || 'production' }}
+      PROD_PATH: D:\wwwroot\maps\projections
+      TEST_PATH: Y:\maps\projections
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Setup Node
+        uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Write .env
+        run: |
+          (
+            echo VITE_ESRI_API_KEY=${{ secrets.VITE_ESRI_API_KEY }}
+            echo VITE_GA_MEASUREMENT_ID=${{ secrets.VITE_GA_MEASUREMENT_ID }}
+            echo VITE_APP_BASENAME_DEV=/
+            echo VITE_APP_BASENAME_TEST=/maps/test/projections/
+            echo VITE_APP_BASENAME_PROD=/maps/projections/
+          ) > .env
+
+      - name: Build (production)
+        if: env.DEPLOY_ENV == 'production'
+        run: |
+          call npm run replace
+          if %ERRORLEVEL% NEQ 0 exit /b %ERRORLEVEL%
+          call npx vite build --mode production
+          if %ERRORLEVEL% NEQ 0 exit /b %ERRORLEVEL%
+
+      - name: Build (test)
+        if: env.DEPLOY_ENV == 'testing'
+        run: |
+          call npm run replace
+          if %ERRORLEVEL% NEQ 0 exit /b %ERRORLEVEL%
+          call npx vite build --mode test
+          if %ERRORLEVEL% NEQ 0 exit /b %ERRORLEVEL%
+
+      - name: Verify build output
+        run: |
+          if not exist "dist\index.html" (
+            echo Build did not produce dist\index.html - DEPLOY_ENV=%DEPLOY_ENV%
+            exit /b 1
+          )
+
+      - name: Deploy to web root
+        run: |
+          if "%DEPLOY_ENV%"=="production" (set TARGET=%PROD_PATH%) else (set TARGET=%TEST_PATH%)
+          if not exist "%TARGET%" mkdir "%TARGET%"
+          robocopy dist "%TARGET%" /MIR /NFL /NDL /NJH /NJS
+          if %ERRORLEVEL% GEQ 8 (exit /b %ERRORLEVEL%) else (exit /b 0)

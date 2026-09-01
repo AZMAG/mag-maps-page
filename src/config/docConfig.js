@@ -1,3 +1,4 @@
+/** @type {DocConfig} */
 const docConfig = {
     app: {
         version: "v6.6.2",
@@ -21,6 +22,23 @@ const docConfig = {
         InfoGraphicLink:
             "https://azmag.gov/About-Us/Divisions/Regional-Analytics-Division/Infographics-Maps-and-Reports",
     },
+    contacts: [
+        {
+            id: "jhoward",
+            name: "Jason Howard",
+            title: "GIS Manager",
+        },
+        {
+            id: "maginfo",
+            name: "MAG Information",
+            title: "mag@azmag.gov",
+        },
+        {
+            id: "magnoreply",
+            name: "MAG no-reply",
+            title: "no-reply@azmag.gov",
+        },
+    ],
 };
 
 export default docConfig;

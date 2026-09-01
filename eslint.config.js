@@ -41,7 +41,8 @@ export default [
     },
     {
         files: ["src/**/*.{js,jsx}"],
-        ignores: ["src/main.jsx"],
+        // main.jsx (Vite entry point) and app.jsx (kept lowercase intentionally) are exempt
+        ignores: ["src/main.jsx", "src/app.jsx"],
         plugins: {
             "check-file": checkFile,
         },

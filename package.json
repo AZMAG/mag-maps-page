@@ -30,7 +30,8 @@
     "build:test": "npm run replace && vite build --mode test && explorer dist",
     "preview": "vite preview",
     "replace": "node replaceScripts",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "check-casing": "node scripts/check-file-casing.js"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^7.2.0",

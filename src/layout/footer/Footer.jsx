@@ -9,10 +9,10 @@ import SocialMedia from "./SocialMedia"
 export default function Footer() {
   const social = SocialMedia()
   return (
-    <footer tag="footer" className="bg-slate-200 text-cyan-800">
+    <footer id="footer" className="bg-slate-200 text-cyan-800">
       <div className="flex flex-col flex-wrap container mx-auto pt-9">
         <section className="grid grid-cols-1 justify-items-center gap-8 md:gap-10 lg:gap-16 md:grid-cols-3 mx-8">
-          <div tag="contact-info" className="text-left text-sm">
+          <div id="contact-info" className="text-left text-sm">
             <p className="mb-2 mt-0 text-lg font-semibold leading-tight">Contact</p>
             <a
               href={DocConfig.links.magHome}
@@ -91,7 +91,7 @@ export default function Footer() {
               </button>
             </form>
           </div>
-          <div tag="social-media" className="flex space-x-4">
+          <div id="social-media" className="flex space-x-4">
             {social.map((item, index) => {
               return (
                 <a

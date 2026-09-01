@@ -1,0 +1,71 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Determine release environment
+        run: |
+          TAG="${{ github.ref_name }}"
+          if [[ "$TAG" == *-* ]]; then
+            echo "RELEASE_ENV=testing" >> "$GITHUB_ENV"
+            echo "RELEASE_NAME=Testing Release $TAG" >> "$GITHUB_ENV"
+          else
+            echo "RELEASE_ENV=production" >> "$GITHUB_ENV"
+            echo "RELEASE_NAME=Production Release $TAG" >> "$GITHUB_ENV"
+          fi
+
+      - name: Setup Node
+        uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Write .env
+        run: |
+          cat <<EOF > .env
+          VITE_ESRI_API_KEY=${{ secrets.VITE_ESRI_API_KEY }}
+          VITE_GA_MEASUREMENT_ID=${{ secrets.VITE_GA_MEASUREMENT_ID }}
+          VITE_APP_BASENAME_TEST=/maps/test/map
+          VITE_APP_BASENAME_PROD=/
+          EOF
+
+      - name: Build (production)
+        if: env.RELEASE_ENV == 'production'
+        run: |
+          npm run replace
+          npx vite build --mode production
+
+      - name: Build (test)
+        if: env.RELEASE_ENV == 'testing'
+        run: |
+          npm run replace
+          npx vite build --mode test
+
+      - name: Zip build output
+        run: |
+          cd dist
+          zip -r ../${{ github.event.repository.name }}-${{ github.ref_name }}.zip .
+
+      - name: Create GitHub release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: ${{ env.RELEASE_NAME }}
+          prerelease: ${{ env.RELEASE_ENV == 'testing' }}
+          generate_release_notes: true
+          files: ${{ github.event.repository.name }}-${{ github.ref_name }}.zip

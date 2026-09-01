@@ -1,0 +1,17 @@
+name: Add Label on Issue Close
+
+on:
+  issues:
+    types: [closed]
+
+jobs:
+  add_label:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write # Needed to modify labels
+    steps:
+      - name: Add 'Status Completed' label
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          labels: "Status: Completed"

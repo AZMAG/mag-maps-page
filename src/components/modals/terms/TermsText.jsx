@@ -1,8 +1,8 @@
-import React from "react"
+import ContactUsLink from "../../contact-us/ContactUsLink"
 import DocConfig from "../../../config/docConfig"
 
 export default function TermsText() {
-  let noReplyURL = "mailto:no-reply@azmag.gov"
+
   return (
     <div className="text-slate-800">
       <h5 className="mb-1 text-xl font-bold text-slate-800">
@@ -190,16 +190,7 @@ export default function TermsText() {
       </p>
       <p className="mb-3 flex flex-row gap-2">
         SERVICE CONTACT:
-        <a
-          href={noReplyURL}
-          className="font-medium text-blue-600 hover:underline"
-          aria-label="No Reply URL"
-          aria-describedby="contact email"
-          title="email link"
-          target="_blank"
-          rel="noreferrer">
-          no-reply@azmag.gov
-        </a>
+        {" "}<ContactUsLink contactId="magnoreply" />
       </p>
       <h5 className="mb-1 text-xl font-bold text-slate-800">Termination/Access Restriction</h5>
       <p className="mb-3">

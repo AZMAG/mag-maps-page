@@ -1,7 +1,7 @@
-import React from "react"
+import ContactUsLink from "../../contact-us/ContactUsLink"
 
 export default function PrivacyText() {
-  let noReplyURL = "mailto:no-reply@azmag.gov"
+
   return (
     <div className="text-slate-800">
       <p className="mb-3">
@@ -120,17 +120,8 @@ export default function PrivacyText() {
       <p className="mb-3">
         MAG Mapping Center welcomes your comments regarding this Statement of Privacy. If you
         believe that MAG Mapping Center has not adhered to this Statement, please contact MAG
-        Mapping Center at:{" "}
-        <a
-          href={noReplyURL}
-          className="font-medium text-blue-600 hover:underline"
-          aria-label="No Reply URL"
-          aria-describedby="contact email"
-          title="email link"
-          target="_blank"
-          rel="noreferrer">
-          no-reply@azmag.gov
-        </a>
+        Mapping Center at:
+        {" "}<ContactUsLink contactId="maginfo" />
         . We will use commercially reasonable efforts to promptly determine and remedy the problem.
       </p>
     </div>

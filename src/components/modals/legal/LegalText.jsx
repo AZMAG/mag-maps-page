@@ -1,7 +1,7 @@
-import React from "react"
+import ContactUsLink from "../../contact-us/ContactUsLink"
 
 export default function LegalText() {
-  let noReplyURL = "mailto:no-reply@azmag.gov"
+
   return (
     <div className="text-slate-800">
       <p className="mb-3">
@@ -62,16 +62,7 @@ export default function LegalText() {
 
       <address className="flex flex-row gap-2">
         To provide comments or report problems please contact:
-        <a
-          href={noReplyURL}
-          className="font-medium text-blue-600 hover:underline"
-          title="email link"
-          target="_blank"
-          rel="noreferrer"
-          aria-label="email link"
-          aria-describedby="contact email">
-          no-reply@azmag.gov
-        </a>
+        {" "}<ContactUsLink contactId="magnoreply" />
       </address>
     </div>
   )

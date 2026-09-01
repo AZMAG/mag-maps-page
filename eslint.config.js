@@ -41,6 +41,7 @@ export default [
     },
     {
         files: ["src/**/*.{js,jsx}"],
+        ignores: ["src/main.jsx"],
         plugins: {
             "check-file": checkFile,
         },

@@ -35,10 +35,10 @@ export default function Footer() {
               <FontAwesomeIcon icon={faEnvelope} />
               &nbsp;
               <a
-                href={DocConfig.contacts.email}
+                href={DocConfig.contacts.find((c) => c.id === "jhoward")?.email}
                 rel="noopener noreferrer"
                 target="_blank"
-                className="hover:text-cyan-800/75 hover:underline">
+                className="hover:text-cyan-800/75 hover:underline cursor-pointer">
                 Jason Howard, GIS Manager
               </a>
             </span>

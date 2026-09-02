@@ -1,6 +1,6 @@
 import { observer } from "mobx-react-lite"
 import { useDataStore } from "../../stores/DataContext"
-import ContactUsForm from "./contactUsForm"
+import ContactUsForm from "./ContactUsForm"
 
 function ContactUsModal() {
     const store = useDataStore()

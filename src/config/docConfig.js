@@ -9,10 +9,6 @@ const docConfig = {
     analytics: {
         measurementId: import.meta.env.VITE_GA_MEASUREMENT_ID,
     },
-    contacts: {
-        name: "Jason Howard",
-        email: "https://www.azmag.gov/Contact/4788",
-    },
     links: {
         magHome: "https://www.azmag.gov/",
         magMaps: "https://maps.azmag.gov/",
@@ -27,6 +23,7 @@ const docConfig = {
             id: "jhoward",
             name: "Jason Howard",
             title: "GIS Manager",
+            email: "https://www.azmag.gov/Contact/4788",
         },
         {
             id: "maginfo",
@@ -40,5 +37,11 @@ const docConfig = {
         },
     ],
 };
+
+export const getPrimaryContact = () =>
+    docConfig.contacts.find((c) => c.primary) ?? docConfig.contacts[0];
+
+export const getContactById = (id) =>
+    docConfig.contacts.find((c) => c.id === id);
 
 export default docConfig;

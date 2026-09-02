@@ -1,5 +1,5 @@
 import { useDataStore } from "../../stores/DataContext"
-import { getContactById } from "../../config/DocConfig"
+import { getContactById } from "../../config/docConfig"
 
 export default function ContactUsLink({contactId}) {
     const store = useDataStore()

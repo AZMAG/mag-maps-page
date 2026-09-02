@@ -11,7 +11,7 @@ export default function Terms() {
       <button
         data-modal-target="partnerModal"
         data-modal-toggle="partnerModal"
-        className="text-xs text-cyan-800 hover:text-cyan-800/75 hover:underline"
+        className="text-xs text-cyan-800 hover:text-cyan-800/75 hover:underline cursor-pointer"
         type="button"
         onClick={setShowModal}>
         Terms

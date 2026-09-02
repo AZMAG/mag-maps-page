@@ -1,141 +1,151 @@
+import { readFileSync } from "node:fs";
 import { replaceInFile } from "replace-in-file";
 import pkg from "./package.json" with { type: "json" };
 
-// README
-const reVersion = new RegExp(
-    "(### Version | )([0-9]+)(?:.([0-9]+))(?:.([0-9]+))",
-);
-const newVersion = " " + pkg.version;
-
-const reUpdate = new RegExp("(Updated | )([0-9]{4}-[0-9]{2}-[0-9]{2})");
-const newUpdate = " " + pkg.date;
-
-const reCopyRightDate = new RegExp("(Copyright )([0-9]{4})");
-const newCopyRightDate = "Copyright " + pkg.copyright;
-
-const readme = {
-    files: "./README.md",
-    from: [reVersion, reUpdate, reCopyRightDate],
-    to: [newVersion, newUpdate, newCopyRightDate],
-};
-
-// LICENCE
-const reCopyDate = new RegExp("(Copyright \\(c\\) )([0-9]{4})");
-const newCopyDate = "Copyright (c) " + pkg.copyright;
-
-const license = {
-    files: ["./LICENSE", "./public/LICENSE"],
-    from: [reCopyDate],
-    to: [newCopyDate],
-};
-
-// Humans.txt
-const reVersionHumans = new RegExp(
-    "(Version: )([0-9]+)(?:.([0-9]+))(?:.([0-9]+))",
-);
-const newVersionHumans = "Version: " + pkg.version;
-const reUpdateHumans = new RegExp(
-    "(Last updated: )([0-9]{4}-[0-9]{2}-[0-9]{2})",
-);
-const newUpdateHumans = "Last updated: " + pkg.date;
-
-const humans = {
-    files: "./public/humans.txt",
-    from: [reVersionHumans, reUpdateHumans],
-    to: [newVersionHumans, newUpdateHumans],
-};
-
-// index.html
-const reIndexCopyright = new RegExp(
-    '(<meta name="copyright" content="Copyright )([0-9]{4})(" />)',
-);
-const newIndexCopyright = `<meta name="copyright" content="Copyright ${pkg.copyright}" />`;
-
-const reIndexVersion = new RegExp(
-    '(<meta name="version" content=")([0-9]+)(?:.([0-9]+))(?:.([0-9]+))(" \\/>)',
-);
-const newIndexVersion = '<meta name="version" content="' + pkg.version + '" />';
-
-const reIndexDate = new RegExp(
-    '(<meta name="revision-date" content=")[0-9]{4}-[0-9]{2}-[0-9]{2}(" \\/>)',
-);
-const newIndexDate = '<meta name="revision-date" content="' + pkg.date + '" />';
+const { version, date, copyright } = pkg;
 
 const timeStamp = new Date().toISOString();
-// .replace(/[^0-9]/g, "")
-// .slice(0, -3)
-const timeStampBuild = timeStamp.replace(/[^0-9]/g, "").slice(0, -3);
+const buildStamp = timeStamp.replace(/[^0-9]/g, "").slice(0, -3);
 
-const reIndexBuild = new RegExp(
-    '(<meta name="build-info" content=")([0-9]+)(?:.([0-9]+))(?:.([0-9]+))(?:.)(\\d{14})(" \\/>)',
-);
-const newIndexBuild =
-    '<meta name="build-info" content="' +
-    pkg.version +
-    "." +
-    timeStampBuild +
-    '" />';
+// Each rule keeps the surrounding text in capture groups so only the value is swapped.
+const targets = [
+    {
+        label: "readme",
+        files: "./README.md",
+        rules: [
+            {
+                name: "version",
+                from: /(## Version \| )\d+\.\d+\.\d+/,
+                to: `$1${version}`,
+            },
+            {
+                name: "updated",
+                from: /(\*\*Updated\*\* \| )\d{4}-\d{2}-\d{2}/,
+                to: `$1${date}`,
+            },
+            {
+                name: "copyright",
+                from: /^(Copyright )\d{4}/m,
+                to: `$1${copyright}`,
+            },
+        ],
+    },
+    {
+        label: "license",
+        files: ["./LICENSE", "./public/LICENSE"],
+        rules: [
+            {
+                name: "copyright",
+                from: /(Copyright \(c\) )\d{4}/,
+                to: `$1${copyright}`,
+            },
+        ],
+    },
+    {
+        label: "humans",
+        files: "./public/humans.txt",
+        rules: [
+            {
+                name: "version",
+                from: /(Version: )\d+\.\d+\.\d+/,
+                to: `$1${version}`,
+            },
+            {
+                name: "lastUpdated",
+                from: /(Last updated: )\d{4}-\d{2}-\d{2}/,
+                to: `$1${date}`,
+            },
+        ],
+    },
+    {
+        label: "index",
+        files: "./index.html",
+        rules: [
+            {
+                name: "copyright",
+                from: /(<meta name="copyright" content="Copyright )\d{4}(")/,
+                to: `$1${copyright}$2`,
+            },
+            {
+                name: "version",
+                from: /(<meta name="version" content=")\d+\.\d+\.\d+(")/,
+                to: `$1${version}$2`,
+            },
+            {
+                name: "revisionDate",
+                from: /(<meta name="revision-date" content=")\d{4}-\d{2}-\d{2}(")/,
+                to: `$1${date}$2`,
+            },
+            {
+                name: "buildInfo",
+                from: /(<meta name="build-info" content=")\d+\.\d+\.\d+\.\d{14}(")/,
+                to: `$1${version}.${buildStamp}$2`,
+            },
+            {
+                // Tolerates the multi-line form Prettier produces for long meta tags.
+                name: "modifiedTime",
+                from: /(<meta\s+property="article:modified_time"\s+content=")[^"]*(")/,
+                to: `$1${timeStamp}$2`,
+            },
+        ],
+    },
+    {
+        label: "docConfig",
+        files: "./src/config/docConfig.js",
+        rules: [
+            {
+                name: "version",
+                from: /(version: "v)\d+\.\d+\.\d+(")/,
+                to: `$1${version}$2`,
+            },
+            {
+                name: "releaseDate",
+                from: /(releaseDate: ")\d{4}-\d{2}-\d{2}(")/,
+                to: `$1${date}$2`,
+            },
+            {
+                name: "copyright",
+                from: /(copyright: ")\d{4}(")/,
+                to: `$1${copyright}$2`,
+            },
+        ],
+    },
+];
 
-const reModified = new RegExp(
-    '(<meta property="article:modified_time" content=")(\\d{4})-(\\d{2})-(\\d{2})T(\\d{2}):(\\d{2}):(\\d{2}(?:\\.\\d*)?)((-(\\d{2}):(\\d{2})|Z)?)(" \\/>)',
-);
-const newModified =
-    '<meta property="article:modified_time" content="' + timeStamp + '" />';
+function findUnmatchedRules({ files, rules }) {
+    const paths = Array.isArray(files) ? files : [files];
 
-const index = {
-    files: "./index.html",
-    from: [
-        reIndexCopyright,
-        reIndexVersion,
-        reIndexDate,
-        reIndexBuild,
-        reModified,
-    ],
-    to: [
-        newIndexCopyright,
-        newIndexVersion,
-        newIndexDate,
-        newIndexBuild,
-        newModified,
-    ],
-};
-
-// DocConfig.js
-const reVersionConfig = new RegExp(
-    '(version: ")(v[0-9]+)(?:.([0-9]+))(?:.([0-9]+))(")',
-);
-const newVersionConfig = 'version: "v' + pkg.version + '"';
-
-const reDateConfig = new RegExp(
-    '(releaseDate: ")([0-9]{4}-[0-9]{2}-[0-9]{2})(")',
-);
-const newDateConfig = 'releaseDate: "' + pkg.date + '"';
-
-const reCopyrightConfig = new RegExp('(copyright: ")([0-9]{4})(")');
-const newCopyrightConfig = 'copyright: "' + pkg.copyright + '"';
-
-const docConfig = {
-    files: "./src/config/docConfig.js",
-    from: [reVersionConfig, reDateConfig, reCopyrightConfig],
-    to: [newVersionConfig, newDateConfig, newCopyrightConfig],
-};
+    return paths.flatMap((path) => {
+        const content = readFileSync(path, "utf8");
+        return rules
+            .filter((rule) => !rule.from.test(content))
+            .map((rule) => `${path} → ${rule.name}`);
+    });
+}
 
 (async () => {
     try {
-        const readmeResults = await replaceInFile(readme);
-        const licenseResults = await replaceInFile(license);
-        const humansResults = await replaceInFile(humans);
-        const indexResults = await replaceInFile(index);
-        const docConfigResults = await replaceInFile(docConfig);
-        const results = {
-            readmeResults,
-            licenseResults,
-            humansResults,
-            indexResults,
-            docConfigResults,
-        };
+        const unmatched = targets.flatMap(findUnmatchedRules);
+
+        if (unmatched.length > 0) {
+            console.error(
+                `Replacement patterns matched nothing (the target file's format likely changed):\n  ${unmatched.join("\n  ")}`,
+            );
+            process.exit(1);
+        }
+
+        const results = {};
+        for (const { label, files, rules } of targets) {
+            results[label] = await replaceInFile({
+                files,
+                from: rules.map((rule) => rule.from),
+                to: rules.map((rule) => rule.to),
+            });
+        }
+
         console.log("Replacement results:", results);
     } catch (error) {
         console.error("Error occurred:", error);
+        process.exit(1);
     }
 })();

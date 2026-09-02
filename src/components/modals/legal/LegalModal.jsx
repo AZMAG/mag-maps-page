@@ -4,7 +4,7 @@ import LegalText from "./LegalText"
 
 export default function LegalDisclaimer() {
   return (
-    <Modal title="Legal Disclaimer" icon={faBalanceScale}>
+    <Modal name="legal" title="Legal Disclaimer" icon={faBalanceScale}>
       <LegalText />
     </Modal>
   )

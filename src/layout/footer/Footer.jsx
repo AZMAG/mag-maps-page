@@ -1,9 +1,9 @@
 import DocConfig from "../../config/docConfig"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons"
-import PrivacyModal from "../../components/modals/privacy/PrivacyModal"
-import TermsModal from "../../components/modals/terms/TermsModal"
-import LegalModal from "../../components/modals/legal/LegalModal"
+import LegalLink from "../../components/modals/legal/LegalLink"
+import PrivacyLink from "../../components/modals/privacy/PrivacyLink"
+import TermsLink from "../../components/modals/terms/TermsLink"
 import SocialMedia from "./SocialMedia"
 
 export default function Footer() {
@@ -128,13 +128,13 @@ export default function Footer() {
             <li className="px-2">{DocConfig.app.version}</li>
             <li className="px-2">{DocConfig.app.releaseDate}</li>
             <li className="px-2">
-              <PrivacyModal />
+              <PrivacyLink />
             </li>
             <li className="px-2">
-              <TermsModal />
+              <TermsLink />
             </li>
             <li className="px-2">
-              <LegalModal />
+              <LegalLink />
             </li>
           </ul>
         </section>

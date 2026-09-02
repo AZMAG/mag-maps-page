@@ -4,6 +4,9 @@ import { useDataStore } from "../stores/DataContext"
 import Header from "../layout/header/Header";
 import Footer from "../layout/footer/Footer";
 
+import LegalModal from "../components/modals/legal/LegalModal"
+import TermsModal from "../components/modals/terms/TermsModal"
+import PrivacyModal from "../components/modals/privacy/PrivacyModal"
 import ContactUsModal from "../components/contact-us/ContactUsModal"
 import ContactUsSuccess from "../components/contact-us/ContactUsSuccess"
 
@@ -39,6 +42,9 @@ export default function Home() {
 
       </main>
       <Footer />
+      <LegalModal />
+      <TermsModal />
+      <PrivacyModal />
       <ContactUsModal />
       {store.contactUsSuccessModalShow && <ContactUsSuccess />}
 

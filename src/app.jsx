@@ -35,16 +35,16 @@ export default function App() {
   const containerRef = useRef();
 
   return (
-    <div
-      className="flex h-screen w-screen flex-col overflow-x-hidden scroll-smooth"
-      ref={containerRef}
-    >
-      <BrowserRouter basename={base}>
-        <DataProvider>
+    <DataProvider>
+      <div
+        className="flex h-screen w-screen flex-col overflow-x-hidden scroll-smooth"
+        ref={containerRef}
+      >
+        <BrowserRouter basename={base}>
           <AppRoutes />
-        </DataProvider>
-      </BrowserRouter>
-      <ScrollToTop containerRef={containerRef} />
-    </div>
+        </BrowserRouter>
+        <ScrollToTop containerRef={containerRef} />
+      </div>
+    </DataProvider>
   );
 }

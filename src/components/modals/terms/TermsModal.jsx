@@ -4,7 +4,7 @@ import TermsText from "./TermsText"
 
 export default function Terms() {
   return (
-    <Modal title="Terms" icon={faUserEdit}>
+    <Modal name="terms" title="Terms" icon={faUserEdit}>
       <TermsText />
     </Modal>
   )

@@ -14,7 +14,8 @@ is no backend/server code in this repo.
 - Language/runtime: JavaScript (JSX), no TypeScript compilation (only `@types/*` for editor
   intellisense).
 - Build tool: Vite 8 (`vite.config.js`), plugins: `@vitejs/plugin-react`, `@tailwindcss/vite`.
-- Styling: Tailwind CSS v4 (`main.css`, `postcss.config.js`).
+- Styling: Tailwind CSS v4 via the `@tailwindcss/vite` plugin (`src/index.css`). There is no
+  PostCSS config — Tailwind v4 handles vendor prefixing internally.
 - Charting: Chart.js via `react-chartjs-2`.
 - Package manager: npm (there is a `package-lock.json`; always use `npm`, not yarn/pnpm).
 - Node: verified working with Node v24.x / npm 11.x. No `.nvmrc` or `engines` field is present.
@@ -85,7 +86,7 @@ is no backend/server code in this repo.
   used by the Contact Us form (uses `axios`).
 - Config files: [vite.config.js](vite.config.js) (dev server on port 3000, base `./`),
   [eslint.config.js](eslint.config.js) (flat ESLint config — see lint caveat above),
-  [postcss.config.js](postcss.config.js) (Tailwind v4), `.editorconfig`.
+  `.editorconfig`.
 - [replaceScripts.js](replaceScripts.js) — see "build" notes above.
 - `public/` — static assets served as-is (favicons, `manifest.json`, `robots.txt`,
   `humans.txt`, `LICENSE`).

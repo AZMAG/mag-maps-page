@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { NavLink, useMatch } from "react-router"
+import { NavLink } from "react-router"
 // import magLogo from "../../../images/mag-logo-black.png"
 import magLogo from "../../assets/images/mag-logo-teal-horiz.png"
 import NavLinks from "./Links"
@@ -41,7 +41,6 @@ export default function Header() {
             aria-label="nav-menu">
             <ul className="mt-0 flex flex-row items-center justify-center p-2 text-sm font-semibold md:space-x-2 lg:space-x-6">
               {links.map((link, index) => {
-                const match = useMatch(link.link)
                 return (
                   <li key={index} className="text-center">
                     <NavLink

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useDataStore } from "../../stores/DataContext"
 import contactUsEmail from "../../services/contactUsEmail";
-import MAGLogo from "../../assets/images/mag-logos/mag-logo-blue-horizontal.png"
+import MAGLogo from "../../assets/logos/mag-logo-blue-horizontal.webp"
 
 function ContactUsForm({ onSuccess }) {
     const store = useDataStore()

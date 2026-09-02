@@ -4,6 +4,7 @@ import ReactGA from "react-ga4";
 import DocConfig from "./config/docConfig";
 import AppRoutes from "./routes/Routes";
 import ScrollToTop from "./components/scroll-to-top/ScrollToTop";
+import { DataProvider } from "./stores/DataContext";
 
 export default function App() {
   const env = import.meta.env.MODE;
@@ -39,7 +40,9 @@ export default function App() {
       ref={containerRef}
     >
       <BrowserRouter basename={base}>
-        <AppRoutes />
+        <DataProvider>
+          <AppRoutes />
+        </DataProvider>
       </BrowserRouter>
       <ScrollToTop containerRef={containerRef} />
     </div>

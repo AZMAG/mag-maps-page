@@ -24,6 +24,8 @@ export default [
             globals: {
                 window: "readonly",
                 document: "readonly",
+                setTimeout: "readonly",
+                clearTimeout: "readonly",
                 console: "readonly",
                 process: "readonly",
                 import: "readonly",

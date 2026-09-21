@@ -21,6 +21,7 @@ export default observer(function Modal({ name, title, icon, children }) {
                         aria-labelledby={`${title}-modal-title`}>
                         <div className="relative mx-auto my-6 w-auto max-w-3xl">
                             <div className="relative flex w-full flex-col rounded-lg border-0 bg-white shadow-lg outline-none focus:outline-none">
+                                {/* Modal Header */}
                                 <div className="flex items-center gap-x-2 rounded-t border-b border-solid border-cyan-900 bg-cyan-800 p-4">
                                     <FontAwesomeIcon className="text-slate-100" size="2x" icon={icon} />
                                     <h3 id={`${title}-modal-title`} className="text-3xl font-semibold text-slate-100">
